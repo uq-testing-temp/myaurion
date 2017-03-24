@@ -26,7 +26,7 @@ public class LoginSteps extends DriverFactory {
         new LandingPage(driver).login_page();
     }
 
-    @When("^I enter username as \"(.*)\"$")
+    @When("^I enter (incorrect)? username as \"(.*)\"$")
     public void enterUsername(String username) throws Throwable {
         new LandingPage(driver).I_enter_username_as(username);
     }

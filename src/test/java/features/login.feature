@@ -22,7 +22,7 @@ Feature: Login
   @Smoke
   Scenario Outline: Login - Negative Scenario
 
-    When I enter username as "<username>"
+    When I enter incorrect username as "<username>"
     And I enter password as "<password>"
     And I click Login button
     Then I should not be logged in
