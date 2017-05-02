@@ -29,5 +29,40 @@ Feature: Leave
   		And I click submit button
   	Then I should see the success message is displayed
   	
+  
+  Scenario: View my current leave balances
+  	When I am on a leave page
+  	Then I should see my leave balances displayed in days
+  	
+  Scenario: View my current leave balances
+  	When I am on a leave page
+  	And  I select hours button
+  	Then I should see my leave balances displayed in hours
+  	
+  	
+ Scenario Outline: Predict my leave balances
+	 When I am on leave page
+ 	And I enter a future date ""<futuredate>""
+ 	And I click on the Predict button
+ 	Then I should see my predicted leave balances displayed
+ 	
+ 	Examples:
+  |futuredate|
+ 
+ 
+ Scenario: View my leave history
+  	When I am on a leave page
+  	Then I should see my leave history displayed
+  	
+
+
+      
+  	Scenario: Delete unapproved leave request
+  	When I select unapproved leave request
+  	And I click on Delete button
+  	Then I should see Delete success message displayed
+  	
+  
+  	
   	
   	

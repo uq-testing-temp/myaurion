@@ -1,6 +1,7 @@
 package stepDefinition;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.WebDriver;
 import util.PropertyReader;
 
@@ -21,7 +22,15 @@ public class DriverFactory {
         String browser = new PropertyReader().readProperty("browser");
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
-        } else {
+        } 
+        /*else if(browser.equals("firefox")){
+        	driver=new FirefoxDriver();
+        }
+        
+        else if(browser.equals("IE")){
+        	driver=new IEDriver();
+        }*/
+        else {
             System.out.println("I cannot read browser type");
         }
     }
