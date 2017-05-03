@@ -62,8 +62,33 @@ public class TimesheetSteps extends DriverFactory {
 		new TimesheetPage(driver).timesheet_success();
 	}
 	
+	
 	@Given("^I select the timekeeper as \"([^\"]*)\"$")
 	public void i_select_the_timekeeper(String time) throws Throwable {
 		new TimesheetPage(driver).select_timekeeper(time);
+		
 	}
+	
+	@Then("^I should see the timesheet not available message displayed$")
+	public void i_should_see_the_timesheet_not_available_message_displayed() throws Throwable {
+		new TimesheetPage(driver).timesheet_not_available_message();
+	}
+	
+	@When("^I click on View full list$")
+	public void i_click_on_view_full_list() throws Throwable {
+		new TimesheetPage(driver).ClickViewFullList();
+	}
+	
+	
+	@Then("^I should see full list of my timesheets$")
+	public void i_should_see_full_list_timesheet_displayed() throws Throwable {
+		new TimesheetPage(driver).FullListViewTablepresent();
+	}
+	
+	@Then("^I should see the timesheet warning alert message displayed$")
+	public void i_should_see_timesheet_WarningAlert() throws Throwable {
+		new TimesheetPage(driver).TimesheetErrorAlert();
+	}
+	
+	
 }

@@ -63,9 +63,25 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy ( xpath = "//*[@id='timekeeper_period_select_chosen']/div/div/input")
 	private WebElement timekeeper;	
 	
+	@FindBy(xpath=".//*[contains(text(),'No results found')]")
+	private WebElement Noresultmsg;
+	
+	@FindBy(partialLinkText="View full list")
+	private WebElement ViewFullListBtn;
+	
+	@FindBy(id="timekeeperforms-list")
+	private WebElement FullListTable;
+		
+	@FindBy (xpath=".//*[@class='notification alert-warning']")
+	private WebElement AlertWarning;
+	
+	@FindBy (xpath=".//*[@class='section-error-indicator']")
+	private WebElement haserrors;
+	
 	
 	public TimesheetPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
+       
     }
     
     public void timesheet_page() throws Throwable {
@@ -138,5 +154,33 @@ public class TimesheetPage extends DriverFactory {
     	Assert.assertTrue(success);
     }
     
-
+    public void timesheet_not_available_message() throws Throwable {
+    	Thread.sleep(2000);
+    	boolean success = Noresultmsg.isDisplayed();
+    	Assert.assertTrue(success);
+    }
+    
+    public void ClickViewFullList() throws Throwable {
+    	Thread.sleep(2000);
+    	ViewFullListBtn.click();
+    }
+    
+    
+    public void FullListViewTablepresent() throws Throwable {
+    	Thread.sleep(2000);
+    	boolean success = FullListTable.isDisplayed();
+    	Assert.assertTrue(success);
+    	
+    }
+    
+    public void TimesheetErrorAlert() throws Throwable {
+    	Thread.sleep(3000);
+    	boolean success = AlertWarning.isDisplayed();
+    	Assert.assertTrue(success);
+    	
+    }
+    
+    
+    
+    
 }

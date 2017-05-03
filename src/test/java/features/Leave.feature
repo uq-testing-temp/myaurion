@@ -31,7 +31,7 @@ Feature: Leave
   	
   
   Scenario: View my current leave balances
-  	When I am on a leave page
+  	When I am on  leave page
   	Then I should see my leave balances displayed in days
   	
   Scenario: View my current leave balances
@@ -42,7 +42,7 @@ Feature: Leave
   	
  Scenario Outline: Predict my leave balances
 	 When I am on leave page
- 	And I enter a future date ""<futuredate>""
+ 	And I enter a future date "<futuredate>"
  	And I click on the Predict button
  	Then I should see my predicted leave balances displayed
  	
