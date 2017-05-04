@@ -10,7 +10,7 @@ Feature: Timesheet
     #  And I enter password as "password123"
      # And I click Login button
       
-  @now
+  
   Scenario: Submit timesheet using daily form as a casual employee
   Given I am on myAurion login page
    	  And I enter username as "uqasmi46"
@@ -211,7 +211,71 @@ Feature: Timesheet
   	
   	
   	
-  	#Enter hours with missing start/finish time and Save
+  	
+ 
+
+ # Save and Copy timesheet entry
+  @now
+ Scenario: Save and Copy timesheet entry
+  Given I am on myAurion login page
+   	  And I enter username as "uqasmi46"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  		And I select the daily timesheet
+  		And I select the timekeeper as "07/01/2017"
+  		And I add contact hours button
+  		And I select the date
+  		And I select contact hours type
+  		And I enter course code as "test"
+  		And I enter start time as "08:00"
+  		And I enter stop time as "17:00"
+  		And I click on SaveandCopy button
+  		And I add contact hours button
+  		And I select another date
+  		And I select contact hours type
+  		And I enter course code as "testing copy"
+  		And I enter start time as "09:00"
+  		And I enter stop time as "17:00"
+  		And I click on save  		
+ Then I should see the timesheet warning alert message displayed
+ 
+ 
+ 
+  #Default Time sheets
+ 
+ @now	
+  Scenario: Create default timesheet from current timesheet
+  Given I am on myAurion login page
+   	  And I enter username as "uqasmi46"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  	And I click on View full list
+  	And I select the current timesheet
+  	And I click on Set as Default button and click OK
+ Then I should see the timesheet is saved message displayed
+ 
+ 
+#Populate timesheets with default values
+ 
+ @now	
+  Scenario: Create default timesheet from current timesheet
+  Given I am on myAurion login page
+   	  And I enter username as "uqasmi46"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  	And I select the daily timesheet
+  	And I select the timekeeper as "07/01/2017"
+  	And I click on Reset button and click OK
+  Then I should see the timesheet is saved message displayed
+ 
+ 
+ 
+ 
+ 
+ #Enter hours with missing start/finish time and Save
   	@now
   Scenario: Try to Submit timesheet without entering start time or end time and verify the error
   Given I am on myAurion login page
@@ -229,4 +293,5 @@ Feature: Timesheet
   		#And I enter stop time as "17:00"
   		And I click on save
  Then I should see the timesheet warning alert message displayed
-  	
+ 
+ 

@@ -1,8 +1,10 @@
 package pageclasses;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -78,6 +80,17 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy (xpath=".//*[@class='section-error-indicator']")
 	private WebElement haserrors;
 	
+	@FindBy ( xpath = "//*[@id='button-close-copy-modal']")
+	private WebElement SaveandCopyBtn;
+	
+	@FindBy(xpath=".//*[@id='timekeeperforms-list']/tbody/.//*[contains(text(),'Current')]")
+	private WebElement CurrentRow;
+	
+	@FindBy(name="set-as-default")
+	private WebElement SetAsDefaultBtn;
+	
+	@FindBy(xpath=".//*[@id='timekeeper-workflow']/.//button[contains(text(),'Reset')]")
+	private WebElement ResetBtn;
 	
 	public TimesheetPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -109,8 +122,15 @@ public class TimesheetPage extends DriverFactory {
         dateselectBox.selectByIndex(dateselectOptions - 1);
    }
     
-    public void add_contact_hours() throws Throwable {
+    public void select_otherdate() throws Throwable {
     	Thread.sleep(2000);
+    	Select dateselectBox = new Select(selectdate);
+        int dateselectOptions = dateselectBox.getOptions().size();
+        dateselectBox.selectByIndex(dateselectOptions - 2);
+   }
+    
+    public void add_contact_hours() throws Throwable {
+    	Thread.sleep(3000);
     	addcontacthrs.click();
     	addhrsbutton.click();
     }
@@ -165,6 +185,12 @@ public class TimesheetPage extends DriverFactory {
     	ViewFullListBtn.click();
     }
     
+    public void SelectcurrenttimesheetInlist() throws Throwable {
+    	Thread.sleep(2000);
+    	CurrentRow.click();
+    }
+    
+      
     
     public void FullListViewTablepresent() throws Throwable {
     	Thread.sleep(2000);
@@ -177,6 +203,27 @@ public class TimesheetPage extends DriverFactory {
     	Thread.sleep(3000);
     	boolean success = AlertWarning.isDisplayed();
     	Assert.assertTrue(success);
+    	
+    }
+    
+    public void save_and_copy() throws Throwable {
+    	Thread.sleep(2000);
+    	SaveandCopyBtn.click();
+    }
+    
+    
+    public void SetAsDefault() throws Throwable {
+    	Thread.sleep(2000);
+    	this.SetAsDefaultBtn.click();
+    	Alert alert= driver.switchTo().alert();
+    	alert.accept();
+    }
+    
+    public void ResetTimesheet() throws Throwable{
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	this.ResetBtn.click();
+    	Alert alert= driver.switchTo().alert();
+    	alert.accept();
     	
     }
     

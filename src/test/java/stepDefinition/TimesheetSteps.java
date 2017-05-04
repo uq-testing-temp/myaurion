@@ -22,6 +22,13 @@ public class TimesheetSteps extends DriverFactory {
 		new TimesheetPage(driver).select_date();
 	}
 	
+	
+	
+	@Given("^I select another date$")
+	public void i_select_another_date() throws Throwable {
+		new TimesheetPage(driver).select_otherdate();
+	}
+	
 	@Given("^I add contact hours button$")
 	public void i_add_contact_hours_button() throws Throwable {
 		new TimesheetPage(driver).add_contact_hours();
@@ -69,6 +76,11 @@ public class TimesheetSteps extends DriverFactory {
 		
 	}
 	
+	@Given("^I click on SaveandCopy button$")
+	public void i_click_on_saveandCopy() throws Throwable {
+		new TimesheetPage(driver).save_and_copy();
+	}
+	
 	@Then("^I should see the timesheet not available message displayed$")
 	public void i_should_see_the_timesheet_not_available_message_displayed() throws Throwable {
 		new TimesheetPage(driver).timesheet_not_available_message();
@@ -78,6 +90,28 @@ public class TimesheetSteps extends DriverFactory {
 	public void i_click_on_view_full_list() throws Throwable {
 		new TimesheetPage(driver).ClickViewFullList();
 	}
+	
+	@When("^I select the current timesheet$")
+	public void i_select_current_ttimesheet() throws Throwable {
+		new TimesheetPage(driver).SelectcurrenttimesheetInlist();
+	}
+	
+	@When("^I select the old timesheet$")
+	public void i_select_old_timesheet() throws Throwable {
+		new TimesheetPage(driver).SelectcurrenttimesheetInlist();
+	}
+	
+	@When("^I click on Set as Default button and click OK$")
+	public void select_set_as_default() throws Throwable{
+		new TimesheetPage(driver).SetAsDefault();
+	}
+	
+	@When("^I click on Reset button and click OK$")
+	public void Reset_TimeSheet() throws Throwable{
+		new TimesheetPage(driver).ResetTimesheet();
+		
+	}
+	
 	
 	
 	@Then("^I should see full list of my timesheets$")
@@ -89,6 +123,9 @@ public class TimesheetSteps extends DriverFactory {
 	public void i_should_see_timesheet_WarningAlert() throws Throwable {
 		new TimesheetPage(driver).TimesheetErrorAlert();
 	}
+	
+	
+	
 	
 	
 }

@@ -2,27 +2,30 @@
 Feature: Training & Courses
 As a supervisor
 I want to be able to login to the My Aurion system
-So that I can View my requested courses and course history
+So that I can search for and change employee to view my subordinates details
 
 
-Background:
-    Given I am on myAurion login page
-   	  And I enter username as "uqmsanda"
-      And I enter password as "password123"
-      And I click Login button
+#Background:
+ #   Given I am on myAurion login page
+  # 	  And I enter username as "uqmsanda"
+   #   And I enter password as "password123"
+    #  And I click Login button
       
-      
+  @now    
  Scenario Outline: Search for direct reports
  
- When I am on the DashboardPage
- 	And I click on change Employee icon
- 	And I enter the employee search phrase "<EmployeeSearchPhrase>"
-Then I should see the matching search result "<EmployeeToSelect>"
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmsanda"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+Then I should see the matching search result"<EmployeeToSelect>"
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |heidi e               | heidi ellis     |
-  |2004378             | AMY, Wendy J    |
+ |heidi ellis      |ELLIS, Heidi|
  
  
   Scenario Outline: Search for indirect reports
