@@ -29,5 +29,16 @@ public class EmployeeSearchSteps extends DriverFactory{
 	public void I_Select_the_Result(String toselect) throws Throwable{
 		new EmployeeSearchPage(driver).SelectfromSearchResult(toselect);
 	}
+	
+	@Given("^I select the employee from search results\"(.*)\"$")
+	public void i_select_employee_from_results(String toselect)throws Throwable{
+		new EmployeeSearchPage(driver).SelectfromSearchResult(toselect);
+	}
+	
+	@Then ("^I should see the details of the selected user\"(.*)\"$")
+	public void Verify_Selected_User(String EmployeeSeleted) throws Throwable{
+		
+		new EmployeeSearchPage(driver).verifyUserDetails(EmployeeSeleted);
+	}
 
 }

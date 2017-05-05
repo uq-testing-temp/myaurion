@@ -2,6 +2,7 @@ package pageclasses;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,6 +34,9 @@ public class EmployeeSearchPage extends DriverFactory {
 	
 	@FindBy(id="aurion-context-selector-search-results")
 	WebElement EmpSearchResults;
+	
+	@FindBy(xpath=".//*[@id='context-search-bar']/div/div/span[1]")
+	WebElement SelectedEmpName;
 	
 	
 	
@@ -67,6 +71,25 @@ public class EmployeeSearchPage extends DriverFactory {
 				
 				
 			}
+			
+		}
+		
+		
+		public void verifyUserDetails(String SelectedEmployee) throws Throwable{
+			
+			//SelectfromSearchResult(SelectedEmployee);
+			
+			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+			Thread.sleep(2000);
+			//Assert.assertTrue(SelectedEmpName.getAttribute("Text").equalsIgnoreCase(SelectedEmployee));
+			
+			WebElement result= driver.findElement(By.xpath(".//*[@id='context-search-bar']/div/div/span[contains(text(),'"+SelectedEmployee+"')]"));
+			
+			Assert.assertTrue(result.isDisplayed());
+				
+				
+		
+		
 			
 		}
 

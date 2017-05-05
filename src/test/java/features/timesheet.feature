@@ -231,14 +231,15 @@ Feature: Timesheet
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on SaveandCopy button
-  		And I add contact hours button
+  		And I Close the notification
+  		#And I add contact hours button
   		And I select another date
   		And I select contact hours type
   		And I enter course code as "testing copy"
   		And I enter start time as "09:00"
   		And I enter stop time as "17:00"
   		And I click on save  		
- Then I should see the timesheet warning alert message displayed
+ Then I should see the timesheet is saved message displayed
  
  
  

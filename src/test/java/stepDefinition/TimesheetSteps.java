@@ -112,6 +112,12 @@ public class TimesheetSteps extends DriverFactory {
 		
 	}
 	
+	@When("^I Close the notification$")
+	public void I_Close_Notification() throws Throwable{
+		
+		new TimesheetPage(driver).CloseNotification();
+	}
+	
 	
 	
 	@Then("^I should see full list of my timesheets$")

@@ -1,5 +1,5 @@
 @EmployeeSearch
-Feature: Training & Courses
+Feature: Employee Search
 As a supervisor
 I want to be able to login to the My Aurion system
 So that I can search for and change employee to view my subordinates details
@@ -26,6 +26,50 @@ Then I should see the matching search result"<EmployeeToSelect>"
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |heidi ellis      |ELLIS, Heidi|
+ 
+ 
+ 
+ 
+ 
+ 
+  @now    
+ Scenario Outline: Supervisor - view subordinate's details
+ 
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmsanda"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+ 		And I select the employee from search results"<EmployeeToSelect>"
+Then I should see the details of the selected user"<EmployeeToSelect>"
+
+Examples:
+ | EmployeeSearchPhrase | EmployeeToSelect|
+ |heidi ellis      |ELLIS, Heidi|
+ 
+ 
+ 
+  @now    
+ Scenario Outline: Supervisor - Try to view subordinate's Payroll details
+ 
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmsanda"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+ 		And I select the employee from search results"<EmployeeToSelect>"
+ 		And I am on Payroll page
+Then I should see No access error message displayed
+
+Examples:
+ | EmployeeSearchPhrase | EmployeeToSelect|
+ |heidi ellis      |ELLIS, Heidi|
+ 
+ 
  
  
   Scenario Outline: Search for indirect reports

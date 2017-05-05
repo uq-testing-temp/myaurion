@@ -92,6 +92,9 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='timekeeper-workflow']/.//button[contains(text(),'Reset')]")
 	private WebElement ResetBtn;
 	
+	@FindBy(id="notification-close")
+	private WebElement CloseNotificationBtn;
+	
 	public TimesheetPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
        
@@ -144,16 +147,19 @@ public class TimesheetPage extends DriverFactory {
     
     public void enter_code(String code) throws Throwable {
     	Thread.sleep(2000);
+    	entercode.clear();
     	entercode.sendKeys(code);
     }
     
     public void enter_start_time(String starttime) throws Throwable {
     	Thread.sleep(2000);
+    	fromtime.clear();
     	fromtime.sendKeys(starttime);
     }
     
     public void enter_stop_time(String stoptime) throws Throwable {
     	Thread.sleep(2000);
+    	totime.clear();
     	totime.sendKeys(stoptime);
     	Thread.sleep(8000);
     }
@@ -224,6 +230,13 @@ public class TimesheetPage extends DriverFactory {
     	this.ResetBtn.click();
     	Alert alert= driver.switchTo().alert();
     	alert.accept();
+    	
+    }
+    
+    public void CloseNotification() throws Throwable{
+    	Thread.sleep(2000);
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	this.CloseNotificationBtn.click();
     	
     }
     
