@@ -43,7 +43,7 @@ Feature: Timesheet
   		And I enter course code as "test"
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
-  		And I click on save button
+  		And I click on save
   		And I click on Done button
   	When I click on submit timesheet
   		And I enter the message as " Please approve this is a test"
@@ -103,7 +103,7 @@ Feature: Timesheet
   		And I enter course code as "test"
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
-  		And I click on save button
+  		And I click on save
    	When I click on submit timesheet
   		And I enter the message as " Please approve- this is a test for detailed view single day"
   		And I click submit button 

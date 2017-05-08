@@ -54,7 +54,7 @@ public class LeavePage extends DriverFactory {
     }
     
     public void new_leave_page() throws Throwable {
-        driver.get("http://myaurion11cf.hr.uq.edu.au/leave/new");
+        driver.get("http://myaurionupgrdev.hr.uq.edu.au/leave/new");
     }
     
     public void apply_for_leave_button() throws Throwable {

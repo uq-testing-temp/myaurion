@@ -2,6 +2,9 @@ package stepDefinition;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import util.PropertyReader;
 
@@ -22,6 +25,7 @@ public class DriverFactory {
         String browser = new PropertyReader().readProperty("browser");
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         } 
         /*else if(browser.equals("firefox")){
         	driver=new FirefoxDriver();

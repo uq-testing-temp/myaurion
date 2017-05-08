@@ -38,6 +38,9 @@ public class EmployeeSearchPage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='context-search-bar']/div/div/span[1]")
 	WebElement SelectedEmpName;
 	
+	@FindBy(xpath=".//*[@id='aurion-context-selector-search-results']/h4/em")
+	WebElement NoResultsMsg;
+	
 	
 	
 	
@@ -87,9 +90,15 @@ public class EmployeeSearchPage extends DriverFactory {
 			
 			Assert.assertTrue(result.isDisplayed());
 				
-				
+		
+			
+		}
 		
 		
+		public void VerifyNoResults() throws Throwable{
+			
+			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+			Assert.assertTrue(this.NoResultsMsg.isDisplayed());
 			
 		}
 

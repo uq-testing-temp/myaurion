@@ -40,5 +40,11 @@ public class EmployeeSearchSteps extends DriverFactory{
 		
 		new EmployeeSearchPage(driver).verifyUserDetails(EmployeeSeleted);
 	}
+	
+	@Then("^I should see the No results found message$")
+	public void I_should_see_No_results_found_message() throws Throwable{
+		
+		new EmployeeSearchPage(driver).VerifyNoResults();
+	}
 
 }

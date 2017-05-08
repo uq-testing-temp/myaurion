@@ -83,18 +83,18 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |	    |   |
  
+ @now
+ Scenario: Search for employees- No results found
  
- Scenario Outline: Search for employees- No results found
- 
- When I am on the DashboardPage
- 	And I click on change Employee icon
- 	And I enter the employee search phrase "<EmployeeSearchPhrase>"
-Then I should see the message "<messageText>"
+Given I am on myAurion login page
+   	    And I enter username as "uqmsanda"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"XYZ"
+Then I should see the No results found message
 
-Examples:
- | EmployeeSearchPhrase | EmployeeToSelect|
- |	 asdfghj   | None found...  |
- 
+
  
  
  Scenario Outline: Search for direct reports and act on behalf of employee
