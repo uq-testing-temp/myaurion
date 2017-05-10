@@ -9,7 +9,7 @@ Feature: Leave
    	  And I enter username as "uqmsanda"
       And I enter password as "password123"
       And I click Login button
-  
+  @now
   Scenario: Apply a single day leave
   	When I am on a new leave page
   		And I select the leave type as "Annual/Recreation (Recreation)"
@@ -19,6 +19,7 @@ Feature: Leave
   		And I click submit button
   	Then I should see the success message is displayed
 
+@now
    Scenario: Apply multiple days leave
   	When I am on a new leave page
   		And I select the leave type as "Annual/Recreation (Recreation)"

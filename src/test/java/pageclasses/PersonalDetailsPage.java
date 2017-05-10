@@ -1,12 +1,15 @@
 package pageclasses;
 
 import java.util.concurrent.TimeUnit;
+import java.util.function.LongToIntFunction;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import util.*;
+import util.DebugLog;
 
 import stepDefinition.DriverFactory;
 
@@ -68,13 +71,18 @@ public class PersonalDetailsPage extends DriverFactory {
 	@FindBy(id="T006F095_COUNTRY_CODE")
 	WebElement Country;
 	
+	@FindBy(name="save")
+	WebElement SaveBtn;
 	
-	
+	@FindBy (xpath = "//*[@id='notification']")
+	private WebElement successcheck;
 	
 public void NavigateToPersonalPage() throws Throwable{
 		
 		
 		CustomFunctions.CustomClick(EmployeeMenu, 5);
+		
+		
 		CustomFunctions.CustomClick(this.PersonalMenuItem, 5);
 		
 	}
@@ -82,6 +90,7 @@ public void NavigateToPersonalPage() throws Throwable{
 public void AddNewContact() throws Throwable{
 	
 	CustomFunctions.CustomClick(AddEmergencyContact, 5);
+	
 	
 }
 
@@ -120,6 +129,63 @@ public void Enter_Street(String street) throws Throwable{
 	
 	this.EnterDetails(this.Street, street);
 }
+
+
+public void Enter_City_Suburb(String city) throws Throwable{
+	
+	this.EnterDetails(this.Suburb, city);
+}
+
+
+public void Enter_state(String state) throws Throwable{
+	
+	this.EnterDetails(this.State, state);
+}
+
+
+public void Enter_comments(String comments) throws Throwable{
+	
+	this.EnterDetails(this.Comments, comments);
+}
+
+
+public void Click_Save() throws Throwable{
+	
+	CustomFunctions.CustomClick(this.SaveBtn, 5);
+	
+}
+
+public void Select_Relationship(String relationship) throws Throwable{
+	
+	CustomFunctions.InstantSearchSelect(this.Relationship, relationship, relationship);
+	
+}
+
+public void Select_postcode(String postcode) throws Throwable{
+	
+	CustomFunctions.InstantSearchSelect(this.Postcode, postcode, postcode);
+	
+}
+
+public void Select_country(String country) throws Throwable{
+	
+	CustomFunctions.InstantSearchSelect(this.Country, country, country);
+	
+}
+
+public void ClickSave() throws Throwable{
+	
+	CustomFunctions.CustomClick(this.SaveBtn, 5);
+	
+}
+
+
+public void Save_success() throws Throwable {
+	Thread.sleep(2000);
+	boolean success = successcheck.isDisplayed();
+	Assert.assertTrue(success);
+}
+
 
 
 

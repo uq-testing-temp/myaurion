@@ -10,7 +10,7 @@ Feature: Timesheet
     #  And I enter password as "password123"
      # And I click Login button
       
-  
+  @now
   Scenario: Submit timesheet using daily form as a casual employee
   Given I am on myAurion login page
    	  And I enter username as "uqasmi46"
@@ -54,7 +54,7 @@ Feature: Timesheet
   	|day|
   	|Mon|
   	
-  	
+ 	
   Scenario Outline: Submit timesheet using period form for multiple days
   	Given I am on timesheet page
   		And I select the period timesheet

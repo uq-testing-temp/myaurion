@@ -29,7 +29,7 @@ public class LandingPage extends DriverFactory{
    
 
     public void login_page() throws Throwable {
-        driver.get("http://myaurion11cf.hr.uq.edu.au");
+        driver.get("http://myaurion11cf.hr.uq.edu.au/");
         driver.manage().window().maximize();
     }
 
