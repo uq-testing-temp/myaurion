@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.LongToIntFunction;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -76,6 +77,9 @@ public class PersonalDetailsPage extends DriverFactory {
 	
 	@FindBy (xpath = "//*[@id='notification']")
 	private WebElement successcheck;
+	
+	@FindBy(id="T006F035_NEXT_OF_KIN_FLAG")
+	WebElement nextofKinCheckbox;
 	
 public void NavigateToPersonalPage() throws Throwable{
 		
@@ -179,11 +183,19 @@ public void ClickSave() throws Throwable{
 	
 }
 
+public void selectnextofKincheckbox() throws Throwable{
+	
+	CustomFunctions.CustomClick(nextofKinCheckbox, 5);;
+}
 
-public void Save_success() throws Throwable {
+
+public void Save_success(String Name) throws Throwable {
 	Thread.sleep(2000);
 	boolean success = successcheck.isDisplayed();
 	Assert.assertTrue(success);
+	
+	WebElement newcontact= driver.findElement(By.xpath(".//*[@id='T006F010_PRIORITY-list']/.//td[contains(text(),'"+Name+"')]"));
+	CustomFunctions.CustomAssertTrue("New contact added is visible", newcontact.isDisplayed());
 }
 
 

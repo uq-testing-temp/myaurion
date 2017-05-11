@@ -6,7 +6,7 @@ Feature: Leave
   
   Background:
     Given I am on myAurion login page
-   	  And I enter username as "uqmsanda"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   @now

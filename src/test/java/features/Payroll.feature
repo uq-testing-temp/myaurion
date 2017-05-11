@@ -15,14 +15,14 @@ Background:
  
  
  Scenario: View current bank account
- 	When I am on the payroll page
+ 	When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	Then I should see my current bank accounts
  	
  	
 
  Scenario Outline: Update current bank account
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	And I select the current bank account "<AccountNumber>"
  	And I select branch "<Branch>"
@@ -37,7 +37,7 @@ Background:
   
   
   Scenario Outline: Add secondary bank account
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	And I click on "New account" button
  	And I enter bank account number "<AccountNumber>"
@@ -56,7 +56,7 @@ Background:
   
   
    Scenario Outline: Add Deduction
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	And I click on "New deduction" button
  	And I select deduction "<Deduction>"
@@ -72,7 +72,7 @@ Background:
   
   
     Scenario Outline: Update Deduction
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	And I select current deduction "<Current deduction>"
  	And I add next pay amount "<NextPay Amount>"
@@ -85,7 +85,7 @@ Background:
   
   
     Scenario Outline: Update Deduction stop Payment
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	And I select current deduction "<Current deduction>"
  	And I add next pay amount "<NextPay Amount>"
@@ -99,22 +99,34 @@ Background:
   
   
    Scenario: View PaySummaries
- When I am on the payroll page
+Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
+ When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
  Then I should see my current pay summaries
  
  
- 
-   Scenario: View PaySummaries details
- When I am on the payroll page
+ @rightnow
+   Scenario Outline: View PaySummaries details
+Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
+ When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
- 	And I select the summary for date "15/03/2017"
- Then I should see my pay summary details
+ 	And I select the summary for date"<Date>"
+ Then I should see my pay summary details"<GrossPayAmount>"and"<NetPayAmount>"
  
+ Examples:
+  |Date|GrossPayAmount|NetPayAmount|
+  |25/05/2016|3,257.49 |2,449.49 |
+  
  
  
     Scenario Outline: View year to date summary
- When I am on the payroll page
+ When I am on Payroll page
  	And I select Payroll action "Year to Date"
  	And I select "<current_previous>" year summary 
  Then I should see my year to date summary details
@@ -141,7 +153,7 @@ Background:
   
    Scenario: View ATO Payment Summaries
  When I am on the payroll page
- 	And I select Payroll action "Payment Summaries"
+ 	And I select Payroll action "ATO Payment Summaries"
  	And I select the summary for date "30/06/2016"
  Then I should see download prompt
  

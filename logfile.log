@@ -1,0 +1,359 @@
+2017-05-11 11:49:58,960 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:49:58,960 INFO  [Log]  
+2017-05-11 11:50:00,776 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (446805ab66e0e2f57ae87fbc1f11bce0)] -> id: login-button] 
+2017-05-11 11:50:11,048 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (446805ab66e0e2f57ae87fbc1f11bce0)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 11:50:11,154 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (446805ab66e0e2f57ae87fbc1f11bce0)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 11:50:15,067 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:50:15,067 INFO  [Log]  
+2017-05-11 11:50:16,803 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: login-button] 
+2017-05-11 11:50:24,323 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 11:50:24,434 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 11:50:25,384 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 11:50:25,718 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F010_PRIORITY]' 
+2017-05-11 11:50:25,862 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F010_PRIORITY] 
+2017-05-11 11:50:25,945 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F025_NAME]' 
+2017-05-11 11:50:26,088 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F025_NAME] 
+2017-05-11 11:50:26,179 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 11:50:26,318 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 11:50:30,587 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 11:50:30,683 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> name: save] 
+2017-05-11 11:50:30,817 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 11:50:30,981 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 11:50:31,083 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 11:50:31,231 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 11:50:31,336 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F105_EMAIL]' 
+2017-05-11 11:50:31,464 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F105_EMAIL] 
+2017-05-11 11:50:31,595 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F040_ADDRESS]' 
+2017-05-11 11:50:31,720 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F040_ADDRESS] 
+2017-05-11 11:50:31,831 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F085_POSTCODE]' 
+2017-05-11 11:50:31,955 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F085_POSTCODE] 
+2017-05-11 11:50:36,251 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-11 11:50:36,341 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F070_COMMENTS]' 
+2017-05-11 11:50:36,478 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> id: T006F070_COMMENTS] 
+2017-05-11 11:50:36,604 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ef36370039813e7ad8630985cee90b8b)] -> name: save] 
+2017-05-11 11:50:45,563 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:50:45,563 INFO  [Log]  
+2017-05-11 11:50:47,386 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50ef5e70c4dabd80ca3dedc566a4b4ec)] -> id: login-button] 
+2017-05-11 11:57:23,874 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:57:23,874 INFO  [Log]  
+2017-05-11 11:57:25,656 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1f77682eb52cfb6269d45892e75ded32)] -> id: login-button] 
+2017-05-11 11:57:35,561 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1f77682eb52cfb6269d45892e75ded32)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 11:57:35,694 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1f77682eb52cfb6269d45892e75ded32)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 11:57:36,731 INFO  [Log] Qualifications section is visible 
+2017-05-11 11:57:39,706 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:57:39,706 INFO  [Log]  
+2017-05-11 11:57:41,488 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: login-button] 
+2017-05-11 11:57:48,549 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 11:57:48,666 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 11:57:49,541 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 11:57:49,946 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F010_PRIORITY]' 
+2017-05-11 11:57:50,088 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F010_PRIORITY] 
+2017-05-11 11:57:50,168 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F025_NAME]' 
+2017-05-11 11:57:50,292 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F025_NAME] 
+2017-05-11 11:57:50,400 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 11:57:50,536 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 11:57:54,789 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 11:57:54,879 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> name: save] 
+2017-05-11 11:57:55,010 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 11:57:55,174 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 11:57:55,280 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 11:57:55,426 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 11:57:55,526 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F105_EMAIL]' 
+2017-05-11 11:57:55,655 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F105_EMAIL] 
+2017-05-11 11:57:55,773 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F040_ADDRESS]' 
+2017-05-11 11:57:55,925 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F040_ADDRESS] 
+2017-05-11 11:57:56,063 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F085_POSTCODE]' 
+2017-05-11 11:57:56,188 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F085_POSTCODE] 
+2017-05-11 11:58:00,459 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-11 11:58:00,553 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F070_COMMENTS]' 
+2017-05-11 11:58:00,694 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> id: T006F070_COMMENTS] 
+2017-05-11 11:58:00,811 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (299e451e93137d52ddbc4dbcd5950612)] -> name: save] 
+2017-05-11 11:58:05,820 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 11:58:05,820 INFO  [Log]  
+2017-05-11 11:58:07,537 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1a8f525b04da3b914d4b2dd0bd241a5d)] -> id: login-button] 
+2017-05-11 12:07:38,153 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:07:38,153 INFO  [Log]  
+2017-05-11 12:07:39,910 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (99fe8f5a8af1d026dff30ebd9e3631a8)] -> id: login-button] 
+2017-05-11 12:07:49,553 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (99fe8f5a8af1d026dff30ebd9e3631a8)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:07:52,673 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:07:52,673 INFO  [Log]  
+2017-05-11 12:07:54,418 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24c81db63a7b030585de2bcf3b8c0a1d)] -> id: login-button] 
+2017-05-11 12:09:20,926 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:09:20,927 INFO  [Log]  
+2017-05-11 12:09:22,750 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aefe47479572f458fb76f2fffe26fe3e)] -> id: login-button] 
+2017-05-11 12:09:32,704 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aefe47479572f458fb76f2fffe26fe3e)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:09:35,767 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:09:35,767 INFO  [Log]  
+2017-05-11 12:09:37,548 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a3ba44dbde9441d71a14aa5a116a15ad)] -> id: login-button] 
+2017-05-11 12:09:44,848 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a3ba44dbde9441d71a14aa5a116a15ad)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:09:44,962 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a3ba44dbde9441d71a14aa5a116a15ad)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:09:48,586 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:09:48,587 INFO  [Log]  
+2017-05-11 12:11:10,009 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:11:10,010 INFO  [Log]  
+2017-05-11 12:11:11,824 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fb6e518df285a979dc5c52ab298d674)] -> id: login-button] 
+2017-05-11 12:11:25,649 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fb6e518df285a979dc5c52ab298d674)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:11:25,761 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fb6e518df285a979dc5c52ab298d674)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:11:28,538 INFO  [Log] Qualifications section is visible 
+2017-05-11 12:11:31,532 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:11:31,532 INFO  [Log]  
+2017-05-11 12:11:33,364 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4669018c78a33619cb11693e613727a9)] -> id: login-button] 
+2017-05-11 12:11:44,204 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4669018c78a33619cb11693e613727a9)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:11:44,335 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4669018c78a33619cb11693e613727a9)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:11:47,220 INFO  [Log] Qualifications section is visible 
+2017-05-11 12:11:50,111 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:11:50,111 INFO  [Log]  
+2017-05-11 12:11:51,951 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea6b51086a0ace4cf4efedb78edfebfa)] -> id: login-button] 
+2017-05-11 12:12:22,317 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-11 12:31:42,662 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:31:42,662 INFO  [Log]  
+2017-05-11 12:31:44,484 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3f8c770f766b925f8591f6474decc826)] -> id: login-button] 
+2017-05-11 12:32:06,705 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3f8c770f766b925f8591f6474decc826)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:32:06,816 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3f8c770f766b925f8591f6474decc826)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:32:12,003 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:32:12,003 INFO  [Log]  
+2017-05-11 12:32:13,782 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ba5998e0936cc9f4489b9625161054e)] -> id: login-button] 
+2017-05-11 12:32:40,336 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ba5998e0936cc9f4489b9625161054e)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:32:40,444 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ba5998e0936cc9f4489b9625161054e)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:32:46,869 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:32:46,869 INFO  [Log]  
+2017-05-11 12:32:48,660 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fd25fe7235b323c3c98e795477391cfd)] -> id: login-button] 
+2017-05-11 12:33:12,727 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fd25fe7235b323c3c98e795477391cfd)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:33:12,840 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fd25fe7235b323c3c98e795477391cfd)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-11 12:33:18,682 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:33:18,682 INFO  [Log]  
+2017-05-11 12:33:20,472 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: login-button] 
+2017-05-11 12:33:40,670 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:33:40,780 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 12:33:41,661 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 12:33:42,055 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F010_PRIORITY]' 
+2017-05-11 12:33:42,184 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F010_PRIORITY] 
+2017-05-11 12:33:42,258 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F025_NAME]' 
+2017-05-11 12:33:42,381 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F025_NAME] 
+2017-05-11 12:33:42,467 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 12:33:42,607 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 12:33:46,844 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 12:33:46,937 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> name: save] 
+2017-05-11 12:33:47,070 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 12:33:47,234 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 12:33:47,352 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 12:33:47,498 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 12:33:47,605 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (edccdaa37207b6dffa70aba2f9d6b8ea)] -> id: T006F105_EMAIL]' 
+2017-05-11 12:34:18,392 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field 'Proxy element for: DefaultElementLocator 'By.id: T006F105_EMAIL' 
+2017-05-11 12:34:51,354 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:34:51,355 INFO  [Log]  
+2017-05-11 12:34:53,136 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: login-button] 
+2017-05-11 12:35:13,185 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:35:13,302 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 12:35:14,151 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 12:35:14,534 INFO  [Log] Entering '3' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F010_PRIORITY]' 
+2017-05-11 12:35:14,658 INFO  [Log] Entering the text: '3' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F010_PRIORITY] 
+2017-05-11 12:35:14,733 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F025_NAME]' 
+2017-05-11 12:35:14,850 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F025_NAME] 
+2017-05-11 12:35:14,968 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 12:35:15,096 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 12:35:15,207 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 12:35:15,326 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 12:35:15,420 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F105_EMAIL]' 
+2017-05-11 12:35:15,539 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F105_EMAIL] 
+2017-05-11 12:35:15,721 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 12:35:15,843 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 12:35:20,163 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-11 12:35:20,249 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F040_ADDRESS]' 
+2017-05-11 12:35:20,387 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F040_ADDRESS] 
+2017-05-11 12:35:20,504 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F075_SUBURB]' 
+2017-05-11 12:35:20,629 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F075_SUBURB] 
+2017-05-11 12:35:20,719 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F080_STATE]' 
+2017-05-11 12:35:20,843 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F080_STATE] 
+2017-05-11 12:35:20,909 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F085_POSTCODE]' 
+2017-05-11 12:35:21,031 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F085_POSTCODE] 
+2017-05-11 12:35:25,239 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-11 12:35:25,262 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-11 12:35:25,398 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-11 12:35:29,646 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-11 12:35:29,744 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F070_COMMENTS]' 
+2017-05-11 12:35:29,872 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> id: T006F070_COMMENTS] 
+2017-05-11 12:35:30,017 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea810a2f92837caeaee1b932e23560df)] -> name: save] 
+2017-05-11 12:35:32,184 INFO  [Log] New contact added is visible 
+2017-05-11 12:35:35,068 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:35:35,068 INFO  [Log]  
+2017-05-11 12:35:36,813 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: login-button] 
+2017-05-11 12:35:56,216 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:35:56,328 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 12:35:57,186 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 12:35:57,579 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F010_PRIORITY]' 
+2017-05-11 12:35:57,699 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F010_PRIORITY] 
+2017-05-11 12:35:57,771 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F025_NAME]' 
+2017-05-11 12:35:57,883 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F025_NAME] 
+2017-05-11 12:35:57,985 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 12:35:58,110 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 12:36:02,346 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 12:36:02,435 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> name: save] 
+2017-05-11 12:36:02,601 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 12:36:02,785 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 12:36:02,885 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 12:36:03,047 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 12:36:03,165 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (3c6025e0de1068342d36eb316dceb4c8)] -> id: T006F105_EMAIL]' 
+2017-05-11 12:36:33,988 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field 'Proxy element for: DefaultElementLocator 'By.id: T006F105_EMAIL' 
+2017-05-11 12:39:03,330 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:39:03,330 INFO  [Log]  
+2017-05-11 12:40:11,334 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: login-button] 
+2017-05-11 12:40:29,484 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:40:29,608 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 12:40:30,506 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 12:40:30,904 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F010_PRIORITY]' 
+2017-05-11 12:40:31,049 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F010_PRIORITY] 
+2017-05-11 12:40:31,126 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F025_NAME]' 
+2017-05-11 12:40:31,257 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F025_NAME] 
+2017-05-11 12:40:37,898 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 12:40:38,041 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 12:40:56,071 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 12:40:58,251 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> name: save] 
+2017-05-11 12:40:58,395 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 12:40:58,610 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 12:40:58,715 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 12:41:11,286 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (873460e02cf10985c841a01aa7a12c62)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 12:43:59,266 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 12:43:59,266 INFO  [Log]  
+2017-05-11 12:44:09,808 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: login-button] 
+2017-05-11 12:44:25,997 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 12:44:26,119 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 12:44:27,055 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 12:44:27,437 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F010_PRIORITY]' 
+2017-05-11 12:44:27,569 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F010_PRIORITY] 
+2017-05-11 12:44:32,980 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F025_NAME]' 
+2017-05-11 12:44:33,114 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F025_NAME] 
+2017-05-11 12:44:37,427 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 12:44:37,568 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 12:46:32,056 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 12:46:34,981 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (61b43e42666396ca2aa55842c58f824a)] -> name: save] 
+2017-05-11 13:32:38,316 INFO  [Log] Entering '0797979' into the field 'Proxy element for: DefaultElementLocator 'By.id: T006F060_HOME_PHONE_NO'' 
+2017-05-11 15:52:49,762 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:52:49,763 INFO  [Log]  
+2017-05-11 15:52:51,525 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a29a162e6b6cf4f6ae37586b5a86e3f6)] -> id: login-button] 
+2017-05-11 15:52:51,878 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:52:51,878 INFO  [Log]  
+2017-05-11 15:52:52,201 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a29a162e6b6cf4f6ae37586b5a86e3f6)] -> id: login-button] 
+2017-05-11 15:53:18,357 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:53:18,357 INFO  [Log]  
+2017-05-11 15:53:20,140 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8a239c5780e661ef421d3a259448ed26)] -> id: login-button] 
+2017-05-11 15:53:29,299 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:53:29,299 INFO  [Log]  
+2017-05-11 15:53:31,087 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34e9c3c765bdc72bcff9b412f8baa3c7)] -> id: login-button] 
+2017-05-11 15:53:31,351 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:53:31,351 INFO  [Log]  
+2017-05-11 15:53:31,714 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34e9c3c765bdc72bcff9b412f8baa3c7)] -> id: login-button] 
+2017-05-11 15:55:54,489 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:55:54,489 INFO  [Log]  
+2017-05-11 15:55:56,279 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a57c8d0cd36917e0af3b602e25a96fcf)] -> id: login-button] 
+2017-05-11 15:55:56,609 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:55:56,609 INFO  [Log]  
+2017-05-11 15:55:56,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a57c8d0cd36917e0af3b602e25a96fcf)] -> id: login-button] 
+2017-05-11 15:57:14,511 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:57:14,511 INFO  [Log]  
+2017-05-11 15:57:16,346 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (71a0f047a5f11c5bfe7c9075aac5a309)] -> id: login-button] 
+2017-05-11 15:57:16,663 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:57:16,663 INFO  [Log]  
+2017-05-11 15:57:17,006 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (71a0f047a5f11c5bfe7c9075aac5a309)] -> id: login-button] 
+2017-05-11 15:58:32,035 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:58:32,035 INFO  [Log]  
+2017-05-11 15:58:33,823 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aedd7e85e3670e7d3a74d32dc1bf68c5)] -> id: login-button] 
+2017-05-11 15:58:34,099 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:58:34,100 INFO  [Log]  
+2017-05-11 15:58:34,441 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aedd7e85e3670e7d3a74d32dc1bf68c5)] -> id: login-button] 
+2017-05-11 15:58:54,809 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aedd7e85e3670e7d3a74d32dc1bf68c5)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 15:58:55,405 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aedd7e85e3670e7d3a74d32dc1bf68c5)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 15:59:04,478 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 15:59:04,478 INFO  [Log]  
+2017-05-11 15:59:06,252 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f542c19602ee2a9d8f362e6b8a8c1501)] -> id: login-button] 
+2017-05-11 16:01:26,828 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:01:26,829 INFO  [Log]  
+2017-05-11 16:01:28,624 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (983f055e576158df145d4c5d25515068)] -> id: login-button] 
+2017-05-11 16:01:28,890 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:01:28,890 INFO  [Log]  
+2017-05-11 16:01:29,209 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (983f055e576158df145d4c5d25515068)] -> id: login-button] 
+2017-05-11 16:01:48,227 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (983f055e576158df145d4c5d25515068)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 16:02:33,688 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (983f055e576158df145d4c5d25515068)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:03:04,229 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (983f055e576158df145d4c5d25515068)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:03:24,084 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-11 16:18:53,360 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:18:53,360 INFO  [Log]  
+2017-05-11 16:18:55,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> id: login-button] 
+2017-05-11 16:19:04,209 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 16:19:04,340 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 16:19:05,288 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 16:19:05,669 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> id: T006F010_PRIORITY]' 
+2017-05-11 16:19:05,829 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (92964643be1ceb311bc7f5b25882cecc)] -> id: T006F010_PRIORITY] 
+2017-05-11 16:45:13,508 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:45:13,509 INFO  [Log]  
+2017-05-11 16:45:15,325 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (347c2530419c06323d4ae00eb4d2e212)] -> id: login-button] 
+2017-05-11 16:45:15,674 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:45:15,674 INFO  [Log]  
+2017-05-11 16:45:16,011 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (347c2530419c06323d4ae00eb4d2e212)] -> id: login-button] 
+2017-05-11 16:48:46,199 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (347c2530419c06323d4ae00eb4d2e212)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 16:49:34,656 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (347c2530419c06323d4ae00eb4d2e212)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:50:10,477 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (347c2530419c06323d4ae00eb4d2e212)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:50:42,351 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-11 16:51:15,439 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:51:15,440 INFO  [Log]  
+2017-05-11 16:51:17,219 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> id: login-button] 
+2017-05-11 16:51:24,486 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 16:51:24,600 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 16:51:25,497 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 16:51:25,900 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> id: T006F010_PRIORITY]' 
+2017-05-11 16:51:26,029 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (ad356a43b36cc40dd0b6f584cc1451b9)] -> id: T006F010_PRIORITY] 
+2017-05-11 16:55:40,022 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:55:40,022 INFO  [Log]  
+2017-05-11 16:55:41,836 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (597fdf3e4f5c2f529e9fc8c0bde7f6c3)] -> id: login-button] 
+2017-05-11 16:55:42,123 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:55:42,123 INFO  [Log]  
+2017-05-11 16:55:42,472 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (597fdf3e4f5c2f529e9fc8c0bde7f6c3)] -> id: login-button] 
+2017-05-11 16:55:53,871 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (597fdf3e4f5c2f529e9fc8c0bde7f6c3)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 16:55:54,493 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (597fdf3e4f5c2f529e9fc8c0bde7f6c3)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:56:00,903 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (597fdf3e4f5c2f529e9fc8c0bde7f6c3)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 16:56:07,068 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-11 16:56:08,118 INFO  [Log] The Pay Advice PDF link found 
+2017-05-11 16:56:11,171 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 16:56:11,171 INFO  [Log]  
+2017-05-11 16:56:12,935 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: login-button] 
+2017-05-11 16:56:20,287 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 16:56:20,397 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 16:56:21,323 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 16:56:21,740 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F010_PRIORITY]' 
+2017-05-11 16:56:21,882 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F010_PRIORITY] 
+2017-05-11 16:56:21,961 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F025_NAME]' 
+2017-05-11 16:56:22,077 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F025_NAME] 
+2017-05-11 16:56:22,181 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 16:56:22,320 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 16:56:26,578 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 16:56:26,670 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> name: save] 
+2017-05-11 16:56:26,804 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 16:56:26,970 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 16:56:27,089 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 16:56:27,250 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 16:56:27,351 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F105_EMAIL]' 
+2017-05-11 16:56:27,472 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F105_EMAIL] 
+2017-05-11 16:56:27,614 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F040_ADDRESS]' 
+2017-05-11 16:56:27,746 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F040_ADDRESS] 
+2017-05-11 16:56:27,861 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F085_POSTCODE]' 
+2017-05-11 16:56:28,022 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F085_POSTCODE] 
+2017-05-11 16:56:32,341 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-11 16:56:32,455 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F070_COMMENTS]' 
+2017-05-11 16:56:32,584 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> id: T006F070_COMMENTS] 
+2017-05-11 16:56:32,706 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8918237e6c6782fb23fea9a972517f9)] -> name: save] 
+2017-05-11 17:06:29,527 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:06:29,527 INFO  [Log]  
+2017-05-11 17:06:31,378 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (898847881c64e456337b712c944f3fad)] -> id: login-button] 
+2017-05-11 17:06:31,658 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:06:31,658 INFO  [Log]  
+2017-05-11 17:06:32,009 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (898847881c64e456337b712c944f3fad)] -> id: login-button] 
+2017-05-11 17:06:43,026 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (898847881c64e456337b712c944f3fad)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 17:06:43,628 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (898847881c64e456337b712c944f3fad)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 17:06:50,065 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (898847881c64e456337b712c944f3fad)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 17:06:56,203 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-11 17:06:57,224 INFO  [Log] Thr Gross amount same as expected  
+2017-05-11 17:06:57,264 INFO  [Log] Thr Net amount same as expected  
+2017-05-11 17:06:57,297 INFO  [Log] The Pay Advice PDF link found 
+2017-05-11 17:07:00,322 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:07:00,322 INFO  [Log]  
+2017-05-11 17:07:02,080 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8eb89c9ef1ebc160f7915f0484ce9df9)] -> id: login-button] 

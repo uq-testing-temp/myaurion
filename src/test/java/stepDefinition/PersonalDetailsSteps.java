@@ -120,10 +120,20 @@ public class PersonalDetailsSteps extends DriverFactory {
 		
 	}
 	
+	@Given("^I select NextofKin Yes or No\"(.*)\"$")
+	public void I_select_nextofKin(String YesNo) throws Throwable{
+		
+		if(YesNo.equalsIgnoreCase("Yes")){
+		new PersonalDetailsPage(driver).Click_Save();
+		}
+	}
 	
-	@Then("^I should see the record successfully saved message displayed$")
-	public void i_should_see_record_saved_message_displayed() throws Throwable {
-		new PersonalDetailsPage(driver).Save_success();
+	
+	
+	
+	@Then("^I should see the record successfully saved message displayed\"(.*)\"$")
+	public void i_should_see_record_saved_message_displayed(String name) throws Throwable {
+		new PersonalDetailsPage(driver).Save_success(name);
 	}
 
 

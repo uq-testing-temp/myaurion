@@ -139,6 +139,45 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |heidi e               | heidi ellis     |
   |2004378             | AMY, Wendy J    |
+  
+  
+  
+  
+  @now
+  Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmblows"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+ 		And I select the employee from search results"<EmployeeToSelect>"
+ 		And I navigate to HR Profile page
+Then I should be able to see the Qualifications,Licences and Inductions details
+
+Examples:
+ | EmployeeSearchPhrase | EmployeeToSelect|
+ |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
+ 
+ 
+ 
+ @now
+  Scenario Outline: Supervisor of casual staff - MyStaff view details
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmverre"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+ 		And I select the employee from search results"<EmployeeToSelect>"
+ 		And I navigate to HR Profile page
+Then I should be able to see the Qualifications,Licences and Inductions details
+
+Examples:
+ | EmployeeSearchPhrase | EmployeeToSelect|
+ |KELLY, Caroline H      |KELLY, Caroline H|
 
  
 

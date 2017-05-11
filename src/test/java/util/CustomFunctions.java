@@ -11,7 +11,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import junit.framework.Assert;
+
 import org.apache.log4j.xml.DOMConfigurator;
+import util.*;
 
 import stepDefinition.DriverFactory;
 
@@ -43,7 +47,7 @@ public class CustomFunctions extends DriverFactory {
 		
 		CustomWait(timeout);
 		//System.out.println("Clicking on "+Element.toString());
-		DebugLog.LogInfo.info("Clicking on" +Element.toString());
+		DebugLog.LogInfo.info("Clicking on" +Element.toString().trim());
 		if(Element.isEnabled()){
 		Element.click();
 		}
@@ -70,7 +74,7 @@ public class CustomFunctions extends DriverFactory {
 		if(!Element.isEnabled()){
 			
 			//System.out.println("Object is not enabled.");
-			DebugLog.LogInfo.info("Object is not enabled. '" +Element.toString()+"'");
+			DebugLog.LogInfo.info("Object is not enabled. '" +Element.toString().trim()+"'");
 			
 		}
 		else if(Element.isEnabled()){
@@ -159,6 +163,57 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 	
 	
 	
+	
+	public static void SelectFromList(WebElement List, String entrytoselect) throws Throwable{
+		
+		Boolean found=false;
+		//String grosspay=null;
+		
+		//WebElement NextBtn= driver.findElement(By.xpath(".//*[contains(text(),'Next')]"));
+		
+		CustomFunctions.WaitForObjectEnabledExplicit(List, 10);
+		
+		do{
+		List<WebElement> VisibleListItems= List.findElements(By.xpath(".//h2"));
+			
+		for (WebElement item: VisibleListItems){
+			
+			System.out.println(item.getText());
+				if(item.getText().equalsIgnoreCase(entrytoselect)){
+				
+				
+				DebugLog.LogInfo.info("Found the resut and selecting it '"+entrytoselect);
+				//grosspay=driver.findElement(By.xpath("../following-sibling::div/.//div[contains(text(),'Gross')]/following-sibling::div")).getText();
+				
+				item.click();
+				found=true;
+				break;
+			}
+				
+			
+			
+			
+		}
+		if(found==false){
+		if(driver.findElement(By.xpath(".//*[contains(text(),'Next')]")).isEnabled()){
+			CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[contains(text(),'Next')]")), 5);
+			Thread.sleep(5000);
+		}
+		if(!driver.findElement(By.xpath(".//*[contains(text(),'Next')]")).isEnabled()){
+			
+			DebugLog.LogInfo.info("Couldn't find the item "+entrytoselect);
+			break;
+		}
+		}
+		   }while(found==false);
+		
+		//return grosspay;
+	}
+	
+	
+	
+	
+	
 	public static void InstantSearchSelect(WebElement searchField, String SearchText, String whatToSelect) throws Throwable{
 		
 		CustomFunctions.Clear_And_SetValueinTextBox(searchField, SearchText);
@@ -192,6 +247,17 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 		}
 		
 		
+		
+	}
+	
+	
+	
+	
+	@SuppressWarnings("deprecation")
+	public static void CustomAssertTrue(String message, boolean condition){
+		
+		DebugLog.LogInfo.info(message);
+		Assert.assertTrue(condition);
 		
 	}
 

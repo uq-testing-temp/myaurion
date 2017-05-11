@@ -1,5 +1,6 @@
 package stepDefinition;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -12,8 +13,10 @@ import pageclasses.LandingPage;
 public class LoginSteps extends DriverFactory {
 
     @Before
-    public void beforeScenario() {
+    public void beforeScenario(Scenario scenario) {
         driver = new DriverFactory().getDriver();
+       String scenarioname=scenario.getName();
+        
     }
 
     @After

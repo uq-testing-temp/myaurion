@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import cucumber.api.Scenario;
+import cucumber.api.java.it.Data;
 import stepDefinition.DriverFactory;
 import util.*;
 
@@ -29,8 +32,11 @@ public class LandingPage extends DriverFactory{
    
 
     public void login_page() throws Throwable {
-        driver.get("http://myaurion11cf.hr.uq.edu.au/");
+    
+    	DebugLog.StartTest("");
+        driver.get("https://myaurionupgrdev.hr.uq.edu.au/");
         driver.manage().window().maximize();
+        
     }
 
     public void I_enter_username_as(String username) throws Throwable {
