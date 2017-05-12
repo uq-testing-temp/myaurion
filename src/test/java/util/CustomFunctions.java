@@ -151,8 +151,34 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 	
 	//This method is to traverse through the table 
 	
-	public static void TraverseTable( WebElement Table, String Column, String row){
+	public static void Table_SelectCellbyText( WebElement Table, String strval) throws Throwable{
 		
+		Boolean found=false;
+	
+		CustomFunctions.WaitForObjectEnabledExplicit(Table, 10);
+		
+		//List<WebElement> row= Table.findElements(By.xpath(".//tr"));
+		
+		for (WebElement row:Table.findElements(By.xpath(".//tr"))){
+			
+			for (WebElement col:Table.findElements(By.xpath(".//td"))){
+				
+				
+				if(col.getText().equals(strval)){
+					
+					DebugLog.LogInfo.info("Found the cell with text and selecting it '"+strval+"'");
+					CustomFunctions.CustomClick(col, 3);
+					found=true;
+					break;
+					
+				}
+				
+			}
+			if(found=true){		break;}
+			
+		}
+		
+		if(found=false){DebugLog.LogInfo.info("Couldn't find the item "+strval);}
 		
 		
 		
@@ -208,6 +234,54 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 		   }while(found==false);
 		
 		//return grosspay;
+	}
+	
+	
+	
+public static Boolean verifyIntheList(WebElement List, String entrytoselect) throws Throwable{
+		
+		Boolean found=false;
+		//String grosspay=null;
+		
+		//WebElement NextBtn= driver.findElement(By.xpath(".//*[contains(text(),'Next')]"));
+		
+		CustomFunctions.WaitForObjectEnabledExplicit(List, 10);
+		
+		do{
+		List<WebElement> VisibleListItems= List.findElements(By.xpath(".//h2"));
+			
+		for (WebElement item: VisibleListItems){
+			
+			System.out.println(item.getText());
+				if(item.getText().equalsIgnoreCase(entrytoselect)){
+				
+				
+				DebugLog.LogInfo.info("Found the resut and selecting it '"+entrytoselect);
+				//grosspay=driver.findElement(By.xpath("../following-sibling::div/.//div[contains(text(),'Gross')]/following-sibling::div")).getText();
+				
+				//item.click();
+				found=true;
+				break;
+			}
+				
+			
+			
+			
+		}
+		if(found==false){
+		if(driver.findElement(By.xpath(".//*[contains(text(),'Next')]")).isEnabled()){
+			CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[contains(text(),'Next')]")), 5);
+			Thread.sleep(5000);
+		}
+		if(!driver.findElement(By.xpath(".//*[contains(text(),'Next')]")).isEnabled()){
+			
+			DebugLog.LogInfo.info("Couldn't find the item "+entrytoselect);
+			break;
+		}
+		}
+		   }while(found==false);
+		
+		return found;
 	}
 	
 	

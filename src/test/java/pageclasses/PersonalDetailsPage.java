@@ -9,6 +9,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+
 import util.*;
 import util.DebugLog;
 
@@ -75,7 +78,7 @@ public class PersonalDetailsPage extends DriverFactory {
 	@FindBy(name="save")
 	WebElement SaveBtn;
 	
-	@FindBy (xpath = "//*[@id='notification']")
+	@FindBy(xpath=".//*[@id='notification']/.//h1[contains(text(),'Save')]")
 	private WebElement successcheck;
 	
 	@FindBy(id="T006F035_NEXT_OF_KIN_FLAG")
@@ -191,11 +194,16 @@ public void selectnextofKincheckbox() throws Throwable{
 
 public void Save_success(String Name) throws Throwable {
 	Thread.sleep(2000);
+	try{
 	boolean success = successcheck.isDisplayed();
 	Assert.assertTrue(success);
 	
 	WebElement newcontact= driver.findElement(By.xpath(".//*[@id='T006F010_PRIORITY-list']/.//td[contains(text(),'"+Name+"')]"));
 	CustomFunctions.CustomAssertTrue("New contact added is visible", newcontact.isDisplayed());
+	}
+	catch(ElementNotFoundException e){
+		DebugLog.LogInfo.warn("Something Wrong"+e.toString());;
+	}
 }
 
 

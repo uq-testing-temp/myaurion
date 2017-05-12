@@ -46,6 +46,30 @@ public class LeaveSteps extends DriverFactory {
 		new LeavePage(driver).submit();
 	}
 	
+	@When("^I am on leave page$")
+	public void i_am_on_the_leave_page() throws Throwable {
+		new LeavePage(driver).Navigate_to_Leavepgae();
+	}
+	
+	
+	@When("^I click on Delete button$")
+	public void i_click_Delete_button() throws Throwable {
+		new LeavePage(driver).ClickOnDelete();
+	}
+	
+	
+	
+	@When("^I click on Apply for Leave button$")
+	public void i_click_apply_leave_button() throws Throwable {
+		new LeavePage(driver).ClickApplyForLeaveButton();
+	}
+	
+	@When("^I select my pending leave request$")
+	public void i_select_pending_request() throws Throwable {
+		new LeavePage(driver).selectPendingRequest();
+	}
+	
+	
 	@Then("^I should see the success message is displayed$")
 	public void I_should_see_the_success_message_is_displayed() throws Throwable {
 		new LeavePage(driver).success();

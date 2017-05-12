@@ -357,3 +357,726 @@
 2017-05-11 17:07:00,322 INFO  [Log] **********************Starting the test*********************** 
 2017-05-11 17:07:00,322 INFO  [Log]  
 2017-05-11 17:07:02,080 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8eb89c9ef1ebc160f7915f0484ce9df9)] -> id: login-button] 
+2017-05-11 17:14:05,440 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:14:05,440 INFO  [Log]  
+2017-05-11 17:14:07,262 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1140d312b14fecfc4c4c979151a21fe5)] -> id: login-button] 
+2017-05-11 17:14:07,562 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:14:07,562 INFO  [Log]  
+2017-05-11 17:14:07,919 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1140d312b14fecfc4c4c979151a21fe5)] -> id: login-button] 
+2017-05-11 17:14:19,697 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1140d312b14fecfc4c4c979151a21fe5)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-11 17:14:20,358 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1140d312b14fecfc4c4c979151a21fe5)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 17:14:26,722 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1140d312b14fecfc4c4c979151a21fe5)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-11 17:14:32,972 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-11 17:14:34,028 INFO  [Log] Thr Gross amount same as expected  
+2017-05-11 17:14:34,074 INFO  [Log] Thr Net amount same as expected  
+2017-05-11 17:14:34,110 INFO  [Log] The Pay Advice PDF link found 
+2017-05-11 17:14:37,442 INFO  [Log] **********************Starting the test*********************** 
+2017-05-11 17:14:37,442 INFO  [Log]  
+2017-05-11 17:14:39,197 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: login-button] 
+2017-05-11 17:14:46,495 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-11 17:14:46,610 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-11 17:14:47,548 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-11 17:14:48,069 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F010_PRIORITY]' 
+2017-05-11 17:14:48,200 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F010_PRIORITY] 
+2017-05-11 17:14:48,284 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F025_NAME]' 
+2017-05-11 17:14:48,410 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F025_NAME] 
+2017-05-11 17:14:48,521 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-11 17:14:48,673 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-11 17:14:53,165 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-11 17:14:53,258 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> name: save] 
+2017-05-11 17:14:53,388 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-11 17:14:53,573 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-11 17:14:53,680 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-11 17:14:53,868 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-11 17:14:53,968 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F105_EMAIL]' 
+2017-05-11 17:14:54,088 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F105_EMAIL] 
+2017-05-11 17:14:54,229 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F040_ADDRESS]' 
+2017-05-11 17:14:54,354 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F040_ADDRESS] 
+2017-05-11 17:14:54,478 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F085_POSTCODE]' 
+2017-05-11 17:14:54,604 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F085_POSTCODE] 
+2017-05-11 17:14:58,916 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-11 17:14:59,005 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F070_COMMENTS]' 
+2017-05-11 17:14:59,145 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> id: T006F070_COMMENTS] 
+2017-05-11 17:14:59,278 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb85fff91618f20fe9f95ee08b460cf8)] -> name: save] 
+2017-05-12 09:08:18,233 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 09:08:18,233 INFO  [Log]  
+2017-05-12 09:08:21,679 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (13c78d6f7b021f64db0eae6293f620e7)] -> id: login-button] 
+2017-05-12 09:08:22,022 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 09:08:22,023 INFO  [Log]  
+2017-05-12 09:08:22,343 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (13c78d6f7b021f64db0eae6293f620e7)] -> id: login-button] 
+2017-05-12 09:08:36,057 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (13c78d6f7b021f64db0eae6293f620e7)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-12 09:08:36,697 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (13c78d6f7b021f64db0eae6293f620e7)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 09:08:43,109 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (13c78d6f7b021f64db0eae6293f620e7)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 09:08:49,269 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-12 09:08:50,399 INFO  [Log] Thr Gross amount same as expected  
+2017-05-12 09:08:50,437 INFO  [Log] Thr Net amount same as expected  
+2017-05-12 09:08:50,475 INFO  [Log] The Pay Advice PDF link found 
+2017-05-12 09:08:53,700 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 09:08:53,700 INFO  [Log]  
+2017-05-12 09:08:55,450 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b684ce61339791d9bf5e77d9d7f24efe)] -> id: login-button] 
+2017-05-12 09:09:03,809 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b684ce61339791d9bf5e77d9d7f24efe)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 09:09:03,918 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b684ce61339791d9bf5e77d9d7f24efe)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 09:09:04,880 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b684ce61339791d9bf5e77d9d7f24efe)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 10:04:20,380 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:04:20,380 INFO  [Log]  
+2017-05-12 10:04:22,243 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e74c8adb832a4e66af7022fcf4147fa8)] -> id: login-button] 
+2017-05-12 10:04:22,550 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:04:22,550 INFO  [Log]  
+2017-05-12 10:04:22,897 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e74c8adb832a4e66af7022fcf4147fa8)] -> id: login-button] 
+2017-05-12 10:04:35,533 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e74c8adb832a4e66af7022fcf4147fa8)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-12 10:04:36,153 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e74c8adb832a4e66af7022fcf4147fa8)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:04:42,521 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e74c8adb832a4e66af7022fcf4147fa8)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:04:48,723 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-12 10:04:49,862 INFO  [Log] Thr Gross amount same as expected  
+2017-05-12 10:04:49,907 INFO  [Log] Thr Net amount same as expected  
+2017-05-12 10:04:49,937 INFO  [Log] The Pay Advice PDF link found 
+2017-05-12 10:04:52,955 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:04:52,955 INFO  [Log]  
+2017-05-12 10:04:54,710 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (04b60e23aef13c8e0d61db4f291370c0)] -> id: login-button] 
+2017-05-12 10:04:54,981 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:04:54,982 INFO  [Log]  
+2017-05-12 10:04:55,316 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (04b60e23aef13c8e0d61db4f291370c0)] -> id: login-button] 
+2017-05-12 10:05:20,964 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:05:20,964 INFO  [Log]  
+2017-05-12 10:07:31,929 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:07:31,930 INFO  [Log]  
+2017-05-12 10:07:33,764 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b84d8af89ec6fb0fd2a8a6d6f82b089)] -> id: login-button] 
+2017-05-12 10:07:34,051 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:07:34,051 INFO  [Log]  
+2017-05-12 10:07:34,394 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b84d8af89ec6fb0fd2a8a6d6f82b089)] -> id: login-button] 
+2017-05-12 10:07:45,417 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b84d8af89ec6fb0fd2a8a6d6f82b089)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-12 10:07:46,005 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b84d8af89ec6fb0fd2a8a6d6f82b089)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:07:52,388 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b84d8af89ec6fb0fd2a8a6d6f82b089)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:07:58,558 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-12 10:07:59,589 INFO  [Log] Thr Gross amount same as expected  
+2017-05-12 10:07:59,630 INFO  [Log] Thr Net amount same as expected  
+2017-05-12 10:07:59,665 INFO  [Log] The Pay Advice PDF link found 
+2017-05-12 10:08:02,741 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:08:02,741 INFO  [Log]  
+2017-05-12 10:08:04,512 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fd9370d47d144389f398bb53226bef5a)] -> id: login-button] 
+2017-05-12 10:08:04,870 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:08:04,870 INFO  [Log]  
+2017-05-12 10:08:05,225 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fd9370d47d144389f398bb53226bef5a)] -> id: login-button] 
+2017-05-12 10:08:28,501 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:08:28,501 INFO  [Log]  
+2017-05-12 10:08:39,014 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:08:39,014 INFO  [Log]  
+2017-05-12 10:08:40,807 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5053a77ce91f1e407f8618794639daad)] -> id: login-button] 
+2017-05-12 10:10:35,703 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:10:35,703 INFO  [Log]  
+2017-05-12 10:10:37,469 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f7f4030b712bd932973af896d7223b37)] -> id: login-button] 
+2017-05-12 10:10:37,746 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:10:37,746 INFO  [Log]  
+2017-05-12 10:10:38,069 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f7f4030b712bd932973af896d7223b37)] -> id: login-button] 
+2017-05-12 10:10:49,148 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f7f4030b712bd932973af896d7223b37)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-12 10:10:49,780 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f7f4030b712bd932973af896d7223b37)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:10:56,045 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f7f4030b712bd932973af896d7223b37)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:11:02,164 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-12 10:11:03,209 INFO  [Log] Thr Gross amount same as expected  
+2017-05-12 10:11:03,256 INFO  [Log] Thr Net amount same as expected  
+2017-05-12 10:11:03,286 INFO  [Log] The Pay Advice PDF link found 
+2017-05-12 10:11:06,302 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:11:06,302 INFO  [Log]  
+2017-05-12 10:11:08,117 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7398b40e9ea9c08272d6f6ac7e030235)] -> id: login-button] 
+2017-05-12 10:11:08,409 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:11:08,409 INFO  [Log]  
+2017-05-12 10:11:08,734 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7398b40e9ea9c08272d6f6ac7e030235)] -> id: login-button] 
+2017-05-12 10:11:33,195 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:11:33,195 INFO  [Log]  
+2017-05-12 10:11:57,133 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:11:57,134 INFO  [Log]  
+2017-05-12 10:11:58,941 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (306a95930087145ab6a015f3d2c4c9f0)] -> id: login-button] 
+2017-05-12 10:11:59,282 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:11:59,282 INFO  [Log]  
+2017-05-12 10:11:59,617 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (306a95930087145ab6a015f3d2c4c9f0)] -> id: login-button] 
+2017-05-12 10:13:56,146 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:13:56,146 INFO  [Log]  
+2017-05-12 10:13:57,961 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8a110c377e48b8697e70fd5967176be7)] -> id: login-button] 
+2017-05-12 10:13:58,249 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:13:58,249 INFO  [Log]  
+2017-05-12 10:13:58,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8a110c377e48b8697e70fd5967176be7)] -> id: login-button] 
+2017-05-12 10:14:39,555 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8a110c377e48b8697e70fd5967176be7)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 10:15:07,182 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 10:15:10,805 INFO  [Log] Year to date page is displayed 
+2017-05-12 10:15:10,846 INFO  [Log] Year to date table is displayed 
+2017-05-12 10:15:11,876 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 10:15:11,878 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (8a110c377e48b8697e70fd5967176be7)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 10:50:53,906 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:50:53,906 INFO  [Log]  
+2017-05-12 10:50:56,318 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1d9efa822852b90039ece2c470ce5b0c)] -> id: login-button] 
+2017-05-12 10:51:19,253 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1d9efa822852b90039ece2c470ce5b0c)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:51:22,317 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:51:22,318 INFO  [Log]  
+2017-05-12 10:52:13,730 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:52:13,730 INFO  [Log]  
+2017-05-12 10:52:15,491 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (baa50f0217cfc2a32b539131671ce535)] -> id: login-button] 
+2017-05-12 10:52:27,407 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (baa50f0217cfc2a32b539131671ce535)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 10:52:57,685 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (baa50f0217cfc2a32b539131671ce535)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 10:53:00,754 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:53:00,754 INFO  [Log]  
+2017-05-12 10:54:58,639 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 10:54:58,640 INFO  [Log]  
+2017-05-12 10:55:00,460 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c7d562b8bc300a89eff85bafa93af81b)] -> id: login-button] 
+2017-05-12 10:55:29,347 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c7d562b8bc300a89eff85bafa93af81b)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 10:56:16,031 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c7d562b8bc300a89eff85bafa93af81b)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 11:01:31,069 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:01:31,069 INFO  [Log]  
+2017-05-12 11:01:32,897 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a6b483b60fcac51c73470e4fa0fda9d5)] -> id: login-button] 
+2017-05-12 11:01:44,627 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a6b483b60fcac51c73470e4fa0fda9d5)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 11:01:44,932 INFO  [Log] Found the resut and selecting it '30/06/2015 
+2017-05-12 11:01:44,932 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 11:01:44,976 INFO  [Log] The link to download summary pdf for date'30/06/2015' found in the ATO summarylist 
+2017-05-12 11:01:48,008 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:01:48,008 INFO  [Log]  
+2017-05-12 11:01:49,758 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (550f4c826bd27ea172ca37ef598b9d3f)] -> id: login-button] 
+2017-05-12 11:05:11,710 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:05:11,711 INFO  [Log]  
+2017-05-12 11:05:13,490 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bf61594532ee223e59a522a9aff46659)] -> id: login-button] 
+2017-05-12 11:05:35,927 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bf61594532ee223e59a522a9aff46659)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 11:05:36,256 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bf61594532ee223e59a522a9aff46659)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 11:05:39,325 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:05:39,325 INFO  [Log]  
+2017-05-12 11:05:41,073 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (81dc1ade60670bbf901309235f8afb3f)] -> id: login-button] 
+2017-05-12 11:05:50,812 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:05:50,813 INFO  [Log]  
+2017-05-12 11:05:52,600 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (130be5527d2deeb6cf96418d87a641ca)] -> id: login-button] 
+2017-05-12 11:06:11,165 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (130be5527d2deeb6cf96418d87a641ca)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 11:06:11,533 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (130be5527d2deeb6cf96418d87a641ca)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 11:06:32,070 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:06:32,070 INFO  [Log]  
+2017-05-12 11:06:33,841 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (878a3028db32c30f22ac34440de451ba)] -> id: login-button] 
+2017-05-12 11:06:46,049 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (878a3028db32c30f22ac34440de451ba)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 11:06:46,312 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 11:06:46,312 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 11:06:46,345 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 11:06:49,360 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 11:06:49,360 INFO  [Log]  
+2017-05-12 11:06:51,094 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (478b6ad504ecc61a70e41752f770ba76)] -> id: login-button] 
+2017-05-12 13:09:17,616 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:09:17,617 INFO  [Log]  
+2017-05-12 13:09:19,395 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4ce16264ad423a8e2d67496b51f36537)] -> id: login-button] 
+2017-05-12 13:09:24,890 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:09:24,890 INFO  [Log]  
+2017-05-12 13:09:26,651 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bcf3861fd533c7ef7186d1c7e1d67959)] -> id: login-button] 
+2017-05-12 13:09:31,838 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:09:31,838 INFO  [Log]  
+2017-05-12 13:09:33,618 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (01f231f5b1e63c37a38d2d9311ccbecf)] -> id: login-button] 
+2017-05-12 13:09:38,794 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:09:38,794 INFO  [Log]  
+2017-05-12 13:09:40,539 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8a4a8f986f132b81c827411fc5d3b455)] -> id: login-button] 
+2017-05-12 13:09:45,770 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:09:45,770 INFO  [Log]  
+2017-05-12 13:09:47,587 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (63e091bfbc6b5ccc5d11bf19779fadd1)] -> id: login-button] 
+2017-05-12 13:10:00,449 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (63e091bfbc6b5ccc5d11bf19779fadd1)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:10:00,561 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (63e091bfbc6b5ccc5d11bf19779fadd1)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-12 13:10:06,314 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:10:06,314 INFO  [Log]  
+2017-05-12 13:10:08,040 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fa9d405ec9cd48b47b2b35d34b8c0c4)] -> id: login-button] 
+2017-05-12 13:10:19,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fa9d405ec9cd48b47b2b35d34b8c0c4)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:10:19,716 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9fa9d405ec9cd48b47b2b35d34b8c0c4)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-12 13:10:25,366 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:10:25,366 INFO  [Log]  
+2017-05-12 13:10:27,091 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ca15bb33cfd92373f4984664095f161c)] -> id: login-button] 
+2017-05-12 13:10:37,855 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ca15bb33cfd92373f4984664095f161c)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:10:37,966 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ca15bb33cfd92373f4984664095f161c)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-12 13:10:43,759 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:10:43,759 INFO  [Log]  
+2017-05-12 13:10:45,487 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (af54fce05179790d5f3de1d28fcaf2e1)] -> id: login-button] 
+2017-05-12 13:11:07,564 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:11:07,564 INFO  [Log]  
+2017-05-12 13:11:09,320 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (47a7f96b731ed6326a5b29c610d3583f)] -> id: login-button] 
+2017-05-12 13:11:33,816 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:11:33,816 INFO  [Log]  
+2017-05-12 13:11:35,551 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a64a99652e4d4a70d47564cdfdffad41)] -> id: login-button] 
+2017-05-12 13:11:46,743 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a64a99652e4d4a70d47564cdfdffad41)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-12 13:11:47,347 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a64a99652e4d4a70d47564cdfdffad41)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 13:11:53,749 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a64a99652e4d4a70d47564cdfdffad41)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-12 13:11:59,937 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-12 13:12:01,026 INFO  [Log] Thr Gross amount same as expected  
+2017-05-12 13:12:01,067 INFO  [Log] Thr Net amount same as expected  
+2017-05-12 13:12:01,098 INFO  [Log] The Pay Advice PDF link found 
+2017-05-12 13:12:03,979 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:12:03,979 INFO  [Log]  
+2017-05-12 13:12:05,720 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a8fa16b2bdb1ce13c7b5716e78fc50d)] -> id: login-button] 
+2017-05-12 13:12:17,145 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a8fa16b2bdb1ce13c7b5716e78fc50d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:12:17,420 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 13:12:18,489 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:12:18,528 INFO  [Log] Year to date table is displayed 
+2017-05-12 13:12:19,537 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 13:12:19,539 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (0a8fa16b2bdb1ce13c7b5716e78fc50d)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 13:12:53,707 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:12:53,708 INFO  [Log]  
+2017-05-12 13:12:55,460 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (395144192bae43f3ffb11b678717bfb6)] -> id: login-button] 
+2017-05-12 13:13:06,898 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (395144192bae43f3ffb11b678717bfb6)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:13:07,163 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 13:13:08,082 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:13:08,123 INFO  [Log] Year to date table is displayed 
+2017-05-12 13:13:08,532 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 13:13:08,534 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (395144192bae43f3ffb11b678717bfb6)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 13:13:42,663 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:13:42,663 INFO  [Log]  
+2017-05-12 13:13:44,411 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f351d87216de2c36e2713eecdbd8570d)] -> id: login-button] 
+2017-05-12 13:13:55,574 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f351d87216de2c36e2713eecdbd8570d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 13:13:55,860 INFO  [Log] Found the resut and selecting it '30/06/2015 
+2017-05-12 13:13:55,860 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 13:13:55,891 INFO  [Log] The link to download summary pdf for date'30/06/2015' found in the ATO summarylist 
+2017-05-12 13:13:58,899 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:13:58,900 INFO  [Log]  
+2017-05-12 13:14:00,653 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: login-button] 
+2017-05-12 13:14:08,167 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:14:08,288 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 13:14:09,205 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 13:14:09,589 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F010_PRIORITY]' 
+2017-05-12 13:14:09,715 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F010_PRIORITY] 
+2017-05-12 13:14:09,786 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F025_NAME]' 
+2017-05-12 13:14:09,908 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F025_NAME] 
+2017-05-12 13:14:09,994 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-12 13:14:11,129 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-12 13:14:15,362 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-12 13:14:15,477 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> name: save] 
+2017-05-12 13:14:15,615 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-12 13:14:15,782 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-12 13:14:15,878 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-12 13:14:16,025 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-12 13:14:16,126 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F105_EMAIL]' 
+2017-05-12 13:14:16,253 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F105_EMAIL] 
+2017-05-12 13:14:16,387 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F040_ADDRESS]' 
+2017-05-12 13:14:16,501 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F040_ADDRESS] 
+2017-05-12 13:14:16,642 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F085_POSTCODE]' 
+2017-05-12 13:14:16,769 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F085_POSTCODE] 
+2017-05-12 13:14:21,054 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-12 13:14:21,142 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F070_COMMENTS]' 
+2017-05-12 13:14:21,301 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> id: T006F070_COMMENTS] 
+2017-05-12 13:14:21,413 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e7adc98b7df19c2bd6bbcc98cd7fd55)] -> name: save] 
+2017-05-12 13:14:56,524 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:14:56,524 INFO  [Log]  
+2017-05-12 13:14:58,279 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: login-button] 
+2017-05-12 13:15:05,757 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:15:05,865 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 13:15:06,858 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 13:15:07,238 INFO  [Log] Entering '3' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F010_PRIORITY]' 
+2017-05-12 13:15:07,377 INFO  [Log] Entering the text: '3' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F010_PRIORITY] 
+2017-05-12 13:15:07,452 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F025_NAME]' 
+2017-05-12 13:15:07,584 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F025_NAME] 
+2017-05-12 13:15:07,706 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-12 13:15:07,833 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-12 13:15:07,938 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-12 13:15:08,057 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-12 13:15:08,154 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F105_EMAIL]' 
+2017-05-12 13:15:08,285 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F105_EMAIL] 
+2017-05-12 13:15:08,450 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-12 13:15:08,576 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-12 13:15:12,904 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-12 13:15:12,996 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F040_ADDRESS]' 
+2017-05-12 13:15:13,135 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F040_ADDRESS] 
+2017-05-12 13:15:13,255 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F075_SUBURB]' 
+2017-05-12 13:15:13,396 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F075_SUBURB] 
+2017-05-12 13:15:13,481 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F080_STATE]' 
+2017-05-12 13:15:13,612 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F080_STATE] 
+2017-05-12 13:15:13,682 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F085_POSTCODE]' 
+2017-05-12 13:15:13,809 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F085_POSTCODE] 
+2017-05-12 13:15:18,039 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-12 13:15:18,063 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-12 13:15:18,193 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-12 13:15:22,446 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-12 13:15:22,533 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F070_COMMENTS]' 
+2017-05-12 13:15:22,664 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> id: T006F070_COMMENTS] 
+2017-05-12 13:15:22,808 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b245d80476c1dbea8642d76ff0f8944f)] -> name: save] 
+2017-05-12 13:15:57,844 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:15:57,844 INFO  [Log]  
+2017-05-12 13:15:59,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: login-button] 
+2017-05-12 13:16:07,141 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 13:16:07,252 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 13:16:08,121 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 13:16:08,507 INFO  [Log] Entering '6' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F010_PRIORITY]' 
+2017-05-12 13:16:08,626 INFO  [Log] Entering the text: '6' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F010_PRIORITY] 
+2017-05-12 13:16:08,700 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F025_NAME]' 
+2017-05-12 13:16:08,825 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F025_NAME] 
+2017-05-12 13:16:08,926 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-12 13:16:09,050 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-12 13:16:13,297 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-12 13:16:13,391 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> name: save] 
+2017-05-12 13:16:13,530 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-12 13:16:13,689 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-12 13:16:13,805 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-12 13:16:13,962 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-12 13:16:14,059 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F105_EMAIL]' 
+2017-05-12 13:16:14,172 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F105_EMAIL] 
+2017-05-12 13:16:14,322 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F040_ADDRESS]' 
+2017-05-12 13:16:14,441 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F040_ADDRESS] 
+2017-05-12 13:16:14,559 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F085_POSTCODE]' 
+2017-05-12 13:16:14,686 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F085_POSTCODE] 
+2017-05-12 13:16:19,002 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-12 13:16:19,094 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F070_COMMENTS]' 
+2017-05-12 13:16:19,234 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> id: T006F070_COMMENTS] 
+2017-05-12 13:16:19,353 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27b8f39571c98c815d953ec8a0560fe5)] -> name: save] 
+2017-05-12 13:16:54,440 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:16:54,440 INFO  [Log]  
+2017-05-12 13:16:56,235 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9d87f47725b7aeb0e076a41a796dc737)] -> id: login-button] 
+2017-05-12 13:17:31,517 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:17:31,517 INFO  [Log]  
+2017-05-12 13:17:33,253 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50c466004ef034067bcca812c3ad319c)] -> id: login-button] 
+2017-05-12 13:18:08,462 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:18:08,462 INFO  [Log]  
+2017-05-12 13:18:10,228 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50a8a5a1c6feba3a9a4f23d48cd9a4c3)] -> id: login-button] 
+2017-05-12 13:18:45,420 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:18:45,420 INFO  [Log]  
+2017-05-12 13:18:47,157 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d8384d0e82724f60f7ef5c85b1d297f9)] -> id: login-button] 
+2017-05-12 13:19:22,427 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:19:22,427 INFO  [Log]  
+2017-05-12 13:19:24,261 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c1440b77c39076ed2adcd08c795f771)] -> id: login-button] 
+2017-05-12 13:19:59,485 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:19:59,485 INFO  [Log]  
+2017-05-12 13:20:01,223 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e8a31102e814a0145590472de519cb28)] -> id: login-button] 
+2017-05-12 13:20:36,394 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:20:36,394 INFO  [Log]  
+2017-05-12 13:20:38,112 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (574abf5e279a278a7c0691994809cb91)] -> id: login-button] 
+2017-05-12 13:50:29,583 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:50:29,583 INFO  [Log]  
+2017-05-12 13:50:31,944 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (91464ce75f4895742564bf37c8901b7c)] -> id: login-button] 
+2017-05-12 13:50:44,368 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (91464ce75f4895742564bf37c8901b7c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:50:44,643 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 13:50:45,600 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:50:45,637 INFO  [Log] Year to date table is displayed 
+2017-05-12 13:50:46,651 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 13:50:46,653 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (91464ce75f4895742564bf37c8901b7c)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 13:51:10,078 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:51:10,078 INFO  [Log]  
+2017-05-12 13:51:11,900 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37ab12892098de795fc5fa2421035f02)] -> id: login-button] 
+2017-05-12 13:51:53,837 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37ab12892098de795fc5fa2421035f02)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:52:13,612 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 13:52:19,691 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:52:19,734 INFO  [Log] Year to date table is displayed 
+2017-05-12 13:52:20,773 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 13:52:20,776 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (37ab12892098de795fc5fa2421035f02)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 13:54:32,555 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:54:32,555 INFO  [Log]  
+2017-05-12 13:54:34,390 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64258ac419c94291119b098ce1ce2eed)] -> id: login-button] 
+2017-05-12 13:54:45,746 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64258ac419c94291119b098ce1ce2eed)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:54:46,016 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 13:54:46,976 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:54:47,014 INFO  [Log] Year to date table is displayed 
+2017-05-12 13:54:48,039 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 13:54:48,042 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (64258ac419c94291119b098ce1ce2eed)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 13:55:22,216 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:55:22,216 INFO  [Log]  
+2017-05-12 13:57:23,664 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:57:23,664 INFO  [Log]  
+2017-05-12 13:57:25,485 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d7706b81360392e83c880076b527e456)] -> id: login-button] 
+2017-05-12 13:58:08,546 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:58:08,546 INFO  [Log]  
+2017-05-12 13:58:10,353 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1e671c70308fc17e44421278e8d4dc58)] -> id: login-button] 
+2017-05-12 13:58:27,255 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 13:58:27,255 INFO  [Log]  
+2017-05-12 13:58:29,128 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7854fd1febea338cc2513dd0cdc23e01)] -> id: login-button] 
+2017-05-12 13:59:16,036 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7854fd1febea338cc2513dd0cdc23e01)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 13:59:39,061 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 13:59:41,565 INFO  [Log] Year to date page is displayed 
+2017-05-12 13:59:46,532 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:01:03,873 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:01:06,386 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (7854fd1febea338cc2513dd0cdc23e01)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:03:48,954 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:03:48,954 INFO  [Log]  
+2017-05-12 14:03:50,741 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (51e510b5a3373bf1872802d0787b0f0f)] -> id: login-button] 
+2017-05-12 14:04:01,989 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (51e510b5a3373bf1872802d0787b0f0f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:04:02,272 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:04:03,293 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:04:03,329 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:04:04,342 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:04:04,345 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (51e510b5a3373bf1872802d0787b0f0f)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:04:38,634 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:04:38,634 INFO  [Log]  
+2017-05-12 14:04:40,525 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (26d7152c7f1d925f7e811118cfb4901c)] -> id: login-button] 
+2017-05-12 14:04:51,619 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (26d7152c7f1d925f7e811118cfb4901c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:04:51,958 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 14:04:52,919 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:04:52,958 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:04:53,392 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:04:53,394 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (26d7152c7f1d925f7e811118cfb4901c)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:05:27,585 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:05:27,585 INFO  [Log]  
+2017-05-12 14:05:29,380 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b8262c1a11efe3ed3461015ff5b77120)] -> id: login-button] 
+2017-05-12 14:05:45,409 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:05:45,410 INFO  [Log]  
+2017-05-12 14:05:47,217 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52adcd1e4cf418a9e6dc26cdb776cab4)] -> id: login-button] 
+2017-05-12 14:06:02,295 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52adcd1e4cf418a9e6dc26cdb776cab4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:06:02,571 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:06:03,565 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:06:03,605 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:06:04,626 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:06:04,629 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (52adcd1e4cf418a9e6dc26cdb776cab4)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:06:38,873 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:06:38,873 INFO  [Log]  
+2017-05-12 14:10:27,635 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:10:27,635 INFO  [Log]  
+2017-05-12 14:10:29,463 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bd7d2c45da98bf104f427a5338baa3c8)] -> id: login-button] 
+2017-05-12 14:10:52,612 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bd7d2c45da98bf104f427a5338baa3c8)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:11:12,126 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:11:17,686 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:11:26,580 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:12:25,281 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:12:29,457 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (bd7d2c45da98bf104f427a5338baa3c8)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:13:15,968 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:13:15,969 INFO  [Log]  
+2017-05-12 14:13:17,774 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ac31c0dd654360c97e474f483d029749)] -> id: login-button] 
+2017-05-12 14:13:28,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ac31c0dd654360c97e474f483d029749)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:13:29,213 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:13:30,175 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:13:30,211 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:13:31,247 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:13:31,251 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (ac31c0dd654360c97e474f483d029749)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:13:34,444 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:13:37,528 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:13:37,528 INFO  [Log]  
+2017-05-12 14:13:39,310 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9656ff118be3e0cac51a773d2a9b6382)] -> id: login-button] 
+2017-05-12 14:13:50,960 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9656ff118be3e0cac51a773d2a9b6382)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:13:51,277 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 14:13:52,248 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:13:52,282 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:13:52,709 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:13:52,712 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (9656ff118be3e0cac51a773d2a9b6382)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:13:55,975 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:13:58,919 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:13:58,919 INFO  [Log]  
+2017-05-12 14:14:00,723 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (89e672d35e71174603962b489b1b7ddc)] -> id: login-button] 
+2017-05-12 14:14:11,878 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (89e672d35e71174603962b489b1b7ddc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 14:14:12,169 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 14:14:12,169 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 14:14:12,206 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 14:15:02,479 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:15:02,480 INFO  [Log]  
+2017-05-12 14:15:04,345 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2f103e96b4f646dc3300f91a27dc02a)] -> id: login-button] 
+2017-05-12 14:15:15,362 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2f103e96b4f646dc3300f91a27dc02a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:15:15,645 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:15:16,685 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:15:16,730 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:15:17,742 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:15:17,744 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (d2f103e96b4f646dc3300f91a27dc02a)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:15:20,990 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:15:24,093 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:15:24,093 INFO  [Log]  
+2017-05-12 14:15:25,840 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (de82ba29e9fe729c76966b9bc8907e18)] -> id: login-button] 
+2017-05-12 14:15:37,235 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (de82ba29e9fe729c76966b9bc8907e18)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:15:37,536 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 14:15:38,508 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:15:38,542 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:15:38,965 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:15:38,967 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (de82ba29e9fe729c76966b9bc8907e18)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:15:42,119 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:15:45,118 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:15:45,118 INFO  [Log]  
+2017-05-12 14:15:46,907 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c418dc713bf72dd94ac155d15359bda7)] -> id: login-button] 
+2017-05-12 14:15:57,973 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c418dc713bf72dd94ac155d15359bda7)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 14:15:58,257 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 14:15:58,257 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 14:15:58,290 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 14:34:07,399 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:34:07,400 INFO  [Log]  
+2017-05-12 14:34:09,176 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3633b6bf275994293f31f425370535d9)] -> id: login-button] 
+2017-05-12 14:34:20,866 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3633b6bf275994293f31f425370535d9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:34:21,127 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 14:34:22,114 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:34:22,165 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:34:23,164 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:34:23,166 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (3633b6bf275994293f31f425370535d9)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:34:26,440 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:34:29,476 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:34:29,476 INFO  [Log]  
+2017-05-12 14:34:31,209 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (85467a26ba1769075536c76590e55258)] -> id: login-button] 
+2017-05-12 14:34:42,778 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (85467a26ba1769075536c76590e55258)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:34:43,071 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 14:34:44,053 INFO  [Log] Year to date page is displayed 
+2017-05-12 14:34:44,094 INFO  [Log] Year to date table is displayed 
+2017-05-12 14:34:44,530 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 14:34:44,532 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (85467a26ba1769075536c76590e55258)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 14:34:47,677 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 14:34:50,631 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:34:50,631 INFO  [Log]  
+2017-05-12 14:34:52,388 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27de5aefbc58e6827a06af42668d1a7b)] -> id: login-button] 
+2017-05-12 14:35:04,160 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27de5aefbc58e6827a06af42668d1a7b)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 14:35:04,881 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 14:35:04,882 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 14:35:04,996 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 14:50:01,013 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:50:01,013 INFO  [Log]  
+2017-05-12 14:50:02,881 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2c6afadbf9f0737e4fd8f53eb42c43a8)] -> id: login-button] 
+2017-05-12 14:55:15,934 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:55:15,934 INFO  [Log]  
+2017-05-12 14:55:17,799 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (466e98ba08ebd9ffdddcbd925efa2dc7)] -> id: login-button] 
+2017-05-12 14:55:25,409 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (466e98ba08ebd9ffdddcbd925efa2dc7)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-12 14:55:25,536 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (466e98ba08ebd9ffdddcbd925efa2dc7)] -> link text: Leave] 
+2017-05-12 14:55:27,405 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (466e98ba08ebd9ffdddcbd925efa2dc7)] -> xpath: .//*[@href='leave/new']] 
+2017-05-12 14:56:19,342 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 14:56:19,342 INFO  [Log]  
+2017-05-12 14:56:21,122 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4b81ff395b3d85b4548ee9a8e1b5913)] -> id: login-button] 
+2017-05-12 14:56:32,628 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4b81ff395b3d85b4548ee9a8e1b5913)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 14:56:32,901 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 15:17:03,596 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:17:03,596 INFO  [Log]  
+2017-05-12 15:17:28,980 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:17:28,981 INFO  [Log]  
+2017-05-12 15:17:30,819 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bba32655e2ac83f6b2b5552b0d174ebc)] -> id: login-button] 
+2017-05-12 15:17:40,036 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bba32655e2ac83f6b2b5552b0d174ebc)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-12 15:17:40,163 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bba32655e2ac83f6b2b5552b0d174ebc)] -> link text: Leave] 
+2017-05-12 15:17:42,106 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bba32655e2ac83f6b2b5552b0d174ebc)] -> xpath: .//*[@href='leave/new']] 
+2017-05-12 15:17:59,306 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:17:59,306 INFO  [Log]  
+2017-05-12 15:18:01,094 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dbc1fab586632a9baeba7e920bea88f9)] -> id: login-button] 
+2017-05-12 15:18:12,664 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dbc1fab586632a9baeba7e920bea88f9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:18:12,940 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 15:18:13,906 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:18:13,945 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:18:14,954 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:18:14,956 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (dbc1fab586632a9baeba7e920bea88f9)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:18:18,160 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:18:21,199 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:18:21,199 INFO  [Log]  
+2017-05-12 15:18:22,951 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (95e81c6d76337d12dbe95c9717be272c)] -> id: login-button] 
+2017-05-12 15:18:33,965 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (95e81c6d76337d12dbe95c9717be272c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:18:34,258 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 15:18:35,249 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:18:35,293 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:18:35,711 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:18:35,713 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (95e81c6d76337d12dbe95c9717be272c)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:18:38,881 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:18:41,825 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:18:41,825 INFO  [Log]  
+2017-05-12 15:18:43,608 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (187b30bc171257639739d149dafd6dc3)] -> id: login-button] 
+2017-05-12 15:18:54,488 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (187b30bc171257639739d149dafd6dc3)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 15:18:54,752 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 15:18:54,752 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 15:18:54,782 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 15:21:24,485 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:21:24,485 INFO  [Log]  
+2017-05-12 15:21:26,247 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b36b6585e44797c1ff4c942c324317f4)] -> id: login-button] 
+2017-05-12 15:21:33,745 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b36b6585e44797c1ff4c942c324317f4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-12 15:21:33,870 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b36b6585e44797c1ff4c942c324317f4)] -> link text: Leave] 
+2017-05-12 15:21:35,810 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b36b6585e44797c1ff4c942c324317f4)] -> xpath: .//*[@href='leave/new']] 
+2017-05-12 15:21:52,910 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:21:52,910 INFO  [Log]  
+2017-05-12 15:21:54,676 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (69bd4a7f0e9ef2273f0b6c247d306a92)] -> id: login-button] 
+2017-05-12 15:22:05,634 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (69bd4a7f0e9ef2273f0b6c247d306a92)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:22:05,890 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 15:22:06,843 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:22:06,883 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:22:07,902 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:22:07,904 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (69bd4a7f0e9ef2273f0b6c247d306a92)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:22:11,122 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:22:14,115 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:22:14,115 INFO  [Log]  
+2017-05-12 15:22:15,859 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (25124c8a88cf305a70a1481a7242f391)] -> id: login-button] 
+2017-05-12 15:22:28,172 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (25124c8a88cf305a70a1481a7242f391)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:22:28,461 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 15:22:29,412 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:22:29,447 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:22:29,879 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:22:29,882 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (25124c8a88cf305a70a1481a7242f391)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:22:33,078 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:22:36,049 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:22:36,049 INFO  [Log]  
+2017-05-12 15:22:37,817 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (97ad8f26f3402dfe94e750b679ea2def)] -> id: login-button] 
+2017-05-12 15:22:48,514 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (97ad8f26f3402dfe94e750b679ea2def)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 15:22:48,780 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 15:22:48,780 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 15:22:48,811 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 15:22:51,742 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:22:51,742 INFO  [Log]  
+2017-05-12 15:22:53,480 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: login-button] 
+2017-05-12 15:23:01,161 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 15:23:01,270 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 15:23:02,182 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 15:23:02,577 INFO  [Log] Entering '3' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F010_PRIORITY]' 
+2017-05-12 15:23:02,715 INFO  [Log] Entering the text: '3' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F010_PRIORITY] 
+2017-05-12 15:23:02,790 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F025_NAME]' 
+2017-05-12 15:23:02,916 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F025_NAME] 
+2017-05-12 15:23:03,086 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-12 15:23:03,204 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-12 15:23:03,320 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-12 15:23:03,440 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-12 15:23:03,530 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F105_EMAIL]' 
+2017-05-12 15:23:03,659 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F105_EMAIL] 
+2017-05-12 15:23:03,829 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-12 15:23:03,957 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-12 15:23:08,254 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-12 15:23:08,340 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F040_ADDRESS]' 
+2017-05-12 15:23:08,469 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F040_ADDRESS] 
+2017-05-12 15:23:08,582 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F075_SUBURB]' 
+2017-05-12 15:23:08,713 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F075_SUBURB] 
+2017-05-12 15:23:08,808 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F080_STATE]' 
+2017-05-12 15:23:08,929 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F080_STATE] 
+2017-05-12 15:23:08,995 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F085_POSTCODE]' 
+2017-05-12 15:23:09,123 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F085_POSTCODE] 
+2017-05-12 15:23:13,345 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-12 15:23:13,367 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-12 15:23:13,506 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-12 15:23:17,754 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-12 15:23:17,845 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F070_COMMENTS]' 
+2017-05-12 15:23:17,975 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> id: T006F070_COMMENTS] 
+2017-05-12 15:23:18,137 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2998601ce078b46c0fd4a505c33d1825)] -> name: save] 
+2017-05-12 15:26:46,186 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:26:46,187 INFO  [Log]  
+2017-05-12 15:26:47,970 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2c2a64236363d24d28c6e7ecc23d233)] -> id: login-button] 
+2017-05-12 15:26:55,515 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2c2a64236363d24d28c6e7ecc23d233)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-12 15:26:55,640 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2c2a64236363d24d28c6e7ecc23d233)] -> link text: Leave] 
+2017-05-12 15:26:57,541 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2c2a64236363d24d28c6e7ecc23d233)] -> xpath: .//*[@href='leave/new']] 
+2017-05-12 15:27:14,918 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:27:14,918 INFO  [Log]  
+2017-05-12 15:27:16,692 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27a81e31e2067c0ffe3b144ee0bd494e)] -> id: login-button] 
+2017-05-12 15:27:28,197 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27a81e31e2067c0ffe3b144ee0bd494e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:27:28,458 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-12 15:27:29,395 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:27:29,429 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:27:30,439 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:27:30,441 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (27a81e31e2067c0ffe3b144ee0bd494e)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:27:33,639 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:27:36,563 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:27:36,563 INFO  [Log]  
+2017-05-12 15:27:38,308 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e91ea99a04ddcc08923d276266d444f4)] -> id: login-button] 
+2017-05-12 15:27:49,413 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e91ea99a04ddcc08923d276266d444f4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-12 15:27:49,705 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-12 15:27:50,597 INFO  [Log] Year to date page is displayed 
+2017-05-12 15:27:50,633 INFO  [Log] Year to date table is displayed 
+2017-05-12 15:27:51,057 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-12 15:27:51,060 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (e91ea99a04ddcc08923d276266d444f4)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-12 15:27:54,208 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-12 15:27:57,122 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:27:57,122 INFO  [Log]  
+2017-05-12 15:27:58,841 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8544f4c1fb9f7b406c509d6dd10b27e4)] -> id: login-button] 
+2017-05-12 15:28:10,033 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8544f4c1fb9f7b406c509d6dd10b27e4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-12 15:28:10,309 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-12 15:28:10,309 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-12 15:28:10,341 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-12 15:28:13,281 INFO  [Log] **********************Starting the test*********************** 
+2017-05-12 15:28:13,281 INFO  [Log]  
+2017-05-12 15:28:15,019 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: login-button] 
+2017-05-12 15:28:22,160 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-12 15:28:22,275 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-12 15:28:23,171 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-12 15:28:23,561 INFO  [Log] Entering '3' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F010_PRIORITY]' 
+2017-05-12 15:28:23,681 INFO  [Log] Entering the text: '3' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F010_PRIORITY] 
+2017-05-12 15:28:23,759 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F025_NAME]' 
+2017-05-12 15:28:23,878 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F025_NAME] 
+2017-05-12 15:28:23,997 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F060_HOME_PHONE_NO]' 
+2017-05-12 15:28:24,124 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F060_HOME_PHONE_NO] 
+2017-05-12 15:28:24,228 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F065_WORK_PHONE_NO]' 
+2017-05-12 15:28:24,384 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F065_WORK_PHONE_NO] 
+2017-05-12 15:28:24,480 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F105_EMAIL]' 
+2017-05-12 15:28:24,602 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F105_EMAIL] 
+2017-05-12 15:28:24,774 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-12 15:28:24,896 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-12 15:28:29,200 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-12 15:28:29,295 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F040_ADDRESS]' 
+2017-05-12 15:28:29,432 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F040_ADDRESS] 
+2017-05-12 15:28:29,544 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F075_SUBURB]' 
+2017-05-12 15:28:29,667 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F075_SUBURB] 
+2017-05-12 15:28:29,754 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F080_STATE]' 
+2017-05-12 15:28:29,876 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F080_STATE] 
+2017-05-12 15:28:29,937 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F085_POSTCODE]' 
+2017-05-12 15:28:30,074 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F085_POSTCODE] 
+2017-05-12 15:28:34,291 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-12 15:28:34,314 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-12 15:28:34,454 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-12 15:28:38,708 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-12 15:28:38,810 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F070_COMMENTS]' 
+2017-05-12 15:28:38,940 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> id: T006F070_COMMENTS] 
+2017-05-12 15:28:39,079 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b5387844deb902e258a8f1b4d62df57d)] -> name: save] 

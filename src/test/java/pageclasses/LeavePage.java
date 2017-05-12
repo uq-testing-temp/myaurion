@@ -1,6 +1,7 @@
 package pageclasses;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -10,11 +11,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import stepDefinition.DriverFactory;
+import util.CustomFunctions;
 
 public class LeavePage extends DriverFactory {
 	
 	@FindBy(id="pagehead-control")
     private WebElement applyforleavebttn;
+	
+	
+	@FindBy (xpath = "//*[@id='menu']/span/a[1]")
+	private WebElement dashboardlink;
+	
+	@FindBy(linkText="Leave")
+	private WebElement LeaveLink;
 	
 	@FindBy(id="N901F015_LTYPE_TCODE")
 	private WebElement leavetype;
@@ -46,16 +55,39 @@ public class LeavePage extends DriverFactory {
 	@FindBy(id="save")
 	private WebElement submit;
 	
-	@FindBy(id="application")
+	
+	@FindBy(xpath=".//*[@id='notification']/.//h1[contains(text(),'Save')]")
 	private WebElement successmsg;
+	
+	
+	@FindBy(xpath=".//table[@id='panel-history-list']")
+	private WebElement LeaveHistoryTable;
+	
+	@FindBy(xpath=".//*[@href='leave/new']")
+	private WebElement ApplyForLeaveBtn;
+	
+	
+	
+	@FindBy(id="btnDelete")
+	private WebElement DeleteBtn;
 	
     public LeavePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
     
     public void new_leave_page() throws Throwable {
-        driver.get("http://myaurionupgrdev.hr.uq.edu.au/leave/new");
+        driver.get("http://myaurionupgrdev.hr.uq.edu.au");
     }
+    
+    public void Navigate_to_Leavepgae() throws Throwable {
+        
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		CustomFunctions.CustomClick(this.dashboardlink,5);
+		
+		CustomFunctions.CustomClick(this.LeaveLink,5);
+    }
+    
     
     public void apply_for_leave_button() throws Throwable {
     	applyforleavebttn.click();
@@ -109,6 +141,25 @@ public class LeavePage extends DriverFactory {
     public void success() throws Throwable {
     	boolean successmessage = successmsg.isDisplayed();
     	Assert.assertTrue(successmessage);
+    }
+    
+    public void selectPendingRequest() throws Throwable{
+    	
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,"Pending");
+    	
+    }
+    
+    public void ClickOnDelete() throws Throwable{
+    
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.CustomClick(DeleteBtn, 10);
+    }
+    
+    public void ClickApplyForLeaveButton() throws Throwable{
+    
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.CustomClick(this.ApplyForLeaveBtn, 10);
     }
     
 }

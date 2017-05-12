@@ -32,7 +32,7 @@ Examples:
 |6		  | Hello| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-@now
+@rightnow
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -63,7 +63,7 @@ Examples:
 
 
 
-@rightnow
+@now
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -89,3 +89,57 @@ Examples:
 
 |Priority | Name | HomePhone | Mobile | Email | Relationship | Street| PostCode | Comments |nextofkin|
 |6		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
+
+
+
+Scenario Outline: Fixed Term Continuing staff - View and update personal details
+
+Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
+When I navigate to Personal page
+        And I select to update personal details
+        And I Add PreferredName"<PreferredName>"
+        And I Add workPhone"<WorkPhone>"
+        And I Add Fax"<Fax>"
+        And I add homephone"<HomePhone>"
+        And I add mobile"<Mobile>"
+        And I add email"<Email>"
+		And I add street"<Street>"
+		And I select postcode"<PostCode>"
+		And I select PostAddress Same as Street address
+		And I add postnominals"<postnominals>"
+		And I click Save button
+Then I should see the record successfully updated and saved message displayed"<PreferredName>""<WorkPhone>""<Fax>""<HomePhone>""<Mobile>""<Email>""<PostCode>"
+
+Examples:
+
+|PreferredName | WorkPhone | HomePhone | Mobile | Email | Fax | Street| PostCode | postnominals |
+|Nina		  | 464646| 0797979   | 04123456789 | Hello@mailinator.com |4646464  | My New Street|4074| XYZ |
+
+
+
+
+Scenario Outline: Fixed Term Continuing staff - View and update staff diversity details
+
+Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
+When I navigate to Personal page
+        And I select to update Diversity details
+        And I select BirthPlace"<BirthPlace>"
+        And I select FirstLanguage"<FirstLanguage>"
+        And I select ATSI Status"<ATSI Status>"
+        And I select Nationality"<Nationality>"
+        And I select Dual Nationality"<Dual Nationality>"
+        And I click Save button
+Then I should see the record successfully updated and saved message displayed
+
+Examples:
+
+|BirthPlace | FirstLanguage | ATSI Status | Nationality | Dual Nationality |
+|USA		  | French |Neither Abor nor Torr Str   | German | 			 |
+
+

@@ -11,9 +11,9 @@ Background:
       And I click Login button
 
       
- Scenario Outline: Request for a new course
+ Scenario Outline: Fixed Term Continuing staff - Search and apply for training course
  When I am on the Training courses page
- 	And I select Payroll action "Requested Courses"
+ 	And I select Training action "Requested Courses"
  	And I click on Add button
  	And I select the From date "<Fromdate>"
  	And I select the To date "<Todate>"
@@ -36,9 +36,75 @@ Background:
   
   
   
+  
+  	Scenario: Supervisor of fixed term continuing staff - Decline Training Request
+ Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+ When I am on the My Tasks page
+ 	And I select Training action "Training Applications"
+ 	And I select the latest unapproved application 
+ 	And I click on Decline button
+ 	And I enter message text
+ 	And I click on Decline button
+Then I should see the success message is displayed
+ 
+
+
+  	Scenario: Supervisor of fixed term continuing staff - Approve Training Request
+ Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+ When I am on the My Tasks page
+ 	And I select Training action "Training Applications"
+ 	And I select the latest unapproved application 
+ 	And I click on Approve button
+ 	And I enter message text
+ 	And I click on Approve button
+Then I should see the success message is displayed
+
+
+
+  	Scenario:  Supervisor of fixed term continuing staff - Return Training Request
+ Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+ When I am on the My Tasks page
+ 	And I select Training action "Training Applications"
+ 	And I select the latest unapproved application 
+ 	And I click on Return button
+ 	And I enter message text
+ 	And I click on Return button
+Then I should see the success message is displayed
+ 
+
+ 	
+ 	
+ 	  Scenario Outline: Fixed Term Continuing staff - Actioning Returned Training Request 
+ Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+When I am on the My Tasks page
+ 	And I select Training action "Training Applications"
+ 	And I select the latest unapproved application 
+ 	And I click on Forward button
+ 	And I enter message text
+ 	And I click on Forward button
+Then I should see the success message is displayed
+  
+  Examples:
+  | CourseName |
+ 	
+  
+  
+  
   Scenario Outline: View unapproved requested courses 
  When I am on the Training courses page
- 	And I select Payroll action "Requested Courses"
+ 	And I select Training action "Requested Courses"
  	And I select the unapproved course "<CourseName>"
  Then I should see the course details
  
@@ -76,3 +142,4 @@ Background:
   | CourseName |
  	
  	
+ 

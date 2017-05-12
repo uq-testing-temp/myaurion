@@ -28,6 +28,15 @@ public class PayrollSteps extends DriverFactory {
 	}
 	
 	
+	@When("^I select \"(.*)\" year summary$")
+	public void I_select_specific_Year_summary(String current_previous) throws Throwable{
+		
+		new PayrollPage(driver).SelectYTDPaysummary(current_previous);
+			
+		
+	}
+	
+	
 	
 	@Then("^I should see my pay summary details\"(.*)\"and\"(.*)\"$")
 	public void I_should_see_PayDetails(String GrossPay, String Netpay) throws Throwable{
@@ -38,6 +47,7 @@ public class PayrollSteps extends DriverFactory {
 	}
 	
 	
+	
 	@Then("^I should see No access error message displayed$")
 	public void I_should_see_No_access_error() throws Throwable{
 		
@@ -45,5 +55,23 @@ public class PayrollSteps extends DriverFactory {
 			
 		
 	}
+	
+	
+	@Then("^I should see my year to date summary details$")
+	public void I_should_see_YTD_Details() throws Throwable{
+		
+		new PayrollPage(driver).checkYTDDetails();
+			
+		
+	}
+	
+	@Then("^I should see summary pdf download link for date\"(.*)\"$")
+	public void I_should_see_summary_pdf_download_link(String date) throws Throwable{
+		
+		new PayrollPage(driver).VerifyATOSummary_link(date);
+			
+		
+	}
+
 
 }

@@ -6,11 +6,11 @@ So that I can update my payroll details
 
 
 
-Background:
-    Given I am on myAurion login page
-   	  And I enter username as "uqmsanda"
-      And I enter password as "password123"
-      And I click Login button
+#Background:
+ #   Given I am on myAurion login page
+  # 	  And I enter username as "uqmsanda"
+   #   And I enter password as "password123"
+    #  And I click Login button
 
  
  
@@ -108,8 +108,8 @@ Given I am on myAurion login page
  Then I should see my current pay summaries
  
  
- @rightnow
-   Scenario Outline: View PaySummaries details
+ @now
+   Scenario Outline: Fixed Term Continuing staff - View pay details and pay advices
 Given I am on myAurion login page
    	    And I enter username as "uqdbende"
         And I enter password as "password123"
@@ -124,8 +124,12 @@ Given I am on myAurion login page
   |25/05/2016|3,257.49 |2,449.49 |
   
  
- 
-    Scenario Outline: View year to date summary
+ @rightnow
+    Scenario Outline: Fixed Term Continuing staff - View year to date for current or previous financial year
+ Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "Year to Date"
  	And I select "<current_previous>" year summary 
@@ -150,13 +154,36 @@ Given I am on myAurion login page
   |Calculation date|
   |02 May 2015|
   
-  
-   Scenario: View ATO Payment Summaries
- When I am on the payroll page
+ @now 
+  Scenario Outline: Fixed Term Continuing staff - Access ATO Payment Summary
+Given I am on myAurion login page
+   	    And I enter username as "uqdbende"
+        And I enter password as "password123"
+        And I click Login button
+ When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"
- 	And I select the summary for date "30/06/2016"
- Then I should see download prompt
+ Then I should see summary pdf download link for date"<Date>"
  
+ 
+  Examples:
+  |Date|
+  |30/06/2015|
+  
+  
+   @rightnow 
+  Scenario Outline: Casual staff - Access ATO Payment Summary
+Given I am on myAurion login page
+   	    And I enter username as "uqckel10"
+        And I enter password as "password123"
+        And I click Login button
+ When I am on Payroll page
+ 	And I select Payroll action "ATO Payment Summaries"
+ Then I should see summary pdf download link for date"<Date>"
+ 
+ 
+  Examples:
+  |Date|
+  |30/06/2016|
  
  
  
