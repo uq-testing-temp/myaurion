@@ -26,19 +26,25 @@ public class LeaveSteps extends DriverFactory {
 		new LeavePage(driver).select_duration(dur);
 	}
 	
-	@When("^I select the start date$")
-	public void i_select_the_start_date() throws Throwable {
-		new LeavePage(driver).select_startdate();
+	@When("^I select the start date\"([^\"]*)\"$")
+	public void i_select_the_start_date(String date) throws Throwable {
+		new LeavePage(driver).select_startdate(date);
 	}
 	
-	@When("^I select the end date$")
-	public void i_select_the_end_date() throws Throwable {
-		new LeavePage(driver).select_enddate();
+	@When("^I select the end date\"([^\"]*)\"$")
+	public void i_select_the_end_date(String date) throws Throwable {
+		new LeavePage(driver).select_enddate(date);
 	}
 	
 	@When("^I enter the message as \"([^\"]*)\"$")
 	public void i_enter_the_message_as(String msg) throws Throwable {
 		new LeavePage(driver).enter_message(msg);
+	}
+	
+	
+	@When("^I enter the reference message as \"([^\"]*)\"$")
+	public void i_enter_approve_message_as(String msg) throws Throwable {
+		new LeavePage(driver).enter_Leave_Approve_message(msg);
 	}
 	
 	@When("^I click submit button$")
@@ -58,6 +64,29 @@ public class LeaveSteps extends DriverFactory {
 	}
 	
 	
+	@When("^I click on Approve button$")
+	public void i_click_Approve_button() throws Throwable {
+		new LeavePage(driver).ClickOnApprove();
+	}
+	
+	
+	@When("^I click on Decline button$")
+	public void i_click_Decline_button() throws Throwable {
+		new LeavePage(driver).ClickOnDecline();
+	}
+	
+	@When("^I click on Return button$")
+	public void i_click_Return_button() throws Throwable {
+		new LeavePage(driver).ClickOnReturn();
+	}
+	
+	
+	
+	
+	@When("^I click on Forward button$")
+	public void i_click_Forward_button() throws Throwable {
+		new LeavePage(driver).ClickOnForward();
+	}
 	
 	@When("^I click on Apply for Leave button$")
 	public void i_click_apply_leave_button() throws Throwable {
@@ -70,9 +99,40 @@ public class LeaveSteps extends DriverFactory {
 	}
 	
 	
+	
+	@When("^I select my pending leave request from date\"(.*)\"to date\"(.*)\"$")
+	public void i_select_pending_request_withdates(String start, String end) throws Throwable {
+		new LeavePage(driver).selectPendingRequestBydate(start,end);
+	}
+	
+	
+	
+	@When("^I action the leave request \"(.*)\"$")
+	public void i_action_pending_requests(String action) throws Throwable {
+		new LeavePage(driver).ActionLeaveRequest(action);
+	}
+	
+	
+	@When("^I select my Approved leave request dated\"(.*)\"$")
+	public void i_select_approved_requests(String date) throws Throwable {
+		new LeavePage(driver).selectApprovedRequestBydate(date);
+	}
+	
+	
 	@Then("^I should see the success message is displayed$")
 	public void I_should_see_the_success_message_is_displayed() throws Throwable {
 		new LeavePage(driver).success();
 	}
 	
+	
+	@Then("^I should see Delete success message displayed$")
+	public void I_should_Delete_the_success_message_is_displayed() throws Throwable {
+		new LeavePage(driver).Deletesuccess();
+	}
+	
+	
+	@Then("^I should see workflow action successful message displayed$")
+	public void I_should_WorkFlowAction_success_message_is_displayed() throws Throwable {
+		new LeavePage(driver).WorkFlowActionsuccess();
+	}
 }

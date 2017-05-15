@@ -10,7 +10,7 @@ Feature: Leave
      # And I enter password as "password123"
       # And I click Login button
   @now
-  Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
+  Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
       And I enter password as "password123"
@@ -19,13 +19,20 @@ Feature: Leave
   	And I click on Apply for Leave button
   		And I select the leave type as "Annual/Recreation (Recreation)"
   		And I select the duration as "Single Full Day"
-  		And I select the start date
+  		And I select the start date"<StartDate>"
   		And I enter the message as "this is a automation test for single day leave"
   		And I click submit button
   	Then I should see the success message is displayed
+  	
+  	Examples:
+  	|StartDate|
+  	|19/05/2017|
+  	|22/05/2017|
+  	|16/05/2017|
+  	
 
-@rightnow
-   Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave
+@now
+   Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave
   	 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
       And I enter password as "password123"
@@ -34,11 +41,16 @@ Feature: Leave
   	And I click on Apply for Leave button
   		And I select the leave type as "Annual/Recreation (Recreation)"
   		And I select the duration as "Multiple Full Days"
-  		And I select the start date
-  		And I select the end date
+  		And I select the start date"<StartDate>"
+  		And I select the end date"<EndDate>"
   		And I enter the message as "this is a automation test for Multiple days leave"
   		And I click submit button
   	Then I should see the success message is displayed
+  	
+  	
+  	Examples:
+  	|StartDate| EndDate|
+  	|23/05/2017|24/05/2017|
   	
   
   Scenario: View my current leave balances
@@ -67,7 +79,7 @@ Feature: Leave
   	
 
 
-      
+   @now   
   	Scenario:  Fixed Term Continuing staff - Delete Pending Leave Request
   	Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -78,7 +90,165 @@ Feature: Leave
   	And I click on Delete button
   	Then I should see Delete success message displayed
   	
+  	
+  	@now
+  	 	 Scenario Outline:  Supervisor of fixed term continuing staff - Approve Leave Request
+  Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+  When I am on MyTasks page
+  		And I select My tasks action "Leave Applications"
+ 		And I click on "Latest"button for "Leave Applications"
+ 		And I select the leave application for dated "<LeaveStartdate>"
+ 		And I action the leave request "<Action>"
+ 		And I enter the reference message as "this is a automation test for Leave Approval"
+ 		And I click on Approve button
+   	Then I should see workflow action successful message displayed
+   	
+   		Examples:
+  |LeaveStartdate|Action|
+  |19/05/2017|Approve|
+  	|16/05/2017|Approve|
+  	
+  	
+  	
+  	@manoj
+Scenario Outline: Fixed Term Continuing staff - Reverse Approved Leave Request End to End
+Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
+When I am on leave page
+  	And I select my Approved leave request dated"<LeaveStartdate>"
+  		And I action the leave request "<Action>"
+ 		And I enter the message as "this is a automation test for Forwarding leave request"
+ 		And I click submit button
+Then I should see workflow action successful message displayed
+   	
+   		Examples:
+  |LeaveStartdate|Action|
+  |25/07/2017|Reverse|
+  	
+   	
+   	
+   	
+   	  	@now
+ 	 Scenario Outline:   Supervisor of fixed term continuing staff - Decline Leave Request
+  Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+  When I am on MyTasks page
+  		And I select My tasks action "Leave Applications"
+ 		And I click on "Latest"button for "Leave Applications"
+ 		And I select the leave application for dated "<LeaveStartdate>"
+ 		And I action the leave request "<Action>"
+ 		And I enter the reference message as "this is a automation test for Leave Decline"
+ 		And I click on Decline button
+   	Then I should see workflow action successful message displayed
+   	
+   		Examples:
+  |LeaveStartdate|Action|
+  |22/05/2017|Decline|
   
+  
+   	
+  	@now
+Scenario Outline:  Supervisor of fixed term continuing staff - Return Leave Request
+Given I am on myAurion login page
+   	  And I enter username as "uqmblows"
+      And I enter password as "password123"
+      And I click Login button
+When I am on MyTasks page
+  		And I select My tasks action "Leave Applications"
+ 		And I click on "Latest"button for "Leave Applications"
+ 		And I select the leave application for dated "<LeaveStartdate>"
+ 		And I action the leave request "<Action>"
+ 		And I enter the reference message as "this is a automation test for Leave Return"
+ 		And I click on Return button
+Then I should see workflow action successful message displayed
+   	
+   		Examples:
+  |LeaveStartdate|Action|
+  |23/07/2017|Return|
+   	
+   	
+   	
+@rightnow
+Scenario Outline: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)
+Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
+When I am on MyTasks page
+  		And I select My tasks action "Leave Applications"
+ 		And I click on "Latest"button for "Leave Applications"
+ 		And I select the leave application for dated "<LeaveStartdate>"
+ 		And I action the leave request "<Action>"
+ 		And I enter the reference message as "this is a automation test for Forwarding leave request"
+ 		And I click on Forward button
+Then I should see workflow action successful message displayed
+   	
+   		Examples:
+  |LeaveStartdate|Action|
+  |23/07/2017|Forward|
+   	
+  
+  
+@rightnow
+Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)
+  Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
+  	When I am on leave page
+  	And I select my pending leave request
+  	And I click on Delete button
+  	Then I should see Delete success message displayed
+   	
+   	
+   	@Archieved
+   	Scenario Outline:  Fixed Term Continuing staff - Delete Pending Leave Request
+  	Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
+  	When I am on leave page
+  	And I select my pending leave request from date"<StartDate>"to date"<EndDate>"
+  	And I click on Delete button
+  	Then I should see Delete success message displayed
+  	
+  	Examples:
+  	|StartDate| EndDate|
+  	|11/07/2017|11/07/2017|
+  	
+
+  	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	 
+   	
+  	
+
   	
   	
   	

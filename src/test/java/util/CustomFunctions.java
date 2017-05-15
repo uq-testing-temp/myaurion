@@ -1,10 +1,14 @@
 package util;
 
+import java.io.File;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -14,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import junit.framework.Assert;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.xml.DOMConfigurator;
 import util.*;
 
@@ -189,6 +194,113 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 	
 	
 	
+	//This method is to traverse through the table 
+	
+		public static void Table_SelectCellbyTextXYZ( WebElement Table, String strval) throws Throwable{
+			
+			Boolean found=false;
+		
+			CustomFunctions.WaitForObjectEnabledExplicit(Table, 10);
+			
+			//List<WebElement> row= Table.findElements(By.xpath(".//tr"));
+			
+			for (WebElement row:Table.findElements(By.xpath(".//tr"))){
+				
+				for (WebElement col:Table.findElements(By.xpath(".//td"))){
+					
+					
+					if(col.getText().equals(strval)){
+						
+						
+						DebugLog.LogInfo.info("Found the cell with text and selecting it '"+strval+"'");
+						//CustomFunctions.CustomClick(col, 3);
+						found=true;
+						//break;
+						
+							if(row.findElement(By.xpath(".//td[@data-th='Date From']")).getText().equalsIgnoreCase("11/07/2017")){
+								
+							}
+						
+						
+						
+						
+					}
+					
+				}
+				if(found=true){		break;}
+				
+			}
+			
+			if(found=false){DebugLog.LogInfo.info("Couldn't find the item "+strval);}
+			
+			
+			
+			
+			
+			
+		}
+	
+	
+	
+	
+	
+	public static void selectPendingLeaveRequestBydate(WebElement Table, String startdate, String Enddate) throws Throwable{
+		
+		//String strval="Pending";
+		Boolean found=false;
+		
+		CustomFunctions.WaitForObjectEnabledExplicit(Table, 10);
+		
+		//List<WebElement> row= Table.findElements(By.xpath(".//tr"));
+		
+		for (WebElement row:Table.findElements(By.xpath(".//tr"))){
+			
+			for (WebElement col:Table.findElements(By.xpath(".//td"))){
+				
+				
+				if(col.getText().equals("Pending")){
+					
+					
+					//for(WebElement fromcell: row.findElements(By.xpath(".//td[@data-th='Date From']"))){
+					String startdatecell=row.findElement(By.xpath(".//td[@data-th='Date From']")).getText();
+					System.out.println(startdatecell);
+						 if (startdatecell.equals(startdate)){
+							 
+							 //for(WebElement tocell: row.findElements(By.xpath(".//td[@data-th='Date To']"))){
+							
+								 if (row.findElement(By.xpath("/.//td[@data-th='Date To']")).getText().equals(Enddate)){
+									 
+									 
+									 DebugLog.LogInfo.info("Found the pending leave request for date from '"+startdate+"' to '"+Enddate+"'");
+										CustomFunctions.CustomClick(col, 3);
+										found=true;
+										break;
+									 
+								 			}
+								// }
+						 }
+					//}
+					
+					
+					
+				}
+				
+			}
+			if(found=true){		break;}
+			
+		}
+		
+		if(found=false){DebugLog.LogInfo.info("Couldn't find the item "+"Pending");}
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
 	
 	public static void SelectFromList(WebElement List, String entrytoselect) throws Throwable{
 		
@@ -325,13 +437,28 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	}
 	
 	
+	public static void PrintScreenShot() throws Throwable{
+		
+		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File("C:\\SeleniumScreenshots\testFile.jpg"));
+	
+	}
+	
+	
 	
 	
 	@SuppressWarnings("deprecation")
-	public static void CustomAssertTrue(String message, boolean condition){
+	public static void CustomAssertTrue(String message, boolean condition) throws Throwable{
 		
 		DebugLog.LogInfo.info(message);
+		try{
 		Assert.assertTrue(condition);
+		//PrintScreenShot();
+		}
+		catch(NoSuchElementException e){
+			DebugLog.LogInfo.warn("The Assert failed. Element not found");
+			//PrintScreenShot();
+		}
 		
 	}
 

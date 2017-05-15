@@ -12,9 +12,8 @@ public class DebugLog {
 	
 	public static void StartTest(String TestName){
 		
-		LogInfo.info("**********************Starting the test***********************");
-		LogInfo.info(TestName);
-		
+		LogInfo.info("**********************Starting the test scenario***********************");
+		LogInfo.info("******************************* Scenario: "+TestName+"*************************************");
 	}
 	
 	
@@ -22,7 +21,8 @@ public class DebugLog {
 public static void EndTest(String TestName){
 		
 		LogInfo.info("**********************End of the test***********************");
-		LogInfo.info(TestName);
+		LogInfo.info("******************************* Scenario: "+TestName+"*************************************");
+		
 		
 	}
 

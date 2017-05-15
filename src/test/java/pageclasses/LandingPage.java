@@ -33,7 +33,7 @@ public class LandingPage extends DriverFactory{
 
     public void login_page() throws Throwable {
     
-    	DebugLog.StartTest("");
+    	//DebugLog.StartTest("");
         driver.get("https://myaurionupgrdev.hr.uq.edu.au/");
         driver.manage().window().maximize();
         

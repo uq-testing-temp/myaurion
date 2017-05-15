@@ -6,6 +6,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+
+import util.DebugLog;
 import util.PropertyReader;
 
 public class DriverFactory {
@@ -44,6 +46,7 @@ public class DriverFactory {
     }
 
     public void destroyDriver() {
+    	//DebugLog.LogInfo.info("End of this test");
         driver.quit();
         driver = null;
     }

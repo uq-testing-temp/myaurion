@@ -9,18 +9,25 @@ import cucumber.api.java.Before;
 
 import pageclasses.DashboardPage;
 import pageclasses.LandingPage;
+import util.DebugLog;
 
 public class LoginSteps extends DriverFactory {
 
+	
+	
     @Before
     public void beforeScenario(Scenario scenario) {
         driver = new DriverFactory().getDriver();
+        
        String scenarioname=scenario.getName();
+       DebugLog.StartTest(scenarioname);
         
     }
 
     @After
-    public void afterScenario() {
+    public void afterScenario(Scenario scenario) {
+    	 String scenarioname=scenario.getName();
+    	DebugLog.EndTest(scenarioname);
         new DriverFactory().destroyDriver();
     }
 

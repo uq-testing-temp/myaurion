@@ -38,7 +38,7 @@ Feature: Leave
    	
    	
    	
-   	 Scenario: Approve leaves  "<------Need login for this, yet to work on these------>"
+   	 Scenario: Approve leaves  
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
  		And I click on "Latest" button 

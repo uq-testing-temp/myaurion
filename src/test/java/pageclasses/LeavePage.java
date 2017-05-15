@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,10 +33,10 @@ public class LeavePage extends DriverFactory {
 	@FindBy(id="N901F020_DAYS")
 	private WebElement duration;
 	
-	@FindBy(id="N901F025_DATE_FROM-ct")
+	@FindBy(xpath=".//*[@id='N901F025_DATE_FROM-ct']/div[2]/input")
 	private WebElement startdate;
 	
-	@FindBy(id="N901F030_DATE_TO-ct")
+	@FindBy(xpath=".//*[@id='N901F030_DATE_TO-ct']/div[2]/input")
 	private WebElement enddate;
 	
 	@FindBy(css="span.flatpickr-next-month > svg")
@@ -52,12 +54,26 @@ public class LeavePage extends DriverFactory {
 	@FindBy(id="N900F050_MESSAGE_TEXT")
 	private WebElement message;
 	
+	@FindBy(id="N902F035_REPLY_MESSAGE")
+	private WebElement LeaveApprovemessage;
+	
+	
 	@FindBy(id="save")
 	private WebElement submit;
 	
 	
-	@FindBy(xpath=".//*[@id='notification']/.//h1[contains(text(),'Save')]")
+	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Leave request has been sent.')]")
 	private WebElement successmsg;
+	
+	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Delete Successful')]")
+	private WebElement DeletSuccess;
+	
+	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Workflow action successful.')]")
+	private WebElement WorkFlowActionSuccessMsg;
+	
+	@FindBy(id="notification-close")
+	private WebElement CloseNotificationBtn;
+	
 	
 	
 	@FindBy(xpath=".//table[@id='panel-history-list']")
@@ -67,9 +83,39 @@ public class LeavePage extends DriverFactory {
 	private WebElement ApplyForLeaveBtn;
 	
 	
+	@FindBy(xpath=".//button[contains(text(),'Approve')]")
+	private WebElement ApproveLeaveBtn;
+	
+	@FindBy(xpath=".//button[contains(text(),'Decline')]")
+	private WebElement DeclineLeaveBtn;
+	
+	@FindBy(xpath=".//button[contains(text(),'Return')]")
+	private WebElement ReturnLeaveBtn;
+	
+	@FindBy(xpath=".//button[contains(text(),'Forward')]")
+	private WebElement ForwardLeaveBtn;
+	
+	@FindBy(xpath=".//button[contains(text(),'Reverse')]")
+	private WebElement ReverseLeaveBtn;
+	
 	
 	@FindBy(id="btnDelete")
 	private WebElement DeleteBtn;
+	
+	
+	@FindBy(name="approve")
+	private WebElement ApproveBtn;
+	
+	@FindBy(name="return")
+	private WebElement ReturnBtn;
+	
+	@FindBy(name="decline")
+	private WebElement DeclineBtn;
+	
+	@FindBy(name="forward")
+	private WebElement ForwardBtn;
+	
+	
 	
     public LeavePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -114,17 +160,29 @@ public class LeavePage extends DriverFactory {
         }
     }
     
-    public void select_startdate() throws Throwable {
+    public void select_startdate(String date) throws Throwable {
     	
     	Thread.sleep(2000);
-    	startdate.click();
-    	sdate.click();
+    	startdate.sendKeys(date);
+    	startdate.sendKeys(Keys.TAB);
+    	//JavascriptExecutor js= (JavascriptExecutor) driver;
+    	//js.executeScript(, arg1)
+    	//js.executeScript("document.getElementById('N901F025_DATE_FROM-ct').setAttribute('Text','"+date+"')");
+    	//CustomFunctions.Clear_And_SetValueinTextBox(this.startdate, date);
+    	//sdate.click();
     }
     
-    public void select_enddate() throws Throwable {
+    public void select_enddate(String date) throws Throwable {
     	Thread.sleep(2000);
-    	enddate.click();
-    	edate.click();
+    	enddate.sendKeys(date);
+    	enddate.sendKeys(Keys.TAB);
+    	
+    	//JavascriptExecutor js= (JavascriptExecutor) driver;
+    	//js.executeScript("document.getElementById('N901F030_DATE_TO-ct').setAttribute('Text','"+date+"')");
+    	
+    	//js.executeScript("startdate.setAttribute('Text','"+date+"')");
+    	//edate.click();
+    	//CustomFunctions.Clear_And_SetValueinTextBox(this.enddate, date);
     	
     }
     
@@ -133,33 +191,134 @@ public class LeavePage extends DriverFactory {
     	message.sendKeys(msg);
     }
     
+    public void enter_Leave_Approve_message(String msg) throws Throwable {
+    	CustomFunctions.Clear_And_SetValueinTextBox(LeaveApprovemessage, msg);
+    }
+    
+    
+    
     public void submit() throws Throwable {
     	Thread.sleep(2000);
     	submit.click();
     }
     
     public void success() throws Throwable {
+    	
     	boolean successmessage = successmsg.isDisplayed();
-    	Assert.assertTrue(successmessage);
+    	//Assert.assertTrue(successmessage);
+    	CustomFunctions.CustomAssertTrue("Success message Displayed", successmessage);
+    	
     }
+    
+    
+    
+    
+ public void Deletesuccess() throws Throwable {
+    	
+    	boolean successmessage = this.DeletSuccess.isDisplayed();
+    	//Assert.assertTrue(successmessage);
+    	CustomFunctions.CustomAssertTrue("Delete Success message Displayed", successmessage);
+    	
+    }
+ 
+ 
+ public void WorkFlowActionsuccess() throws Throwable {
+ 	
+ 	boolean successmessage = this.WorkFlowActionSuccessMsg.isDisplayed();
+ 	//Assert.assertTrue(successmessage);
+ 	CustomFunctions.CustomAssertTrue("WorkFlow Action Success message Displayed", successmessage);
+ 	
+ }
     
     public void selectPendingRequest() throws Throwable{
     	
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,"Pending");
-    	
+    	    	
     }
     
+    
+    
+    
+ public void selectPendingRequestBydate(String start, String End) throws Throwable{
+    	
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.selectPendingLeaveRequestBydate(LeaveHistoryTable, start, End);
+    	//CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,"Pending");
+    	    	
+    }
+    
+ 
+ public void selectApprovedRequestBydate(String startdate) throws Throwable{
+ 	
+ 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+ 	//CustomFunctions.selectPendingLeaveRequestBydate(LeaveHistoryTable, startdate);
+ 	CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,startdate);
+ 	    	
+ }
+ 
     public void ClickOnDelete() throws Throwable{
     
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	CustomFunctions.CustomClick(DeleteBtn, 10);
     }
     
+    
+    public void ClickOnApprove() throws Throwable{
+        
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.CustomClick(this.ApproveLeaveBtn, 10);
+    }
+    
+public void ClickOnDecline() throws Throwable{
+        
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.CustomClick(this.DeclineLeaveBtn, 10);
+    }
+
+public void ClickOnReturn() throws Throwable{
+    
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	CustomFunctions.CustomClick(this.ReturnLeaveBtn, 10);
+}
+    
+public void ClickOnForward() throws Throwable{
+    
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	CustomFunctions.CustomClick(this.ForwardLeaveBtn, 10);
+}
     public void ClickApplyForLeaveButton() throws Throwable{
     
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	CustomFunctions.CustomClick(this.ApplyForLeaveBtn, 10);
+    }
+    
+    
+    public void ActionLeaveRequest(String Action) throws Throwable{
+    	
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	if(Action.equalsIgnoreCase("approve")){
+    	
+    		CustomFunctions.CustomClick(this.ApproveBtn, 10);
+    		
+    	}
+    	if(Action.equalsIgnoreCase("decline")){
+        	
+    		CustomFunctions.CustomClick(this.DeclineBtn, 10);
+    		
+    	}
+    	if(Action.equalsIgnoreCase("return")){
+        	
+    		CustomFunctions.CustomClick(this.ReturnBtn, 10);
+    		
+    	}
+    	
+    	if(Action.equalsIgnoreCase("reverse")){
+        	
+    		CustomFunctions.CustomClick(this.ReverseLeaveBtn, 10);
+    		
+    	}
+    	
     }
     
 }
