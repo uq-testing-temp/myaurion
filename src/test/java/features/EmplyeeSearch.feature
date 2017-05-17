@@ -16,7 +16,7 @@ So that I can search for and change employee to view my subordinates details
  
  
  Given I am on myAurion login page
-   	    And I enter username as "uqmsanda"
+   	    And I enter username as "uqmblows"
         And I enter password as "password123"
         And I click Login button
  		And I click on change Employee icon
@@ -25,7 +25,7 @@ Then I should see the matching search result"<EmployeeToSelect>"
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |heidi ellis      |ELLIS, Heidi|
+ |BENDER-CHAMP, Dorothea    |BENDER-CHAMP, Dorothea|
  
  
  
@@ -37,7 +37,7 @@ Examples:
  
  
  Given I am on myAurion login page
-   	    And I enter username as "uqmsanda"
+   	    And I enter username as "uqmblows"
         And I enter password as "password123"
         And I click Login button
  		And I click on change Employee icon
@@ -47,7 +47,7 @@ Then I should see the details of the selected user"<EmployeeToSelect>"
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |heidi ellis      |ELLIS, Heidi|
+ |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
  
  
@@ -56,7 +56,7 @@ Examples:
  
  
  Given I am on myAurion login page
-   	    And I enter username as "uqmsanda"
+   	    And I enter username as "uqmblows"
         And I enter password as "password123"
         And I click Login button
  		And I click on change Employee icon
@@ -67,7 +67,26 @@ Then I should see No access error message displayed
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |heidi ellis      |ELLIS, Heidi|
+ |BENDER-CHAMP, Dorothea     |BENDER-CHAMP, Dorothea|
+ 
+ 
+   @manoj    
+ Scenario Outline: Supervisor - Try to view subordinate's Personal details
+ 
+ 
+ Given I am on myAurion login page
+   	    And I enter username as "uqmblows"
+        And I enter password as "password123"
+        And I click Login button
+ 		And I click on change Employee icon
+ 		And I enter the employee search phrase"<EmployeeSearchPhrase>"
+ 		And I select the employee from search results"<EmployeeToSelect>"
+ 		And I navigate to Personal page
+Then I should see No access error message displayed
+
+Examples:
+ | EmployeeSearchPhrase | EmployeeToSelect|
+ |BENDER-CHAMP, Dorothea   |BENDER-CHAMP, Dorothea|
  
  
  
@@ -87,7 +106,7 @@ Examples:
  Scenario: Search for employees- No results found
  
 Given I am on myAurion login page
-   	    And I enter username as "uqmsanda"
+   	    And I enter username as "uqmblows"
         And I enter password as "password123"
         And I click Login button
  		And I click on change Employee icon
@@ -107,8 +126,8 @@ Then I should see the No results found message
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |heidi e               | heidi ellis     |
-  |2004378             | AMY, Wendy J    |
+ |BENDER-CHAMP, Dorothea               | BENDER-CHAMP, Dorothea   |
+  |2037164            | ASGARI, Sassan    |
   
  
  Scenario Outline: Act on behalf of employee and navigate to Payroll
@@ -199,18 +218,18 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-
+@manoj
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
  Given I am on myAurion login page
-   	    And I enter username as "uqmblows"
+   	    And I enter username as "uqsdove "
         And I enter password as "password123"
         And I click Login button
  		And I click on change Employee icon
  		And I enter the employee search phrase"<EmployeeSearchPhrase>"
  		And I select the employee from search results"<EmployeeToSelect>"
- 		And  I am on a leave page
- 		And I enter a future date "<futuredate>"
+ 		And  I am on leave page
+ 		And I enter a future date"<futuredate>"
  		And I click on the Predict button
  	Then I should see my predicted leave balances displayed
 

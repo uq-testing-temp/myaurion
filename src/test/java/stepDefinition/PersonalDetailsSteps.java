@@ -25,6 +25,14 @@ public class PersonalDetailsSteps extends DriverFactory {
 		new PersonalDetailsPage(driver).AddNewContact();
 	}
 	
+	
+	
+	@Given("^I select to update personal details$")
+	public void Click_update_personal() throws Throwable{
+		
+		new PersonalDetailsPage(driver).UpdatePrsnlDetails();
+	}
+	
 	@Given("^I Add priority\"(.*)\"$")
 	public void Enter_priority(String priority) throws Throwable{
 		
@@ -40,10 +48,35 @@ public class PersonalDetailsSteps extends DriverFactory {
 		
 	}
 	
+
+	
+	@Given("^I Add PreferredName\"(.*)\"$")
+	public void Enter_Preferred_name(String prefname) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Enter_Preferred_Name(prefname);
+	
+		
+	}
+	
 	@Given("^I add homephone\"(.*)\"$")
 	public void Enter_homephone(String homephone) throws Throwable{
 		
 		new PersonalDetailsPage(driver).Enter_HomePhone(homephone);
+		
+	}
+	
+	
+	@Given("^I Add workPhone\"(.*)\"$")
+	public void Enter_Workphone(String workphone) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Enter_WorkPhone(workphone);
+		
+	}
+	
+	@Given("^I Add Fax\"(.*)\"$")
+	public void Enter_Fax(String fax) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Enter_fax(fax);
 		
 	}
 	
@@ -65,6 +98,21 @@ public class PersonalDetailsSteps extends DriverFactory {
 	public void Enter_Street(String street) throws Throwable{
 		
 		new PersonalDetailsPage(driver).Enter_Street(street);
+		
+	}
+	
+	
+	@Given("^I add street address\"(.*)\"$")
+	public void Enter_Street_address(String street) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Enter_Street_Address(street);
+		
+	}
+	
+	@Given("^I add postnominals\"(.*)\"$")
+	public void Enter_postnominals(String strval) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Enter_Post_Nominals(strval);
 		
 	}
 	
@@ -105,6 +153,15 @@ public class PersonalDetailsSteps extends DriverFactory {
 		
 	}
 	
+	
+	
+	@Given("^I select person address postcode\"(.*)\"$")
+	public void I_Select_Prsnl_postcode(String postcode) throws Throwable{
+		
+		new PersonalDetailsPage(driver).Select_Prsnl_postcode(postcode);
+		
+	}
+	
 	@Given("^I select country\"(.*)\"$")
 	public void I_Select_country(String country) throws Throwable{
 		
@@ -117,6 +174,14 @@ public class PersonalDetailsSteps extends DriverFactory {
 	public void I_click_Save() throws Throwable{
 		
 		new PersonalDetailsPage(driver).Click_Save();
+		
+	}
+	
+	
+	@Given("^I select PostAddress Same as Home address$")
+	public void I_select_address_same_as_home() throws Throwable{
+		
+		new PersonalDetailsPage(driver).Select_address_SameAs();
 		
 	}
 	
@@ -135,6 +200,12 @@ public class PersonalDetailsSteps extends DriverFactory {
 	public void i_should_see_record_saved_message_displayed(String name) throws Throwable {
 		new PersonalDetailsPage(driver).Save_success(name);
 	}
+	
+	
 
+	@Then("^I should see the record successfully updated and saved message displayed\"(.*)\"\"(.*)\"\"(.*)\"\"(.*)\"\"(.*)\"\"(.*)\"\"(.*)\"$")
+	public void Verify_ContactSave_Success(String prefName, String workph, String fax, String homeph, String mobil, String email, String postcode) throws Throwable {
+		new PersonalDetailsPage(driver).Contact_Save_Success(prefName,workph, fax, homeph, mobil, email,postcode);
+	}
 
 }

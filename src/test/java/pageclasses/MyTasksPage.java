@@ -43,6 +43,10 @@ public MyTasksPage(WebDriver driver) {
 	@FindBy(xpath=".//*[@id='application']/.//span[contains(text(),'Training Applications')]") 
 	WebElement TrainingApplications;
 	
+	@FindBy(xpath=".//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]") 
+	WebElement TimesheetApprovals;
+	
+	
 	
 	
 public void Navigate_to_Mytasks() throws Throwable {
@@ -77,6 +81,12 @@ public void SelectMyTasks(String section) throws Throwable{
 		
 	}
 	
+	else if(section.equalsIgnoreCase("Timesheet Approvals")){
+		CustomFunctions.CustomClick(this.TimesheetApprovals, 5);
+		
+	}
+	
+	
 	
 }
 
@@ -94,6 +104,12 @@ public void selectRecent_OldItems(String latest_old, String section) throws Thro
 public void SelectLeaveToAction(String startDate) throws Throwable{
 	
 	CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'"+startDate+"')]")), 10);
+	
+}
+
+public void SelectTimeSheetoAction(String startDate) throws Throwable{
+	
+	CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'"+startDate+"')]")), 10);
 	
 }
 

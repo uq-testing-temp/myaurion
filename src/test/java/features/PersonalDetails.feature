@@ -4,7 +4,7 @@ As a user/employee
 I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
-@now
+@manoj
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -29,10 +29,10 @@ Then I should see the record successfully saved message displayed"<Name>"
 Examples:
 
 |Priority | Name | HomePhone | Mobile | Email | Relationship | Street| PostCode | Comments |nextofkin|
-|6		  | Hello| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
+|8		  | Hello| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-@rightnow
+@manoj
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -59,11 +59,11 @@ Then I should see the record successfully saved message displayed"<Name>"
 Examples:
 
 |Priority | Name | HomePhone | Mobile | Email | Relationship | Street|Town_City|State| PostCode|Country | Comments |
-|3		  |Foreign contact| 07979794645   | 04123456789 | Hello.external@mailinator.com | Mother | My New Street|New York|NY|NY2585|USA |No Comments at all here |
+|9		  |Foreign contact| 07979794645   | 04123456789 | Hello.external@mailinator.com | Mother | My New Street|New York|NY|NY2585|USA |No Comments at all here |
 
 
 
-@now
+@manoj
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -88,10 +88,10 @@ Then I should see the record successfully saved message displayed"<Name>"
 Examples:
 
 |Priority | Name | HomePhone | Mobile | Email | Relationship | Street| PostCode | Comments |nextofkin|
-|6		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
+|11		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-
+@manoj
 Scenario Outline: Fixed Term Continuing staff - View and update personal details
 
 Given I am on myAurion login page
@@ -106,17 +106,17 @@ When I navigate to Personal page
         And I add homephone"<HomePhone>"
         And I add mobile"<Mobile>"
         And I add email"<Email>"
-		And I add street"<Street>"
-		And I select postcode"<PostCode>"
-		And I select PostAddress Same as Street address
+		And I add street address"<Street>"
+		And I select person address postcode"<PostCode>"
+		And I select PostAddress Same as Home address
 		And I add postnominals"<postnominals>"
 		And I click Save button
 Then I should see the record successfully updated and saved message displayed"<PreferredName>""<WorkPhone>""<Fax>""<HomePhone>""<Mobile>""<Email>""<PostCode>"
 
 Examples:
 
-|PreferredName | WorkPhone | HomePhone | Mobile | Email | Fax | Street| PostCode | postnominals |
-|Nina		  | 464646| 0797979   | 04123456789 | Hello@mailinator.com |4646464  | My New Street|4074| XYZ |
+|PreferredName | WorkPhone | HomePhone | Mobile      | Email                | Fax     | Street       | PostCode | postnominals |
+|Nina		   |464646     | 0797979   | 04123456789 | Hello@mailinator.com |4646464  | My New Street|4000      | XYZ |
 
 
 

@@ -60,6 +60,8 @@ public void CheckDetailsHRProfile() throws Throwable{
 	Assert.assertTrue("Licences section is visible", this.LicencesSection.isDisplayed());
 	Assert.assertTrue("Inductions section is visible", this.Inductions.isDisplayed());
 	
+	CustomFunctions.PrintScreenShot();
+	
 	//CustomFunctions.CustomAssertTrue("Qualifications section is visible",this.QualificationsSection.isDisplayed());
 }
 	

@@ -3,6 +3,7 @@ package stepDefinition;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import pageclasses.LeavePage;
 import pageclasses.TimesheetPage;
 
 public class TimesheetSteps extends DriverFactory {
@@ -22,6 +23,11 @@ public class TimesheetSteps extends DriverFactory {
 		new TimesheetPage(driver).select_date();
 	}
 	
+	@Given("^I select the date to enter time \"(.*)\"$")
+	public void i_select_the_mentioned_date(String date) throws Throwable {
+		new TimesheetPage(driver).select_dates(date);
+	}
+	
 	
 	
 	@Given("^I select another date$")
@@ -33,6 +39,21 @@ public class TimesheetSteps extends DriverFactory {
 	public void i_add_contact_hours_button() throws Throwable {
 		new TimesheetPage(driver).add_contact_hours();
 	}
+	
+	
+	
+	@Given("^I click on detailed view Add button$")
+	public void i_add_contact_hours_button_Detailed() throws Throwable {
+		new TimesheetPage(driver).DetailedViewAddHrs_Click();
+	}
+	
+	
+	
+	@Given("^I click on period view Add button$")
+	public void i_add_contact_hours_button_periodview() throws Throwable {
+		new TimesheetPage(driver).PeriodViewAddHrs_Click();
+	}
+	
 	
 	@Given("^I select contact hours type$")
 	public void i_select_contact_hours_type() throws Throwable {
@@ -59,9 +80,20 @@ public class TimesheetSteps extends DriverFactory {
 		new TimesheetPage(driver).save_close_modal();
 	}
 	
+	@Given("^I click on Done$")
+	public void i_click_on_Done() throws Throwable {
+		new TimesheetPage(driver).Click_Done();
+	}
+	
 	@When("^I click on submit timesheet$")
 	public void i_click_on_submit_timesheet() throws Throwable {
 		new TimesheetPage(driver).submit_timesheet();
+	}
+	
+	
+	@Given("^I click on Edit button$")
+	public void i_click_on_edit() throws Throwable {
+		new TimesheetPage(driver).Edit_timesheet();
 	}
 	
 	@Then("^I should see the timesheet is saved message displayed$")
@@ -118,6 +150,22 @@ public class TimesheetSteps extends DriverFactory {
 		new TimesheetPage(driver).CloseNotification();
 	}
 	
+	
+	@When("^I action the timesheet \"(.*)\"$")
+	public void i_action_pending_timesheet(String action) throws Throwable {
+		new TimesheetPage(driver).ActionTimeSheer(action);
+	}
+	
+	@When("^I select the view \"(.*)\"$")
+	public void i_select_timesheet_view(String view) throws Throwable {
+		new TimesheetPage(driver).selectTimesheetView(view);
+	}
+	
+	
+	@When("^I click add hours button for date\"(.*)\"$")
+	public void i_select_addhrs_button_forDate(String date) throws Throwable {
+		new TimesheetPage(driver).AddHrsFordate(date);
+	}
 	
 	
 	@Then("^I should see full list of my timesheets$")

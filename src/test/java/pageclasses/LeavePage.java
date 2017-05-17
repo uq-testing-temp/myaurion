@@ -14,6 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import stepDefinition.DriverFactory;
 import util.CustomFunctions;
+import util.DebugLog;
 
 public class LeavePage extends DriverFactory {
 	
@@ -38,6 +39,10 @@ public class LeavePage extends DriverFactory {
 	
 	@FindBy(xpath=".//*[@id='N901F030_DATE_TO-ct']/div[2]/input")
 	private WebElement enddate;
+	
+	
+	@FindBy(xpath=".//*[@id='panel-balances']/form/div[1]/div/div/input")
+	private WebElement futuredate;
 	
 	@FindBy(css="span.flatpickr-next-month > svg")
 	private WebElement nextmonth;
@@ -71,6 +76,10 @@ public class LeavePage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Workflow action successful.')]")
 	private WebElement WorkFlowActionSuccessMsg;
 	
+	
+	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Leave reversal has been sent.')]")
+	private WebElement LeaveReversalSuccessMsg;
+	
 	@FindBy(id="notification-close")
 	private WebElement CloseNotificationBtn;
 	
@@ -99,8 +108,17 @@ public class LeavePage extends DriverFactory {
 	private WebElement ReverseLeaveBtn;
 	
 	
+	
+	@FindBy(xpath=".//table[@class='table table-hover table-striped table-ess-leave']")
+	private WebElement LeaveBalanceTable;
+	
 	@FindBy(id="btnDelete")
 	private WebElement DeleteBtn;
+	
+	@FindBy(id="btnPredictLeave")
+	private WebElement PredictLeaveBtn;
+	
+	
 	
 	
 	@FindBy(name="approve")
@@ -186,6 +204,20 @@ public class LeavePage extends DriverFactory {
     	
     }
     
+    public void select_futuredate(String date) throws Throwable {
+    	
+    	this.futuredate.sendKeys(date);
+    	futuredate.sendKeys(Keys.TAB);
+    	
+    	//JavascriptExecutor js= (JavascriptExecutor) driver;
+    	//js.executeScript("document.getElementById('N901F030_DATE_TO-ct').setAttribute('Text','"+date+"')");
+    	
+    	//js.executeScript("startdate.setAttribute('Text','"+date+"')");
+    	//edate.click();
+    	//CustomFunctions.Clear_And_SetValueinTextBox(this.enddate, date);
+    	
+    }
+    
     public void enter_message(String msg) throws Throwable {
     	Thread.sleep(2000);
     	message.sendKeys(msg);
@@ -229,6 +261,14 @@ public class LeavePage extends DriverFactory {
  	CustomFunctions.CustomAssertTrue("WorkFlow Action Success message Displayed", successmessage);
  	
  }
+ 
+ public void LeaveReversalActionsuccess() throws Throwable {
+	 	
+	 	boolean successmessage = this.LeaveReversalSuccessMsg.isDisplayed();
+	 	//Assert.assertTrue(successmessage);
+	 	CustomFunctions.CustomAssertTrue("LeaveReversal Success message Displayed", successmessage);
+	 	
+	 }
     
     public void selectPendingRequest() throws Throwable{
     	
@@ -237,6 +277,25 @@ public class LeavePage extends DriverFactory {
     	    	
     }
     
+    public void verifyPredictedLeaveDisplay() throws Throwable{
+    	
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	//CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,"Pending");
+    	String [] columnnames= {"Type","Days","Hours","Rate", "Predicted"};
+    	Boolean allfound=false;
+    	
+    	for(String i:columnnames){
+    		
+    		for(WebElement header:this.LeaveBalanceTable.findElements(By.xpath(".//th"))){
+    			if(header.getText().equalsIgnoreCase(i)){
+    				//DebugLog.LogInfo.info("'"+i+"'column found");
+    				allfound=true;
+    			}
+    		
+    	}
+    		CustomFunctions.CustomAssertTrue("'"+i+"'column found", allfound);
+    	}
+    }
     
     
     
@@ -261,6 +320,12 @@ public class LeavePage extends DriverFactory {
     
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	CustomFunctions.CustomClick(DeleteBtn, 10);
+    }
+    
+    public void ClickOnPredictButton() throws Throwable{
+        
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	CustomFunctions.CustomClick(this.PredictLeaveBtn, 10);
     }
     
     

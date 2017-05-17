@@ -108,7 +108,7 @@ Given I am on myAurion login page
  Then I should see my current pay summaries
  
  
- @now
+ @manoj
    Scenario Outline: Fixed Term Continuing staff - View pay details and pay advices
 Given I am on myAurion login page
    	    And I enter username as "uqdbende"
@@ -124,7 +124,7 @@ Given I am on myAurion login page
   |25/05/2016|3,257.49 |2,449.49 |
   
  
- @rightnow
+ @manoj
     Scenario Outline: Fixed Term Continuing staff - View year to date for current or previous financial year
  Given I am on myAurion login page
    	    And I enter username as "uqdbende"
@@ -154,7 +154,7 @@ Given I am on myAurion login page
   |Calculation date|
   |02 May 2015|
   
- @now 
+ @manoj
   Scenario Outline: Fixed Term Continuing staff - Access ATO Payment Summary
 Given I am on myAurion login page
    	    And I enter username as "uqdbende"
@@ -170,7 +170,7 @@ Given I am on myAurion login page
   |30/06/2015|
   
   
-   @rightnow 
+   @manoj 
   Scenario Outline: Casual staff - Access ATO Payment Summary
 Given I am on myAurion login page
    	    And I enter username as "uqckel10"

@@ -74,6 +74,7 @@ public class EmployeeSearchPage extends DriverFactory {
 				
 				
 			}
+			Thread.sleep(1000);
 			
 		}
 		

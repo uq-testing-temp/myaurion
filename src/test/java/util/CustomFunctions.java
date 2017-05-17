@@ -1,6 +1,8 @@
 package util;
 
 import java.io.File;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -9,6 +11,7 @@ import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -73,7 +76,7 @@ public class CustomFunctions extends DriverFactory {
 		
 		DebugLog.LogInfo.info("Entering '"+Text+"' "+"into the field '"+Element.toString()+"'");
 		CustomWait(timeout);
-		
+		try{
 		WaitForObjectEnabled(Element, timeout);
 		
 		if(!Element.isEnabled()){
@@ -85,9 +88,24 @@ public class CustomFunctions extends DriverFactory {
 		else if(Element.isEnabled()){
 			
 			Element.clear();
+			Thread.sleep(500);
 			DebugLog.LogInfo.info("Entering the text: '"+Text +"' Into the field '"+Element);
+			Element.click();
 			Element.sendKeys(Text);
+			Element.click();
 			
+		}
+		}
+		catch(Throwable t){
+			if(t instanceof TimeoutException){
+				
+				DebugLog.LogInfo.warn("Couldn't find the element '"+Element+ t.toString());
+			}
+			
+			if(t instanceof NoSuchElementException){
+				
+				DebugLog.LogInfo.warn("Couldn't find the element '"+Element+ t.toString());
+			}
 		}
 		
 	}
@@ -127,6 +145,7 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 		
 		try{
 		selectbox.selectByValue(OptiontoSelect);
+		//selectbox.selectByVisibleText(OptiontoSelect);
 		}
 		
 		catch(ElementNotVisibleException e){
@@ -439,8 +458,13 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	
 	public static void PrintScreenShot() throws Throwable{
 		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime now = LocalDateTime.now();
+		String date= now.toString();
+		date=date.replaceAll("[^a-zA-Z0-9]", "");
+		System.out.println(date);
 		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile, new File("C:\\SeleniumScreenshots\testFile.jpg"));
+		FileUtils.copyFile(scrFile, new File("C://SeleniumScreenshots//"+date+".jpg"));
 	
 	}
 	
@@ -453,11 +477,11 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		DebugLog.LogInfo.info(message);
 		try{
 		Assert.assertTrue(condition);
-		//PrintScreenShot();
+		PrintScreenShot();
 		}
 		catch(NoSuchElementException e){
 			DebugLog.LogInfo.warn("The Assert failed. Element not found");
-			//PrintScreenShot();
+			PrintScreenShot();
 		}
 		
 	}

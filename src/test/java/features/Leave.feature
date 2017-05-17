@@ -9,7 +9,7 @@ Feature: Leave
    	#  And I enter username as "uqdbende"
      # And I enter password as "password123"
       # And I click Login button
-  @now
+  @manoj
   Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -26,12 +26,12 @@ Feature: Leave
   	
   	Examples:
   	|StartDate|
-  	|19/05/2017|
-  	|22/05/2017|
-  	|16/05/2017|
+  	|01/09/2017|
+  	|04/09/2017|
+  	|05/09/2017|
   	
 
-@now
+@manoj
    Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave
   	 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -50,7 +50,7 @@ Feature: Leave
   	
   	Examples:
   	|StartDate| EndDate|
-  	|23/05/2017|24/05/2017|
+  	|06/09/2017|07/09/2017|
   	
   
   Scenario: View my current leave balances
@@ -62,15 +62,20 @@ Feature: Leave
   	And  I select hours button
   	Then I should see my leave balances displayed in hours
   	
-  	
- Scenario Outline: Predict my leave balances
-	 When I am on leave page
- 	And I enter a future date "<futuredate>"
- 	And I click on the Predict button
+ @manoj	
+ Scenario Outline: Fixed Term Continuing staff - Predict Leave Balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
+	And  I am on leave page
+ 		And I enter a future date"<futuredate>"
+ 		And I click on the Predict button
  	Then I should see my predicted leave balances displayed
  	
  	Examples:
-  |futuredate|
+ 	|futuredate|
+  |10/08/2017|
  
  
  Scenario: View my leave history
@@ -91,7 +96,7 @@ Feature: Leave
   	Then I should see Delete success message displayed
   	
   	
-  	@now
+  	@manoj
   	 	 Scenario Outline:  Supervisor of fixed term continuing staff - Approve Leave Request
   Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -108,8 +113,8 @@ Feature: Leave
    	
    		Examples:
   |LeaveStartdate|Action|
-  |19/05/2017|Approve|
-  	|16/05/2017|Approve|
+  |01/09/2017|Approve|
+  	|04/09/2017|Approve|
   	
   	
   	
@@ -124,16 +129,16 @@ When I am on leave page
   		And I action the leave request "<Action>"
  		And I enter the message as "this is a automation test for Forwarding leave request"
  		And I click submit button
-Then I should see workflow action successful message displayed
+Then I should see Leave reversal successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |25/07/2017|Reverse|
+  |01/09/2017|Reverse|
   	
    	
    	
    	
-   	  	@now
+   	  	@manoj
  	 Scenario Outline:   Supervisor of fixed term continuing staff - Decline Leave Request
   Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -150,11 +155,11 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |22/05/2017|Decline|
+  |05/09/2017|Decline|
   
   
    	
-  	@now
+  	@manoj
 Scenario Outline:  Supervisor of fixed term continuing staff - Return Leave Request
 Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -171,7 +176,7 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |23/07/2017|Return|
+  |06/09/2017|Return|
    	
    	
    	
@@ -192,7 +197,7 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |23/07/2017|Forward|
+  |06/09/2017|Forward|
    	
   
   

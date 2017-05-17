@@ -41,6 +41,10 @@ public class LeaveSteps extends DriverFactory {
 		new LeavePage(driver).enter_message(msg);
 	}
 	
+	@When("^I enter a future date\"([^\"]*)\"$")
+	public void i_select_the_future_date(String date) throws Throwable {
+		new LeavePage(driver).select_futuredate(date);
+	}
 	
 	@When("^I enter the reference message as \"([^\"]*)\"$")
 	public void i_enter_approve_message_as(String msg) throws Throwable {
@@ -51,6 +55,13 @@ public class LeaveSteps extends DriverFactory {
 	public void i_click_submit_button() throws Throwable {
 		new LeavePage(driver).submit();
 	}
+	
+	
+	@When("^I click on the Predict button$")
+	public void i_click_predict_button() throws Throwable {
+		new LeavePage(driver).ClickOnPredictButton();
+	}
+	
 	
 	@When("^I am on leave page$")
 	public void i_am_on_the_leave_page() throws Throwable {
@@ -131,8 +142,20 @@ public class LeaveSteps extends DriverFactory {
 	}
 	
 	
+	
+	@Then("^I should see my predicted leave balances displayed$")
+	public void I_should_see_predicted_leave_column_is_displayed() throws Throwable {
+		new LeavePage(driver).verifyPredictedLeaveDisplay();
+	}
+	
+	
 	@Then("^I should see workflow action successful message displayed$")
 	public void I_should_WorkFlowAction_success_message_is_displayed() throws Throwable {
 		new LeavePage(driver).WorkFlowActionsuccess();
+	}
+	
+	@Then("^I should see Leave reversal successful message displayed$")
+	public void I_should_reversal_success_message_is_displayed() throws Throwable {
+		new LeavePage(driver).LeaveReversalActionsuccess();
 	}
 }

@@ -14,6 +14,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import stepDefinition.DriverFactory;
+import util.CustomFunctions;
+import util.DebugLog;
 
 public class TimesheetPage extends DriverFactory {
 	
@@ -34,6 +36,10 @@ public class TimesheetPage extends DriverFactory {
 	
 	@FindBy ( xpath = "//*[@id='section1']/div/div/button")
 	private WebElement addhrsbutton;
+	
+	
+	@FindBy ( xpath = ".//*[@id='panelDetailed']/div[2]/button")
+	private WebElement DetaileViewaddhrsbutton;
 	
 	@FindBy ( xpath = "//*[@id='section1__N026F020_TIME_TYPE__']")
 	private WebElement selecthrstype;
@@ -95,6 +101,41 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy(id="notification-close")
 	private WebElement CloseNotificationBtn;
 	
+	@FindBy(xpath=".//a[contains(text(),'Approve')]")
+	private WebElement ApproveBtn;
+	
+	@FindBy(xpath=".//a[contains(text(),'Return')]")
+	private WebElement ReturnBtn;
+	
+	@FindBy(xpath=".//a[contains(text(),'Decline')]")
+	private WebElement DeclineBtn;
+	
+	@FindBy(xpath=".//a[contains(text(),'Daily')]")
+	private WebElement DailyTab;
+	
+	@FindBy(xpath=".//a[contains(text(),'Period')]")
+	private WebElement Periodtab;
+	
+	@FindBy(xpath=".//a[contains(text(),'Detailed')]")
+	private WebElement DetailedTab;
+	
+	@FindBy(xpath=".//a[contains(text(),'Summary')]")
+	private WebElement SummaryTab;
+	
+	@FindBy(xpath=".//a[contains(text(),'Edit')]")
+	private WebElement EditBtn;
+	
+	@FindBy(xpath=".//a[contains(text(),'Done')]")
+	private WebElement DoneBtn;
+	
+	@FindBy(xpath=".//table[@class='table table-bordered table-timekeeper-weekly table-sm']")
+	private WebElement PeriodViewEditTable;
+	
+	@FindBy(xpath=".//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]")
+	private WebElement PeriodAddHrsBtn;
+	
+	
+	
 	public TimesheetPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
        
@@ -125,6 +166,16 @@ public class TimesheetPage extends DriverFactory {
         dateselectBox.selectByIndex(dateselectOptions - 1);
    }
     
+    
+    
+    public void select_dates(String date) throws Throwable {
+    	Thread.sleep(2000);
+    	//Select dateselectBox = new Select(selectdate);
+    	CustomFunctions.SelectoptionFromDropdown(selectdate, date);
+       // int dateselectOptions = dateselectBox.getOptions().size();
+        //dateselectBox.selectByIndex(dateselectOptions - 1);
+   }
+    
     public void select_otherdate() throws Throwable {
     	Thread.sleep(2000);
     	Select dateselectBox = new Select(selectdate);
@@ -136,6 +187,16 @@ public class TimesheetPage extends DriverFactory {
     	Thread.sleep(3000);
     	addcontacthrs.click();
     	addhrsbutton.click();
+    }
+    
+    public void DetailedViewAddHrs_Click() throws Throwable{
+    	
+    	CustomFunctions.CustomClick(DetaileViewaddhrsbutton, 10);
+    }
+    
+ public void PeriodViewAddHrs_Click() throws Throwable{
+    	
+    	CustomFunctions.CustomClick(this.PeriodAddHrsBtn, 10);
     }
     
     public void select_contact_hrs_type() throws Throwable {
@@ -172,6 +233,16 @@ public class TimesheetPage extends DriverFactory {
     public void submit_timesheet() throws Throwable {
     	Thread.sleep(2000);
     	submitbutton.click();
+    }
+    
+    public void Edit_timesheet() throws Throwable {
+    	//Thread.sleep(2000);
+    	CustomFunctions.CustomClick(this.EditBtn, 10);
+    }
+    
+    public void Click_Done() throws Throwable {
+    	//Thread.sleep(2000);
+    	CustomFunctions.CustomClick(this.DoneBtn, 10);
     }
    
     public void timesheet_success() throws Throwable {
@@ -240,6 +311,90 @@ public class TimesheetPage extends DriverFactory {
     	
     }
     
+    
+    
+    
+   public void ActionTimeSheer(String Action) throws Throwable{
+    	
+    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	if(Action.equalsIgnoreCase("approve")){
+    	
+    		CustomFunctions.CustomClick(this.ApproveBtn, 10);
+    		
+    	}
+    	if(Action.equalsIgnoreCase("decline")){
+        	
+    		CustomFunctions.CustomClick(this.DeclineBtn, 10);
+    		
+    	}
+    	if(Action.equalsIgnoreCase("return")){
+        	
+    		CustomFunctions.CustomClick(this.ReturnBtn, 10);
+    		
+    	}
+    	
+    	
+    	
+    }
+   
+   
+   public void selectTimesheetView(String view) throws Throwable{
+	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	   
+	   if(view.equalsIgnoreCase("Daily")){
+	    	
+   		CustomFunctions.CustomClick(this.DailyTab, 10);
+   		
+   	}
+   	if(view.equalsIgnoreCase("period")){
+       	
+   		CustomFunctions.CustomClick(this.Periodtab, 10);
+   		
+   	}
+   	if(view.equalsIgnoreCase("Detailed")){
+       	
+   		CustomFunctions.CustomClick(this.DetailedTab, 10);
+   		
+   	}
+   	
+   	if(view.equalsIgnoreCase("Summary")){
+       	
+   		CustomFunctions.CustomClick(this.SummaryTab, 10);
+   		
+   	}
+	   
+   }
+   
+   
+   
+   public void AddHrsFordate(String date){
+   
+	   if(date==null){
+		   
+		   DebugLog.LogInfo.warn("No date provided so test is expected to fail");
+		   
+	   }
+	   
+	   else{
+		   
+		   List<WebElement> dateHeaders= this.PeriodViewEditTable.findElements(By.xpath(".//th"));
+		   
+		   for(WebElement thtag:dateHeaders){
+			   
+			   if(thtag.getText().equalsIgnoreCase(date)){
+				   
+			   }
+			   
+		   }
+		   
+		   
+		   
+	   }
+	   
+   }
+   
+   
+   
     
     
     
