@@ -3194,3 +3194,1128 @@
 2017-05-17 16:47:23,683 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
 2017-05-17 16:47:53,733 INFO  [Log] **********************End of the test*********************** 
 2017-05-17 16:47:53,733 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:04:01,572 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (04651c381c07f0ba273159c04c405873)] -> id: login-button] 
+2017-05-18 09:04:13,753 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (04651c381c07f0ba273159c04c405873)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 09:04:13,876 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (04651c381c07f0ba273159c04c405873)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 09:04:17,037 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:04:17,037 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 09:04:20,351 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:04:20,351 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:04:22,187 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (42259f4d9e42df12f6e17e9fd0e69306)] -> id: login-button] 
+2017-05-18 09:04:30,180 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (42259f4d9e42df12f6e17e9fd0e69306)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:04:30,326 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (42259f4d9e42df12f6e17e9fd0e69306)] -> link text: My Tasks] 
+2017-05-18 09:04:32,113 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (42259f4d9e42df12f6e17e9fd0e69306)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 09:04:32,254 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (42259f4d9e42df12f6e17e9fd0e69306)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 09:05:02,459 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:05:02,460 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:05:05,639 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:05:05,639 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:05:07,456 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c3aef5eaf9a8310f8094a37265c6082e)] -> id: login-button] 
+2017-05-18 09:05:22,240 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c3aef5eaf9a8310f8094a37265c6082e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:05:22,406 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c3aef5eaf9a8310f8094a37265c6082e)] -> link text: Leave] 
+2017-05-18 09:05:56,225 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 09:06:26,253 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:06:26,253 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:07:02,644 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7b8db7b9c158b03f0efea92b7c7d800b)] -> id: login-button] 
+2017-05-18 09:07:13,390 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7b8db7b9c158b03f0efea92b7c7d800b)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 09:07:13,503 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7b8db7b9c158b03f0efea92b7c7d800b)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 09:07:15,917 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:07:15,917 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 09:07:19,038 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:07:19,038 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:07:20,813 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34d5db4ddb6c7ca11145ab071a53e450)] -> id: login-button] 
+2017-05-18 09:07:31,975 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34d5db4ddb6c7ca11145ab071a53e450)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:07:32,106 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34d5db4ddb6c7ca11145ab071a53e450)] -> link text: My Tasks] 
+2017-05-18 09:07:33,693 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34d5db4ddb6c7ca11145ab071a53e450)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 09:07:33,828 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (34d5db4ddb6c7ca11145ab071a53e450)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 09:08:03,985 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:08:03,985 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:08:07,212 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:08:07,212 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:08:09,184 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4524fff662dc2a09d5f99e2720b095df)] -> id: login-button] 
+2017-05-18 09:08:16,905 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4524fff662dc2a09d5f99e2720b095df)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:08:17,028 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4524fff662dc2a09d5f99e2720b095df)] -> link text: Leave] 
+2017-05-18 09:08:50,404 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 09:09:20,467 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:09:20,467 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:09:44,524 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8b87b9cfb093d9daa19c5e0bdbe0614a)] -> id: login-button] 
+2017-05-18 09:09:56,165 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8b87b9cfb093d9daa19c5e0bdbe0614a)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 09:09:56,278 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8b87b9cfb093d9daa19c5e0bdbe0614a)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 09:09:59,421 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:09:59,421 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 09:10:02,570 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:10:02,570 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:10:04,446 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5f8616aa8b86b45154628ee6ae269c10)] -> id: login-button] 
+2017-05-18 09:10:13,862 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5f8616aa8b86b45154628ee6ae269c10)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:10:13,988 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5f8616aa8b86b45154628ee6ae269c10)] -> link text: My Tasks] 
+2017-05-18 09:10:15,668 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5f8616aa8b86b45154628ee6ae269c10)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 09:10:15,816 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5f8616aa8b86b45154628ee6ae269c10)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 09:10:45,957 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:10:45,957 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:10:49,181 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:10:49,181 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:10:50,970 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6b4442507f092608bc0f31d0c9b2d684)] -> id: login-button] 
+2017-05-18 09:10:58,249 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6b4442507f092608bc0f31d0c9b2d684)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:10:58,380 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6b4442507f092608bc0f31d0c9b2d684)] -> link text: Leave] 
+2017-05-18 09:11:31,925 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 09:11:44,245 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24a13b77aeb871afd00a82180fe8cb47)] -> id: login-button] 
+2017-05-18 09:11:55,827 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24a13b77aeb871afd00a82180fe8cb47)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 09:11:55,943 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24a13b77aeb871afd00a82180fe8cb47)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 09:11:59,082 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:11:59,082 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 09:12:01,954 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:12:01,954 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:12:02,283 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:12:02,283 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:12:04,109 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (06b02d181127820669020d928ce1ba84)] -> id: login-button] 
+2017-05-18 09:12:12,288 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (06b02d181127820669020d928ce1ba84)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:12:12,411 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (06b02d181127820669020d928ce1ba84)] -> link text: My Tasks] 
+2017-05-18 09:12:14,050 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (06b02d181127820669020d928ce1ba84)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 09:12:14,189 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (06b02d181127820669020d928ce1ba84)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 09:12:44,361 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:12:44,361 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:12:47,571 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:12:47,571 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:12:49,400 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (89600be7613ebd0769367c3bfe415c8f)] -> id: login-button] 
+2017-05-18 09:12:57,051 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (89600be7613ebd0769367c3bfe415c8f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:12:57,182 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (89600be7613ebd0769367c3bfe415c8f)] -> link text: Leave] 
+2017-05-18 09:13:30,636 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 09:14:00,663 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:14:00,663 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:42:32,312 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (da7525b3c174344b053a3a8e9c59b9f5)] -> id: login-button] 
+2017-05-18 09:42:44,408 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (da7525b3c174344b053a3a8e9c59b9f5)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 09:42:44,528 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (da7525b3c174344b053a3a8e9c59b9f5)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 09:42:47,609 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:42:47,609 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 09:42:50,712 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:42:50,712 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:42:52,603 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b495da1089edd3d0fa913f81728fb6f9)] -> id: login-button] 
+2017-05-18 09:43:01,055 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b495da1089edd3d0fa913f81728fb6f9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:43:01,179 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b495da1089edd3d0fa913f81728fb6f9)] -> link text: My Tasks] 
+2017-05-18 09:43:02,765 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b495da1089edd3d0fa913f81728fb6f9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 09:43:02,897 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b495da1089edd3d0fa913f81728fb6f9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 09:43:33,040 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 09:43:33,040 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 09:43:36,233 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 09:43:36,233 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 09:43:38,105 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b8e47361f16d0ea89157ca21d1a688c4)] -> id: login-button] 
+2017-05-18 09:43:46,189 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b8e47361f16d0ea89157ca21d1a688c4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 09:43:46,320 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b8e47361f16d0ea89157ca21d1a688c4)] -> link text: Leave] 
+2017-05-18 09:44:19,892 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 11:07:25,781 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ec368982200cb3107dc2c6c2e4efa526)] -> id: login-button] 
+2017-05-18 11:07:38,201 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ec368982200cb3107dc2c6c2e4efa526)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:07:38,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ec368982200cb3107dc2c6c2e4efa526)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-05-18 11:07:41,427 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:07:41,427 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-18 11:07:44,599 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:07:44,599 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 11:07:46,376 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (472a56277f2df38a75bd929554e312fc)] -> id: login-button] 
+2017-05-18 11:07:55,627 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (472a56277f2df38a75bd929554e312fc)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:07:55,767 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (472a56277f2df38a75bd929554e312fc)] -> link text: My Tasks] 
+2017-05-18 11:07:57,337 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (472a56277f2df38a75bd929554e312fc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 11:07:57,473 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (472a56277f2df38a75bd929554e312fc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:08:27,645 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:08:27,645 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-18 11:08:30,840 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:08:30,840 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 11:08:32,650 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d7732be9085e83c364a95b4905544f7)] -> id: login-button] 
+2017-05-18 11:08:40,230 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d7732be9085e83c364a95b4905544f7)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:08:40,357 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d7732be9085e83c364a95b4905544f7)] -> link text: Leave] 
+2017-05-18 11:09:13,881 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.id: btnDelete' 
+2017-05-18 11:09:43,898 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:09:43,899 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-18 11:20:15,683 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e8941c9f371c1c03f8712d8f7b2f6801)] -> id: login-button] 
+2017-05-18 11:20:45,358 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e8941c9f371c1c03f8712d8f7b2f6801)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-18 11:21:15,521 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//a[contains(text(),'Edit')]' 
+2017-05-18 11:21:45,595 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:21:45,595 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Period view************************************* 
+2017-05-18 11:21:48,981 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:21:48,981 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Detailed view************************************* 
+2017-05-18 11:21:50,842 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2fbb80e9f428b094591fe1620cd9a85)] -> id: login-button] 
+2017-05-18 11:22:18,901 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d2fbb80e9f428b094591fe1620cd9a85)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-18 11:22:49,049 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='panelDetailed']/div[2]/button' 
+2017-05-18 11:23:19,116 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:23:19,116 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Detailed view************************************* 
+2017-05-18 11:23:22,311 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:23:22,311 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet (on behalf of employee)************************************* 
+2017-05-18 11:23:24,089 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3a5cda8b062b8e28eb09e5798dfd0966)] -> id: login-button] 
+2017-05-18 11:23:35,480 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:23:35,480 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet (on behalf of employee)************************************* 
+2017-05-18 11:23:38,783 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:23:38,783 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-18 11:23:40,538 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0edee4384948eecc35fb6da0e775431)] -> id: login-button] 
+2017-05-18 11:23:51,821 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0edee4384948eecc35fb6da0e775431)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:23:52,008 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0edee4384948eecc35fb6da0e775431)] -> link text: My Tasks] 
+2017-05-18 11:23:53,808 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0edee4384948eecc35fb6da0e775431)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:23:53,942 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0edee4384948eecc35fb6da0e775431)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:24:24,086 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:24:24,086 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-18 11:24:27,353 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:24:27,353 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-18 11:24:29,157 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5e60113ca42cdb4ac0661ca4b7370133)] -> id: login-button] 
+2017-05-18 11:32:20,447 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (57d9206d5c4afbba3ca4b6ff90674543)] -> id: login-button] 
+2017-05-18 11:32:50,918 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (57d9206d5c4afbba3ca4b6ff90674543)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-18 11:33:21,047 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//a[contains(text(),'Edit')]' 
+2017-05-18 11:33:51,110 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:33:51,110 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Period view************************************* 
+2017-05-18 11:33:54,480 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:33:54,480 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Detailed view************************************* 
+2017-05-18 11:33:56,255 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6ffb63916dddaa2c0321c4d74330a39b)] -> id: login-button] 
+2017-05-18 11:34:25,742 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6ffb63916dddaa2c0321c4d74330a39b)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-18 11:34:55,874 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='panelDetailed']/div[2]/button' 
+2017-05-18 11:35:25,911 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:35:25,911 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Detailed view************************************* 
+2017-05-18 11:35:29,224 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:35:29,224 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet (on behalf of employee)************************************* 
+2017-05-18 11:35:31,142 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4e59005cf5ad760d975953e823d85a8)] -> id: login-button] 
+2017-05-18 11:36:17,438 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:36:17,438 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet (on behalf of employee)************************************* 
+2017-05-18 11:36:20,622 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:36:20,622 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-18 11:36:22,459 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bc502a45a23f6c5e275d37ad73eb0564)] -> id: login-button] 
+2017-05-18 11:36:32,671 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bc502a45a23f6c5e275d37ad73eb0564)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:36:32,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bc502a45a23f6c5e275d37ad73eb0564)] -> link text: My Tasks] 
+2017-05-18 11:36:34,402 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bc502a45a23f6c5e275d37ad73eb0564)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:36:34,546 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bc502a45a23f6c5e275d37ad73eb0564)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:37:04,693 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:37:04,693 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-18 11:37:07,913 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:37:07,913 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-18 11:37:09,733 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f461fcf1f6892616246c72f34357498d)] -> id: login-button] 
+2017-05-18 11:37:21,765 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f461fcf1f6892616246c72f34357498d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:37:21,896 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f461fcf1f6892616246c72f34357498d)] -> link text: My Tasks] 
+2017-05-18 11:37:23,539 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f461fcf1f6892616246c72f34357498d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:37:23,673 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f461fcf1f6892616246c72f34357498d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:37:53,839 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:37:53,839 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-18 11:37:57,130 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:37:57,130 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-18 11:37:58,987 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55e6a3cafdda5e048b869dc7114f0f5c)] -> id: login-button] 
+2017-05-18 11:38:11,358 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55e6a3cafdda5e048b869dc7114f0f5c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:38:11,491 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55e6a3cafdda5e048b869dc7114f0f5c)] -> link text: My Tasks] 
+2017-05-18 11:38:13,462 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55e6a3cafdda5e048b869dc7114f0f5c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:38:13,609 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55e6a3cafdda5e048b869dc7114f0f5c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:38:43,782 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:38:43,782 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-18 11:38:47,043 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:38:47,043 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-18 11:38:48,822 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4f8a5389b401fa9c1a75f7e23b3e03b)] -> id: login-button] 
+2017-05-18 11:39:00,865 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4f8a5389b401fa9c1a75f7e23b3e03b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:39:00,995 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4f8a5389b401fa9c1a75f7e23b3e03b)] -> link text: My Tasks] 
+2017-05-18 11:39:02,729 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4f8a5389b401fa9c1a75f7e23b3e03b)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:39:02,870 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4f8a5389b401fa9c1a75f7e23b3e03b)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:39:33,014 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:39:33,015 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-18 11:39:36,189 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:39:36,190 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-18 11:39:37,965 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2be8ae41e11d119b6f27b7c83e79ee07)] -> id: login-button] 
+2017-05-18 11:39:50,462 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2be8ae41e11d119b6f27b7c83e79ee07)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:39:50,603 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2be8ae41e11d119b6f27b7c83e79ee07)] -> link text: My Tasks] 
+2017-05-18 11:39:52,246 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2be8ae41e11d119b6f27b7c83e79ee07)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:39:52,388 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2be8ae41e11d119b6f27b7c83e79ee07)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:40:22,540 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:40:22,540 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-18 11:40:25,763 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:40:25,763 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-18 11:40:27,594 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f9120e43ad73557bc2ddd94afeaf7536)] -> id: login-button] 
+2017-05-18 11:40:38,733 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f9120e43ad73557bc2ddd94afeaf7536)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:40:38,882 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f9120e43ad73557bc2ddd94afeaf7536)] -> link text: My Tasks] 
+2017-05-18 11:40:40,508 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f9120e43ad73557bc2ddd94afeaf7536)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-18 11:40:40,641 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f9120e43ad73557bc2ddd94afeaf7536)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:41:10,776 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:41:10,776 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-18 11:41:38,367 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (48660eabfb24488a578857a23e4fe037)] -> id: login-button] 
+2017-05-18 11:41:48,510 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (48660eabfb24488a578857a23e4fe037)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:41:48,629 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (48660eabfb24488a578857a23e4fe037)] -> xpath: .//*[@id='menu-my-aurion-list']/.//a[contains(text(),'Employment History')]] 
+2017-05-18 11:41:49,583 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (48660eabfb24488a578857a23e4fe037)] -> xpath: .//*[@id='employmenthistories-list']/.//td[contains(text(),'Current')]] 
+2017-05-18 11:41:51,228 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (48660eabfb24488a578857a23e4fe037)] -> xpath: 	.//a[contains(text(),'Current Role')]] 
+2017-05-18 11:41:51,354 INFO  [Log] Current Role tab is opened 
+2017-05-18 11:41:51,578 INFO  [Log] 'Payroll Details' found 
+2017-05-18 11:41:51,673 INFO  [Log] 'Work Pattern' found 
+2017-05-18 11:41:51,765 INFO  [Log] 'Supervisor Details' found 
+2017-05-18 11:41:51,766 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:41:51,766 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-18 11:41:54,845 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:41:54,845 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 11:41:56,621 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f189ad0af7c644ce6690a00dd76674c6)] -> id: login-button] 
+2017-05-18 11:42:11,173 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f189ad0af7c644ce6690a00dd76674c6)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:42:11,290 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f189ad0af7c644ce6690a00dd76674c6)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 11:42:13,675 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:42:13,675 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 11:42:16,669 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:42:16,669 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 11:42:18,434 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (318af55e1a6da32a25b3a5a339e8a35f)] -> id: login-button] 
+2017-05-18 11:42:30,677 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (318af55e1a6da32a25b3a5a339e8a35f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:42:30,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (318af55e1a6da32a25b3a5a339e8a35f)] -> link text: Leave] 
+2017-05-18 11:42:32,930 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (318af55e1a6da32a25b3a5a339e8a35f)] -> id: btnPredictLeave] 
+2017-05-18 11:42:33,189 INFO  [Log] 'Type'column found 
+2017-05-18 11:42:33,250 INFO  [Log] 'Days'column found 
+2017-05-18 11:42:33,310 INFO  [Log] 'Hours'column found 
+2017-05-18 11:42:33,368 INFO  [Log] 'Rate'column found 
+2017-05-18 11:42:33,422 INFO  [Log] 'Predicted'column found 
+2017-05-18 11:42:33,422 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:42:33,422 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 11:42:36,409 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:42:36,409 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:42:38,196 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41c296285a36f6c99c10d5054f487227)] -> id: login-button] 
+2017-05-18 11:42:48,334 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41c296285a36f6c99c10d5054f487227)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:42:48,470 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41c296285a36f6c99c10d5054f487227)] -> link text: Leave] 
+2017-05-18 11:42:50,476 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41c296285a36f6c99c10d5054f487227)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 11:43:31,983 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:43:31,983 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:43:35,198 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:43:35,199 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:43:37,048 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52c3ebce773d70dedb044d16df019d17)] -> id: login-button] 
+2017-05-18 11:43:48,249 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52c3ebce773d70dedb044d16df019d17)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:43:48,373 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52c3ebce773d70dedb044d16df019d17)] -> link text: Leave] 
+2017-05-18 11:43:50,395 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52c3ebce773d70dedb044d16df019d17)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 11:44:31,972 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:44:31,972 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:44:35,204 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:44:35,204 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:44:37,053 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3dee5efa3f2b0b8a1033a38691d5109f)] -> id: login-button] 
+2017-05-18 11:44:44,701 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3dee5efa3f2b0b8a1033a38691d5109f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:44:44,858 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3dee5efa3f2b0b8a1033a38691d5109f)] -> link text: Leave] 
+2017-05-18 11:44:46,922 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3dee5efa3f2b0b8a1033a38691d5109f)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 11:45:00,452 INFO  [Log] Success message Displayed 
+2017-05-18 11:45:00,452 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:45:00,452 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 11:45:03,462 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:45:03,462 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 11:45:05,266 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (659aba00650640d0a3d8c4b8f507c83d)] -> id: login-button] 
+2017-05-18 11:45:14,599 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (659aba00650640d0a3d8c4b8f507c83d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:45:14,803 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (659aba00650640d0a3d8c4b8f507c83d)] -> link text: Leave] 
+2017-05-18 11:45:16,905 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (659aba00650640d0a3d8c4b8f507c83d)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 11:45:32,783 INFO  [Log] Success message Displayed 
+2017-05-18 11:45:32,784 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:45:32,784 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 11:45:35,781 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:45:35,781 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 11:45:37,552 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dcc93253b8a7b5b775eb0165dde173b5)] -> id: login-button] 
+2017-05-18 11:45:45,282 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dcc93253b8a7b5b775eb0165dde173b5)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:45:45,408 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dcc93253b8a7b5b775eb0165dde173b5)] -> link text: Leave] 
+2017-05-18 11:45:47,641 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dcc93253b8a7b5b775eb0165dde173b5)] -> id: btnPredictLeave] 
+2017-05-18 11:45:47,905 INFO  [Log] 'Type'column found 
+2017-05-18 11:45:47,970 INFO  [Log] 'Days'column found 
+2017-05-18 11:45:48,028 INFO  [Log] 'Hours'column found 
+2017-05-18 11:45:48,078 INFO  [Log] 'Rate'column found 
+2017-05-18 11:45:48,134 INFO  [Log] 'Predicted'column found 
+2017-05-18 11:45:48,135 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:45:48,135 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 11:45:51,142 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:45:51,142 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 11:45:52,972 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dca2bfc036ccf8d734cdbb0ecb5911a8)] -> id: login-button] 
+2017-05-18 11:46:01,971 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dca2bfc036ccf8d734cdbb0ecb5911a8)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:46:02,104 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dca2bfc036ccf8d734cdbb0ecb5911a8)] -> link text: My Tasks] 
+2017-05-18 11:46:03,819 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dca2bfc036ccf8d734cdbb0ecb5911a8)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 11:46:03,954 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dca2bfc036ccf8d734cdbb0ecb5911a8)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:46:34,076 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:46:34,076 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 11:46:37,278 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:46:37,278 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 11:46:39,026 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65e2ff4eecf3b538cfe317ad4c38d120)] -> id: login-button] 
+2017-05-18 11:46:47,664 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65e2ff4eecf3b538cfe317ad4c38d120)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:46:47,799 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65e2ff4eecf3b538cfe317ad4c38d120)] -> link text: My Tasks] 
+2017-05-18 11:46:49,472 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65e2ff4eecf3b538cfe317ad4c38d120)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 11:46:49,609 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65e2ff4eecf3b538cfe317ad4c38d120)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:47:19,749 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:47:19,749 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 11:47:22,974 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:47:22,974 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 11:47:24,739 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9a1788f5a3f46890804230b7c49ab67b)] -> id: login-button] 
+2017-05-18 11:47:32,681 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9a1788f5a3f46890804230b7c49ab67b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:47:32,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9a1788f5a3f46890804230b7c49ab67b)] -> link text: Leave] 
+2017-05-18 11:47:35,511 INFO  [Log] Found the cell with text and selecting it '01/09/2017' 
+2017-05-18 11:47:35,512 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (9a1788f5a3f46890804230b7c49ab67b)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-05-18 11:48:06,175 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//button[contains(text(),'Reverse')]' 
+2017-05-18 11:48:36,191 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:48:36,191 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 11:48:39,449 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:48:39,449 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 11:48:41,255 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> id: login-button] 
+2017-05-18 11:48:52,406 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:48:52,554 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> link text: My Tasks] 
+2017-05-18 11:48:54,360 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 11:48:54,509 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:48:54,614 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'05/09/2017')]] 
+2017-05-18 11:48:57,661 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> name: decline] 
+2017-05-18 11:48:58,777 INFO  [Log] Entering 'this is a automation test for Leave Decline' into the field '[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-18 11:48:59,414 INFO  [Log] Entering the text: 'this is a automation test for Leave Decline' Into the field '[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-18 11:48:59,720 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0db50b9a3df49514a0edc733a90ea83c)] -> xpath: .//button[contains(text(),'Decline')]] 
+2017-05-18 11:49:01,690 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-18 11:49:01,691 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:49:01,691 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 11:49:04,716 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:49:04,716 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 11:49:06,470 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> id: login-button] 
+2017-05-18 11:49:31,014 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 11:49:31,148 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> link text: My Tasks] 
+2017-05-18 11:49:33,095 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 11:49:33,226 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 11:49:33,346 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'06/09/2017')]] 
+2017-05-18 11:49:37,042 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> name: return] 
+2017-05-18 11:49:38,425 INFO  [Log] Entering 'this is a automation test for Leave Return' into the field '[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-18 11:49:39,053 INFO  [Log] Entering the text: 'this is a automation test for Leave Return' Into the field '[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-18 11:49:39,361 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7fbdc637d6e961b3ac747b235b3a4e34)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-05-18 11:49:41,879 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-18 11:49:41,879 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:49:41,879 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 11:49:44,915 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:49:44,915 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 11:49:46,660 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8448a9e5814453bc9a86de72cc7d5e69)] -> id: login-button] 
+2017-05-18 11:50:22,930 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8448a9e5814453bc9a86de72cc7d5e69)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-18 11:50:23,500 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8448a9e5814453bc9a86de72cc7d5e69)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 11:50:29,774 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8448a9e5814453bc9a86de72cc7d5e69)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 11:50:35,857 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-18 11:50:36,913 INFO  [Log] Thr Gross amount same as expected  
+2017-05-18 11:50:36,954 INFO  [Log] Thr Net amount same as expected  
+2017-05-18 11:50:36,986 INFO  [Log] The Pay Advice PDF link found 
+2017-05-18 11:50:36,987 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:50:36,987 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 11:50:40,008 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:50:40,008 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 11:50:41,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e354e016aad52ab8292161f85030dc14)] -> id: login-button] 
+2017-05-18 11:50:56,081 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e354e016aad52ab8292161f85030dc14)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-18 11:50:56,328 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-05-18 11:50:57,575 INFO  [Log] Year to date page is displayed 
+2017-05-18 11:50:57,619 INFO  [Log] Year to date table is displayed 
+2017-05-18 11:50:58,627 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-18 11:50:58,630 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (e354e016aad52ab8292161f85030dc14)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-18 11:51:01,803 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-18 11:51:01,803 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:51:01,803 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 11:51:04,825 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:51:04,825 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 11:51:06,612 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41b060ab8fe066da1ed5f042ffd2590c)] -> id: login-button] 
+2017-05-18 11:51:20,491 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41b060ab8fe066da1ed5f042ffd2590c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-18 11:51:20,757 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-18 11:51:21,653 INFO  [Log] Year to date page is displayed 
+2017-05-18 11:51:21,690 INFO  [Log] Year to date table is displayed 
+2017-05-18 11:51:22,124 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-18 11:51:22,126 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (41b060ab8fe066da1ed5f042ffd2590c)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-18 11:51:25,280 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-18 11:51:25,280 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:51:25,280 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 11:51:28,306 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:51:28,306 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 11:51:30,139 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65383f61cf7a6d4a1eaf552eff800c97)] -> id: login-button] 
+2017-05-18 11:51:41,508 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65383f61cf7a6d4a1eaf552eff800c97)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-18 11:51:41,783 INFO  [Log] Found the resut and selecting it '30/06/2015 
+2017-05-18 11:51:41,783 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-18 11:51:41,819 INFO  [Log] The link to download summary pdf for date'30/06/2015' found in the ATO summarylist 
+2017-05-18 11:51:41,820 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:51:41,820 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 11:51:44,841 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:51:44,841 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 11:51:46,580 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d514b75969c93d20ca15913d27aa685a)] -> id: login-button] 
+2017-05-18 11:51:59,579 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d514b75969c93d20ca15913d27aa685a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-18 11:51:59,830 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-18 11:51:59,830 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-18 11:51:59,864 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-18 11:51:59,865 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:51:59,865 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 11:52:02,863 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:52:02,863 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 11:52:04,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: login-button] 
+2017-05-18 11:52:14,362 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:52:14,480 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 11:52:15,330 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 11:52:15,720 INFO  [Log] Entering '8' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F010_PRIORITY]' 
+2017-05-18 11:52:16,343 INFO  [Log] Entering the text: '8' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F010_PRIORITY] 
+2017-05-18 11:52:16,501 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F025_NAME]' 
+2017-05-18 11:52:17,123 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F025_NAME] 
+2017-05-18 11:52:17,285 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 11:52:17,918 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 11:52:22,243 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-18 11:52:22,327 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> name: save] 
+2017-05-18 11:52:22,456 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 11:52:23,101 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 11:52:23,269 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 11:52:23,910 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 11:52:24,103 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 11:52:24,723 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 11:52:24,937 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F040_ADDRESS]' 
+2017-05-18 11:52:25,562 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F040_ADDRESS] 
+2017-05-18 11:52:25,763 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F085_POSTCODE]' 
+2017-05-18 11:52:26,395 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F085_POSTCODE] 
+2017-05-18 11:52:30,723 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-18 11:52:30,810 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F070_COMMENTS]' 
+2017-05-18 11:52:31,459 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> id: T006F070_COMMENTS] 
+2017-05-18 11:52:31,661 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (850e94926e46cdd4bc84b28c931c1537)] -> name: save] 
+2017-05-18 11:53:03,800 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:53:03,800 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 11:53:06,926 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:53:06,926 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 11:53:08,671 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: login-button] 
+2017-05-18 11:53:17,700 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:53:17,797 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 11:53:18,654 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 11:53:19,021 INFO  [Log] Entering '9' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F010_PRIORITY]' 
+2017-05-18 11:53:19,644 INFO  [Log] Entering the text: '9' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F010_PRIORITY] 
+2017-05-18 11:53:19,797 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F025_NAME]' 
+2017-05-18 11:53:20,423 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F025_NAME] 
+2017-05-18 11:53:20,613 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 11:53:21,233 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 11:53:21,413 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 11:53:22,035 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 11:53:22,202 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 11:53:22,827 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 11:53:23,074 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 11:53:23,685 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 11:53:28,072 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-18 11:53:28,144 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F040_ADDRESS]' 
+2017-05-18 11:53:28,779 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F040_ADDRESS] 
+2017-05-18 11:53:28,964 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F075_SUBURB]' 
+2017-05-18 11:53:29,588 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F075_SUBURB] 
+2017-05-18 11:53:29,758 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F080_STATE]' 
+2017-05-18 11:53:30,385 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F080_STATE] 
+2017-05-18 11:53:30,520 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F085_POSTCODE]' 
+2017-05-18 11:53:31,143 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F085_POSTCODE] 
+2017-05-18 11:53:35,420 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-18 11:53:35,442 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-18 11:53:36,056 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-18 11:53:40,343 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-18 11:53:40,428 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F070_COMMENTS]' 
+2017-05-18 11:53:41,057 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> id: T006F070_COMMENTS] 
+2017-05-18 11:53:41,262 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (509ed517463f182ad0861073618b2acb)] -> name: save] 
+2017-05-18 11:54:13,400 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:54:13,400 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 11:54:16,602 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:54:16,602 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 11:54:18,415 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: login-button] 
+2017-05-18 11:54:58,284 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:54:58,474 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 11:54:59,410 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 11:54:59,794 INFO  [Log] Entering '11' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F010_PRIORITY]' 
+2017-05-18 11:55:00,413 INFO  [Log] Entering the text: '11' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F010_PRIORITY] 
+2017-05-18 11:55:00,602 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F025_NAME]' 
+2017-05-18 11:55:01,218 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F025_NAME] 
+2017-05-18 11:55:01,404 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 11:55:02,028 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 11:55:06,390 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-18 11:55:06,539 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> name: save] 
+2017-05-18 11:55:06,692 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 11:55:07,550 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 11:55:07,907 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 11:55:08,553 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 11:55:08,789 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 11:55:09,471 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 11:55:09,731 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F040_ADDRESS]' 
+2017-05-18 11:55:10,371 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F040_ADDRESS] 
+2017-05-18 11:55:10,689 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F085_POSTCODE]' 
+2017-05-18 11:55:11,358 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F085_POSTCODE] 
+2017-05-18 11:55:15,707 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-18 11:55:15,792 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F070_COMMENTS]' 
+2017-05-18 11:55:16,418 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> id: T006F070_COMMENTS] 
+2017-05-18 11:55:16,626 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (963e34e4b73c2e392941613122e56e00)] -> name: save] 
+2017-05-18 11:55:48,731 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:55:48,731 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 11:55:51,903 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:55:51,903 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 11:55:53,692 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> id: login-button] 
+2017-05-18 11:56:02,879 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 11:56:02,994 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 11:56:03,909 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//button[contains(text(),'Update')]] 
+2017-05-18 11:56:04,643 INFO  [Log] Entering 'Nina' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input]' 
+2017-05-18 11:56:05,274 INFO  [Log] Entering the text: 'Nina' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input] 
+2017-05-18 11:56:05,465 INFO  [Log] Entering '464646' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Work')]/../.././/input]' 
+2017-05-18 11:56:06,089 INFO  [Log] Entering the text: '464646' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Work')]/../.././/input] 
+2017-05-18 11:56:06,267 INFO  [Log] Entering '4646464' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input]' 
+2017-05-18 11:56:06,890 INFO  [Log] Entering the text: '4646464' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input] 
+2017-05-18 11:56:07,074 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 11:56:07,693 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 11:56:07,871 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 11:56:08,502 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 11:56:08,686 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 11:56:09,312 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 11:56:09,532 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> id: T000F040_ADDRESS]' 
+2017-05-18 11:56:10,151 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> id: T000F040_ADDRESS] 
+2017-05-18 11:56:10,411 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> id: T000F300_POSTAL_IS_HOME] 
+2017-05-18 11:56:10,515 INFO  [Log] Entering 'XYZ' into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input]' 
+2017-05-18 11:56:11,154 INFO  [Log] Entering the text: 'XYZ' Into the field '[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input] 
+2017-05-18 11:56:11,319 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6519f55783a4a631d3f6743c552e02d)] -> name: save] 
+2017-05-18 11:56:12,619 INFO  [Log] Preferred Name updated and displayed as 'Nina 
+2017-05-18 11:56:12,655 INFO  [Log] Work number updated and displayed as 464646 
+2017-05-18 11:56:12,694 INFO  [Log] Fax number updated and displayed as 4646464 
+2017-05-18 11:56:12,732 INFO  [Log] Home number updated and displayed as 0797979 
+2017-05-18 11:56:12,769 INFO  [Log] Mobile number updated and displayed as 04123456789 
+2017-05-18 11:56:12,805 INFO  [Log] Email updated and displayed as Hello@mailinator.com 
+2017-05-18 11:56:12,843 INFO  [Log] Postcode updated and displayed as 4000 
+2017-05-18 11:56:12,843 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:56:12,843 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 11:56:15,833 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:56:15,833 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 11:56:17,613 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5fa6154c64bff47f7503c94e2bf48e72)] -> id: login-button] 
+2017-05-18 11:57:21,475 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:57:21,475 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 11:57:24,635 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:57:24,635 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term/continuing employee************************************* 
+2017-05-18 11:57:26,373 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6b72c48753de9bcc267f0a4353758c8c)] -> id: login-button] 
+2017-05-18 11:58:16,891 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:58:16,891 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term/continuing employee************************************* 
+2017-05-18 11:58:20,078 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:58:20,078 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 11:58:21,841 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f2d6a421b26afefef7d1182f4e6c8370)] -> id: login-button] 
+2017-05-18 11:58:51,682 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:58:51,682 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 11:58:54,658 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:58:54,658 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 11:58:56,395 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (973b36895549a642f08af3adfc9e8a91)] -> id: login-button] 
+2017-05-18 11:59:55,553 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 11:59:55,553 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 11:59:58,792 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 11:59:58,792 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 12:00:00,541 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3b1bce492289b4e511cd4d693f96159e)] -> id: login-button] 
+2017-05-18 12:01:11,764 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 12:01:11,765 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 12:01:14,976 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 12:01:14,976 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 12:01:16,738 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b7a505c9c9c1a994f6f4519531add06)] -> id: login-button] 
+2017-05-18 12:01:43,304 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 12:01:43,304 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 12:01:46,499 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 12:01:46,499 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-18 12:01:48,292 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c9f09cf2d30f3c2933b19c841fe143c5)] -> id: login-button] 
+2017-05-18 12:02:46,302 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 12:02:46,303 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-18 14:01:18,081 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0ac524d8b7424b41fefbc064f691b44)] -> id: login-button] 
+2017-05-18 14:01:27,764 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0ac524d8b7424b41fefbc064f691b44)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 14:01:27,894 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0ac524d8b7424b41fefbc064f691b44)] -> xpath: .//*[@id='menu-my-aurion-list']/.//a[contains(text(),'Employment History')]] 
+2017-05-18 14:01:28,898 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0ac524d8b7424b41fefbc064f691b44)] -> xpath: .//*[@id='employmenthistories-list']/.//td[contains(text(),'Current')]] 
+2017-05-18 14:01:30,668 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0ac524d8b7424b41fefbc064f691b44)] -> xpath: 	.//a[contains(text(),'Current Role')]] 
+2017-05-18 14:01:30,800 INFO  [Log] Current Role tab is opened 
+2017-05-18 14:01:31,073 INFO  [Log] 'Payroll Details' found 
+2017-05-18 14:01:31,184 INFO  [Log] 'Work Pattern' found 
+2017-05-18 14:01:31,294 INFO  [Log] 'Supervisor Details' found 
+2017-05-18 14:01:31,295 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:01:31,295 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-18 14:01:34,610 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:01:34,610 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 14:01:39,142 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:01:39,142 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 14:01:46,051 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:01:46,051 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 14:01:50,508 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:01:50,508 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 14:01:53,392 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:01:53,392 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:01:55,163 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (49d84a101b89e90133948e59b0cd9803)] -> id: login-button] 
+2017-05-18 14:02:03,620 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (49d84a101b89e90133948e59b0cd9803)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:02:03,747 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (49d84a101b89e90133948e59b0cd9803)] -> link text: Leave] 
+2017-05-18 14:02:05,788 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (49d84a101b89e90133948e59b0cd9803)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 14:02:12,200 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:02:12,200 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:02:19,226 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:02:19,226 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:02:21,009 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (10ad9c7b6674226bb0c0399d1c53020e)] -> id: login-button] 
+2017-05-18 14:02:29,226 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (10ad9c7b6674226bb0c0399d1c53020e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:02:29,361 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (10ad9c7b6674226bb0c0399d1c53020e)] -> link text: Leave] 
+2017-05-18 14:02:31,287 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (10ad9c7b6674226bb0c0399d1c53020e)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 14:03:12,897 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:03:12,897 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:03:16,080 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:03:16,080 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:03:17,849 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b9c6e8cee4e61b0b5e3d88a0de9d5561)] -> id: login-button] 
+2017-05-18 14:03:25,654 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b9c6e8cee4e61b0b5e3d88a0de9d5561)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:03:25,782 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b9c6e8cee4e61b0b5e3d88a0de9d5561)] -> link text: Leave] 
+2017-05-18 14:03:27,813 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b9c6e8cee4e61b0b5e3d88a0de9d5561)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 14:03:41,457 INFO  [Log] Success message Displayed 
+2017-05-18 14:03:41,458 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:03:41,458 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 14:03:44,508 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:03:44,508 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 14:03:46,325 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (53285bf428c0cedc724a0717f5e06a8a)] -> id: login-button] 
+2017-05-18 14:03:48,859 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:03:48,859 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 14:03:51,831 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:03:51,831 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 14:03:53,557 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9efeb47aeb2c17625150e68c8850c872)] -> id: login-button] 
+2017-05-18 14:04:00,960 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9efeb47aeb2c17625150e68c8850c872)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:04:01,101 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9efeb47aeb2c17625150e68c8850c872)] -> link text: Leave] 
+2017-05-18 14:04:03,200 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9efeb47aeb2c17625150e68c8850c872)] -> id: btnPredictLeave] 
+2017-05-18 14:04:03,463 INFO  [Log] 'Type'column found 
+2017-05-18 14:04:03,519 INFO  [Log] 'Days'column found 
+2017-05-18 14:04:03,568 INFO  [Log] 'Hours'column found 
+2017-05-18 14:04:03,618 INFO  [Log] 'Rate'column found 
+2017-05-18 14:04:03,668 INFO  [Log] 'Predicted'column found 
+2017-05-18 14:04:03,669 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:04:03,669 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 14:04:06,655 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:04:06,655 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 14:04:08,440 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (097472671b13ae21b6352f729351ae6e)] -> id: login-button] 
+2017-05-18 14:04:16,787 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (097472671b13ae21b6352f729351ae6e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:04:16,918 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (097472671b13ae21b6352f729351ae6e)] -> link text: My Tasks] 
+2017-05-18 14:04:18,554 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (097472671b13ae21b6352f729351ae6e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 14:04:18,687 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (097472671b13ae21b6352f729351ae6e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 14:04:48,824 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:04:48,824 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 14:04:52,029 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:04:52,029 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 14:04:53,792 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b557c03c67febcc9a8360e49d9efbfb9)] -> id: login-button] 
+2017-05-18 14:05:02,219 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b557c03c67febcc9a8360e49d9efbfb9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 14:05:02,337 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b557c03c67febcc9a8360e49d9efbfb9)] -> link text: My Tasks] 
+2017-05-18 14:05:03,964 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b557c03c67febcc9a8360e49d9efbfb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 14:05:04,096 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b557c03c67febcc9a8360e49d9efbfb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 14:05:34,271 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:05:34,271 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 14:05:37,531 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:05:37,532 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 14:05:41,989 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:05:41,989 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 14:05:48,876 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:05:48,876 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 14:05:50,651 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c400d1db67b6c7985af3536ddb4fe3f6)] -> id: login-button] 
+2017-05-18 14:05:51,889 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:05:51,889 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 14:05:54,863 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:05:54,863 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 14:05:59,306 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:05:59,306 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 14:06:06,232 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:06:06,232 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 14:06:07,992 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fbb50ecc44c8da5c794d0d3524fe46dd)] -> id: login-button] 
+2017-05-18 14:06:19,327 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fbb50ecc44c8da5c794d0d3524fe46dd)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-18 14:06:19,974 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fbb50ecc44c8da5c794d0d3524fe46dd)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 14:06:26,329 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fbb50ecc44c8da5c794d0d3524fe46dd)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 14:06:32,435 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-18 14:06:33,460 INFO  [Log] Thr Gross amount same as expected  
+2017-05-18 14:06:33,506 INFO  [Log] Thr Net amount same as expected  
+2017-05-18 14:06:33,539 INFO  [Log] The Pay Advice PDF link found 
+2017-05-18 14:06:33,540 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:06:33,540 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 14:06:36,538 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:06:36,538 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 14:06:40,949 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:06:40,949 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 14:06:47,847 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:06:47,847 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 14:06:52,217 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:06:52,218 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 14:06:55,188 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:06:55,188 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 14:06:59,720 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:06:59,720 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 14:07:06,593 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:07:06,593 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 14:07:08,391 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8507725035dea00a98f2764be1c70ed)] -> id: login-button] 
+2017-05-18 14:07:19,680 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8507725035dea00a98f2764be1c70ed)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-18 14:07:19,936 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-18 14:07:19,936 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-18 14:07:19,968 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-18 14:07:19,969 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:07:19,969 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 14:07:23,073 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:07:23,073 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 14:07:27,513 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:07:27,513 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 14:07:34,440 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:07:34,440 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 14:07:36,265 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: login-button] 
+2017-05-18 14:07:43,046 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 14:07:43,159 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 14:07:44,100 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 14:07:44,542 INFO  [Log] Entering '9' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F010_PRIORITY]' 
+2017-05-18 14:07:45,226 INFO  [Log] Entering the text: '9' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F010_PRIORITY] 
+2017-05-18 14:07:45,422 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F025_NAME]' 
+2017-05-18 14:07:46,043 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F025_NAME] 
+2017-05-18 14:07:46,234 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 14:07:46,888 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 14:07:47,059 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 14:07:47,690 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 14:07:47,886 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 14:07:48,541 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 14:07:48,796 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 14:07:49,421 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 14:07:53,879 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-18 14:07:53,961 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F040_ADDRESS]' 
+2017-05-18 14:07:54,590 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F040_ADDRESS] 
+2017-05-18 14:07:54,790 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F075_SUBURB]' 
+2017-05-18 14:07:55,412 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F075_SUBURB] 
+2017-05-18 14:07:55,592 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F080_STATE]' 
+2017-05-18 14:07:56,228 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F080_STATE] 
+2017-05-18 14:07:56,429 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F085_POSTCODE]' 
+2017-05-18 14:07:57,083 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F085_POSTCODE] 
+2017-05-18 14:08:01,396 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-18 14:08:01,421 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-18 14:08:02,163 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-18 14:08:06,501 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-18 14:08:06,611 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F070_COMMENTS]' 
+2017-05-18 14:08:07,236 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> id: T006F070_COMMENTS] 
+2017-05-18 14:08:07,480 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f201f7149032f4f33200e23ff91dfd8b)] -> name: save] 
+2017-05-18 14:08:39,657 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:08:39,657 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 14:08:42,821 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:08:42,821 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 14:08:47,248 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:08:47,248 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 14:08:54,162 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:08:54,162 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 14:08:58,638 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:08:58,638 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 14:09:05,519 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:09:05,519 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 14:09:09,988 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:09:09,988 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 14:09:16,883 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:09:16,883 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-18 14:09:21,291 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:09:21,291 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-18 14:09:28,176 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:09:28,177 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 14:09:29,910 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb74df639c8b939281791ecf3cc2c252)] -> id: login-button] 
+2017-05-18 14:10:00,311 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:10:00,311 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 14:10:03,331 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:10:03,331 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 14:10:05,842 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:10:05,842 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 14:10:08,724 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:10:08,724 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 14:10:13,165 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:10:13,165 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 14:10:20,130 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:10:20,130 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 14:10:24,537 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:10:24,537 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 14:10:31,603 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 14:10:31,603 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-18 14:10:34,590 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 14:10:34,590 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-18 16:10:28,786 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (67b3bfca5a910e06ee776286e65ed030)] -> id: login-button] 
+2017-05-18 16:10:33,207 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:10:33,207 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-18 16:10:36,385 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:10:36,385 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 16:10:38,185 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (36bfeeae7a368b1d36d979d45b334090)] -> id: login-button] 
+2017-05-18 16:10:52,004 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (36bfeeae7a368b1d36d979d45b334090)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 16:10:52,126 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (36bfeeae7a368b1d36d979d45b334090)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 16:10:54,486 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:10:54,486 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-18 16:10:57,505 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:10:57,505 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 16:10:59,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bfaabd8d80f972681fa984c640998bac)] -> id: login-button] 
+2017-05-18 16:11:09,989 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bfaabd8d80f972681fa984c640998bac)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:11:10,116 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bfaabd8d80f972681fa984c640998bac)] -> link text: Leave] 
+2017-05-18 16:11:13,538 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bfaabd8d80f972681fa984c640998bac)] -> id: btnPredictLeave] 
+2017-05-18 16:11:13,799 INFO  [Log] 'Type'column found 
+2017-05-18 16:11:13,862 INFO  [Log] 'Days'column found 
+2017-05-18 16:11:13,924 INFO  [Log] 'Hours'column found 
+2017-05-18 16:11:13,975 INFO  [Log] 'Rate'column found 
+2017-05-18 16:11:14,026 INFO  [Log] 'Predicted'column found 
+2017-05-18 16:11:14,027 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:11:14,027 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-18 16:11:17,063 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:11:17,063 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:11:18,812 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d8b371856f47907d8f3251a310003c5)] -> id: login-button] 
+2017-05-18 16:11:27,685 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d8b371856f47907d8f3251a310003c5)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:11:27,810 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d8b371856f47907d8f3251a310003c5)] -> link text: Leave] 
+2017-05-18 16:11:29,671 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3d8b371856f47907d8f3251a310003c5)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 16:12:11,350 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:12:11,350 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:12:14,598 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:12:14,598 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:12:16,381 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76ba0307a0caea27db3306b00667f5b6)] -> id: login-button] 
+2017-05-18 16:12:25,753 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76ba0307a0caea27db3306b00667f5b6)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:12:25,872 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76ba0307a0caea27db3306b00667f5b6)] -> link text: Leave] 
+2017-05-18 16:12:27,844 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76ba0307a0caea27db3306b00667f5b6)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 16:13:09,422 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:13:09,422 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:13:12,739 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:13:12,740 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:13:14,475 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24adaad552ae22fcf04f314a698ed2a1)] -> id: login-button] 
+2017-05-18 16:13:23,668 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24adaad552ae22fcf04f314a698ed2a1)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:13:23,789 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24adaad552ae22fcf04f314a698ed2a1)] -> link text: Leave] 
+2017-05-18 16:13:25,803 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24adaad552ae22fcf04f314a698ed2a1)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 16:14:07,298 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:14:07,298 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-18 16:14:10,574 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:14:10,574 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 16:14:12,359 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (994dbc6d098b0175f1303ac3bccd0fb6)] -> id: login-button] 
+2017-05-18 16:14:21,967 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (994dbc6d098b0175f1303ac3bccd0fb6)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:14:22,149 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (994dbc6d098b0175f1303ac3bccd0fb6)] -> link text: Leave] 
+2017-05-18 16:14:24,104 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (994dbc6d098b0175f1303ac3bccd0fb6)] -> xpath: .//*[@href='leave/new']] 
+2017-05-18 16:14:40,177 INFO  [Log] Success message Displayed 
+2017-05-18 16:14:40,178 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:14:40,178 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-18 16:14:43,212 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:14:43,213 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 16:14:44,953 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35b0a4f405ef82ff7dcf6ae716e5ae70)] -> id: login-button] 
+2017-05-18 16:14:53,596 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35b0a4f405ef82ff7dcf6ae716e5ae70)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:14:53,723 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35b0a4f405ef82ff7dcf6ae716e5ae70)] -> link text: Leave] 
+2017-05-18 16:14:55,839 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35b0a4f405ef82ff7dcf6ae716e5ae70)] -> id: btnPredictLeave] 
+2017-05-18 16:14:56,124 INFO  [Log] 'Type'column found 
+2017-05-18 16:14:56,187 INFO  [Log] 'Days'column found 
+2017-05-18 16:14:56,240 INFO  [Log] 'Hours'column found 
+2017-05-18 16:14:56,297 INFO  [Log] 'Rate'column found 
+2017-05-18 16:14:56,344 INFO  [Log] 'Predicted'column found 
+2017-05-18 16:14:56,344 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:14:56,344 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-18 16:14:59,334 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:14:59,334 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 16:15:01,113 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b898bead665dc87cd4d9777423735c37)] -> id: login-button] 
+2017-05-18 16:15:11,333 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b898bead665dc87cd4d9777423735c37)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:15:11,459 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b898bead665dc87cd4d9777423735c37)] -> link text: My Tasks] 
+2017-05-18 16:15:13,400 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b898bead665dc87cd4d9777423735c37)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 16:15:13,563 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b898bead665dc87cd4d9777423735c37)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 16:15:43,752 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:15:43,752 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 16:15:47,132 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:15:47,132 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 16:15:48,875 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fcbb77c6663f28a89199ef2f797ab600)] -> id: login-button] 
+2017-05-18 16:15:58,672 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fcbb77c6663f28a89199ef2f797ab600)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:15:58,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fcbb77c6663f28a89199ef2f797ab600)] -> link text: My Tasks] 
+2017-05-18 16:16:00,380 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fcbb77c6663f28a89199ef2f797ab600)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 16:16:00,514 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fcbb77c6663f28a89199ef2f797ab600)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 16:16:30,662 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:16:30,662 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-18 16:16:33,854 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:16:33,854 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 16:16:35,641 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ee674a80fa4cae10a01c4a5ccb4e36e)] -> id: login-button] 
+2017-05-18 16:16:44,582 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ee674a80fa4cae10a01c4a5ccb4e36e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:16:44,704 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ee674a80fa4cae10a01c4a5ccb4e36e)] -> link text: Leave] 
+2017-05-18 16:16:47,263 INFO  [Log] Found the cell with text and selecting it '01/09/2017' 
+2017-05-18 16:16:47,265 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (1ee674a80fa4cae10a01c4a5ccb4e36e)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-05-18 16:17:18,004 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//button[contains(text(),'Reverse')]' 
+2017-05-18 16:17:48,053 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:17:48,053 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-18 16:17:51,284 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:17:51,284 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 16:17:53,046 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> id: login-button] 
+2017-05-18 16:18:03,244 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:18:03,386 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> link text: My Tasks] 
+2017-05-18 16:18:05,027 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 16:18:05,172 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 16:18:05,317 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'05/09/2017')]] 
+2017-05-18 16:18:08,523 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> name: decline] 
+2017-05-18 16:18:09,517 INFO  [Log] Entering 'this is a automation test for Leave Decline' into the field '[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-18 16:18:10,146 INFO  [Log] Entering the text: 'this is a automation test for Leave Decline' Into the field '[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-18 16:18:10,463 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5ca50cee023731be0bd2f60a8f63322a)] -> xpath: .//button[contains(text(),'Decline')]] 
+2017-05-18 16:18:12,328 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-18 16:18:12,328 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:18:12,328 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-18 16:18:15,342 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:18:15,342 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 16:18:17,077 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> id: login-button] 
+2017-05-18 16:18:26,991 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-18 16:18:27,122 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> link text: My Tasks] 
+2017-05-18 16:18:28,680 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-05-18 16:18:28,823 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-18 16:18:28,961 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'06/09/2017')]] 
+2017-05-18 16:18:31,966 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> name: return] 
+2017-05-18 16:18:32,957 INFO  [Log] Entering 'this is a automation test for Leave Return' into the field '[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-18 16:18:33,586 INFO  [Log] Entering the text: 'this is a automation test for Leave Return' Into the field '[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-18 16:18:33,906 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078c7e1ec7aae6ad3156a9ee479bef45)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-05-18 16:18:35,711 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-18 16:18:35,711 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:18:35,711 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-18 16:18:38,729 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:18:38,729 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 16:18:40,478 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (20c35b3ac47af6cb414ef2f5e64ef06e)] -> id: login-button] 
+2017-05-18 16:18:53,300 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (20c35b3ac47af6cb414ef2f5e64ef06e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Pay Summaries')]] 
+2017-05-18 16:18:53,891 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (20c35b3ac47af6cb414ef2f5e64ef06e)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 16:19:00,100 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (20c35b3ac47af6cb414ef2f5e64ef06e)] -> xpath: .//*[contains(text(),'Next')]] 
+2017-05-18 16:19:06,360 INFO  [Log] Found the resut and selecting it '25/05/2016 
+2017-05-18 16:19:07,547 INFO  [Log] Thr Gross amount same as expected  
+2017-05-18 16:19:07,594 INFO  [Log] Thr Net amount same as expected  
+2017-05-18 16:19:07,628 INFO  [Log] The Pay Advice PDF link found 
+2017-05-18 16:19:07,629 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:19:07,629 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-18 16:19:10,686 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:19:10,686 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 16:19:12,477 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f0fd802e7dd7f0288f6b35a106de0282)] -> id: login-button] 
+2017-05-18 16:19:15,904 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:19:15,904 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 16:19:18,777 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:19:18,777 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 16:19:20,576 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e64da52d6ccb4ecc138f73408b1956f)] -> id: login-button] 
+2017-05-18 16:19:33,158 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e64da52d6ccb4ecc138f73408b1956f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-05-18 16:19:33,452 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-05-18 16:19:34,726 INFO  [Log] Year to date page is displayed 
+2017-05-18 16:19:34,770 INFO  [Log] Year to date table is displayed 
+2017-05-18 16:19:35,377 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-05-18 16:19:35,379 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (9e64da52d6ccb4ecc138f73408b1956f)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-05-18 16:19:38,784 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-05-18 16:19:38,785 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:19:38,785 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-18 16:19:41,817 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:19:41,817 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 16:19:43,583 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2d7ba322b59fd6f47c10d4411619d8f6)] -> id: login-button] 
+2017-05-18 16:19:57,237 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2d7ba322b59fd6f47c10d4411619d8f6)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-18 16:19:57,522 INFO  [Log] Found the resut and selecting it '30/06/2015 
+2017-05-18 16:19:57,522 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-18 16:19:57,556 INFO  [Log] The link to download summary pdf for date'30/06/2015' found in the ATO summarylist 
+2017-05-18 16:19:57,557 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:19:57,557 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-18 16:20:00,577 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:20:00,577 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 16:20:02,354 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (31a6465a016fe50456965c1a62a4c313)] -> id: login-button] 
+2017-05-18 16:20:15,654 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (31a6465a016fe50456965c1a62a4c313)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-05-18 16:20:15,923 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-05-18 16:20:15,923 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-05-18 16:20:15,955 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-05-18 16:20:15,956 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:20:15,956 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-18 16:20:18,966 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:20:18,966 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 16:20:20,708 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: login-button] 
+2017-05-18 16:20:29,551 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 16:20:29,673 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 16:20:30,550 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 16:20:30,961 INFO  [Log] Entering '8' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F010_PRIORITY]' 
+2017-05-18 16:20:31,588 INFO  [Log] Entering the text: '8' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F010_PRIORITY] 
+2017-05-18 16:20:31,751 INFO  [Log] Entering 'Hello' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F025_NAME]' 
+2017-05-18 16:20:32,387 INFO  [Log] Entering the text: 'Hello' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F025_NAME] 
+2017-05-18 16:20:32,561 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 16:20:33,212 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 16:20:37,535 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-18 16:20:37,627 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> name: save] 
+2017-05-18 16:20:37,759 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 16:20:38,437 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 16:20:38,623 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 16:20:39,257 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 16:20:39,442 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 16:20:40,069 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 16:20:40,306 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F040_ADDRESS]' 
+2017-05-18 16:20:40,942 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F040_ADDRESS] 
+2017-05-18 16:20:41,155 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F085_POSTCODE]' 
+2017-05-18 16:20:41,809 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F085_POSTCODE] 
+2017-05-18 16:20:46,170 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-18 16:20:46,245 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F070_COMMENTS]' 
+2017-05-18 16:20:46,893 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> id: T006F070_COMMENTS] 
+2017-05-18 16:20:47,100 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5b52805ac4818d8d240c9111d7590d9e)] -> name: save] 
+2017-05-18 16:21:19,258 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:21:19,258 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-18 16:21:22,449 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:21:22,449 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 16:21:24,239 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: login-button] 
+2017-05-18 16:21:33,229 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 16:21:33,356 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 16:21:34,264 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 16:21:34,645 INFO  [Log] Entering '9' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F010_PRIORITY]' 
+2017-05-18 16:21:35,285 INFO  [Log] Entering the text: '9' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F010_PRIORITY] 
+2017-05-18 16:21:35,450 INFO  [Log] Entering 'Foreign contact' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F025_NAME]' 
+2017-05-18 16:21:36,096 INFO  [Log] Entering the text: 'Foreign contact' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F025_NAME] 
+2017-05-18 16:21:36,326 INFO  [Log] Entering '07979794645' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 16:21:36,956 INFO  [Log] Entering the text: '07979794645' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 16:21:37,142 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 16:21:37,770 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 16:21:37,963 INFO  [Log] Entering 'Hello.external@mailinator.com' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 16:21:38,594 INFO  [Log] Entering the text: 'Hello.external@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 16:21:38,914 INFO  [Log] Entering 'Mother' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 16:21:39,542 INFO  [Log] Entering the text: 'Mother' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 16:21:43,969 INFO  [Log] Found the resut and selecting it 'Mother 
+2017-05-18 16:21:44,059 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F040_ADDRESS]' 
+2017-05-18 16:21:44,693 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F040_ADDRESS] 
+2017-05-18 16:21:44,891 INFO  [Log] Entering 'New York' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F075_SUBURB]' 
+2017-05-18 16:21:45,519 INFO  [Log] Entering the text: 'New York' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F075_SUBURB] 
+2017-05-18 16:21:45,713 INFO  [Log] Entering 'NY' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F080_STATE]' 
+2017-05-18 16:21:46,346 INFO  [Log] Entering the text: 'NY' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F080_STATE] 
+2017-05-18 16:21:46,501 INFO  [Log] Entering 'NY2585' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F085_POSTCODE]' 
+2017-05-18 16:21:47,141 INFO  [Log] Entering the text: 'NY2585' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F085_POSTCODE] 
+2017-05-18 16:21:51,467 WARN  [Log] Couldn't find the result 'NY2585 
+2017-05-18 16:21:51,489 INFO  [Log] Entering 'USA' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F095_COUNTRY_CODE]' 
+2017-05-18 16:21:52,134 INFO  [Log] Entering the text: 'USA' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F095_COUNTRY_CODE] 
+2017-05-18 16:21:56,459 INFO  [Log] Found the resut and selecting it 'USA 
+2017-05-18 16:21:56,545 INFO  [Log] Entering 'No Comments at all here' into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F070_COMMENTS]' 
+2017-05-18 16:21:57,179 INFO  [Log] Entering the text: 'No Comments at all here' Into the field '[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> id: T006F070_COMMENTS] 
+2017-05-18 16:21:57,422 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (536fae8ca4ec0e497d6a60d7e676f46a)] -> name: save] 
+2017-05-18 16:22:29,595 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:22:29,596 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-18 16:22:32,859 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:22:32,859 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 16:22:34,693 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: login-button] 
+2017-05-18 16:22:43,727 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 16:22:43,838 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 16:22:44,765 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-05-18 16:22:45,263 INFO  [Log] Entering '11' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F010_PRIORITY]' 
+2017-05-18 16:22:45,913 INFO  [Log] Entering the text: '11' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F010_PRIORITY] 
+2017-05-18 16:22:46,113 INFO  [Log] Entering 'Test User' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F025_NAME]' 
+2017-05-18 16:22:46,792 INFO  [Log] Entering the text: 'Test User' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F025_NAME] 
+2017-05-18 16:22:47,013 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-05-18 16:22:47,703 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-05-18 16:22:52,056 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-05-18 16:22:52,239 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> name: save] 
+2017-05-18 16:22:52,392 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 16:22:53,062 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 16:22:53,239 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 16:22:53,947 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 16:22:54,133 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 16:22:54,789 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 16:22:55,057 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F040_ADDRESS]' 
+2017-05-18 16:22:55,682 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F040_ADDRESS] 
+2017-05-18 16:22:55,886 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F085_POSTCODE]' 
+2017-05-18 16:22:56,523 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F085_POSTCODE] 
+2017-05-18 16:23:00,895 INFO  [Log] Found the resut and selecting it '4074 
+2017-05-18 16:23:00,989 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F070_COMMENTS]' 
+2017-05-18 16:23:01,624 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> id: T006F070_COMMENTS] 
+2017-05-18 16:23:01,854 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6faabce1a9002a5994b3c82f3dcb3de0)] -> name: save] 
+2017-05-18 16:23:34,005 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:23:34,005 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-18 16:23:37,224 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:23:37,224 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 16:23:39,013 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> id: login-button] 
+2017-05-18 16:23:47,989 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-05-18 16:23:48,112 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-05-18 16:23:49,267 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//button[contains(text(),'Update')]] 
+2017-05-18 16:23:50,190 INFO  [Log] Entering 'Nina' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input]' 
+2017-05-18 16:23:50,878 INFO  [Log] Entering the text: 'Nina' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input] 
+2017-05-18 16:23:51,094 INFO  [Log] Entering '464646' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Work')]/../.././/input]' 
+2017-05-18 16:23:51,732 INFO  [Log] Entering the text: '464646' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Work')]/../.././/input] 
+2017-05-18 16:23:51,891 INFO  [Log] Entering '4646464' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input]' 
+2017-05-18 16:23:52,514 INFO  [Log] Entering the text: '4646464' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input] 
+2017-05-18 16:23:52,686 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-05-18 16:23:53,304 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-05-18 16:23:53,471 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-05-18 16:23:54,092 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-05-18 16:23:54,275 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-05-18 16:23:54,900 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-05-18 16:23:55,122 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> id: T000F040_ADDRESS]' 
+2017-05-18 16:23:55,741 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> id: T000F040_ADDRESS] 
+2017-05-18 16:23:55,971 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> id: T000F300_POSTAL_IS_HOME] 
+2017-05-18 16:23:56,069 INFO  [Log] Entering 'XYZ' into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input]' 
+2017-05-18 16:23:56,704 INFO  [Log] Entering the text: 'XYZ' Into the field '[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input] 
+2017-05-18 16:23:56,876 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f037da4b38530b056eb2f174c0deedd)] -> name: save] 
+2017-05-18 16:23:58,100 INFO  [Log] Preferred Name updated and displayed as 'Nina 
+2017-05-18 16:23:58,147 INFO  [Log] Work number updated and displayed as 464646 
+2017-05-18 16:23:58,192 INFO  [Log] Fax number updated and displayed as 4646464 
+2017-05-18 16:23:58,243 INFO  [Log] Home number updated and displayed as 0797979 
+2017-05-18 16:23:58,296 INFO  [Log] Mobile number updated and displayed as 04123456789 
+2017-05-18 16:23:58,344 INFO  [Log] Email updated and displayed as Hello@mailinator.com 
+2017-05-18 16:23:58,381 INFO  [Log] Postcode updated and displayed as 4000 
+2017-05-18 16:23:58,382 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:23:58,382 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-18 16:24:01,493 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:24:01,493 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 16:24:03,364 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7bdc619e4eed4df5ed1955a05d14d0f9)] -> id: login-button] 
+2017-05-18 16:25:06,054 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:25:06,054 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-18 16:25:09,237 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:25:09,237 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-18 16:25:11,004 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9972eb1611f63a5487c8d6090438e108)] -> id: login-button] 
+2017-05-18 16:25:20,694 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:25:20,694 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-18 16:25:23,677 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:25:23,677 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 16:25:25,445 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1364da70411aa7d58d0c27364cf8ddeb)] -> id: login-button] 
+2017-05-18 16:25:55,924 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:25:55,925 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-18 16:25:58,925 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:25:58,925 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 16:26:00,650 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f6cdc2d2e5521f1dba603ff07d8830a8)] -> id: login-button] 
+2017-05-18 16:26:02,972 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:26:02,972 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-18 16:26:05,851 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:26:05,851 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 16:26:07,569 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1a9fa20bc62b828e55c33fd2acad7852)] -> id: login-button] 
+2017-05-18 16:27:15,943 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:27:15,943 INFO  [Log] ******************************* Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-18 16:27:19,115 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:27:19,115 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 16:27:20,833 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76595a6f7bdc49ad2c2b40493d89ae9e)] -> id: login-button] 
+2017-05-18 16:27:46,394 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:27:46,394 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-18 16:27:49,511 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-18 16:27:49,512 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-18 16:27:51,263 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75dd1972e11c694b5d4636626dcfe595)] -> id: login-button] 
+2017-05-18 16:28:48,655 INFO  [Log] **********************End of the test*********************** 
+2017-05-18 16:28:48,655 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 

@@ -35,7 +35,7 @@ Feature: Timesheet
   
   		
   @hello	
-  Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Period view
+  Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Period view
   
   	 Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -66,7 +66,7 @@ Feature: Timesheet
   	
   	
   	 @hello	
-  Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet- Daily view- Detailed view
+  Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Detailed view
   
   	 Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -95,9 +95,9 @@ Feature: Timesheet
   		
   	
   	@hello
-  Scenario Outline:  Casual staff - Enter, Validate and Submit Timesheet (on behalf of employee)
+  Scenario Outline:  Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqsjone3"
       And I enter password as "password123"
       And I click Login button
       And I click on change Employee icon
@@ -129,7 +129,7 @@ Feature: Timesheet
   #	Try Submit time sheet as a fixed term/continuing employee and verify that time sheet is disabled
   	
   	@manoj
-  	Scenario: Try Submit timesheet as a fixed term/continuing employee
+  	Scenario: Try Submit timesheet as a fixed term or continuing employee
   	Given I am on myAurion login page
    	  And I enter username as "uqksolom"
       And I enter password as "password123"
@@ -201,7 +201,7 @@ Feature: Timesheet
 #Populate timesheets with default values
  
  @manoj	
-  Scenario: Casual staff - Create/Remove a Default Timesheet-Create default timesheet from previous timesheet
+  Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
       And I enter password as "password123"
@@ -344,12 +344,40 @@ Feature: Timesheet
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on save
- 		And I click on Done
+ 		#And I click on Done
 	Then I should see the timesheet is saved message displayed
    	
    		Examples:
   |TimesheetStartdate|Action|WhichDay|
   |18/02/2017         |Return|   20170222 |
+  
+  
+  
+   	  @hello
+ Scenario Outline:  Supervisor of casual staff - Review and Update Timesheet using Detailed View
+  Given I am on myAurion login page
+   	  And I enter username as "uqsjone3"
+      And I enter password as "password123"
+      And I click Login button
+  When I am on MyTasks page
+  		And I select My tasks action "Timesheet Approvals"
+ 		And I click on "Latest"button for "Timesheet Approvals"
+ 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the view "Detailed"
+ 		And I click on detailed view Add button
+ 		And I select the date to enter time "<WhichDay>"
+  		And I select contact hours type
+ 		And I enter course code as "test"
+  		And I enter start time as "08:00"
+  		And I enter stop time as "17:00"
+  		And I click on save
+  		#And I Close the notification
+ 		#And I click on Done
+	Then I should see the timesheet is saved message displayed
+   	
+   		Examples:
+  |TimesheetStartdate|Action|WhichDay|
+  |18/02/2017         ||   20170222 |
   
   
   

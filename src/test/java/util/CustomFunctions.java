@@ -468,6 +468,18 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	
 	}
 	
+ public static void PrintScreenShotWithScenarioName(String testname) throws Throwable{
+		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+		LocalDateTime now = LocalDateTime.now();
+		String date= now.toString();
+		date=date.replaceAll("[^a-zA-Z0-9]", "");
+		System.out.println(date);
+		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File("C://MyAurionTestScreenshots//"+testname+""+date+".jpg"));
+	
+	}
+	
 	
 	
 	
@@ -477,11 +489,11 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		DebugLog.LogInfo.info(message);
 		try{
 		Assert.assertTrue(condition);
-		PrintScreenShot();
+		//PrintScreenShot();
 		}
 		catch(NoSuchElementException e){
 			DebugLog.LogInfo.warn("The Assert failed. Element not found");
-			PrintScreenShot();
+			//PrintScreenShot();
 		}
 		
 	}

@@ -9,6 +9,7 @@ import cucumber.api.java.Before;
 
 import pageclasses.DashboardPage;
 import pageclasses.LandingPage;
+import util.CustomFunctions;
 import util.DebugLog;
 
 public class LoginSteps extends DriverFactory {
@@ -25,10 +26,19 @@ public class LoginSteps extends DriverFactory {
     }
 
     @After
-    public void afterScenario(Scenario scenario) {
+    public void afterScenario(Scenario scenario) throws Throwable {
     	 String scenarioname=scenario.getName();
     	DebugLog.EndTest(scenarioname);
-        new DriverFactory().destroyDriver();
+    	scenarioname=scenarioname+"Failed";
+    	try{
+    	if(scenario.isFailed()){
+    		CustomFunctions.PrintScreenShotWithScenarioName(scenarioname);
+    	}
+    	 
+    	}
+    	
+    	finally{
+        new DriverFactory().destroyDriver();}
     }
 
     @Given("^I am on myAurion login page$")
