@@ -32,9 +32,12 @@ public class LandingPage extends DriverFactory{
    
 
     public void login_page() throws Throwable {
+    	
+    	String URL= new PropertyReader().readProperty("URL");
+    	
     
     	//DebugLog.StartTest("");
-        driver.get("https://myaurionupgrdev.hr.uq.edu.au/");
+        driver.get(URL);
         driver.manage().window().maximize();
         
     }

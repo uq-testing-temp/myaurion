@@ -488,10 +488,13 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	@SuppressWarnings("deprecation")
 	public static void CustomAssertTrue(String message, boolean condition) throws Throwable{
 		
+		String screnprintAtPass= new PropertyReader().readProperty("ScreenshotOnPass");
+		
 		DebugLog.LogInfo.info(message);
 		try{
 		Assert.assertTrue(condition);
-		//PrintScreenShot();
+		if(screnprintAtPass.equalsIgnoreCase("true")){
+		PrintScreenShot();}
 		}
 		catch(NoSuchElementException e){
 			DebugLog.LogInfo.warn("The Assert failed. Element not found");
