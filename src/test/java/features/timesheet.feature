@@ -383,6 +383,122 @@ Feature: Timesheet
   
   
   
+  
+  
+  
+ # Couldn't be automated now due to issue with Timesheet submission
+    	 	 @TBD
+  Scenario Outline: Casual staff - Update Declined Timesheet and Resubmit
+  
+  	 Given I am on myAurion login page
+   	  And I enter username as "uqksolom"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  		And I click on View full list
+  		And I select the declined timesheet "<Dated>"
+  		And click on show from button
+  		And I select the daily timesheet
+  		And I add contact hours button
+  		And I select the date to enter time "<WhichDay>"
+  		And I select contact hours type
+  		And I enter course code as "test"
+  		And I enter start time as "08:00"
+  		And I enter stop time as "17:00"
+  		And I click on save
+  		Then I should see the timesheet is saved message displayed
+  		When I click on submit timesheet
+  		And I enter the message as " Please approve this is a test"
+  		And I click submit button 
+  	Then I should see the timesheet is saved message displayed
+  	
+  	Examples:
+  	|WhichDay|Dated      |
+  	|20170122|18/02/2017 |
+  	
+  	
+  	
+# Couldn't be automated now due to issue with Timesheet submission  	
+  	 	 @TBD	
+  Scenario Outline: Casual staff - Update Returned Timesheet and Resubmit
+  
+  	 Given I am on myAurion login page
+   	  And I enter username as "uqksolom"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  		And I click on View full list
+  		And I select the Returned timesheet "<Dated>"
+  		And click on show from button
+  		And I perform recall timesheet action
+  		And I select the daily timesheet
+  		And I add contact hours button
+  		And I select the date to enter time "<WhichDay>"
+  		And I select contact hours type
+  		And I enter course code as "test"
+  		And I enter start time as "08:00"
+  		And I enter stop time as "17:00"
+  		And I click on save
+  		Then I should see the timesheet is saved message displayed
+  		When I click on submit timesheet
+  		And I enter the message as " Please approve this is a test"
+  		And I click submit button 
+  	Then I should see the timesheet is saved message displayed
+  	
+  	Examples:
+  	|WhichDay|Dated      |
+  	|20170222|18/02/2017 |
+  	
+  
+  # Couldn't be automated now due to issue with Timesheet submission
+    	 	 @TBD
+  Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
+  
+  	 Given I am on myAurion login page
+   	  And I enter username as "uqksolom"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  		And I click on View full list
+  		And I select the approved timesheet "<Dated>"
+  		And click on show from button
+  		And I perform recall timesheet action
+   	Then I should see the timesheet recalled message displayed
+  	
+  	Examples:
+  	|Dated      |
+  	|18/02/2017 |
+  	
+  	
+  	
+  	  
+ # Couldn't be automated now due to issue with Timesheet submission
+    	 	 @TBD	
+  Scenario Outline: Casual staff - Recall Submitted Timesheet
+  
+  	 Given I am on myAurion login page
+   	  And I enter username as "uqksolom"
+      And I enter password as "password123"
+      And I click Login button
+  	Given I am on timesheet page
+  		And I click on View full list
+  		And I select the approved timesheet "<Dated>"
+  		And click on show from button
+  		And I perform recall timesheet action
+   	Then I should see the timesheet recalled message displayed
+  	
+  	Examples:
+  	|Dated      |
+  	|18/02/2017 |
+  
+  
+  
+  
+  
+  
+  
+  
+  
     	
  	
   Scenario Outline: Submit timesheet using period form for multiple days
