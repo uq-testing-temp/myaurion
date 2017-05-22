@@ -101,7 +101,7 @@ public class LeavePage extends DriverFactory {
 	@FindBy(xpath=".//button[contains(text(),'Return')]")
 	private WebElement ReturnLeaveBtn;
 	
-	@FindBy(xpath=".//button[contains(text(),'Forward')]")
+	@FindBy(xpath=".//*[contains(text(),'Forward')]")
 	private WebElement ForwardLeaveBtn;
 	
 	@FindBy(xpath=".//button[contains(text(),'Reverse')]")

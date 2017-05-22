@@ -1,0 +1,150 @@
+2017-05-22 13:30:08,919 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30e3614fb4bf78d66208ee2edb931411)] -> id: login-button] 
+2017-05-22 13:30:27,601 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30e3614fb4bf78d66208ee2edb931411)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-22 13:30:27,719 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30e3614fb4bf78d66208ee2edb931411)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-22 13:30:29,323 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30e3614fb4bf78d66208ee2edb931411)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-22 13:30:53,843 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30e3614fb4bf78d66208ee2edb931411)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-22 13:31:04,137 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:31:04,137 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-22 13:31:07,333 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:31:07,333 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-22 13:31:09,096 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a71e6003e6d21cdd08730084dea4d585)] -> id: login-button] 
+2017-05-22 13:31:23,380 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a71e6003e6d21cdd08730084dea4d585)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-22 13:31:23,490 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a71e6003e6d21cdd08730084dea4d585)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-22 13:31:25,188 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a71e6003e6d21cdd08730084dea4d585)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-22 13:31:49,223 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a71e6003e6d21cdd08730084dea4d585)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-22 13:32:02,266 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:32:02,266 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-22 13:32:05,292 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:32:05,292 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-22 13:32:07,090 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0e0004b0f963309a8635d385f7ac8768)] -> id: login-button] 
+2017-05-22 13:32:21,158 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0e0004b0f963309a8635d385f7ac8768)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-22 13:32:21,301 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0e0004b0f963309a8635d385f7ac8768)] -> xpath: .//*[@id='panelDetailed']/div[2]/button] 
+2017-05-22 13:32:53,988 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:32:53,988 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-22 13:32:57,045 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:32:57,045 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-22 13:32:58,953 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d262686c4cb3499c2df8d2bfe8a99009)] -> id: login-button] 
+2017-05-22 13:33:06,236 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d262686c4cb3499c2df8d2bfe8a99009)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:33:06,351 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d262686c4cb3499c2df8d2bfe8a99009)] -> link text: My Tasks] 
+2017-05-22 13:33:07,796 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d262686c4cb3499c2df8d2bfe8a99009)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:33:07,918 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d262686c4cb3499c2df8d2bfe8a99009)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:33:38,103 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:33:38,103 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-22 13:33:41,390 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:33:41,390 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-22 13:33:43,161 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> id: login-button] 
+2017-05-22 13:33:51,027 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:33:51,144 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> link text: My Tasks] 
+2017-05-22 13:33:52,657 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:33:52,787 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:33:52,896 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'10/12/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-22 13:33:55,036 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: .//a[contains(text(),'Decline')]] 
+2017-05-22 13:33:56,036 INFO  [Log] Entering 'this is a automation test for Timesheet Decline' into the field '[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-22 13:33:56,667 INFO  [Log] Entering the text: 'this is a automation test for Timesheet Decline' Into the field '[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-22 13:33:56,922 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (94b409b3ac97a3e95ffd581c47ff1706)] -> xpath: .//button[contains(text(),'Decline')]] 
+2017-05-22 13:33:58,785 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-22 13:33:58,965 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:33:58,965 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-22 13:34:02,109 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:34:02,109 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-22 13:34:03,858 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> id: login-button] 
+2017-05-22 13:34:11,257 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:34:11,372 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> link text: My Tasks] 
+2017-05-22 13:34:12,813 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:34:12,934 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:34:13,045 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-22 13:34:15,043 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: .//a[contains(text(),'Return')]] 
+2017-05-22 13:34:16,153 INFO  [Log] Entering 'this is a automation test for Timesheet Return' into the field '[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-22 13:34:16,781 INFO  [Log] Entering the text: 'this is a automation test for Timesheet Return' Into the field '[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-22 13:34:17,062 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (23a3168291ac63098bc125544d3ec85f)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-05-22 13:34:18,697 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-22 13:34:18,913 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:34:18,913 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-22 13:34:21,947 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:34:21,947 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-22 13:34:23,737 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> id: login-button] 
+2017-05-22 13:34:30,809 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:34:30,933 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> link text: My Tasks] 
+2017-05-22 13:34:32,395 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:34:32,528 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:34:32,636 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'25/06/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-22 13:34:34,764 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-22 13:34:34,887 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-22 13:34:36,557 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-22 13:35:01,668 INFO  [Log] Time sheet line saved success message Displayed 
+2017-05-22 13:35:04,067 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-22 13:35:05,797 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//a[contains(text(),'Approve')]] 
+2017-05-22 13:35:06,725 INFO  [Log] Entering 'this is a automation test for Review, Update and Timesheet Approval' into the field '[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-22 13:35:07,354 INFO  [Log] Entering the text: 'this is a automation test for Review, Update and Timesheet Approval' Into the field '[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-22 13:35:07,656 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (50f23126e4a4c32a9020aee74c65912d)] -> xpath: .//button[contains(text(),'Approve')]] 
+2017-05-22 13:35:09,541 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-22 13:35:09,739 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:35:09,740 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-22 13:35:12,766 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:35:12,766 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-22 13:35:14,563 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7aace70147d975fcb138cbdaf57ac74e)] -> id: login-button] 
+2017-05-22 13:35:22,265 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7aace70147d975fcb138cbdaf57ac74e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:35:22,378 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7aace70147d975fcb138cbdaf57ac74e)] -> link text: My Tasks] 
+2017-05-22 13:35:23,802 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7aace70147d975fcb138cbdaf57ac74e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:35:23,986 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7aace70147d975fcb138cbdaf57ac74e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:35:54,182 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:35:54,182 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-22 13:35:57,410 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:35:57,410 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-22 13:35:59,274 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b3a9c601ebc676e7181ddbfff4032f93)] -> id: login-button] 
+2017-05-22 13:36:06,604 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b3a9c601ebc676e7181ddbfff4032f93)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:36:06,723 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b3a9c601ebc676e7181ddbfff4032f93)] -> link text: My Tasks] 
+2017-05-22 13:36:08,208 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b3a9c601ebc676e7181ddbfff4032f93)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:36:08,318 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b3a9c601ebc676e7181ddbfff4032f93)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:36:38,480 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:36:38,481 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-22 13:36:41,746 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:36:41,747 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-22 13:36:43,493 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> id: login-button] 
+2017-05-22 13:36:59,755 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-22 13:36:59,757 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-22 13:37:01,035 INFO  [Log] Entering '10/12/2016' into the field '[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-22 13:37:01,667 INFO  [Log] Entering the text: '10/12/2016' Into the field '[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-22 13:37:02,034 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-22 13:37:02,035 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-22 13:37:03,338 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (166a0bc7fb01223255c1ad8e807b2d5d)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-22 13:37:36,981 INFO  [Log] Time sheet line saved success message Displayed 
+2017-05-22 13:37:47,911 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:37:47,911 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-22 13:37:51,004 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:37:51,004 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-22 13:37:52,791 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> id: login-button] 
+2017-05-22 13:38:00,082 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-22 13:38:00,219 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> link text: My Tasks] 
+2017-05-22 13:38:01,807 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-22 13:38:01,924 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-22 13:38:02,019 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b0a08bef793183f2f4cae4c530493b6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Daniel Angus')]] 
+2017-05-22 13:38:34,183 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//button[contains(text(),'Forward')]' 
+2017-05-22 13:39:04,221 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:39:04,221 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-22 13:39:07,336 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:39:07,336 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-22 13:39:09,092 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> id: login-button] 
+2017-05-22 13:39:24,371 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-22 13:39:24,372 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-22 13:39:25,575 INFO  [Log] Entering '26/11/2016' into the field '[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-22 13:39:26,208 INFO  [Log] Entering the text: '26/11/2016' Into the field '[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-22 13:39:26,618 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-22 13:39:26,621 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-22 13:39:27,841 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3304052da7bb7df045ff08c92ca0b7b8)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-22 13:40:29,515 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:40:29,515 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-22 13:40:32,768 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-22 13:40:32,768 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-22 13:40:34,574 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> id: login-button] 
+2017-05-22 13:40:51,128 INFO  [Log] Entering '25/06/2016' into the field '[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-22 13:40:51,786 INFO  [Log] Entering the text: '25/06/2016' Into the field '[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-22 13:40:52,101 INFO  [Log] Found the cell with text and selecting it '25/06/2016' 
+2017-05-22 13:40:52,103 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-22 13:40:53,333 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-22 13:40:55,221 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2ba49fd4619d7aa5e65769bdb3288b9e)] -> xpath: .//button[contains(text(),'Recall')]] 
+2017-05-22 13:40:57,763 INFO  [Log] **********************End of the test*********************** 
+2017-05-22 13:40:57,763 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-22 15:21:24,912 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30a710b43e06fc833c3b0884e160709c)] -> id: login-button] 
+2017-05-22 15:28:34,797 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5a49425349209c8e56ec1d8c3712bf43)] -> id: login-button] 
+2017-05-22 15:29:05,237 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 

@@ -35,7 +35,7 @@ Feature: Timesheet
    	
   
   		
-  @timesheet	
+  @Automated	
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Period view
   
   	 Given I am on myAurion login page
@@ -43,7 +43,7 @@ Feature: Timesheet
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
-  		And I select the timekeeper as "10/12/2016"
+  		And I select the timekeeper as "<StartDate>"
   		And I select the view "Period"
  		And I click on Edit button
  		And I click on period view Add button
@@ -51,7 +51,7 @@ Feature: Timesheet
   		And I select contact hours type
  		And I enter course code as "test"
   		And I enter start time as "08:00"
-  		And I enter stop time as "14:00"
+  		And I enter stop time as "12:00"
   		And I click on save
   		And I Close the notification
   		And I click on Done
@@ -61,12 +61,14 @@ Feature: Timesheet
   	Then I should see the timesheet is saved message displayed
   	
   	Examples:
-  	|WhichDay|
-  	|20161212|
+  	|StartDate|WhichDay|
+  	|10/12/2016|20161212|
+  	|25/06/2016|20160705|
   	
   	
   	
-  	 @timesheet	
+  	
+  	 @Automated	
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Detailed view
   
   	 Given I am on myAurion login page
@@ -95,7 +97,7 @@ Feature: Timesheet
   	
   		
   	
-  	@hello
+  	@Automated
   Scenario Outline:  Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee
   Given I am on myAurion login page
    	  And I enter username as "uqsjone3"
@@ -129,7 +131,7 @@ Feature: Timesheet
   
   #	Try Submit time sheet as a fixed term/continuing employee and verify that time sheet is disabled
   	
-  	@manoj
+  	@Automated
   	Scenario: Try Submit timesheet as a fixed term or continuing employee
   	Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -140,7 +142,7 @@ Feature: Timesheet
   	
   	
   #	Select timesheet from Timesheet full list page
-  @manoj	
+  @Automated	
   Scenario: As a casual employee view the timesheets in Full list view
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -156,7 +158,7 @@ Feature: Timesheet
  
 
  # Save and Copy timesheet entry
-  @manoj
+  @Automated
  Scenario: Save and Copy timesheet entry
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -186,7 +188,7 @@ Feature: Timesheet
  
   #Default Time sheets
  
- @manoj	
+ @Automated	
   Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -201,7 +203,7 @@ Feature: Timesheet
  
 #Populate timesheets with default values
  
- @manoj	
+ @Automated	
   Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -218,7 +220,7 @@ Feature: Timesheet
  
  
  #Enter hours with missing start/finish time and Save
-  	@manoj
+  	@Automated
   Scenario: Try to Submit timesheet without entering start time or end time and verify the error
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -238,7 +240,7 @@ Feature: Timesheet
  
  
  
-	 @timesheet
+@Automated
  Scenario Outline:  Supervisor of casual staff - Review and Approve Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -258,7 +260,7 @@ Feature: Timesheet
   |26/11/2016        |Approve| Adam Smith|
   	
   	
-  		 @timesheet
+  		 @Automated
  Scenario Outline:  Supervisor of casual staff - Review and Decline Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -279,7 +281,7 @@ Feature: Timesheet
   
   
   
-   @timesheet
+   @Automated
  Scenario Outline:  Supervisor of casual staff - Review and Return Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -299,7 +301,7 @@ Feature: Timesheet
   |24/12/2016        |Return|Adam Smith  |
   	
   	
-  	   @timesheet	
+  	   @Automated	
  Scenario Outline:  Supervisor of casual staff - Review and Edit Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -315,7 +317,7 @@ Feature: Timesheet
   		And I select the date to enter time "<WhichDay>"
   		And I select contact hours type
  		And I enter course code as "test"
-  		And I enter start time as "08:00"
+  		And I enter start time as "14:00"
   		And I enter stop time as "17:00"
   		And I click on save
 		Then I should see the timesheet Line is saved message displayed
@@ -333,7 +335,7 @@ Feature: Timesheet
   
   
   
-  	   @timesheet
+  	   @Automated
  Scenario Outline:  Supervisor of casual staff - Review and Edit Current Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -365,7 +367,7 @@ Feature: Timesheet
   
   
   
-   	   @timesheet	
+   	   @Automated	
  Scenario Outline:  Supervisor of casual staff - Review and Update Timesheet using Detailed View
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -404,7 +406,7 @@ Feature: Timesheet
   
   
  
-    	 	  @timesheet	
+    	 	  @Automated	
   Scenario Outline: Casual staff - Update Declined Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -437,7 +439,7 @@ Feature: Timesheet
   	
   	
   	
-  	 	 @timesheet
+  	 	 @Automated
   Scenario Outline: Casual staff - Update Returned Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -458,7 +460,7 @@ Feature: Timesheet
   	|Daniel Angus  |24/12/2016 |
   	
   
- 	 @timesheet
+ 	 @Automated
   Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
   
   	 Given I am on myAurion login page
@@ -480,7 +482,7 @@ Feature: Timesheet
   	
   	  
  
-    @timesheet
+    @Automated
   Scenario Outline: Casual staff - Recall Submitted Timesheet
   
   	 Given I am on myAurion login page
