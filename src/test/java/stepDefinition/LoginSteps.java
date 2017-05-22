@@ -11,6 +11,7 @@ import pageclasses.DashboardPage;
 import pageclasses.LandingPage;
 import util.CustomFunctions;
 import util.DebugLog;
+import util.PropertyReader;
 
 public class LoginSteps extends DriverFactory {
 
@@ -29,6 +30,12 @@ public class LoginSteps extends DriverFactory {
     public void afterScenario(Scenario scenario) throws Throwable {
     	 String scenarioname=scenario.getName();
     	DebugLog.EndTest(scenarioname);
+    	
+    	if(!scenario.isFailed()){
+    	String screnprintAtPass= new PropertyReader().readProperty("ScreenshotOnPass");
+    	if(screnprintAtPass.equalsIgnoreCase("true")){
+    		CustomFunctions.PrintScreenShotWithScenarioName(scenarioname);}
+    	}
     	scenarioname=scenarioname+"Failed";
     	try{
     	if(scenario.isFailed()){
