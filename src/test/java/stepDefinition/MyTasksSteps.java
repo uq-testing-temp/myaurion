@@ -44,10 +44,10 @@ public class MyTasksSteps extends DriverFactory {
 		new MyTasksPage(driver).SelectLeaveToAction(startdate);
 	}
 	
-	@When("^I select the timesheet dated \"(.*)\"$")
-	public void I_select_pending_timesheet(String startdate) throws Throwable{
+	@When("^I select the timesheet dated \"(.*)\"and of employee\"(.*)\"$")
+	public void I_select_pending_timesheet(String startdate, String EmployeeName) throws Throwable{
 		
-		new MyTasksPage(driver).SelectTimeSheetoAction(startdate);
+		new MyTasksPage(driver).SelectTimeSheetoAction(startdate, EmployeeName);
 	}
 
 }

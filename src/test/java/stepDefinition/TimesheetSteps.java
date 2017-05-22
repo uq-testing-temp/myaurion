@@ -102,6 +102,12 @@ public class TimesheetSteps extends DriverFactory {
 	}
 	
 	
+	
+	@Then("^I should see the timesheet Line is saved message displayed$")
+	public void i_should_see_the_timesheet_Line_is_saved_message_displayed() throws Throwable {
+		new TimesheetPage(driver).timesheet_Update_success();
+	}
+	
 	@Given("^I select the timekeeper as \"([^\"]*)\"$")
 	public void i_select_the_timekeeper(String time) throws Throwable {
 		new TimesheetPage(driver).select_timekeeper(time);
@@ -180,6 +186,13 @@ public class TimesheetSteps extends DriverFactory {
 	public void i_click_showFrom_button_() throws Throwable {
 		new TimesheetPage(driver).Click_ShowFrom();
 	}
+	
+	
+	/*@When("^I click on Forward button$")
+	public void i_click_forward_button_() throws Throwable {
+		new LeavePage(driver).ClickOnForward();
+	}
+	*/
 	
 	
 	@When("^I perform recall timesheet action$")

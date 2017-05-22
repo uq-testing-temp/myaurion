@@ -65,11 +65,13 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy ( xpath = "//*[@id='save']")
 	private WebElement save;
 	
+	@FindBy(xpath=".//*[@id='notification']/.//*[contains(text(),'Timesheet line was saved.')]")
+	private WebElement TimeSheetSavesuccessmsg;
 	
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Timesheet has been sent.')]")
 	private WebElement successcheck;
 	
-	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Timesheet was recalled.')]")
+	@FindBy(xpath=".//*[@id='notification']/.//*[contains(text(),'Timesheet was recalled.')]")
 	private WebElement Recallsuccessmsg;
 	
 	@FindBy ( xpath = "//*[@id='timekeeper_period_select_chosen']/div/div/input")
@@ -83,6 +85,10 @@ public class TimesheetPage extends DriverFactory {
 	
 	@FindBy(id="timekeeperforms-list")
 	private WebElement FullListTable;
+	
+	
+	@FindBy(xpath=".//*[@id='timekeeperforms-list_filter']/label/input")
+	private WebElement FullListFilterBox;
 		
 	@FindBy (xpath=".//*[@class='notification alert-warning']")
 	private WebElement AlertWarning;
@@ -107,8 +113,11 @@ public class TimesheetPage extends DriverFactory {
 	private WebElement ShowformBtn;
 	
 	
-	@FindBy(xpath=".//button[contains(text(),'recall')]")
+	@FindBy(xpath=".//button[contains(text(),'Recall')]")
 	private WebElement RecallBtn;
+	
+	@FindBy(xpath=".//a[contains(text(),'Forward')]")
+	private WebElement ForwardBtn;
 	
 	
 	@FindBy(id="notification-close")
@@ -256,13 +265,28 @@ public class TimesheetPage extends DriverFactory {
     
     public void Click_Done() throws Throwable {
     	//Thread.sleep(2000);
+    	CustomFunctions.WaitForObjectEnabledExplicit(this.DoneBtn, 20);
     	CustomFunctions.CustomClick(this.DoneBtn, 10);
+    }
+    
+    public void Click_on_Forward() throws Throwable {
+    	//Thread.sleep(2000);
+    	CustomFunctions.WaitForObjectEnabledExplicit(this.ForwardBtn, 20);
+    	CustomFunctions.CustomClick(this.ForwardBtn, 10);
     }
    
     public void timesheet_success() throws Throwable {
     	Thread.sleep(2000);
     	boolean success = successcheck.isDisplayed();
     	Assert.assertTrue(success);
+    }
+    
+    
+    
+    public void timesheet_Update_success() throws Throwable {
+    	
+    	CustomFunctions.CustomAssertTrue("Time sheet line saved success message Displayed", this.TimeSheetSavesuccessmsg.isDisplayed());
+    	
     }
     
     public void timesheet_not_available_message() throws Throwable {
@@ -411,7 +435,16 @@ public class TimesheetPage extends DriverFactory {
    public void selectTimesheetFromtable(String strval) throws Throwable{
 	
 	   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	   CustomFunctions.Table_SelectCellbyText(FullListTable, strval);
+	   
+	   if(!CustomFunctions.Table_SelectCellbyText(FullListTable, strval)){
+		   
+		   CustomFunctions.Clear_And_SetValueinTextBox(this.FullListFilterBox, strval);
+		   CustomFunctions.WaitForObjectEnabledExplicit(FullListTable, 10);
+		   if(CustomFunctions.Table_SelectCellbyText(FullListTable, strval)){
+			   DebugLog.LogInfo.warn("Timesheet not found for the date: "+strval);
+		   }
+		   
+	   }
 	   
    }
    
@@ -426,7 +459,7 @@ public class TimesheetPage extends DriverFactory {
    
    public void RecallTimesheet() throws Throwable {
 	   	
-	   	
+	   CustomFunctions.WaitForObjectEnabledExplicit(this.RecallBtn, 10);
 	   	CustomFunctions.CustomClick(this.RecallBtn, 5);
 	   }
    

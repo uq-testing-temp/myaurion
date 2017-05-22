@@ -175,7 +175,7 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 	
 	//This method is to traverse through the table 
 	
-	public static void Table_SelectCellbyText( WebElement Table, String strval) throws Throwable{
+	public static Boolean Table_SelectCellbyText( WebElement Table, String strval) throws Throwable{
 		
 		Boolean found=false;
 	
@@ -206,7 +206,7 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 		
 		
 		
-		
+		return found;
 		
 		
 	}

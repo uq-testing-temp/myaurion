@@ -10,7 +10,7 @@ Feature: Timesheet
     #  And I enter password as "password123"
      # And I click Login button
       
-  @manoj1
+  @Automated
   Scenario:  Casual staff - Enter, Validate and Submit Timesheet- Daily view
   Given I am on myAurion login page
    	  And I enter username as "uqasmi46"
@@ -18,9 +18,9 @@ Feature: Timesheet
       And I click Login button
   	Given I am on timesheet page
   		And I select the daily timesheet
-  		And I select the timekeeper as "25/06/2016"
+  		And I select the timekeeper as "26/11/2016"
   		And I add contact hours button
-  		And I select the date to enter time "20160705"
+  		And I select the date to enter time "20161128"
   		And I select contact hours type
   		And I enter course code as "test"
   		And I enter start time as "08:00"
@@ -35,15 +35,15 @@ Feature: Timesheet
    	
   
   		
-  @hello	
+  @timesheet	
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Period view
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
-  		And I select the timekeeper as "21/01/2017"
+  		And I select the timekeeper as "10/12/2016"
   		And I select the view "Period"
  		And I click on Edit button
  		And I click on period view Add button
@@ -51,30 +51,30 @@ Feature: Timesheet
   		And I select contact hours type
  		And I enter course code as "test"
   		And I enter start time as "08:00"
-  		And I enter stop time as "17:00"
+  		And I enter stop time as "14:00"
   		And I click on save
-  		And I click on Done
   		And I Close the notification
-	  	When I click on submit timesheet
+  		And I click on Done
+  		When I click on submit timesheet
   		And I enter the message as " Please approve this is a test"
   		And I click submit button 
   	Then I should see the timesheet is saved message displayed
   	
   	Examples:
   	|WhichDay|
-  	|20170122|
+  	|20161212|
   	
   	
   	
-  	 @hello	
+  	 @timesheet	
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Detailed view
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
-  		And I select the timekeeper as "21/01/2017"
+  		And I select the timekeeper as "24/12/2016"
   		And I select the view "Detailed"
  		And I click on detailed view Add button
  		And I select the date to enter time "<WhichDay>"
@@ -91,7 +91,7 @@ Feature: Timesheet
   	
   	Examples:
   	|WhichDay|
-  	|20170122|
+  	|20161226|
   	
   		
   	
@@ -238,77 +238,77 @@ Feature: Timesheet
  
  
  
-	@hello
+	 @timesheet
  Scenario Outline:  Supervisor of casual staff - Review and Approve Timesheet
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I action the timesheet "<Action>"
  		And I enter the reference message as "this is a automation test for Timesheet Approval"
  		And I click on Approve button
    	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |TimesheetStartdate|Action|
-  |18/02/2017        |Approve|
+  |TimesheetStartdate|Action|EmployeeName|
+  |26/11/2016        |Approve| Adam Smith|
   	
   	
-  		@hello
+  		 @timesheet
  Scenario Outline:  Supervisor of casual staff - Review and Decline Timesheet
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I action the timesheet "<Action>"
  		And I enter the reference message as "this is a automation test for Timesheet Decline"
  		And I click on Decline button
    	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |TimesheetStartdate|Action|
-  |18/02/2017|Decline|
+  |TimesheetStartdate|Action|EmployeeName|
+  |10/12/2016        |Decline| Adam Smith|
   
   
   
-  @hello
+   @timesheet
  Scenario Outline:  Supervisor of casual staff - Review and Return Timesheet
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I action the timesheet "<Action>"
  		And I enter the reference message as "this is a automation test for Timesheet Return"
  		And I click on Return button
    	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |TimesheetStartdate|Action|
-  |18/02/2017|Return|
+  |TimesheetStartdate|Action|EmployeeName|
+  |24/12/2016        |Return|Adam Smith  |
   	
   	
-  	  @hello
+  	   @timesheet	
  Scenario Outline:  Supervisor of casual staff - Review and Edit Timesheet
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I select the view "Period"
  		And I click on Edit button
  		And I click on period view Add button
@@ -318,52 +318,63 @@ Feature: Timesheet
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on save
+		Then I should see the timesheet Line is saved message displayed
+  		And I Close the notification
  		And I click on Done
-	Then I should see the timesheet is saved message displayed
+		And I action the timesheet "<Action>"
+ 		And I enter the reference message as "this is a automation test for Review, Update and Timesheet Approval"
+ 		And I click on Approve button
+   	Then I should see workflow action successful message displayed
+	
    	
    		Examples:
-  |TimesheetStartdate|Action|WhichDay|
-  |18/02/2017         |Return|   20170222 |
+  |TimesheetStartdate|Action |WhichDay|EmployeeName|
+  |25/06/2016        |Approve|20160706|Adam Smith  |
   
   
   
-  	  @hello
+  	   @timesheet
  Scenario Outline:  Supervisor of casual staff - Review and Edit Current Timesheet
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I select the view "Daily"
  		And I add contact hours button
-  		And I select the date to enter time "20161115"
+  		And I select the date to enter time "<WhichDay>"
   		And I select contact hours type
   		And I enter course code as "test"
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on save
+  		Then I should see the timesheet Line is saved message displayed
+  		And I Close the notification
  		#And I click on Done
-	Then I should see the timesheet is saved message displayed
+	And I action the timesheet "<Action>"
+ 		And I enter the reference message as "this is a automation test for Review, Update and Timesheet Approval"
+ 		And I click on Approve button
+   	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |TimesheetStartdate|Action|WhichDay|
-  |18/02/2017         |Return|   20170222 |
+  |TimesheetStartdate|Action |WhichDay|EmployeeName|
+  |25/06/2016        |Approve|20160707|Adam Smith  |
   
   
   
-   	  @hello
+   	   @timesheet	
  Scenario Outline:  Supervisor of casual staff - Review and Update Timesheet using Detailed View
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
   		And I select My tasks action "Timesheet Approvals"
  		And I click on "Latest"button for "Timesheet Approvals"
- 		And I select the timesheet dated "<TimesheetStartdate>"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<EmployeeName>"
  		And I select the view "Detailed"
  		And I click on detailed view Add button
  		And I select the date to enter time "<WhichDay>"
@@ -372,13 +383,18 @@ Feature: Timesheet
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on save
-  		#And I Close the notification
+  		Then I should see the timesheet Line is saved message displayed
+  		And I Close the notification
  		#And I click on Done
-	Then I should see the timesheet is saved message displayed
+	And I action the timesheet "<Action>"
+ 		And I enter the reference message as "this is a automation test for Review, Update and Timesheet Approval"
+ 		And I click on Approve button
+   	Then I should see workflow action successful message displayed
+	
    	
    		Examples:
-  |TimesheetStartdate|Action|WhichDay|
-  |18/02/2017         ||   20170222 |
+  |TimesheetStartdate|Action |WhichDay|EmployeeName|
+  |25/06/2016        |Approve|20160708|Adam Smith  |
   
   
   
@@ -387,12 +403,12 @@ Feature: Timesheet
   
   
   
- # Couldn't be automated now due to issue with Timesheet submission
-    	 	 @TBD
+ 
+    	 	  @timesheet	
   Scenario Outline: Casual staff - Update Declined Timesheet and Resubmit
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -407,7 +423,8 @@ Feature: Timesheet
   		And I enter start time as "08:00"
   		And I enter stop time as "17:00"
   		And I click on save
-  		Then I should see the timesheet is saved message displayed
+  		Then I should see the timesheet Line is saved message displayed
+  		And I Close the notification
   		When I click on submit timesheet
   		And I enter the message as " Please approve this is a test"
   		And I click submit button 
@@ -415,46 +432,37 @@ Feature: Timesheet
   	
   	Examples:
   	|WhichDay|Dated      |
-  	|20170122|18/02/2017 |
+  	|20161213|10/12/2016 |
   	
   	
   	
-# Couldn't be automated now due to issue with Timesheet submission  	
-  	 	 @TBD	
+  	
+  	 	 @timesheet
   Scenario Outline: Casual staff - Update Returned Timesheet and Resubmit
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
-  	Given I am on timesheet page
-  		And I click on View full list
-  		And I select the timesheet from full list "<Dated>"
-  		And click on show from button
-  		And I select the daily timesheet
-  		And I add contact hours button
-  		And I select the date to enter time "<WhichDay>"
-  		And I select contact hours type
-  		And I enter course code as "test"
-  		And I enter start time as "08:00"
-  		And I enter stop time as "17:00"
-  		And I click on save
-  		Then I should see the timesheet is saved message displayed
-  		When I click on submit timesheet
-  		And I enter the message as " Please approve this is a test"
-  		And I click submit button 
-  	Then I should see the timesheet is saved message displayed
+  	  When I am on MyTasks page
+  		And I select My tasks action "Timesheet Approvals"
+ 		And I click on "Latest"button for "Timesheet Approvals"
+ 		And I select the timesheet dated "<TimesheetStartdate>"and of employee"<Supervisor>"
+  	    And I click on Forward button
+  	    And I enter the reference message as " Please approve this is a test"
+  		And I click submit button
+  	Then I should see workflow action successful message displayed
   	
   	Examples:
-  	|WhichDay|Dated      |
-  	|20170222|18/02/2017 |
+  	|Supervisor|TimesheetStartdate     |
+  	|Daniel Angus  |24/12/2016 |
   	
   
-  # Couldn't be automated now due to issue with Timesheet submission
+ 	 @timesheet1
   Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -466,17 +474,17 @@ Feature: Timesheet
   	
   	Examples:
   	|Dated      |
-  	|18/02/2017 |
+  	|26/11/2016 |
   	
   	
   	
   	  
- # Couldn't be automated now due to issue with Timesheet submission
-    	 	 @now	
+ 
+    @timesheet1
   Scenario Outline: Casual staff - Recall Submitted Timesheet
   
   	 Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -488,7 +496,7 @@ Feature: Timesheet
   	
   	Examples:
   	|Dated      |
-  	|24/12/2016 |
+  	|25/06/2016 |
   
   
   

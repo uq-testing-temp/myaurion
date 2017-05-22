@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions (features = "src/test/java/features/", tags = "@manoj1",
+@CucumberOptions (features = "src/test/java/features/", tags = "@timesheet1",
                   format = {"pretty", "html:target/Destination"})
 public class RunFeaturesTest {
 }

@@ -107,9 +107,9 @@ public void SelectLeaveToAction(String startDate) throws Throwable{
 	
 }
 
-public void SelectTimeSheetoAction(String startDate) throws Throwable{
+public void SelectTimeSheetoAction(String startDate, String EmployeeName) throws Throwable{
 	
-	CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'"+startDate+"')]")), 10);
+	CustomFunctions.CustomClick(driver.findElement(By.xpath(".//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'"+startDate+"')]//preceding-sibling::div[contains(text(),'"+EmployeeName+"')]")), 10);
 	
 }
 
