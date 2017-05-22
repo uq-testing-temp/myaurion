@@ -458,7 +458,7 @@ Feature: Timesheet
   	|Daniel Angus  |24/12/2016 |
   	
   
- 	 @timesheet1
+ 	 @timesheet
   Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
   
   	 Given I am on myAurion login page
@@ -480,7 +480,7 @@ Feature: Timesheet
   	
   	  
  
-    @timesheet1
+    @timesheet
   Scenario Outline: Casual staff - Recall Submitted Timesheet
   
   	 Given I am on myAurion login page
