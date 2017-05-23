@@ -502,5 +502,50 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		}
 		
 	}
+	
+	
+	
+	public static void verifyLeaveBalancedata(WebElement Table,String rowtext, String bal, String pend, String avail)throws Throwable{
+		
+		
+		CustomFunctions.WaitForObjectEnabledExplicit(Table, 10);
+		Boolean found=false;
+		
+for (WebElement row:Table.findElements(By.xpath(".//tr"))){
+			
+					List<WebElement> list=row.findElements(By.xpath(".//td"));
+					
+					for(int i=0;i<list.size();i++){
+						
+						if(list.get(i).getText().equalsIgnoreCase(rowtext)){
+							
+							found=true;
+							
+							String balance=list.get(i+1).getText();
+							String pending=list.get(i+3).getText();
+							String Available=list.get(i+5).getText();
+							
+							CustomFunctions.CustomAssertTrue(rowtext+" balance is as expected"+balance, balance.equals(bal));
+							CustomFunctions.CustomAssertTrue(rowtext+" pending is as expected"+pending, pending.equals(pend));
+							CustomFunctions.CustomAssertTrue(rowtext+" Available is as expected"+Available, Available.equals(avail));
+							break;
+						}
+						
+					}
+					
+				
+					
+					
+					
+				
+				
+			
+			
+			
+		}
+				if(found=true){	DebugLog.LogInfo.warn(rowtext+ "type of leave not found in the list");	}
+		
+		
+	}
 
 }

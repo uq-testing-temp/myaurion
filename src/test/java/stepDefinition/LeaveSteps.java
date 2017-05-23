@@ -142,6 +142,12 @@ public class LeaveSteps extends DriverFactory {
 	}
 	
 	
+	@Then("^I should see my \"(.*)\" leave balances displayed in days\"(.*)\"\"(.*)\"\"(.*)\"$")
+	public void I_should_see_Leave_Balance_is_displayed(String type, String Avail, String Pending, String balance) throws Throwable {
+		new LeavePage(driver).verifyLeaveBalance(type, Avail, Pending, balance);
+	}
+	
+	
 	
 	@Then("^I should see my predicted leave balances displayed$")
 	public void I_should_see_predicted_leave_column_is_displayed() throws Throwable {

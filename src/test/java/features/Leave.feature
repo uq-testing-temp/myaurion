@@ -52,10 +52,85 @@ Feature: Leave
   	|StartDate | EndDate  |
   	|06/09/2017|07/09/2017|
   	
-  
-  Scenario: View my current leave balances
-  	When I am on  leave page
-  	Then I should see my leave balances displayed in days
+  	
+  	
+  @Automated
+  Scenario Outline: View my current Recreational leave balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdangus"
+      And I enter password as "password123"
+      And I click Login button
+  	And I am on leave page
+  	Then I should see my "Recreational" leave balances displayed in days"<Rec_Available>""<Rec_Pending>""<Rec_Balance>"
+  	
+  		Examples:
+  	|Rec_Available | Rec_Pending  |Rec_Balance|Pers_Available | Pers_Pending  |Pers_Balance|
+  	|14.46         |0.00	      |    14.46  |                |            | |
+  	
+  	
+  	
+  	 @Automated
+  Scenario Outline: View my current  Personal  leave balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdangus"
+      And I enter password as "password123"
+      And I click Login button
+  	And I am on leave page
+  	Then I should see my "Personal" leave balances displayed in days"<Pers_Available>""<Pers_Pending>""<Pers_Balance>"
+  	
+  		Examples:
+  	|Pers_Available | Pers_Pending  |Pers_Balance|
+  	|36.73         |0.00	      |    36.73 | 
+  	
+  	
+  	
+  	 	
+  	 @Automated
+  Scenario Outline: View my current Sick leave balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdangus"
+      And I enter password as "password123"
+      And I click Login button
+  	And I am on leave page
+  	Then I should see my "Sick" leave balances displayed in days"<Sick_Available>""<Sick_Pending>""<Sick_Balance>"
+  	
+  		Examples:
+  	|Sick_Available | Sick_Pending  |Sick_Balance|
+  	|35.00         |0.00	      |    35.00 | 
+  	
+  	
+  		 	
+  	 @Automated
+  Scenario Outline: View my current Carer's leave balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdangus"
+      And I enter password as "password123"
+      And I click Login button
+  	And I am on leave page
+  	Then I should see my "Carer" leave balances displayed in days"<Care_Available>""<Care_Pending>""<Care_Balance>"
+  	
+  		Examples:
+  	|Care_Available | Care_Pending  |Care_Balance|
+  	|5.00         |0.00	      |    5.00 | 
+  	
+  	
+  	
+  	
+  	  	 @Automated
+  Scenario Outline: View my current Long Service leave balances
+  Given I am on myAurion login page
+   	  And I enter username as "uqdangus"
+      And I enter password as "password123"
+      And I click Login button
+  	And I am on leave page
+  	Then I should see my "Long Service" leave balances displayed in days"<LS_Available>""<LS_Pending>""<LS_Balance>"
+  	
+  		Examples:
+  	|LS_Available | LS_Pending  |LS_Balance|
+  	|23.87        |0.00	      |    23.87 | 
+  	
+  	
+  	
   	
   Scenario: View my current leave balances
   	When I am on a leave page

@@ -294,3 +294,83 @@
 2017-05-23 10:03:16,538 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
 2017-05-23 10:03:18,349 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bebd61dd9b6e97b23941c91aacec968e)] -> id: login-button] 
 2017-05-23 10:03:48,689 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 11:58:11,903 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bd3bab55307ea8218298ab21fba04df6)] -> id: login-button] 
+2017-05-23 11:58:19,450 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 11:58:19,450 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:00:52,511 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (300edd79a2af7a4b5df25f30187a8fdf)] -> id: login-button] 
+2017-05-23 12:01:00,809 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:01:00,809 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:01:42,841 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1e8181b7b1e79e4d69d0034b82f0e961)] -> id: login-button] 
+2017-05-23 12:01:50,838 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:01:50,838 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:03:06,719 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65f24c0f9542d7b145f095421cba89a0)] -> id: login-button] 
+2017-05-23 12:03:27,034 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65f24c0f9542d7b145f095421cba89a0)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:03:28,225 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (65f24c0f9542d7b145f095421cba89a0)] -> link text: Leave] 
+2017-05-23 12:04:00,211 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 12:04:00,576 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 12:04:00,713 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 12:04:01,455 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 12:04:01,456 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:04:01,456 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:04:20,746 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6a8c45c64248dbc14f7abc283d8ab06b)] -> id: login-button] 
+2017-05-23 12:04:28,639 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6a8c45c64248dbc14f7abc283d8ab06b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:04:28,754 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6a8c45c64248dbc14f7abc283d8ab06b)] -> link text: Leave] 
+2017-05-23 12:05:00,781 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 12:05:00,954 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 12:05:01,083 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 12:05:01,790 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 12:05:01,791 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:05:01,791 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:55:41,416 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5fdc0c1e30f2afe6db2c3db72cf9e942)] -> id: login-button] 
+2017-05-23 12:55:50,501 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5fdc0c1e30f2afe6db2c3db72cf9e942)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:55:50,618 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5fdc0c1e30f2afe6db2c3db72cf9e942)] -> link text: Leave] 
+2017-05-23 12:56:22,605 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 12:56:22,803 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 12:56:22,940 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 12:56:23,636 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 12:56:23,637 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:56:23,637 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 12:56:27,052 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 12:56:27,052 INFO  [Log] ******************************* Scenario: View my current  Personal (Sick & Carer's)  leave balances************************************* 
+2017-05-23 12:56:28,800 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc71208a72343246fcb7a2dca7aa8c64)] -> id: login-button] 
+2017-05-23 12:56:36,198 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc71208a72343246fcb7a2dca7aa8c64)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:56:36,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc71208a72343246fcb7a2dca7aa8c64)] -> link text: Leave] 
+2017-05-23 12:57:08,407 INFO  [Log] Personal (Sick & Carer's) balance is as expected36.73 
+2017-05-23 12:57:08,577 INFO  [Log] Personal (Sick & Carer's) pending is as expected0.00 
+2017-05-23 12:57:08,714 INFO  [Log] Personal (Sick & Carer's) Available is as expected36.73 
+2017-05-23 12:57:09,353 WARN  [Log] Personal (Sick & Carer's)type of leave not found in the list 
+2017-05-23 12:57:09,353 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:57:09,353 INFO  [Log] ******************************* Scenario: View my current  Personal (Sick & Carer's)  leave balances************************************* 
+2017-05-23 12:57:12,466 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 12:57:12,466 INFO  [Log] ******************************* Scenario: View my current Sick (additional) leave balances************************************* 
+2017-05-23 12:57:14,288 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f14bbea444f545d30526bc34969a4509)] -> id: login-button] 
+2017-05-23 12:57:21,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f14bbea444f545d30526bc34969a4509)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:57:21,432 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f14bbea444f545d30526bc34969a4509)] -> link text: Leave] 
+2017-05-23 12:57:53,676 INFO  [Log] Sick (additional) balance is as expected35.00 
+2017-05-23 12:57:53,834 INFO  [Log] Sick (additional) pending is as expected0.00 
+2017-05-23 12:57:53,988 INFO  [Log] Sick (additional) Available is as expected35.00 
+2017-05-23 12:57:54,426 WARN  [Log] Sick (additional)type of leave not found in the list 
+2017-05-23 12:57:54,426 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:57:54,426 INFO  [Log] ******************************* Scenario: View my current Sick (additional) leave balances************************************* 
+2017-05-23 12:57:57,572 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 12:57:57,572 INFO  [Log] ******************************* Scenario: View my current Carer's (non-cumulative) leave balances************************************* 
+2017-05-23 12:57:59,306 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e3d9781c6c1dadf489b2e61cc6fede76)] -> id: login-button] 
+2017-05-23 12:58:06,933 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e3d9781c6c1dadf489b2e61cc6fede76)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:58:07,044 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e3d9781c6c1dadf489b2e61cc6fede76)] -> link text: Leave] 
+2017-05-23 12:58:39,701 INFO  [Log] Carer's (non-cumulative) balance is as expected5.00 
+2017-05-23 12:58:39,839 INFO  [Log] Carer's (non-cumulative) pending is as expected0.00 
+2017-05-23 12:58:39,983 INFO  [Log] Carer's (non-cumulative) Available is as expected5.00 
+2017-05-23 12:58:40,273 WARN  [Log] Carer's (non-cumulative)type of leave not found in the list 
+2017-05-23 12:58:40,274 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:58:40,274 INFO  [Log] ******************************* Scenario: View my current Carer's (non-cumulative) leave balances************************************* 
+2017-05-23 12:58:43,366 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 12:58:43,366 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 12:58:45,109 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edca9454b867be1cde68c7e848e32fa0)] -> id: login-button] 
+2017-05-23 12:58:52,309 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edca9454b867be1cde68c7e848e32fa0)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 12:58:52,414 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (edca9454b867be1cde68c7e848e32fa0)] -> link text: Leave] 
+2017-05-23 12:59:25,072 INFO  [Log] Long Service balance is as expected23.87 
+2017-05-23 12:59:25,206 INFO  [Log] Long Service pending is as expected0.00 
+2017-05-23 12:59:25,342 INFO  [Log] Long Service Available is as expected23.87 
+2017-05-23 12:59:25,513 WARN  [Log] Long Servicetype of leave not found in the list 
+2017-05-23 12:59:25,513 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 12:59:25,513 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 

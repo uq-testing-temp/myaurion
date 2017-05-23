@@ -108,6 +108,8 @@ public class LeavePage extends DriverFactory {
 	private WebElement ReverseLeaveBtn;
 	
 	
+	@FindBy(xpath=".//*[@id='leave-balances-container']/div/table[1]")
+	private WebElement ViewLeaveBalTable;
 	
 	@FindBy(xpath=".//table[@class='table table-hover table-striped table-ess-leave']")
 	private WebElement LeaveBalanceTable;
@@ -383,6 +385,42 @@ public void ClickOnForward() throws Throwable{
     		CustomFunctions.CustomClick(this.ReverseLeaveBtn, 10);
     		
     	}
+    	
+    }
+    
+    public void verifyLeaveBalance(String type, String Avail, String Pending, String balance) throws Throwable{
+    	
+    	if(type.equalsIgnoreCase("Recreational")){
+    		
+    		CustomFunctions.verifyLeaveBalancedata(this.ViewLeaveBalTable, "Recreation", balance, Pending, Avail);
+    		
+    	}
+    	
+    	if(type.equalsIgnoreCase("Personal")){
+    		
+    		CustomFunctions.verifyLeaveBalancedata(this.ViewLeaveBalTable, "Personal (Sick & Carer's)", balance, Pending, Avail);
+    		
+    	}
+    	
+    	if(type.equalsIgnoreCase("Sick")){
+    		
+    		CustomFunctions.verifyLeaveBalancedata(this.ViewLeaveBalTable, "Sick (additional)", balance, Pending, Avail);
+    	}
+    	
+    	if(type.equalsIgnoreCase("Carer")){
+    		
+    		
+    		CustomFunctions.verifyLeaveBalancedata(this.ViewLeaveBalTable, "Carer's (non-cumulative)", balance, Pending, Avail);
+    		
+    	}
+    	
+	if(type.equalsIgnoreCase("Long Service")){
+    		
+    		
+    		CustomFunctions.verifyLeaveBalancedata(this.ViewLeaveBalTable, "Long Service", balance, Pending, Avail);
+    		
+    	}
+    	
     	
     }
     
