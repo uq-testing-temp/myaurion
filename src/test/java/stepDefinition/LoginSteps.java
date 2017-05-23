@@ -29,16 +29,22 @@ public class LoginSteps extends DriverFactory {
     @After
     public void afterScenario(Scenario scenario) throws Throwable {
     	 String scenarioname=scenario.getName();
-    	DebugLog.EndTest(scenarioname);
+    	
     	
     	if(!scenario.isFailed()){
+    		DebugLog.LogInfo.info(scenarioname+"Test Passed");
+    		
     	String screnprintAtPass= new PropertyReader().readProperty("ScreenshotOnPass");
     	if(screnprintAtPass.equalsIgnoreCase("true")){
     		CustomFunctions.PrintScreenShotWithScenarioName(scenarioname);}
     	}
-    	scenarioname=scenarioname+"Failed";
+    	
+    	
+    	
     	try{
     	if(scenario.isFailed()){
+    		DebugLog.LogInfo.warn("'"+scenarioname +"':  Test Failed");
+    		scenarioname=scenarioname+"Failed";
     		CustomFunctions.PrintScreenShotWithScenarioName(scenarioname);
     	}
     	 
@@ -46,6 +52,8 @@ public class LoginSteps extends DriverFactory {
     	
     	finally{
         new DriverFactory().destroyDriver();}
+    	
+    	DebugLog.EndTest(scenarioname);
     }
 
     @Given("^I am on myAurion login page$")

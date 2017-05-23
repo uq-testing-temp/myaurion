@@ -535,3 +535,1357 @@
 2017-05-23 14:16:40,724 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
 2017-05-23 14:16:41,906 INFO  [Log] **********************Starting the test scenario*********************** 
 2017-05-23 14:16:41,906 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-23 14:16:43,630 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (203c1393652cc77701849374d50c34d4)] -> id: login-button] 
+2017-05-23 14:16:47,732 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:16:47,732 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:16:49,486 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4e164ed64d4426997e7733a56d6c6fe5)] -> id: login-button] 
+2017-05-23 14:16:57,179 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4e164ed64d4426997e7733a56d6c6fe5)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:16:57,289 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4e164ed64d4426997e7733a56d6c6fe5)] -> link text: Leave] 
+2017-05-23 14:17:14,009 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:17:29,623 INFO  [Log] Sick (additional) balance is as expected35.00 
+2017-05-23 14:17:29,783 INFO  [Log] Sick (additional) pending is as expected0.00 
+2017-05-23 14:17:29,921 INFO  [Log] Sick (additional) Available is as expected35.00 
+2017-05-23 14:17:30,372 WARN  [Log] Sick (additional)type of leave not found in the list 
+2017-05-23 14:17:30,372 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:17:30,372 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:17:33,607 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:17:33,607 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:17:35,306 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c7fa6159b1de01c813163292d6d3489a)] -> id: login-button] 
+2017-05-23 14:17:38,012 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:17:38,012 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-23 14:17:39,757 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:17:39,757 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:17:41,019 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:17:41,019 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 14:17:42,756 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (801b04115db666fdca90056952c84c9b)] -> id: login-button] 
+2017-05-23 14:17:42,783 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:17:42,783 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:17:44,540 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c58ca9a4628cc7e5c62d43c9300d0887)] -> id: login-button] 
+2017-05-23 14:17:50,592 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (801b04115db666fdca90056952c84c9b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:17:50,710 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (801b04115db666fdca90056952c84c9b)] -> link text: Leave] 
+2017-05-23 14:17:53,098 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c58ca9a4628cc7e5c62d43c9300d0887)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:17:53,218 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c58ca9a4628cc7e5c62d43c9300d0887)] -> link text: Leave] 
+2017-05-23 14:18:22,967 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 14:18:23,132 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 14:18:23,297 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 14:18:24,014 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 14:18:24,015 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:24,015 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 14:18:25,776 INFO  [Log] Long Service balance is as expected23.87 
+2017-05-23 14:18:25,930 INFO  [Log] Long Service pending is as expected0.00 
+2017-05-23 14:18:26,173 INFO  [Log] Long Service Available is as expected23.87 
+2017-05-23 14:18:26,339 WARN  [Log] Long Servicetype of leave not found in the list 
+2017-05-23 14:18:26,339 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:26,339 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:18:27,180 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:27,180 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 14:18:29,802 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:29,802 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:18:31,599 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:31,599 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 14:18:31,865 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f4810f410ceaf7ad817c25b9d347325a)] -> id: login-button] 
+2017-05-23 14:18:38,609 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:38,609 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:18:39,513 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:39,513 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:18:40,381 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2235fdd5143183a10ad404e855b2dedd)] -> id: login-button] 
+2017-05-23 14:18:41,090 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:41,090 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:18:42,531 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:42,531 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:18:44,441 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:44,441 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:18:45,290 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:45,290 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:18:46,215 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a86cba0d74606b1da344fc60e12854df)] -> id: login-button] 
+2017-05-23 14:18:52,194 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:52,194 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:18:53,361 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a86cba0d74606b1da344fc60e12854df)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:18:53,483 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a86cba0d74606b1da344fc60e12854df)] -> link text: Leave] 
+2017-05-23 14:18:56,623 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:18:56,623 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:18:59,504 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:18:59,504 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:19:01,441 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c2ba9b7c279afc9331c75c88bbb0040c)] -> id: login-button] 
+2017-05-23 14:19:24,498 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:24,498 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:19:26,041 INFO  [Log] Carer's (non-cumulative) balance is as expected5.00 
+2017-05-23 14:19:26,203 INFO  [Log] Carer's (non-cumulative) pending is as expected0.00 
+2017-05-23 14:19:26,409 INFO  [Log] Carer's (non-cumulative) Available is as expected5.00 
+2017-05-23 14:19:26,829 WARN  [Log] Carer's (non-cumulative)type of leave not found in the list 
+2017-05-23 14:19:26,829 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:26,829 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:19:27,567 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:27,567 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:19:29,361 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e681cc2443f8b9d397fed3815287952d)] -> id: login-button] 
+2017-05-23 14:19:30,013 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:30,013 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:19:31,052 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:31,052 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:19:31,711 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (93ba24008d3e309d7dda03bc9cd03a3e)] -> id: login-button] 
+2017-05-23 14:19:34,029 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:34,029 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:19:34,162 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:34,162 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:19:36,019 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0699adb39ae53437b709479310c25d42)] -> id: login-button] 
+2017-05-23 14:19:37,429 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:37,430 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:19:38,509 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:38,509 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:19:41,478 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:41,478 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:19:41,560 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:41,560 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:19:43,275 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e6ab63871c9c03ea8b9a5b6b8d811b8b)] -> id: login-button] 
+2017-05-23 14:19:44,810 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:19:44,810 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:19:48,019 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:48,019 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:19:48,476 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:19:48,477 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:19:49,835 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (250f9dd434ed565fa991a6a62bd58638)] -> id: login-button] 
+2017-05-23 14:19:50,223 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d865abea2986326d957f3e52f5cfb3ca)] -> id: login-button] 
+2017-05-23 14:20:20,209 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:20:20,599 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:20:50,235 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:20:50,235 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:20:50,645 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:20:50,645 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:20:53,371 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:20:53,371 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:20:53,787 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:20:53,787 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:20:55,092 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75891f78f80def507170a9bee7316230)] -> id: login-button] 
+2017-05-23 14:20:55,517 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3b03aa551282ba952ab85c6765b48fcb)] -> id: login-button] 
+2017-05-23 14:21:25,452 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:21:25,854 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:21:55,497 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:21:55,497 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:21:55,888 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:21:55,888 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:21:58,657 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:21:58,657 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:21:58,991 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:21:58,991 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:22:00,395 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3603caf555e99af810c02fe1e176eaa8)] -> id: login-button] 
+2017-05-23 14:22:00,706 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e11c3d8bbf4677c979dd434e124bf710)] -> id: login-button] 
+2017-05-23 14:22:12,802 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:22:12,802 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:22:15,923 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:22:15,923 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:22:20,330 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:22:20,331 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:22:27,217 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:22:27,217 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:22:31,069 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:22:31,599 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:22:31,600 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:22:38,524 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:22:38,524 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:22:40,323 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cdbb5429b7a8bca3e51f16c5e1f2e073)] -> id: login-button] 
+2017-05-23 14:22:46,629 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:22:46,630 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:22:53,540 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:22:53,540 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:22:57,957 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:22:57,957 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:23:01,102 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:23:01,102 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:23:04,216 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:04,216 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:23:04,806 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:04,806 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:23:05,932 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5bf0a7175dc2797655b74756838702f7)] -> id: login-button] 
+2017-05-23 14:23:06,499 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e82037eb299cf7b598f9eaa742cf79b1)] -> id: login-button] 
+2017-05-23 14:23:14,069 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:23:14,069 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:23:16,563 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:23:16,563 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:23:16,999 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:16,999 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:23:18,566 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:23:18,566 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:23:19,556 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:19,556 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:23:23,872 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:23:23,872 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:23:25,426 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:25,426 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 14:23:26,803 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:23:26,803 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:23:27,304 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87efb61c4a7150eca65e653daa7be53f)] -> id: login-button] 
+2017-05-23 14:23:28,786 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dc478d7cf2731921e6861f55c1b36f60)] -> id: login-button] 
+2017-05-23 14:23:57,756 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:23:59,143 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:24:11,879 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:24:11,879 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:24:14,846 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:24:14,846 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:24:15,699 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:24:15,699 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 14:24:16,598 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (309e131a454ba4fc91565f23cf37f2b8)] -> id: login-button] 
+2017-05-23 14:24:18,255 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:24:18,255 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:24:18,659 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:24:18,659 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 14:24:21,289 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:24:21,289 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:24:23,020 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1990191e92c8bb2682ec4f9642325f0d)] -> id: login-button] 
+2017-05-23 14:24:23,136 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:24:23,136 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 14:24:30,004 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:24:30,004 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 14:24:34,408 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:24:34,408 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 14:24:41,277 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:24:41,277 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:24:42,985 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64800a2621118bf7b006fd279b18f246)] -> id: login-button] 
+2017-05-23 14:24:53,350 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:24:57,334 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64800a2621118bf7b006fd279b18f246)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 14:24:57,431 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64800a2621118bf7b006fd279b18f246)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 14:24:58,974 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64800a2621118bf7b006fd279b18f246)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 14:25:23,430 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:25:23,430 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:25:27,317 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:25:27,317 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:25:29,033 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (906f885cd0cf4174a8bc40570d1d6077)] -> id: login-button] 
+2017-05-23 14:25:31,170 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:25:31,170 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:25:34,414 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:25:34,414 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:25:36,140 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cab2682c1e81a25d1ce0399d68dfc6c4)] -> id: login-button] 
+2017-05-23 14:25:41,329 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:25:41,329 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:25:44,481 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:25:44,481 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:25:46,262 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7e9ad3562a310867c83a6a3c4464e2c1)] -> id: login-button] 
+2017-05-23 14:25:50,454 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cab2682c1e81a25d1ce0399d68dfc6c4)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 14:25:50,562 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cab2682c1e81a25d1ce0399d68dfc6c4)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 14:25:52,265 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cab2682c1e81a25d1ce0399d68dfc6c4)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 14:25:58,713 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:25:58,713 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:26:01,941 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:26:01,941 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:26:03,772 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4729c4a4091825ccc912d50ffc1e2af)] -> id: login-button] 
+2017-05-23 14:26:16,163 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:26:16,163 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:26:16,880 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cab2682c1e81a25d1ce0399d68dfc6c4)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-23 14:26:19,784 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:26:19,784 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:26:21,506 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64c4ed2bdc6c7921194e0e281231da26)] -> id: login-button] 
+2017-05-23 14:26:33,933 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:26:33,933 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:26:37,117 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:26:37,117 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:26:38,906 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ee7e7932a623505de97990f3f31196db)] -> id: login-button] 
+2017-05-23 14:26:51,317 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:26:51,317 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:26:53,873 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:26:53,873 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:26:54,444 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:26:54,444 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:26:56,248 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4fc458f256e13a64b82bd4148dc19b8a)] -> id: login-button] 
+2017-05-23 14:26:57,066 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:26:57,066 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 14:26:58,907 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4fd1d0c7d39cb1d1715ebc010e4609b7)] -> id: login-button] 
+2017-05-23 14:27:07,292 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:27:07,292 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:27:10,292 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:27:10,292 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:27:12,089 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (374aa1c72d9966d45a296d43afb0c100)] -> id: login-button] 
+2017-05-23 14:27:15,671 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4fd1d0c7d39cb1d1715ebc010e4609b7)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-23 14:27:42,441 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:27:45,792 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='panelDetailed']/div[2]/button' 
+2017-05-23 14:28:12,457 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:12,457 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:28:15,831 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:28:15,831 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 14:28:15,837 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:15,837 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 14:28:17,757 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (93e03aeff32e7b868d9cf99b188443f0)] -> id: login-button] 
+2017-05-23 14:28:19,086 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:28:19,086 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 14:28:20,771 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (86c5ea78e84ef9111e45931d7bc739ad)] -> id: login-button] 
+2017-05-23 14:28:23,109 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:23,109 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 14:28:26,321 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:28:26,321 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 14:28:30,724 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:30,724 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 14:28:37,639 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:28:37,639 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 14:28:42,030 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:42,030 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 14:28:48,289 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:28:48,954 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:28:48,954 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 14:28:51,076 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1b8a483756bbf8acd1904d4bbb3d5c73)] -> id: login-button] 
+2017-05-23 14:28:59,156 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:28:59,156 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 14:29:02,152 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:29:02,152 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 14:29:03,889 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c8b109bbf12e2be92d8dcdd0b5e82d9c)] -> id: login-button] 
+2017-05-23 14:29:18,350 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:29:18,350 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 14:29:21,536 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:29:21,536 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 14:29:23,254 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (26d812bd99ca97fe8881349d2837a7a8)] -> id: login-button] 
+2017-05-23 14:29:36,200 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:29:36,200 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 14:29:37,597 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:29:37,597 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 14:29:39,482 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:29:39,482 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 14:29:40,760 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:29:40,760 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 14:29:41,652 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ebe0df6100787e3fb3616280563ada80)] -> id: login-button] 
+2017-05-23 14:29:42,430 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a7312f9b5aec084a44797be6db11d034)] -> id: login-button] 
+2017-05-23 14:29:54,017 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:29:54,017 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 14:29:57,005 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:29:57,006 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 14:29:57,402 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:29:57,402 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 14:29:58,706 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9a0202430815f0f17b353799afc509a8)] -> id: login-button] 
+2017-05-23 14:30:04,277 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:30:04,277 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:30:06,018 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c658f0bb2a32df7d1824d201f65de2b)] -> id: login-button] 
+2017-05-23 14:30:20,312 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c658f0bb2a32df7d1824d201f65de2b)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 14:30:20,429 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c658f0bb2a32df7d1824d201f65de2b)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 14:30:21,876 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3c658f0bb2a32df7d1824d201f65de2b)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 14:30:31,074 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:30:31,074 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 14:30:34,197 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:30:34,197 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 14:30:35,898 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (11bf3fab97f2b4e17a514da5d4daff98)] -> id: login-button] 
+2017-05-23 14:30:42,861 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (11bf3fab97f2b4e17a514da5d4daff98)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:30:42,968 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (11bf3fab97f2b4e17a514da5d4daff98)] -> link text: My Tasks] 
+2017-05-23 14:30:44,388 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (11bf3fab97f2b4e17a514da5d4daff98)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:30:44,520 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (11bf3fab97f2b4e17a514da5d4daff98)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:30:54,090 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:30:54,090 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:30:57,237 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:30:57,237 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:30:58,982 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9002f0e399dbb7b1852216bf71135d5e)] -> id: login-button] 
+2017-05-23 14:31:14,611 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:31:14,611 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 14:31:15,356 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9002f0e399dbb7b1852216bf71135d5e)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 14:31:15,479 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9002f0e399dbb7b1852216bf71135d5e)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 14:31:17,222 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9002f0e399dbb7b1852216bf71135d5e)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 14:31:17,786 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:31:17,786 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 14:31:19,492 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2b8dba692763ed2ca72bcf619f93522c)] -> id: login-button] 
+2017-05-23 14:31:26,431 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2b8dba692763ed2ca72bcf619f93522c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:31:26,543 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2b8dba692763ed2ca72bcf619f93522c)] -> link text: My Tasks] 
+2017-05-23 14:31:27,910 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2b8dba692763ed2ca72bcf619f93522c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:31:28,031 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2b8dba692763ed2ca72bcf619f93522c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:31:41,234 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9002f0e399dbb7b1852216bf71135d5e)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-23 14:31:58,175 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:31:58,175 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 14:32:01,290 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:32:01,290 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 14:32:03,125 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> id: login-button] 
+2017-05-23 14:32:10,436 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:32:10,559 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> link text: My Tasks] 
+2017-05-23 14:32:11,944 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:32:12,076 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:32:12,180 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-23 14:32:14,210 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: .//a[contains(text(),'Return')]] 
+2017-05-23 14:32:15,248 INFO  [Log] Entering 'this is a automation test for Timesheet Return' into the field '[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-23 14:32:15,895 INFO  [Log] Entering the text: 'this is a automation test for Timesheet Return' Into the field '[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-23 14:32:16,175 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (28a0f73e96b55076c813a8df2be237bc)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-05-23 14:32:17,715 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-23 14:32:17,911 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:32:17,911 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 14:32:20,462 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:32:20,462 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 14:32:21,046 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:32:21,046 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 14:32:22,862 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2eb941dec873b7ac96d44d4369dd7a8a)] -> id: login-button] 
+2017-05-23 14:32:23,601 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:32:23,601 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 14:32:25,556 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (86ad3a15e42f1552af86e1a1e151a418)] -> id: login-button] 
+2017-05-23 14:32:30,127 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2eb941dec873b7ac96d44d4369dd7a8a)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:32:30,259 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2eb941dec873b7ac96d44d4369dd7a8a)] -> link text: My Tasks] 
+2017-05-23 14:32:31,657 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2eb941dec873b7ac96d44d4369dd7a8a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:32:31,794 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2eb941dec873b7ac96d44d4369dd7a8a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:32:41,568 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (86ad3a15e42f1552af86e1a1e151a418)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-23 14:33:01,936 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:33:01,936 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 14:33:05,099 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:33:05,099 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 14:33:06,784 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (067cba654e6a183dc177c30ef6af183e)] -> id: login-button] 
+2017-05-23 14:33:11,712 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='panelDetailed']/div[2]/button' 
+2017-05-23 14:33:13,717 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (067cba654e6a183dc177c30ef6af183e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:33:13,831 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (067cba654e6a183dc177c30ef6af183e)] -> link text: My Tasks] 
+2017-05-23 14:33:15,240 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (067cba654e6a183dc177c30ef6af183e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:33:15,346 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (067cba654e6a183dc177c30ef6af183e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:33:41,736 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:33:41,736 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 14:33:44,889 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:33:44,889 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 14:33:45,479 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:33:45,479 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 14:33:46,644 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e0847518c0507cf0bf837c97d5e19a8f)] -> id: login-button] 
+2017-05-23 14:33:48,765 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:33:48,765 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 14:33:49,126 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:33:49,126 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 14:33:50,481 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f39f1b27442971c4895fc09d8e52589f)] -> id: login-button] 
+2017-05-23 14:33:52,329 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:33:52,329 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 14:33:54,124 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9e1d0d39e3d58d6d00d8c2a3d1787490)] -> id: login-button] 
+2017-05-23 14:33:57,854 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f39f1b27442971c4895fc09d8e52589f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:33:57,956 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f39f1b27442971c4895fc09d8e52589f)] -> link text: My Tasks] 
+2017-05-23 14:33:59,352 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f39f1b27442971c4895fc09d8e52589f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:33:59,456 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f39f1b27442971c4895fc09d8e52589f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:34:00,725 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:34:00,725 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 14:34:03,686 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:34:03,686 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 14:34:05,451 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a3f0f008978907a7395acb1131afc601)] -> id: login-button] 
+2017-05-23 14:34:29,595 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:34:29,595 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 14:34:32,763 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:34:32,763 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 14:34:34,519 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> id: login-button] 
+2017-05-23 14:34:37,841 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:34:37,842 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 14:34:41,049 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:34:41,049 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 14:34:42,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (83226ecab6f938c08ac445d57519f7bc)] -> id: login-button] 
+2017-05-23 14:34:53,896 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 14:34:53,898 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:34:55,074 INFO  [Log] Entering '10/12/2016' into the field '[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 14:34:55,699 INFO  [Log] Entering the text: '10/12/2016' Into the field '[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 14:34:56,060 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 14:34:56,062 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:34:57,410 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (09e60341b28310c4e28bc5d120a54997)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 14:35:15,322 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:35:15,323 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 14:35:18,419 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:35:18,420 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 14:35:20,114 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d42092827a73ca6e98d2fc329c4ec6ca)] -> id: login-button] 
+2017-05-23 14:35:34,350 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:35:34,350 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 14:35:37,486 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:35:37,486 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 14:35:39,233 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> id: login-button] 
+2017-05-23 14:35:46,299 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:35:46,417 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> link text: My Tasks] 
+2017-05-23 14:35:48,026 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:35:48,147 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:35:48,269 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Daniel Angus')]] 
+2017-05-23 14:35:50,508 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> xpath: .//*[contains(text(),'Forward')]] 
+2017-05-23 14:35:51,296 INFO  [Log] Entering ' Please approve this is a test' into the field '[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-23 14:35:51,951 INFO  [Log] Entering the text: ' Please approve this is a test' Into the field '[[ChromeDriver: chrome on XP (75f536f6dc7dac6f3e93f5a1845bd6d0)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-23 14:35:52,498 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:35:52,499 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 14:35:55,984 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:35:55,984 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 14:35:56,518 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-23 14:35:56,719 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:35:56,719 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 14:36:00,314 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f56919e8bbf086e28e8c4a697d0d61fe)] -> id: login-button] 
+2017-05-23 14:36:02,305 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:36:02,305 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 14:36:04,293 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> id: login-button] 
+2017-05-23 14:36:21,571 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 14:36:21,572 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:36:22,940 INFO  [Log] Entering '26/11/2016' into the field '[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 14:36:23,584 INFO  [Log] Entering the text: '26/11/2016' Into the field '[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 14:36:23,920 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 14:36:23,922 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:36:25,154 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b888c241d7d5e6efcee38ee87ee145f2)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 14:36:34,021 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:36:34,021 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 14:36:37,182 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:36:37,182 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 14:36:38,864 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (30303429afe7465146eaf609085ef6a6)] -> id: login-button] 
+2017-05-23 14:37:11,009 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:37:11,009 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 14:37:14,283 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:37:14,283 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 14:37:15,994 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f63039f1edd8d41ee691f4b277ccbcb9)] -> id: login-button] 
+2017-05-23 14:37:23,830 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f63039f1edd8d41ee691f4b277ccbcb9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:37:23,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f63039f1edd8d41ee691f4b277ccbcb9)] -> link text: My Tasks] 
+2017-05-23 14:37:25,608 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f63039f1edd8d41ee691f4b277ccbcb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:37:25,733 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f63039f1edd8d41ee691f4b277ccbcb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:37:26,754 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:37:26,754 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 14:37:29,900 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:37:29,900 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 14:37:31,614 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3652bcfb7f091f7106fca7719349540a)] -> id: login-button] 
+2017-05-23 14:37:45,934 INFO  [Log] Entering '25/06/2016' into the field '[[ChromeDriver: chrome on XP (3652bcfb7f091f7106fca7719349540a)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 14:37:46,556 INFO  [Log] Entering the text: '25/06/2016' Into the field '[[ChromeDriver: chrome on XP (3652bcfb7f091f7106fca7719349540a)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 14:37:46,844 INFO  [Log] Found the cell with text and selecting it '25/06/2016' 
+2017-05-23 14:37:46,845 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (3652bcfb7f091f7106fca7719349540a)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:37:48,259 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3652bcfb7f091f7106fca7719349540a)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 14:37:55,882 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:37:55,882 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 14:37:59,013 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:37:59,013 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 14:38:00,802 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8888ab8d781bee761acdf8c50e27cdb)] -> id: login-button] 
+2017-05-23 14:38:08,384 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8888ab8d781bee761acdf8c50e27cdb)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:38:08,488 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8888ab8d781bee761acdf8c50e27cdb)] -> link text: My Tasks] 
+2017-05-23 14:38:09,949 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8888ab8d781bee761acdf8c50e27cdb)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:38:10,077 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f8888ab8d781bee761acdf8c50e27cdb)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:38:40,190 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:38:40,190 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 14:38:43,476 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:38:43,476 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 14:38:45,234 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> id: login-button] 
+2017-05-23 14:38:50,019 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:38:50,019 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 14:38:52,854 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:38:52,974 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> link text: My Tasks] 
+2017-05-23 14:38:54,628 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:38:54,838 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:38:54,975 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-23 14:38:57,240 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: .//a[contains(text(),'Return')]] 
+2017-05-23 14:38:58,164 INFO  [Log] Entering 'this is a automation test for Timesheet Return' into the field '[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-23 14:38:58,782 INFO  [Log] Entering the text: 'this is a automation test for Timesheet Return' Into the field '[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-23 14:38:59,044 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (046201ae5e4fe61c0c2cd2ae0d801b92)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-05-23 14:39:00,805 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-23 14:39:00,991 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:39:00,991 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 14:39:04,186 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:39:04,186 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 14:39:05,890 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (88b8ae5daba2919ff5f05c482f62849d)] -> id: login-button] 
+2017-05-23 14:39:13,138 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (88b8ae5daba2919ff5f05c482f62849d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:39:13,249 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (88b8ae5daba2919ff5f05c482f62849d)] -> link text: My Tasks] 
+2017-05-23 14:39:14,583 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (88b8ae5daba2919ff5f05c482f62849d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:39:14,704 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (88b8ae5daba2919ff5f05c482f62849d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:39:44,801 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:39:44,801 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 14:39:47,910 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:39:47,910 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 14:39:49,798 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4568a562c1a7120f9c411b4ddcf7cdb9)] -> id: login-button] 
+2017-05-23 14:39:57,120 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4568a562c1a7120f9c411b4ddcf7cdb9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:39:57,239 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4568a562c1a7120f9c411b4ddcf7cdb9)] -> link text: My Tasks] 
+2017-05-23 14:39:58,716 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4568a562c1a7120f9c411b4ddcf7cdb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:39:58,836 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4568a562c1a7120f9c411b4ddcf7cdb9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:40:28,926 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:40:28,926 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 14:40:32,140 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:40:32,140 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 14:40:33,927 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bab24321b8ce9fa775e097cd96fd8349)] -> id: login-button] 
+2017-05-23 14:40:40,927 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bab24321b8ce9fa775e097cd96fd8349)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:40:41,101 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bab24321b8ce9fa775e097cd96fd8349)] -> link text: My Tasks] 
+2017-05-23 14:40:42,427 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bab24321b8ce9fa775e097cd96fd8349)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:40:42,530 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bab24321b8ce9fa775e097cd96fd8349)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:41:12,654 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:41:12,654 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 14:41:15,819 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:41:15,819 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 14:41:17,556 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> id: login-button] 
+2017-05-23 14:41:31,161 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 14:41:31,163 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:41:32,349 INFO  [Log] Entering '10/12/2016' into the field '[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 14:41:32,984 INFO  [Log] Entering the text: '10/12/2016' Into the field '[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 14:41:33,359 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 14:41:33,362 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:41:34,554 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b4d91609ba100fe41013769bcef3c21d)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 14:42:11,469 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:42:11,470 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 14:42:14,716 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:42:14,716 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 14:42:16,413 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> id: login-button] 
+2017-05-23 14:42:25,433 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:42:25,534 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> link text: My Tasks] 
+2017-05-23 14:42:27,186 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 14:42:27,298 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 14:42:27,396 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Daniel Angus')]] 
+2017-05-23 14:42:29,373 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> xpath: .//*[contains(text(),'Forward')]] 
+2017-05-23 14:42:30,150 INFO  [Log] Entering ' Please approve this is a test' into the field '[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-05-23 14:42:30,923 INFO  [Log] Entering the text: ' Please approve this is a test' Into the field '[[ChromeDriver: chrome on XP (621c40cab291744b43e096bbe708d7d9)] -> id: N902F035_REPLY_MESSAGE] 
+2017-05-23 14:42:35,176 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-05-23 14:42:35,374 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:42:35,374 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 14:42:38,558 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:42:38,558 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 14:42:40,232 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> id: login-button] 
+2017-05-23 14:42:58,750 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 14:42:58,752 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:42:59,951 INFO  [Log] Entering '26/11/2016' into the field '[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 14:43:00,577 INFO  [Log] Entering the text: '26/11/2016' Into the field '[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 14:43:00,907 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 14:43:00,908 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 14:43:02,174 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e3c272ec4b8469ae152e0d19f475def4)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 14:43:55,758 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:43:55,758 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 14:44:02,666 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:44:02,666 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 14:44:04,506 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (85c4de2a8ffc98fb378450b1687372fd)] -> id: login-button] 
+2017-05-23 14:44:12,577 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:44:12,577 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 14:44:34,722 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d573cd97380720654e33c0d630debfed)] -> id: login-button] 
+2017-05-23 14:45:05,075 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:45:35,135 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:45:35,135 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 14:45:35,135 INFO  [Log] Fixed Term Continuing staff - View Job Details, Employment History and Acting PlacementsTest Failed 
+2017-05-23 14:45:38,550 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:45:38,550 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 14:45:40,290 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a6e505895fb3ce105fa4f42600713f0c)] -> id: login-button] 
+2017-05-23 14:46:10,632 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:46:40,669 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:46:40,669 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 14:46:40,669 INFO  [Log] Casual staff - View Job Details, Employment History and Acting PlacementsTest Failed 
+2017-05-23 14:46:43,841 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:46:43,841 INFO  [Log] ******************************* Scenario: Search for direct reports************************************* 
+2017-05-23 14:46:45,555 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f6dbc7ff2c837ec06ba373d37b45925d)] -> id: login-button] 
+2017-05-23 14:46:47,898 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:46:47,898 INFO  [Log] ******************************* Scenario: Search for direct reports************************************* 
+2017-05-23 14:46:47,898 INFO  [Log] Search for direct reportsTest Failed 
+2017-05-23 14:46:51,030 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:46:51,030 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's details************************************* 
+2017-05-23 14:46:52,707 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (271d37c05aa000b97265d8edaf50c7d3)] -> id: login-button] 
+2017-05-23 14:46:55,054 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:46:55,054 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's details************************************* 
+2017-05-23 14:46:55,054 INFO  [Log] Supervisor - view subordinate's detailsTest Failed 
+2017-05-23 14:46:58,200 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:46:58,200 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll details************************************* 
+2017-05-23 14:46:59,917 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (dc4b49fe1cf27dc0234e335008ee6b10)] -> id: login-button] 
+2017-05-23 14:47:02,282 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:02,282 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll details************************************* 
+2017-05-23 14:47:02,282 INFO  [Log] Supervisor - Try to view subordinate's Payroll detailsTest Failed 
+2017-05-23 14:47:05,436 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:05,436 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-23 14:47:07,131 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4a55ea5d41d63cb1f58e3ceb835458cd)] -> id: login-button] 
+2017-05-23 14:47:09,421 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:09,421 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-23 14:47:09,421 INFO  [Log] Supervisor - Try to view subordinate's Personal detailsTest Failed 
+2017-05-23 14:47:12,483 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:12,483 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-05-23 14:47:14,179 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a0a8e130c99591432d1639084dd160d1)] -> id: login-button] 
+2017-05-23 14:47:16,535 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:16,535 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-05-23 14:47:16,535 INFO  [Log] Search for employees- No results foundTest Failed 
+2017-05-23 14:47:19,601 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:19,601 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-05-23 14:47:21,446 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (68d5f0d26e41b64af64240b7a33539c8)] -> id: login-button] 
+2017-05-23 14:47:23,785 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:23,785 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-05-23 14:47:23,785 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff view detailsTest Failed 
+2017-05-23 14:47:26,891 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:26,891 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-05-23 14:47:28,619 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (52a8a0c0ed466c17a47998cc20680594)] -> id: login-button] 
+2017-05-23 14:47:31,004 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:31,004 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-05-23 14:47:31,004 INFO  [Log] Supervisor of casual staff - MyStaff view detailsTest Failed 
+2017-05-23 14:47:34,094 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:34,094 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-23 14:47:35,787 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d3a9dbf1c2bea90e1ea6adf8a3334bc3)] -> id: login-button] 
+2017-05-23 14:47:38,180 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:47:38,180 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-23 14:47:38,180 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff leaveTest Failed 
+2017-05-23 14:47:41,352 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:47:41,352 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-23 14:47:43,082 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a1651d58b6701221972874e75dac66c1)] -> id: login-button] 
+2017-05-23 14:48:16,396 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 14:48:46,415 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:48:46,415 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-23 14:48:46,415 INFO  [Log] MyAurion - Fixed Term Continuing staff - View HR ProfileTest Failed 
+2017-05-23 14:48:49,496 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:48:49,496 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:48:51,271 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (436158eded9e370882a735eb82bc53a5)] -> id: login-button] 
+2017-05-23 14:49:21,665 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:49:51,722 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:49:51,722 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:49:51,722 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 14:49:54,824 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:49:54,824 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:49:56,640 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c507a2375f5c39870507a1885e7e017f)] -> id: login-button] 
+2017-05-23 14:50:10,424 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:50:10,424 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:50:10,424 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 14:50:13,341 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:50:13,341 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:50:17,762 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:50:17,762 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 14:50:17,762 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 14:50:24,588 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:50:24,588 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-23 14:50:28,966 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:50:28,966 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-23 14:50:28,966 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply multiple days leaveTest Failed 
+2017-05-23 14:50:35,787 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:50:35,787 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 14:50:37,489 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d0a27b67615ca2a21f9d66326b8ffcfd)] -> id: login-button] 
+2017-05-23 14:50:46,076 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d0a27b67615ca2a21f9d66326b8ffcfd)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:50:46,192 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d0a27b67615ca2a21f9d66326b8ffcfd)] -> link text: Leave] 
+2017-05-23 14:51:18,054 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 14:51:18,204 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 14:51:18,367 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 14:51:19,072 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 14:51:19,073 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:51:19,073 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 14:51:19,073 INFO  [Log] View my current Recreational leave balancesTest Passed 
+2017-05-23 14:51:22,133 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:51:22,133 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 14:51:23,904 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4a859b105c7a6a6d4b0cd76ca37dba4)] -> id: login-button] 
+2017-05-23 14:51:34,231 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4a859b105c7a6a6d4b0cd76ca37dba4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:51:34,347 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d4a859b105c7a6a6d4b0cd76ca37dba4)] -> link text: Leave] 
+2017-05-23 14:52:06,324 INFO  [Log] Personal (Sick & Carer's) balance is as expected36.73 
+2017-05-23 14:52:06,461 INFO  [Log] Personal (Sick & Carer's) pending is as expected0.00 
+2017-05-23 14:52:06,619 INFO  [Log] Personal (Sick & Carer's) Available is as expected36.73 
+2017-05-23 14:52:07,207 WARN  [Log] Personal (Sick & Carer's)type of leave not found in the list 
+2017-05-23 14:52:07,207 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:52:07,207 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 14:52:07,207 INFO  [Log] View my current  Personal  leave balancesTest Passed 
+2017-05-23 14:52:10,307 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:52:10,307 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:52:12,024 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7a7ae8792e78feb5c1ab023e3f6b069b)] -> id: login-button] 
+2017-05-23 14:52:21,055 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7a7ae8792e78feb5c1ab023e3f6b069b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:52:21,173 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7a7ae8792e78feb5c1ab023e3f6b069b)] -> link text: Leave] 
+2017-05-23 14:52:53,326 INFO  [Log] Sick (additional) balance is as expected35.00 
+2017-05-23 14:52:53,471 INFO  [Log] Sick (additional) pending is as expected0.00 
+2017-05-23 14:52:53,645 INFO  [Log] Sick (additional) Available is as expected35.00 
+2017-05-23 14:52:54,064 WARN  [Log] Sick (additional)type of leave not found in the list 
+2017-05-23 14:52:54,065 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:52:54,065 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 14:52:54,065 INFO  [Log] View my current Sick leave balancesTest Passed 
+2017-05-23 14:52:57,123 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:52:57,123 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:52:58,837 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f72c20659e9d59e1b1b10f62ac7e1cd5)] -> id: login-button] 
+2017-05-23 14:53:07,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f72c20659e9d59e1b1b10f62ac7e1cd5)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:53:08,067 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f72c20659e9d59e1b1b10f62ac7e1cd5)] -> link text: Leave] 
+2017-05-23 14:53:40,340 INFO  [Log] Carer's (non-cumulative) balance is as expected5.00 
+2017-05-23 14:53:40,489 INFO  [Log] Carer's (non-cumulative) pending is as expected0.00 
+2017-05-23 14:53:40,622 INFO  [Log] Carer's (non-cumulative) Available is as expected5.00 
+2017-05-23 14:53:40,951 WARN  [Log] Carer's (non-cumulative)type of leave not found in the list 
+2017-05-23 14:53:40,951 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:53:40,951 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 14:53:40,951 INFO  [Log] View my current Carer's leave balancesTest Passed 
+2017-05-23 14:53:44,008 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:53:44,008 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:53:45,707 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ba2a5f72ba854af1d30e469691198485)] -> id: login-button] 
+2017-05-23 14:53:55,491 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ba2a5f72ba854af1d30e469691198485)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 14:53:55,613 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ba2a5f72ba854af1d30e469691198485)] -> link text: Leave] 
+2017-05-23 14:54:28,089 INFO  [Log] Long Service balance is as expected23.87 
+2017-05-23 14:54:28,224 INFO  [Log] Long Service pending is as expected0.00 
+2017-05-23 14:54:28,400 INFO  [Log] Long Service Available is as expected23.87 
+2017-05-23 14:54:28,550 WARN  [Log] Long Servicetype of leave not found in the list 
+2017-05-23 14:54:28,550 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:54:28,550 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 14:54:28,550 INFO  [Log] View my current Long Service leave balancesTest Passed 
+2017-05-23 14:54:31,632 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:54:31,632 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:54:33,369 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (530e71fd34f413186f209d6ef8456dfb)] -> id: login-button] 
+2017-05-23 14:55:03,722 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:55:33,735 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:55:33,736 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 14:55:33,736 INFO  [Log] Fixed Term Continuing staff - Predict Leave BalancesTest Failed 
+2017-05-23 14:55:36,890 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:55:36,890 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:55:38,873 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7ec6af8506df7dc67f3eff8cf47c5b08)] -> id: login-button] 
+2017-05-23 14:56:09,208 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:56:39,225 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:56:39,225 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 14:56:39,225 INFO  [Log] Fixed Term Continuing staff - Delete Pending Leave RequestTest Failed 
+2017-05-23 14:56:42,393 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:56:42,393 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:56:44,134 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78850b5526293396d29f2706dc9e968d)] -> id: login-button] 
+2017-05-23 14:56:44,413 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:56:44,413 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:56:44,413 INFO  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Failed 
+2017-05-23 14:56:47,689 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:56:47,689 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:56:49,421 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (54a78ff21aa89b4f51297f4e1eb4319b)] -> id: login-button] 
+2017-05-23 14:56:49,697 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:56:49,697 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 14:56:49,697 INFO  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Failed 
+2017-05-23 14:56:52,998 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:56:52,998 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:56:54,715 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f4f07f6b0ff2baa0bb463ba125c8db14)] -> id: login-button] 
+2017-05-23 14:57:25,089 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:57:55,140 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:57:55,140 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 14:57:55,140 INFO  [Log] Fixed Term Continuing staff - Reverse Approved Leave Request End to EndTest Failed 
+2017-05-23 14:57:58,289 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:57:58,289 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:58:00,004 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9a40b8a1f0b9fb1ee7e3a19f0222be19)] -> id: login-button] 
+2017-05-23 14:58:00,312 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:58:00,312 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 14:58:00,312 INFO  [Log] Supervisor of fixed term continuing staff - Decline Leave RequestTest Failed 
+2017-05-23 14:58:03,512 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:58:03,512 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:58:05,519 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1a0873d6d3eeca791f1c4a3039d8e05c)] -> id: login-button] 
+2017-05-23 14:58:05,832 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:58:05,832 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 14:58:05,832 INFO  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Failed 
+2017-05-23 14:58:08,996 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:58:08,996 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:58:10,879 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (053083d906a754fe158bbfd3123252f1)] -> id: login-button] 
+2017-05-23 14:58:11,209 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:58:11,209 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 14:58:11,209 INFO  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)Test Failed 
+2017-05-23 14:58:14,400 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:58:14,400 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:58:16,147 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (24f2d7c4767517185df93aaee9d4e326)] -> id: login-button] 
+2017-05-23 14:58:47,616 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 14:59:17,646 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:17,646 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 14:59:17,646 INFO  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Test Failed 
+2017-05-23 14:59:20,783 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:20,783 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:59:22,695 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f2d036371a7c7ae2f04ad77d572c2bc5)] -> id: login-button] 
+2017-05-23 14:59:23,007 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:23,007 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 14:59:23,007 INFO  [Log] Fixed Term Continuing staff - View pay details and pay advicesTest Failed 
+2017-05-23 14:59:26,359 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:26,359 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:59:28,208 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8af6ed92a3b25c43abc7ce5968e69c5a)] -> id: login-button] 
+2017-05-23 14:59:28,571 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:28,572 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:59:28,572 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Failed 
+2017-05-23 14:59:31,742 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:31,742 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:59:33,489 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (036bb500e4e6d070b0bf5f692dec727b)] -> id: login-button] 
+2017-05-23 14:59:33,922 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:33,922 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 14:59:33,922 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Failed 
+2017-05-23 14:59:37,149 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:37,149 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:59:38,891 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (da742bcb3bf6ea7e5713d018af433cc1)] -> id: login-button] 
+2017-05-23 14:59:39,236 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:39,236 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:59:39,236 INFO  [Log] Fixed Term Continuing staff - Access ATO Payment SummaryTest Failed 
+2017-05-23 14:59:42,492 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:42,492 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:59:44,231 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1c4d465670a3fa4f39204288fe839249)] -> id: login-button] 
+2017-05-23 14:59:44,537 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:44,537 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 14:59:44,537 INFO  [Log] Casual staff - Access ATO Payment SummaryTest Failed 
+2017-05-23 14:59:47,881 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:47,881 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:59:49,641 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e06c1c061a77568757c35835678d2065)] -> id: login-button] 
+2017-05-23 14:59:49,946 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:49,946 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 14:59:49,946 INFO  [Log] Fixed Term Continuing staff - View and update emergency contactsTest Failed 
+2017-05-23 14:59:53,231 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:53,231 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:59:54,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (044be159eee425bcb736591eeaec5b80)] -> id: login-button] 
+2017-05-23 14:59:55,264 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 14:59:55,265 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 14:59:55,265 INFO  [Log] View and update emergency contacts- Foreign contactsTest Failed 
+2017-05-23 14:59:58,469 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 14:59:58,470 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 15:00:00,328 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9088a28f5cc7f21a857266a48d8c63ea)] -> id: login-button] 
+2017-05-23 15:00:00,704 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:00:00,704 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 15:00:00,704 INFO  [Log] Casual staff - View and update emergency contactsTest Failed 
+2017-05-23 15:00:03,907 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:00:03,907 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 15:00:08,943 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (26ec1b5df9ccbe7a26c52adfcd4ec7d1)] -> id: login-button] 
+2017-05-23 15:00:09,330 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:00:09,330 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 15:00:09,330 INFO  [Log] Fixed Term Continuing staff - View and update personal detailsTest Failed 
+2017-05-23 15:00:12,610 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:00:12,610 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 15:00:14,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb5d7363237277be49dae25df3fae071)] -> id: login-button] 
+2017-05-23 15:00:24,470 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:00:24,470 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 15:00:24,470 INFO  [Log] Casual staff - Enter, Validate and Submit Timesheet- Daily viewTest Failed 
+2017-05-23 15:00:27,698 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:00:27,698 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:00:29,431 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b1af5213be41b4c8e70f735342f3d5a0)] -> id: login-button] 
+2017-05-23 15:00:39,922 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:00:39,922 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:00:39,922 INFO  [Log] Casual staff - Enter, Validate and Submit Timesheet-Period viewTest Failed 
+2017-05-23 15:00:43,081 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:00:43,081 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:00:44,787 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1d52f880791e5a94d561688cd4ef8034)] -> id: login-button] 
+2017-05-23 15:00:54,164 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:00:54,164 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:00:54,164 INFO  [Log] Casual staff - Enter, Validate and Submit Timesheet-Period viewTest Failed 
+2017-05-23 15:00:57,380 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:00:57,380 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 15:00:59,103 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e898e4ec6b911943be91f3768b40a96e)] -> id: login-button] 
+2017-05-23 15:01:07,730 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:07,730 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 15:01:07,730 INFO  [Log] Casual staff - Enter, Validate and Submit Timesheet-Detailed viewTest Failed 
+2017-05-23 15:01:10,871 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:10,871 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 15:01:12,646 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (73cbe3eba5a1e4ec75652ee6071bc2c8)] -> id: login-button] 
+2017-05-23 15:01:15,053 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:15,053 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 15:01:15,053 INFO  [Log] Supervisor - Enter, Validate and Submit Timesheet-on behalf of employeeTest Failed 
+2017-05-23 15:01:18,242 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:18,242 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 15:01:19,952 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f83726705ba2f3ee747a7916fcb84252)] -> id: login-button] 
+2017-05-23 15:01:20,265 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:20,265 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 15:01:20,265 INFO  [Log] Try Submit timesheet as a fixed term or continuing employeeTest Failed 
+2017-05-23 15:01:23,381 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:23,381 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 15:01:25,130 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6b6f1a59504697aba449e6163f15cf05)] -> id: login-button] 
+2017-05-23 15:01:25,408 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:25,408 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 15:01:25,408 INFO  [Log] As a casual employee view the timesheets in Full list viewTest Failed 
+2017-05-23 15:01:28,621 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:28,621 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 15:01:30,376 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b119cb75b1bd4518c3f2b72f309f2d2b)] -> id: login-button] 
+2017-05-23 15:01:30,810 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:30,810 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 15:01:30,810 INFO  [Log] Save and Copy timesheet entryTest Failed 
+2017-05-23 15:01:33,962 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:33,962 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 15:01:35,690 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (497464a1ee8cc8922df95a7586fb0282)] -> id: login-button] 
+2017-05-23 15:01:35,972 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:35,972 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 15:01:35,972 INFO  [Log] Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheetTest Failed 
+2017-05-23 15:01:39,172 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:39,172 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 15:01:40,883 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b6640c0495c8680e4ebf4653d8f8c9d4)] -> id: login-button] 
+2017-05-23 15:01:41,288 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:41,288 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 15:01:41,288 INFO  [Log] Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheetTest Failed 
+2017-05-23 15:01:44,408 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:44,408 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 15:01:46,135 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (aaefeade256f099f1032e0cafcf9bdd3)] -> id: login-button] 
+2017-05-23 15:01:46,653 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:46,653 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 15:01:46,653 INFO  [Log] Try to Submit timesheet without entering start time or end time and verify the errorTest Failed 
+2017-05-23 15:01:49,832 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:01:49,832 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 15:01:51,577 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b19e29c5913d7d8482e1dfe4f800724a)] -> id: login-button] 
+2017-05-23 15:01:59,458 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:01:59,458 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 15:01:59,458 INFO  [Log] Supervisor of casual staff - Review and Approve TimesheetTest Failed 
+2017-05-23 15:02:02,601 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:02:02,601 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 15:02:04,284 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (08cc01966a90f275edde140db945a453)] -> id: login-button] 
+2017-05-23 15:02:11,530 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:02:11,530 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 15:02:11,530 INFO  [Log] Supervisor of casual staff - Review and Decline TimesheetTest Failed 
+2017-05-23 15:02:14,719 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:02:14,719 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 15:02:16,434 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (be24e7f2731c37d2985a5e19a9b5ab03)] -> id: login-button] 
+2017-05-23 15:02:25,545 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:02:25,545 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 15:02:25,545 INFO  [Log] Supervisor of casual staff - Review and Return TimesheetTest Failed 
+2017-05-23 15:02:28,809 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:02:28,809 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 15:02:30,533 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (84284bc7653581436ff2cf7e8b55c4e3)] -> id: login-button] 
+2017-05-23 15:02:38,012 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:02:38,012 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 15:02:38,012 INFO  [Log] Supervisor of casual staff - Review and Edit TimesheetTest Failed 
+2017-05-23 15:02:41,194 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:02:41,194 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 15:02:42,930 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8efe9978307ba41a8e714c0fbc8d9768)] -> id: login-button] 
+2017-05-23 15:02:50,298 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:02:50,298 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 15:02:50,298 INFO  [Log] Supervisor of casual staff - Review and Edit Current TimesheetTest Failed 
+2017-05-23 15:02:53,550 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:02:53,551 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 15:02:55,371 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fb87c6cf14a0c427c6dc51bbdcaf6118)] -> id: login-button] 
+2017-05-23 15:03:02,291 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:03:02,291 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 15:03:02,291 INFO  [Log] Supervisor of casual staff - Review and Update Timesheet using Detailed ViewTest Failed 
+2017-05-23 15:03:05,526 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:03:05,526 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 15:03:07,214 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (84a7cdc6124483f4b82582b2db1d429f)] -> id: login-button] 
+2017-05-23 15:03:14,635 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:03:14,635 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 15:03:14,635 INFO  [Log] Casual staff - Update Declined Timesheet and ResubmitTest Failed 
+2017-05-23 15:03:17,904 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:03:17,904 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 15:03:19,587 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37a77daef7f7c0a562a162847d9dffad)] -> id: login-button] 
+2017-05-23 15:03:26,256 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:03:26,256 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 15:03:26,256 INFO  [Log] Casual staff - Update Returned Timesheet and ResubmitTest Failed 
+2017-05-23 15:03:29,403 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:03:29,403 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 15:03:31,116 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e68740b39b15d91d4694a1f9dbe04205)] -> id: login-button] 
+2017-05-23 15:03:38,162 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:03:38,162 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 15:03:38,162 INFO  [Log] Casual staff - Recall Approved Timesheet (not yet paid)Test Failed 
+2017-05-23 15:03:41,414 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:03:41,414 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 15:03:43,179 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b49e2bc5f493663dc477df9e4ab9492f)] -> id: login-button] 
+2017-05-23 15:03:50,328 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:03:50,328 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 15:03:50,328 INFO  [Log] Casual staff - Recall Submitted TimesheetTest Failed 
+2017-05-23 15:07:01,422 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ec23034d2571de32ee4e025da9939fa0)] -> id: login-button] 
+2017-05-23 15:07:31,793 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:08:01,831 WARN  [Log] Fixed Term Continuing staff - View Job Details, Employment History and Acting PlacementsTest Failed 
+2017-05-23 15:08:03,322 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:08:03,322 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting PlacementsFailed************************************* 
+2017-05-23 15:08:05,395 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:08:05,395 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 15:08:07,135 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (210aa604fa3b992eadfc0e817a75577e)] -> id: login-button] 
+2017-05-23 15:08:37,529 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:09:07,563 WARN  [Log] Casual staff - View Job Details, Employment History and Acting PlacementsTest Failed 
+2017-05-23 15:09:08,601 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:09:08,601 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting PlacementsFailed************************************* 
+2017-05-23 15:09:10,708 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:10,708 INFO  [Log] ******************************* Scenario: Search for direct reports************************************* 
+2017-05-23 15:09:12,422 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1a60a3aced2c6b420f081f3539b1c02a)] -> id: login-button] 
+2017-05-23 15:09:14,735 WARN  [Log] Search for direct reportsTest Failed 
+2017-05-23 15:09:15,747 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:09:15,748 INFO  [Log] ******************************* Scenario: Search for direct reportsFailed************************************* 
+2017-05-23 15:09:17,860 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:17,860 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's details************************************* 
+2017-05-23 15:09:19,613 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a532ed65035686e50fab8b9aad6cc77)] -> id: login-button] 
+2017-05-23 15:09:21,993 WARN  [Log] Supervisor - view subordinate's detailsTest Failed 
+2017-05-23 15:09:22,966 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:09:22,966 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's detailsFailed************************************* 
+2017-05-23 15:09:25,044 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:25,044 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll details************************************* 
+2017-05-23 15:09:26,776 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (12219ae087b9bbe9f193b393d48b6ecd)] -> id: login-button] 
+2017-05-23 15:09:29,377 WARN  [Log] Supervisor - Try to view subordinate's Payroll detailsTest Failed 
+2017-05-23 15:09:30,364 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:09:30,364 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll detailsFailed************************************* 
+2017-05-23 15:09:32,439 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:32,439 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-23 15:09:34,177 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (daba29da3ad0d5da5de9f18faeccea48)] -> id: login-button] 
+2017-05-23 15:09:35,769 WARN  [Log] Supervisor - Try to view subordinate's Personal detailsTest Failed 
+2017-05-23 15:09:38,680 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:38,680 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-05-23 15:09:43,074 WARN  [Log] Search for employees- No results foundTest Failed 
+2017-05-23 15:09:49,994 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:09:49,994 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-05-23 15:09:54,400 WARN  [Log] Supervisor of fixed term continuing staff - MyStaff view detailsTest Failed 
+2017-05-23 15:10:01,320 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:10:01,320 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-05-23 15:10:05,839 WARN  [Log] Supervisor of casual staff - MyStaff view detailsTest Failed 
+2017-05-23 15:10:08,737 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:10:08,737 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-23 15:10:10,451 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37d29c4379c42c475fc0d429d39a72e3)] -> id: login-button] 
+2017-05-23 15:10:12,830 WARN  [Log] Supervisor of fixed term continuing staff - MyStaff leaveTest Failed 
+2017-05-23 15:10:13,826 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:10:13,826 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leaveFailed************************************* 
+2017-05-23 15:10:15,911 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:10:15,911 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-23 15:10:20,316 WARN  [Log] MyAurion - Fixed Term Continuing staff - View HR ProfileTest Failed 
+2017-05-23 15:10:27,190 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:10:27,190 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 15:10:28,894 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (abfd4e18ceecd89186376e479d26d62b)] -> id: login-button] 
+2017-05-23 15:10:39,013 WARN  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 15:10:45,938 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:10:45,938 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 15:10:47,672 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (286d1a408bc7461f79d0e4f7b7ac6cfd)] -> id: login-button] 
+2017-05-23 15:11:17,981 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:11:26,885 WARN  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 15:11:29,830 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:11:29,831 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 15:11:31,548 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a23a190e83cc0bd621233f13178f0822)] -> id: login-button] 
+2017-05-23 15:12:01,907 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:12:31,943 WARN  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Failed 
+2017-05-23 15:12:35,057 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:12:35,057 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-05-23 15:12:36,784 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7c8f70c194328da582d5ca209012a445)] -> id: login-button] 
+2017-05-23 15:13:07,134 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:13:37,158 WARN  [Log] Fixed Term Continuing staff: Apply for Leave- Apply multiple days leaveTest Failed 
+2017-05-23 15:13:40,284 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:13:40,285 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 15:13:41,982 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e73dd46b74bcb4e5634a3b4501eb0991)] -> id: login-button] 
+2017-05-23 15:13:49,560 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e73dd46b74bcb4e5634a3b4501eb0991)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:13:49,661 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e73dd46b74bcb4e5634a3b4501eb0991)] -> link text: Leave] 
+2017-05-23 15:14:21,512 INFO  [Log] Recreation balance is as expected14.46 
+2017-05-23 15:14:21,774 INFO  [Log] Recreation pending is as expected0.00 
+2017-05-23 15:14:21,907 INFO  [Log] Recreation Available is as expected14.46 
+2017-05-23 15:14:22,574 WARN  [Log] Recreationtype of leave not found in the list 
+2017-05-23 15:14:22,575 INFO  [Log] View my current Recreational leave balancesTest Passed 
+2017-05-23 15:14:23,548 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:14:23,548 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-05-23 15:14:25,646 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:14:25,646 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 15:14:27,400 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cb6a3210cb4ea8db7c55d1deae93273e)] -> id: login-button] 
+2017-05-23 15:14:35,023 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cb6a3210cb4ea8db7c55d1deae93273e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:14:35,194 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cb6a3210cb4ea8db7c55d1deae93273e)] -> link text: Leave] 
+2017-05-23 15:15:07,398 INFO  [Log] Personal (Sick & Carer's) balance is as expected36.73 
+2017-05-23 15:15:07,537 INFO  [Log] Personal (Sick & Carer's) pending is as expected0.00 
+2017-05-23 15:15:07,669 INFO  [Log] Personal (Sick & Carer's) Available is as expected36.73 
+2017-05-23 15:15:08,222 WARN  [Log] Personal (Sick & Carer's)type of leave not found in the list 
+2017-05-23 15:15:08,222 INFO  [Log] View my current  Personal  leave balancesTest Passed 
+2017-05-23 15:15:09,241 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:15:09,241 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-05-23 15:15:11,283 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:15:11,283 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 15:15:13,008 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4972aa0e3daec68a0357c820fe23cb83)] -> id: login-button] 
+2017-05-23 15:15:20,540 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4972aa0e3daec68a0357c820fe23cb83)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:15:20,647 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4972aa0e3daec68a0357c820fe23cb83)] -> link text: Leave] 
+2017-05-23 15:15:52,904 INFO  [Log] Sick (additional) balance is as expected35.00 
+2017-05-23 15:15:53,038 INFO  [Log] Sick (additional) pending is as expected0.00 
+2017-05-23 15:15:53,195 INFO  [Log] Sick (additional) Available is as expected35.00 
+2017-05-23 15:15:53,650 WARN  [Log] Sick (additional)type of leave not found in the list 
+2017-05-23 15:15:53,651 INFO  [Log] View my current Sick leave balancesTest Passed 
+2017-05-23 15:15:54,678 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:15:54,678 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-05-23 15:15:57,027 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:15:57,027 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-05-23 15:15:58,750 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fb916f74192f5e8abf35727b48375815)] -> id: login-button] 
+2017-05-23 15:16:04,046 WARN  [Log] View my current Carer's leave balancesTest Failed 
+2017-05-23 15:16:06,986 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:16:06,986 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-05-23 15:16:08,712 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fe6f86566a0e797a30271b412495dde)] -> id: login-button] 
+2017-05-23 15:16:14,675 WARN  [Log] View my current Long Service leave balancesTest Failed 
+2017-05-23 15:16:18,609 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:16:18,609 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-05-23 15:16:22,986 WARN  [Log] Fixed Term Continuing staff - Predict Leave BalancesTest Failed 
+2017-05-23 15:16:29,842 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:16:29,842 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-05-23 15:16:34,232 WARN  [Log] Fixed Term Continuing staff - Delete Pending Leave RequestTest Failed 
+2017-05-23 15:16:41,071 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:16:41,071 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 15:16:42,775 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (45f49fca314c4d2d66625c4e3e418c9d)] -> id: login-button] 
+2017-05-23 15:17:00,261 WARN  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Failed 
+2017-05-23 15:17:03,163 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:17:03,163 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-05-23 15:17:04,869 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc66217de77573223e18f6ae88633fb2)] -> id: login-button] 
+2017-05-23 15:17:08,434 WARN  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Failed 
+2017-05-23 15:17:15,291 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:17:15,291 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-05-23 15:17:17,011 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ae4892e58438f5c746e251df1dcd0d46)] -> id: login-button] 
+2017-05-23 15:17:47,346 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:18:17,378 WARN  [Log] Fixed Term Continuing staff - Reverse Approved Leave Request End to EndTest Failed 
+2017-05-23 15:18:18,507 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:18:18,507 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to EndFailed************************************* 
+2017-05-23 15:18:20,591 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:18:20,591 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-05-23 15:18:22,295 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0d045d066d269d61b5eaa27330cd2865)] -> id: login-button] 
+2017-05-23 15:18:52,612 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:19:22,670 WARN  [Log] Supervisor of fixed term continuing staff - Decline Leave RequestTest Failed 
+2017-05-23 15:19:23,712 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:19:23,712 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave RequestFailed************************************* 
+2017-05-23 15:19:25,799 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:19:25,799 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-05-23 15:19:27,488 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3eecb5bcd3024096d027f7c4e83a13ac)] -> id: login-button] 
+2017-05-23 15:19:57,820 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:20:27,879 WARN  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Failed 
+2017-05-23 15:20:29,011 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:20:29,011 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave RequestFailed************************************* 
+2017-05-23 15:20:31,122 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:20:31,122 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-05-23 15:20:32,803 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6353e5f6509077c1895ba0975195202b)] -> id: login-button] 
+2017-05-23 15:21:03,172 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 
+2017-05-23 15:21:32,799 WARN  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)Test Failed 
+2017-05-23 15:21:39,609 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:21:39,609 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-05-23 15:21:41,374 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (19d0c7f8b819d5baaf18a2bcc8a17ccd)] -> id: login-button] 
+2017-05-23 15:21:52,133 WARN  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Test Failed 
+2017-05-23 15:21:55,013 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:21:55,013 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View pay details and pay advices************************************* 
+2017-05-23 15:21:57,276 WARN  [Log] Fixed Term Continuing staff - View pay details and pay advicesTest Failed 
+2017-05-23 15:22:00,069 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:22:00,069 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 15:22:01,805 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (08eca51221a91312a5d1f4b1b0fdba7c)] -> id: login-button] 
+2017-05-23 15:22:14,164 WARN  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Failed 
+2017-05-23 15:22:15,163 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:22:15,163 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial yearFailed************************************* 
+2017-05-23 15:22:17,217 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:22:17,217 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-05-23 15:22:18,896 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6593ab1cf020054f1ac8699d309dd3cc)] -> id: login-button] 
+2017-05-23 15:22:31,295 WARN  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Failed 
+2017-05-23 15:22:32,317 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:22:32,317 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial yearFailed************************************* 
+2017-05-23 15:22:34,373 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:22:34,373 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-05-23 15:22:36,051 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d149ed1664c5996127e7285d107d0143)] -> id: login-button] 
+2017-05-23 15:22:48,425 WARN  [Log] Fixed Term Continuing staff - Access ATO Payment SummaryTest Failed 
+2017-05-23 15:22:49,432 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:22:49,432 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment SummaryFailed************************************* 
+2017-05-23 15:22:51,487 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:22:51,487 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-05-23 15:22:53,192 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0abd5031bb5b537f8773cd898057c5cf)] -> id: login-button] 
+2017-05-23 15:23:05,511 WARN  [Log] Casual staff - Access ATO Payment SummaryTest Failed 
+2017-05-23 15:23:06,485 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:23:06,485 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment SummaryFailed************************************* 
+2017-05-23 15:23:08,550 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:23:08,550 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-05-23 15:23:10,262 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4454cc2e7709a34ca4099e62dec82218)] -> id: login-button] 
+2017-05-23 15:23:40,630 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:24:10,699 WARN  [Log] Fixed Term Continuing staff - View and update emergency contactsTest Failed 
+2017-05-23 15:24:11,743 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:24:11,743 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contactsFailed************************************* 
+2017-05-23 15:24:13,853 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:24:13,853 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contacts************************************* 
+2017-05-23 15:24:15,563 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (02c14df89f4209d2eedd1d25f89c4ed1)] -> id: login-button] 
+2017-05-23 15:24:45,890 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:25:15,920 WARN  [Log] View and update emergency contacts- Foreign contactsTest Failed 
+2017-05-23 15:25:16,985 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:25:16,985 INFO  [Log] ******************************* Scenario: View and update emergency contacts- Foreign contactsFailed************************************* 
+2017-05-23 15:25:19,082 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:25:19,082 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-05-23 15:25:20,773 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (367a3129579e19b2f02f7f3f70d0ed8c)] -> id: login-button] 
+2017-05-23 15:25:51,084 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:26:21,122 WARN  [Log] Casual staff - View and update emergency contactsTest Failed 
+2017-05-23 15:26:22,199 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:26:22,199 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contactsFailed************************************* 
+2017-05-23 15:26:24,299 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:26:24,299 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-05-23 15:26:26,003 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (26c51558b4efdabe567a1d2f78c7224e)] -> id: login-button] 
+2017-05-23 15:26:56,324 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 15:27:26,387 WARN  [Log] Fixed Term Continuing staff - View and update personal detailsTest Failed 
+2017-05-23 15:27:27,467 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:27:27,467 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal detailsFailed************************************* 
+2017-05-23 15:27:29,547 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:27:29,547 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 15:27:31,255 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (39aa101fb50e40b9cc483845917afded)] -> id: login-button] 
+2017-05-23 15:28:24,981 WARN  [Log] Casual staff - Enter, Validate and Submit Timesheet- Daily viewTest Failed 
+2017-05-23 15:28:26,110 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:28:26,110 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily viewFailed************************************* 
+2017-05-23 15:28:28,198 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:28:28,198 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:28:29,937 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b04d2af187e51a6d8e03a5caf2b48557)] -> id: login-button] 
+2017-05-23 15:28:43,266 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b04d2af187e51a6d8e03a5caf2b48557)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 15:28:43,364 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b04d2af187e51a6d8e03a5caf2b48557)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 15:28:44,824 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b04d2af187e51a6d8e03a5caf2b48557)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 15:29:17,042 WARN  [Log] Casual staff - Enter, Validate and Submit Timesheet-Period viewTest Failed 
+2017-05-23 15:29:18,098 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:29:18,098 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period viewFailed************************************* 
+2017-05-23 15:29:20,214 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:29:20,214 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period view************************************* 
+2017-05-23 15:29:21,895 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fb2531262f986b6497c1f1a606081fe)] -> id: login-button] 
+2017-05-23 15:29:35,927 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fb2531262f986b6497c1f1a606081fe)] -> xpath: .//a[contains(text(),'Period')]] 
+2017-05-23 15:29:36,030 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fb2531262f986b6497c1f1a606081fe)] -> xpath: .//a[contains(text(),'Edit')]] 
+2017-05-23 15:29:37,529 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fb2531262f986b6497c1f1a606081fe)] -> xpath: .//table[@class='table table-bordered table-timekeeper-weekly table-sm']/.//tr[2]/td[3]] 
+2017-05-23 15:30:01,547 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0fb2531262f986b6497c1f1a606081fe)] -> xpath: .//a[contains(text(),'Done')]] 
+2017-05-23 15:30:38,220 WARN  [Log] Casual staff - Enter, Validate and Submit Timesheet-Period viewTest Failed 
+2017-05-23 15:30:39,224 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:30:39,224 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Period viewFailed************************************* 
+2017-05-23 15:30:41,319 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:30:41,320 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed view************************************* 
+2017-05-23 15:30:43,086 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0b6387798cdd73089d53484ae2e7bcee)] -> id: login-button] 
+2017-05-23 15:31:00,265 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0b6387798cdd73089d53484ae2e7bcee)] -> xpath: .//a[contains(text(),'Detailed')]] 
+2017-05-23 15:31:30,383 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='panelDetailed']/div[2]/button' 
+2017-05-23 15:32:00,450 WARN  [Log] Casual staff - Enter, Validate and Submit Timesheet-Detailed viewTest Failed 
+2017-05-23 15:32:01,484 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:32:01,484 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet-Detailed viewFailed************************************* 
+2017-05-23 15:32:03,581 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:32:03,581 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee************************************* 
+2017-05-23 15:32:05,290 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (76a69abfcc02b90afe4014411664ca9a)] -> id: login-button] 
+2017-05-23 15:32:07,713 WARN  [Log] Supervisor - Enter, Validate and Submit Timesheet-on behalf of employeeTest Failed 
+2017-05-23 15:32:08,710 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:32:08,710 INFO  [Log] ******************************* Scenario: Supervisor - Enter, Validate and Submit Timesheet-on behalf of employeeFailed************************************* 
+2017-05-23 15:32:10,815 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:32:10,816 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employee************************************* 
+2017-05-23 15:32:12,599 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3cfc4990b94a62073dc268ea61a154c5)] -> id: login-button] 
+2017-05-23 15:32:44,928 WARN  [Log] Try Submit timesheet as a fixed term or continuing employeeTest Failed 
+2017-05-23 15:32:45,915 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:32:45,915 INFO  [Log] ******************************* Scenario: Try Submit timesheet as a fixed term or continuing employeeFailed************************************* 
+2017-05-23 15:32:47,997 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:32:47,997 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list view************************************* 
+2017-05-23 15:32:49,738 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (66b6c31750ca0dba9270ac343b9e941e)] -> id: login-button] 
+2017-05-23 15:33:22,063 WARN  [Log] As a casual employee view the timesheets in Full list viewTest Failed 
+2017-05-23 15:33:23,056 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:33:23,056 INFO  [Log] ******************************* Scenario: As a casual employee view the timesheets in Full list viewFailed************************************* 
+2017-05-23 15:33:25,163 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:33:25,163 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entry************************************* 
+2017-05-23 15:33:26,974 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ba08eedbd8534a0d87907ef6f2d19364)] -> id: login-button] 
+2017-05-23 15:33:59,268 WARN  [Log] Save and Copy timesheet entryTest Failed 
+2017-05-23 15:34:00,288 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:34:00,288 INFO  [Log] ******************************* Scenario: Save and Copy timesheet entryFailed************************************* 
+2017-05-23 15:34:02,390 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:34:02,390 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet************************************* 
+2017-05-23 15:34:04,084 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cb33397abd87217d20dd09ef1be0725a)] -> id: login-button] 
+2017-05-23 15:34:36,392 WARN  [Log] Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheetTest Failed 
+2017-05-23 15:34:39,451 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:34:39,451 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet************************************* 
+2017-05-23 15:34:41,149 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b312025f4bd0058837038db58f31eefd)] -> id: login-button] 
+2017-05-23 15:35:13,490 WARN  [Log] Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheetTest Failed 
+2017-05-23 15:35:14,539 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:35:14,539 INFO  [Log] ******************************* Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheetFailed************************************* 
+2017-05-23 15:35:16,648 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:35:16,648 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the error************************************* 
+2017-05-23 15:35:18,337 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7df0474828cc31f06ff1ffb8cbdbaf37)] -> id: login-button] 
+2017-05-23 15:35:50,664 WARN  [Log] Try to Submit timesheet without entering start time or end time and verify the errorTest Failed 
+2017-05-23 15:35:51,676 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:35:51,676 INFO  [Log] ******************************* Scenario: Try to Submit timesheet without entering start time or end time and verify the errorFailed************************************* 
+2017-05-23 15:35:53,780 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:35:53,781 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve Timesheet************************************* 
+2017-05-23 15:35:55,473 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea51394df5878875dbb72aae5f9ea740)] -> id: login-button] 
+2017-05-23 15:36:03,459 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea51394df5878875dbb72aae5f9ea740)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:36:03,572 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea51394df5878875dbb72aae5f9ea740)] -> link text: My Tasks] 
+2017-05-23 15:36:04,957 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea51394df5878875dbb72aae5f9ea740)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 15:36:05,075 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ea51394df5878875dbb72aae5f9ea740)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 15:36:35,229 WARN  [Log] Supervisor of casual staff - Review and Approve TimesheetTest Failed 
+2017-05-23 15:36:36,286 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:36:36,286 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Approve TimesheetFailed************************************* 
+2017-05-23 15:36:38,378 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:36:38,378 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline Timesheet************************************* 
+2017-05-23 15:36:40,117 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78ec9d1cf9cd5b806dd31d8b0becff5c)] -> id: login-button] 
+2017-05-23 15:36:47,910 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78ec9d1cf9cd5b806dd31d8b0becff5c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:36:48,021 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78ec9d1cf9cd5b806dd31d8b0becff5c)] -> link text: My Tasks] 
+2017-05-23 15:36:49,361 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78ec9d1cf9cd5b806dd31d8b0becff5c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 15:36:49,496 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (78ec9d1cf9cd5b806dd31d8b0becff5c)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 15:37:19,625 WARN  [Log] Supervisor of casual staff - Review and Decline TimesheetTest Failed 
+2017-05-23 15:37:20,664 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:37:20,664 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Decline TimesheetFailed************************************* 
+2017-05-23 15:37:22,742 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:37:22,742 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return Timesheet************************************* 
+2017-05-23 15:37:24,425 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> id: login-button] 
+2017-05-23 15:37:35,722 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:37:35,815 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> link text: My Tasks] 
+2017-05-23 15:37:37,161 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 15:37:37,268 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 15:37:37,360 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../following-sibling::div/.//div[contains(text(),'24/12/2016')]//preceding-sibling::div[contains(text(),'Adam Smith')]] 
+2017-05-23 15:37:42,335 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (a708a29c4dc630243ab37706bf8bc8b4)] -> xpath: .//a[contains(text(),'Return')]] 
+2017-05-23 15:38:12,477 INFO  [Log] Entering 'this is a automation test for Timesheet Return' into the field 'Proxy element for: DefaultElementLocator 'By.id: N902F035_REPLY_MESSAGE'' 
+2017-05-23 15:39:42,594 WARN  [Log] Couldn't find the element 'Proxy element for: DefaultElementLocator 'By.id: N902F035_REPLY_MESSAGE'org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: N902F035_REPLY_MESSAGE' (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-05-23 15:40:12,609 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//button[contains(text(),'Return')]' 
+2017-05-23 15:40:42,656 WARN  [Log] Supervisor of casual staff - Review and Return TimesheetTest Failed 
+2017-05-23 15:40:43,664 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:40:43,664 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Return TimesheetFailed************************************* 
+2017-05-23 15:40:45,759 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:40:45,759 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Timesheet************************************* 
+2017-05-23 15:40:47,481 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1eeeab0c6a6b44122e19f566d31ca5a9)] -> id: login-button] 
+2017-05-23 15:40:55,874 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1eeeab0c6a6b44122e19f566d31ca5a9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:40:55,975 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1eeeab0c6a6b44122e19f566d31ca5a9)] -> link text: My Tasks] 
+2017-05-23 15:40:57,356 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1eeeab0c6a6b44122e19f566d31ca5a9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 15:40:57,474 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1eeeab0c6a6b44122e19f566d31ca5a9)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 15:41:03,948 WARN  [Log] Supervisor of casual staff - Review and Edit TimesheetTest Failed 
+2017-05-23 15:41:10,823 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:41:10,823 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Edit Current Timesheet************************************* 
+2017-05-23 15:41:12,634 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2388458578640ae9dfb853196404715d)] -> id: login-button] 
+2017-05-23 15:41:15,573 WARN  [Log] Supervisor of casual staff - Review and Edit Current TimesheetTest Failed 
+2017-05-23 15:41:18,475 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:41:18,475 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - Review and Update Timesheet using Detailed View************************************* 
+2017-05-23 15:41:22,895 WARN  [Log] Supervisor of casual staff - Review and Update Timesheet using Detailed ViewTest Failed 
+2017-05-23 15:41:25,714 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:41:25,714 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and Resubmit************************************* 
+2017-05-23 15:41:27,424 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> id: login-button] 
+2017-05-23 15:41:42,608 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 15:41:42,609 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 15:41:43,756 INFO  [Log] Entering '10/12/2016' into the field '[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 15:41:44,378 INFO  [Log] Entering the text: '10/12/2016' Into the field '[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 15:41:44,708 INFO  [Log] Found the cell with text and selecting it '10/12/2016' 
+2017-05-23 15:41:44,709 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 15:41:45,851 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eb5b3cf50ad29404832bbb3da2fd6950)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 15:42:21,118 WARN  [Log] Casual staff - Update Declined Timesheet and ResubmitTest Failed 
+2017-05-23 15:42:22,124 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:42:22,124 INFO  [Log] ******************************* Scenario: Casual staff - Update Declined Timesheet and ResubmitFailed************************************* 
+2017-05-23 15:42:24,214 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:42:24,214 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and Resubmit************************************* 
+2017-05-23 15:42:25,948 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (def6dad5dd81799fddc837150ec5f84d)] -> id: login-button] 
+2017-05-23 15:42:47,235 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (def6dad5dd81799fddc837150ec5f84d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-05-23 15:42:47,347 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (def6dad5dd81799fddc837150ec5f84d)] -> link text: My Tasks] 
+2017-05-23 15:42:48,913 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (def6dad5dd81799fddc837150ec5f84d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]] 
+2017-05-23 15:42:49,024 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (def6dad5dd81799fddc837150ec5f84d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Timesheet Approvals')]/../../.././/a[contains(text(),'Latest')]] 
+2017-05-23 15:43:19,123 WARN  [Log] Casual staff - Update Returned Timesheet and ResubmitTest Failed 
+2017-05-23 15:43:20,202 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:43:20,202 INFO  [Log] ******************************* Scenario: Casual staff - Update Returned Timesheet and ResubmitFailed************************************* 
+2017-05-23 15:43:22,299 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:43:22,299 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)************************************* 
+2017-05-23 15:43:24,045 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> id: login-button] 
+2017-05-23 15:43:40,256 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 15:43:40,259 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 15:43:41,402 INFO  [Log] Entering '26/11/2016' into the field '[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 15:43:42,024 INFO  [Log] Entering the text: '26/11/2016' Into the field '[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 15:43:42,386 INFO  [Log] Found the cell with text and selecting it '26/11/2016' 
+2017-05-23 15:43:42,388 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 15:43:43,546 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (668928af4c704fb920a698b3d3147929)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 15:44:45,283 WARN  [Log] Casual staff - Recall Approved Timesheet (not yet paid)Test Failed 
+2017-05-23 15:44:46,304 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 15:44:46,304 INFO  [Log] ******************************* Scenario: Casual staff - Recall Approved Timesheet (not yet paid)Failed************************************* 
+2017-05-23 15:44:48,398 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 15:44:48,398 INFO  [Log] ******************************* Scenario: Casual staff - Recall Submitted Timesheet************************************* 
+2017-05-23 15:44:50,102 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0f265f43a27eee229cb396452b2635ca)] -> id: login-button] 
+2017-05-23 15:45:07,239 INFO  [Log] Entering '25/06/2016' into the field '[[ChromeDriver: chrome on XP (0f265f43a27eee229cb396452b2635ca)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input]' 
+2017-05-23 15:45:07,849 INFO  [Log] Entering the text: '25/06/2016' Into the field '[[ChromeDriver: chrome on XP (0f265f43a27eee229cb396452b2635ca)] -> xpath: .//*[@id='timekeeperforms-list_filter']/label/input] 
+2017-05-23 15:45:08,157 INFO  [Log] Found the cell with text and selecting it '25/06/2016' 
+2017-05-23 15:45:08,159 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (0f265f43a27eee229cb396452b2635ca)] -> id: timekeeperforms-list]] -> xpath: .//td] 
+2017-05-23 15:45:09,408 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0f265f43a27eee229cb396452b2635ca)] -> xpath: .//button[contains(text(),'Show form')]] 
+2017-05-23 15:45:22,963 WARN  [Log] Casual staff - Recall Submitted TimesheetTest Failed 

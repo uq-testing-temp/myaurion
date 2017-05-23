@@ -311,9 +311,62 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	
+   	 Scenario: View pending leave applications
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Applications"
+ 		And I click on "Latest" button 
+   	Then I should see pending leave applications in my queue
    	
    	
    	
+   	
+  Scenario: View Approved leave applications
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Applications"
+ 		And I click on "Approved" button 
+   	Then I should see Approved leave applications in my queue
+   	
+   	
+   	
+  Scenario: View Cancelled leave applications
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Applications"
+ 		And I click on "Cancelled" button 
+   	Then I should see cancelled leave applications in my queue
+   	
+   	
+   	
+   	
+   	 Scenario: Approve leaves  
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Applications"
+ 		And I click on "Latest" button 
+   	Then I should see pending leave applications in my queue
+   	
+   	
+   		
+   	 Scenario: View pending leave reversals
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Reversals"
+ 		And I click on "Latest" button 
+   	Then I should see pending leave reversals in my queue
+   	
+   	
+   	
+   	
+  Scenario: View Approved leave applications
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Reversals"
+ 		And I click on "Approved" button 
+   	Then I should see Approved leave reversals in my queue
+   	
+   	
+   	
+  Scenario: View Cancelled leave applications
+  	When I am on MyTasks page
+  		And I select Payroll action "Leave Reversals"
+ 		And I click on "Cancelled" button 
+   	Then I should see cancelled leave reversals in my queue
    	
    	
    	
