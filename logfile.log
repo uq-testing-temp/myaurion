@@ -231,3 +231,66 @@
 2017-05-22 16:58:59,106 INFO  [Log] **********************Starting the test scenario*********************** 
 2017-05-22 16:58:59,106 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
 2017-05-22 16:59:00,870 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (df2c80592edfb44810cb6899e10f690a)] -> id: login-button] 
+2017-05-23 09:45:44,916 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8422c9d2f6430d19d2d0c7c119ba2265)] -> id: login-button] 
+2017-05-23 09:46:43,836 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 09:46:43,836 INFO  [Log] ******************************* Scenario: Casual staff - Enter, Validate and Submit Timesheet- Daily view************************************* 
+2017-05-23 09:59:00,657 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b9f01ba5615164cab71ab4d6ec963ff1)] -> id: login-button] 
+2017-05-23 09:59:31,023 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 10:00:01,070 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:00:01,070 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 10:00:04,343 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:00:04,343 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 10:00:06,200 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4d16d9e80b5a6660d222441b4b79c2c1)] -> id: login-button] 
+2017-05-23 10:00:36,558 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 10:01:06,583 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:06,583 INFO  [Log] ******************************* Scenario: Casual staff - View Job Details, Employment History and Acting Placements************************************* 
+2017-05-23 10:01:09,718 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:09,718 INFO  [Log] ******************************* Scenario: Search for direct reports************************************* 
+2017-05-23 10:01:11,493 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (433e299c2b6f90e4932c7cf7fe458ed4)] -> id: login-button] 
+2017-05-23 10:01:13,850 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:13,851 INFO  [Log] ******************************* Scenario: Search for direct reports************************************* 
+2017-05-23 10:01:17,066 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:17,066 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's details************************************* 
+2017-05-23 10:01:18,855 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6f91771d2f863ed6ad4cfb6ea23fde04)] -> id: login-button] 
+2017-05-23 10:01:21,192 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:21,192 INFO  [Log] ******************************* Scenario: Supervisor - view subordinate's details************************************* 
+2017-05-23 10:01:24,328 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:24,328 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll details************************************* 
+2017-05-23 10:01:26,070 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (54f8c9ec4236ef7e52de115cf2932b20)] -> id: login-button] 
+2017-05-23 10:01:28,407 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:28,407 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Payroll details************************************* 
+2017-05-23 10:01:31,576 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:31,576 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-23 10:01:33,592 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d8ca2115e78920d7be946e9f0c436ee0)] -> id: login-button] 
+2017-05-23 10:01:35,973 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:35,973 INFO  [Log] ******************************* Scenario: Supervisor - Try to view subordinate's Personal details************************************* 
+2017-05-23 10:01:39,095 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:39,096 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-05-23 10:01:40,914 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7dbb1f9f256aa034bcba68725cdd078)] -> id: login-button] 
+2017-05-23 10:01:43,233 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:43,233 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-05-23 10:01:46,358 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:46,358 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-05-23 10:01:48,093 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6de0169bf17ae1f220c6511ea8352bfa)] -> id: login-button] 
+2017-05-23 10:01:50,481 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:50,481 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-05-23 10:01:53,625 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:01:53,625 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-05-23 10:01:55,335 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (fa018943821bcb03d89bf67e0a40e8bb)] -> id: login-button] 
+2017-05-23 10:01:57,712 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:01:57,712 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-05-23 10:02:00,820 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:02:00,820 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-23 10:02:02,551 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (943c3298987d756d8b1c1d022d812ed0)] -> id: login-button] 
+2017-05-23 10:02:05,032 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:02:05,032 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-05-23 10:02:08,208 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:02:08,208 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-23 10:02:09,935 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (342e75d575c5756fdb61f457405238d4)] -> id: login-button] 
+2017-05-23 10:02:43,271 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]' 
+2017-05-23 10:03:13,332 INFO  [Log] **********************End of the test*********************** 
+2017-05-23 10:03:13,332 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-05-23 10:03:16,538 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-05-23 10:03:16,538 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-05-23 10:03:18,349 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (bebd61dd9b6e97b23941c91aacec968e)] -> id: login-button] 
+2017-05-23 10:03:48,689 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: //*[@id='menu']/span/a[1]' 

@@ -464,7 +464,7 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		date=date.replaceAll("[^a-zA-Z0-9]", "");
 		System.out.println(date);
 		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile, new File("C://SeleniumScreenshots//"+date+".jpg"));
+		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+date+".jpg"));
 	
 	}
 	

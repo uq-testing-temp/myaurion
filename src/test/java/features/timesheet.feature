@@ -189,7 +189,7 @@ Feature: Timesheet
   #Default Time sheets
  
  @Automated	
-  Scenario: Casual staff - Create/Remove a Default Timesheet: Create default timesheet from current timesheet
+  Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
       And I enter password as "password123"

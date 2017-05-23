@@ -25,7 +25,7 @@ Feature: Leave
   	Then I should see the success message is displayed
   	
   	Examples:
-  	|StartDate|
+  	|StartDate |
   	|01/09/2017|
   	|04/09/2017|
   	|05/09/2017|
@@ -49,7 +49,7 @@ Feature: Leave
   	
   	
   	Examples:
-  	|StartDate| EndDate|
+  	|StartDate | EndDate  |
   	|06/09/2017|07/09/2017|
   	
   
@@ -76,7 +76,7 @@ Feature: Leave
  	
  	Examples:
  	|futuredate|
-  |10/08/2017|
+    |10/08/2017|
  
  
  Scenario: View my leave history
@@ -113,9 +113,9 @@ Feature: Leave
    	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |LeaveStartdate|Action|
-  |01/09/2017|Approve|
-  	|04/09/2017|Approve|
+  |LeaveStartdate|Action |
+  |01/09/2017    |Approve|
+  |04/09/2017    |Approve|
   	
   	
   	
@@ -133,8 +133,8 @@ When I am on leave page
 Then I should see Leave reversal successful message displayed
    	
    		Examples:
-  |LeaveStartdate|Action|
-  |01/09/2017|Reverse|
+  |LeaveStartdate|Action |
+  |01/09/2017    |Reverse|
   	
    	
    	
@@ -155,8 +155,8 @@ Then I should see Leave reversal successful message displayed
    	Then I should see workflow action successful message displayed
    	
    		Examples:
-  |LeaveStartdate|Action|
-  |05/09/2017|Decline|
+  |LeaveStartdate|Action |
+  |05/09/2017    |Decline|
   
   
    	
@@ -226,18 +226,9 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
   	Then I should see Delete success message displayed
   	
   	Examples:
-  	|StartDate| EndDate|
+  	|StartDate | EndDate  |
   	|11/07/2017|11/07/2017|
-  	
-
-  	
-   	
-   	
-   	
-   	
-   	
-   	
-   	
+  
    	
    	
    	
