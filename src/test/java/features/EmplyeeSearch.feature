@@ -11,7 +11,7 @@ So that I can search for and change employee to view my subordinates details
    #   And I enter password as "password123"
     #  And I click Login button
       
-  @Automated    
+  @regression    
  Scenario Outline: Search for direct reports
  
  
@@ -32,7 +32,7 @@ Examples:
  
  
  
-  @Automated    
+  @regression    
  Scenario Outline: Supervisor - view subordinate's details
  
  
@@ -51,7 +51,7 @@ Examples:
  
  
  
-  @Automated    
+  @regression    
  Scenario Outline: Supervisor - Try to view subordinate's Payroll details
  
  
@@ -70,7 +70,7 @@ Examples:
  |BENDER-CHAMP, Dorothea     |BENDER-CHAMP, Dorothea|
  
  
-   @Automated    
+   @regression    
  Scenario Outline: Supervisor - Try to view subordinate's Personal details
  
  
@@ -102,7 +102,7 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |	    |   |
  
- @Automated
+ @regression
  Scenario: Search for employees- No results found
  
 Given I am on myAurion login page
@@ -162,7 +162,7 @@ Examples:
   
   
   
-  @Automated
+  @regression
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -181,7 +181,7 @@ Examples:
  
  
  
- @Automated
+ @regression
   Scenario Outline: Supervisor of casual staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -218,7 +218,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-@Automated
+@regression
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
  Given I am on myAurion login page

@@ -7,7 +7,7 @@ Feature: Login
   Background:
     Given I am on myAurion login page
 
-  @Smoke
+  @smoke
   Scenario Outline: Login - Positive Scenario
 
     When I enter username as "<username>"
@@ -17,9 +17,9 @@ Feature: Login
 
     Examples:
     | username | password    |
-    | uqmsanda | password123 |
+    | uqdbende | password123 |
 
-  @Smoke
+  @smoke
   Scenario Outline: Login - Negative Scenario
 
     When I enter username as "<username>"
@@ -29,4 +29,4 @@ Feature: Login
 
     Examples:
       | username | password    |
-      | uqmsanda | password    |
+      | uqdbende | password    |

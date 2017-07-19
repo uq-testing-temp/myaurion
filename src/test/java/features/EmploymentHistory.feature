@@ -8,7 +8,7 @@ So that I can View my employment history
     
 
  
- @Automated
+ @regression
  Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements
  
  Given I am on myAurion login page
@@ -22,7 +22,7 @@ So that I can View my employment history
  	
  	
  	
- @Automated
+ @regression
  Scenario: Casual staff - View Job Details, Employment History and Acting Placements
  
  Given I am on myAurion login page

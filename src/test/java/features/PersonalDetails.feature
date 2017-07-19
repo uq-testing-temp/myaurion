@@ -4,7 +4,7 @@ As a user/employee
 I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
-@Automated
+@regression
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -32,7 +32,7 @@ Examples:
 |8		  | Hello| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-@Automated
+@regression
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -63,7 +63,7 @@ Examples:
 
 
 
-@Automated
+@regression
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -91,7 +91,7 @@ Examples:
 |11		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-@Automated
+@regression
 Scenario Outline: Fixed Term Continuing staff - View and update personal details
 
 Given I am on myAurion login page
