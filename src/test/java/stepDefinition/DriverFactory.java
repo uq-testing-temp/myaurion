@@ -1,13 +1,16 @@
 package stepDefinition;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
-import util.DebugLog;
 import util.PropertyReader;
 
 public class DriverFactory {
@@ -23,7 +26,8 @@ public class DriverFactory {
             createNewDriverInstance();
     }
 
-    private void createNewDriverInstance() {
+    @SuppressWarnings("unused")
+	private void createNewDriverInstanceDebug() {
         String browser = new PropertyReader().readProperty("browser");
         if (browser.equals("chrome")) {
             driver = new ChromeDriver();
@@ -41,6 +45,43 @@ public class DriverFactory {
         }
     }
 
+    private void createNewDriverInstance() {
+    	
+    	String browser = new PropertyReader().readProperty("browser");
+        if (browser.equals("chrome")) {
+        	
+        	DesiredCapabilities capability = DesiredCapabilities.chrome();
+        	
+        	ChromeOptions options = new ChromeOptions();
+        	options.addArguments("test-type");
+        	options.addArguments("start-maximized");
+        	options.addArguments("--js-flags=--expose-gc");  
+        	options.addArguments("--enable-precise-memory-info"); 
+        	options.addArguments("--disable-popup-blocking");
+        	options.addArguments("--disable-default-apps");
+        	options.addArguments("test-type=browser");
+        	options.addArguments("disable-infobars");
+
+        	String seleniumPort = System.getenv("SELENIUM_PORT");
+        	if (seleniumPort == null || seleniumPort.isEmpty()) {
+        		driver = new ChromeDriver(options);
+        	} else {
+                try {
+                	driver = new RemoteWebDriver(new URL("http://localhost:" + seleniumPort + "/wd/hub"), capability);
+                    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+                    driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+                    driver.manage().window().setSize(new Dimension(1920, 1080));
+        		} catch (MalformedURLException e) {
+        			e.printStackTrace();
+        		}
+        	}
+        } else {
+            System.out.println("I cannot read browser type");
+        }
+        
+        
+    }
+    
     public WebDriver getDriver() {
         return driver;
     }
