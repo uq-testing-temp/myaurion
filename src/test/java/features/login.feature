@@ -9,7 +9,7 @@ Feature: Login
   Background:
     Given I am on myAurion login page
 
-  Scenario Outline: Login - Positive Scenario
+  Scenario Outline: Login - Positive and negative Scenarios
 
     When I enter username as "<username>"
       And I enter password as "<password>"
