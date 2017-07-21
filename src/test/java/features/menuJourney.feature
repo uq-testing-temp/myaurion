@@ -11,7 +11,7 @@ Feature: Login
 
   Scenario: Going trough all links
 
-    When I enter username as "<username>"
-      And I enter password as "<password>"
+    When I enter username as "uqdbende"
+      And I enter password as "password123"
       And I click Login button
     Then I should be able to go through all links
