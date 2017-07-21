@@ -1,4 +1,4 @@
-@Payroll
+@payroll
 Feature: Payroll
 As a user
 I want to be able to login to the My Aurion system
@@ -6,21 +6,19 @@ So that I can update my payroll details
 
 
 
-#Background:
- #   Given I am on myAurion login page
-  # 	  And I enter username as "uqmsanda"
-   #   And I enter password as "password123"
-    #  And I click Login button
+Background:
+    Given I am on myAurion login page
+   	  And I enter username as "uqdbende"
+      And I enter password as "password123"
+      And I click Login button
 
  
- 
- Scenario: View current bank account
+Scenario: View current bank account
  	When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	Then I should see my current bank accounts
  	
- 	
-
+@debug
  Scenario Outline: Update current bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -173,7 +171,7 @@ Given I am on myAurion login page
    @regression 
   Scenario Outline: Casual staff - Access ATO Payment Summary
 Given I am on myAurion login page
-   	    And I enter username as "uqckel10"
+   	    And I enter username as "uqksolom"
         And I enter password as "password123"
         And I click Login button
  When I am on Payroll page

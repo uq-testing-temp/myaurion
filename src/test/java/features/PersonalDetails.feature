@@ -67,7 +67,7 @@ Examples:
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
-   	    And I enter username as "uqckel10"
+   	    And I enter username as "uqksolom"
         And I enter password as "password123"
         And I click Login button
 When I navigate to Personal page
