@@ -5,6 +5,7 @@ As a user
 I want to be able to login to the My Aurion system
 So that I can View my employment history
 
+@debug
 Scenario: Fixed Term Continuing staff - View Job Details, Employment History and Acting Placements
  
  Given I am on myAurion login page
