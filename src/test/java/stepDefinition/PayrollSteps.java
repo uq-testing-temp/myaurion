@@ -73,5 +73,12 @@ public class PayrollSteps extends DriverFactory {
 		
 	}
 
+	@Then("^I should see my current bank accounts$")
+	public void i_should_see_my_current_bank_accounts() throws Throwable {
+	    
+		new PayrollPage(driver).VerifyBankAccounts();
+	}
+
+	
 
 }

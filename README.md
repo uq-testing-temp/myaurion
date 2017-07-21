@@ -1,5 +1,4 @@
-smoke test: [![Build Status](http://10.48.56.66:8080/buildStatus/icon?job=myaurion-smoke)](http://10.48.56.66:8080/job/myaurion-smoke/)   
-regression test: [![Build Status](http://10.48.56.66:8080/buildStatus/icon?job=myaurion-regression)](http://10.48.56.66:8080/job/myaurion-regression)
+smoke test: [![Build Status](http://10.48.56.66:8080/buildStatus/icon?job=myaurion-smoke)](http://10.48.56.66:8080/job/myaurion-smoke/)    regression test: [![Build Status](http://10.48.56.66:8080/buildStatus/icon?job=myaurion-regression)](http://10.48.56.66:8080/job/myaurion-regression)
 
 # myaurion
 myAurion test automation

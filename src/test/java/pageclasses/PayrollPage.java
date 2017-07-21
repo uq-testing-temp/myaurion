@@ -83,6 +83,12 @@ public class PayrollPage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='cells-payment-summaries']")
 	WebElement ATOList;
 	
+	@FindBy(id="cells-banking_and_deductions")
+	WebElement bankAccountLink;
+	
+	@FindBy(id="T500F190_NP_BANK_ACCOUNT-ct")
+	WebElement accountNo;
+	
 	
 	
 	
@@ -191,6 +197,14 @@ public class PayrollPage extends DriverFactory {
 		CustomFunctions.CustomAssertTrue("The link to download summary pdf for date'"+strval+"' found in the ATO summarylist", ATOPDFLink.isEnabled());
 		
 		
+		
+	}
+
+
+	public void VerifyBankAccounts() throws Throwable {
+		
+		bankAccountLink.click();
+		CustomFunctions.CustomAssertTrue("Account number is displayed on Primary Account Details page", accountNo.isDisplayed());
 		
 	}
 	

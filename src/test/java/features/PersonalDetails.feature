@@ -5,6 +5,7 @@ I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
 @regression
+@skipped
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -33,6 +34,7 @@ Examples:
 
 
 @regression
+@skipped
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -64,6 +66,7 @@ Examples:
 
 
 @regression
+@skipped
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page

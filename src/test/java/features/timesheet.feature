@@ -11,6 +11,7 @@ Feature: Timesheet
      # And I click Login button
       
   @regression
+  @skipped
   Scenario:  Casual staff - Enter, Validate and Submit Timesheet- Daily view
   Given I am on myAurion login page
    	  And I enter username as "uqasmi46"
@@ -36,6 +37,7 @@ Feature: Timesheet
   
   		
   @regression	
+  @skipped
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Period view
   
   	 Given I am on myAurion login page
@@ -68,7 +70,8 @@ Feature: Timesheet
   	
   	
   	
-  	 @regression	
+  	 @regression
+  @skipped	
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Detailed view
   
   	 Given I am on myAurion login page
@@ -98,6 +101,7 @@ Feature: Timesheet
   		
   	
   	@regression
+  @skipped
   Scenario Outline:  Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee
   Given I am on myAurion login page
    	  And I enter username as "uqsjone3"
@@ -407,6 +411,7 @@ Feature: Timesheet
   
  
     	 	  @regression	
+  @skipped
   Scenario Outline: Casual staff - Update Declined Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -440,6 +445,7 @@ Feature: Timesheet
   	
   	
   	 	 @regression
+  @skipped
   Scenario Outline: Casual staff - Update Returned Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -461,6 +467,7 @@ Feature: Timesheet
   	
   
  	 @regression
+  @skipped
   Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
   
   	 Given I am on myAurion login page
@@ -510,6 +517,7 @@ Feature: Timesheet
   
     	
  	
+  @skipped
   Scenario Outline: Submit timesheet using period form for multiple days
   	Given I am on timesheet page
   		And I select the period timesheet
@@ -548,6 +556,7 @@ Feature: Timesheet
   	
   	
   	
+  @skipped
  Scenario: Submit timesheet using detailed form single day
   	Given I am on timesheet page
   		And I select the Detailed timesheet
@@ -566,6 +575,7 @@ Feature: Timesheet
   	
   		
   		
+  @skipped
  Scenario Outline: Submit timesheet using detailed form multiple days
   	Given I am on timesheet page
   		And I select the Detailed timesheet

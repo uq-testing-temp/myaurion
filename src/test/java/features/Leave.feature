@@ -10,6 +10,7 @@ Feature: Leave
      # And I enter password as "password123"
       # And I click Login button
   @regression
+  @skipped
   Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -32,6 +33,7 @@ Feature: Leave
   	
 
 @regression
+  @skipped
    Scenario Outline: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave
   	 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -55,6 +57,7 @@ Feature: Leave
   	
   	
   @regression
+  @skipped
   Scenario Outline: View my current Recreational leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -70,6 +73,7 @@ Feature: Leave
   	
   	
   	 @regression
+  	 @skipped
   Scenario Outline: View my current  Personal  leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -86,6 +90,7 @@ Feature: Leave
   	
   	 	
   	 @regression
+  	 @skipped
   Scenario Outline: View my current Sick leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -101,6 +106,7 @@ Feature: Leave
   	
   		 	
   	 @regression
+  	 @skipped
   Scenario Outline: View my current Carer's leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -117,6 +123,7 @@ Feature: Leave
   	
   	
   	  	 @regression
+  	  	 @skipped
   Scenario Outline: View my current Long Service leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -173,6 +180,7 @@ Feature: Leave
   	
   	
   	@regression
+  	@skipped
   	 	 Scenario Outline:  Supervisor of fixed term continuing staff - Approve Leave Request
   Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -195,6 +203,7 @@ Feature: Leave
   	
   	
   	@regression
+  	@skipped
 Scenario Outline: Fixed Term Continuing staff - Reverse Approved Leave Request End to End
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -215,6 +224,7 @@ Then I should see Leave reversal successful message displayed
    	
    	
    	  	@regression
+   	  	@skipped
  	 Scenario Outline:   Supervisor of fixed term continuing staff - Decline Leave Request
   Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -236,6 +246,7 @@ Then I should see Leave reversal successful message displayed
   
    	
   	@regression
+  	@skipped
 Scenario Outline:  Supervisor of fixed term continuing staff - Return Leave Request
 Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -257,6 +268,7 @@ Then I should see workflow action successful message displayed
    	
    	
 @regression
+@skipped
 Scenario Outline: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -310,7 +322,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	
-   	
+   	@skipped
    	 Scenario: View pending leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -319,7 +331,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	
-   	
+   	@skipped
   Scenario: View Approved leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -327,7 +339,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	Then I should see Approved leave applications in my queue
    	
    	
-   	
+   	@skipped
   Scenario: View Cancelled leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -336,7 +348,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	
-   	
+   	@skipped
    	 Scenario: Approve leaves  
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -344,7 +356,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	Then I should see pending leave applications in my queue
    	
    	
-   		
+   		@skipped
    	 Scenario: View pending leave reversals
   	When I am on MyTasks page
   		And I select Payroll action "Leave Reversals"
@@ -353,13 +365,12 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	
-   	
+   	@skipped
   Scenario: View Approved leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Reversals"
  		And I click on "Approved" button 
    	Then I should see Approved leave reversals in my queue
-   	
    	
    	
   Scenario: View Cancelled leave applications
