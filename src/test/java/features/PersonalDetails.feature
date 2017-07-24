@@ -55,8 +55,8 @@ Then I should see the record successfully saved message displayed"<Name>"
 
 Examples:
 
-|Priority | Name | HomePhone | Mobile | Email | Relationship | Street|Town_City|State| PostCode|Country | Comments |
-|9		  |Foreign contact| 07979794645   | 04123456789 | Hello.external@mailinator.com | Mother | My New Street|New York|NY|NY2585|USA |No Comments at all here |
+| Name | HomePhone | Mobile | Email | Relationship | Street|Town_City|State| PostCode|Country | Comments |
+|Foreign contact| 07979794645   | 04123456789 | Hello.external@mailinator.com | Mother | My New Street|New York|NY|NY2585|USA |No Comments at all here |
 
 
 
