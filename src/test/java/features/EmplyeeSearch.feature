@@ -12,7 +12,7 @@ So that I can search for and change employee to view my subordinates details
     #  And I click Login button
       
   @regression 
-  @skipped   
+  @skipped
  Scenario Outline: Search for direct reports
  
  
