@@ -58,7 +58,7 @@ public class MenuJourneySteps extends DriverFactory {
 
 	@Then("^I should be able to go through all links$")
 	public boolean i_should_be_able_to_go_through_all_links() throws Throwable {
-		TODO: 
+		//TODO: 
 		return true;
 	}
 }

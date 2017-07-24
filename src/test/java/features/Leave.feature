@@ -60,7 +60,7 @@ Feature: Leave
   @skipped
   Scenario Outline: View my current Recreational leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqdangus"
+   	  And I enter username as "uqksolom"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -76,7 +76,7 @@ Feature: Leave
   	 @skipped
   Scenario Outline: View my current  Personal  leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqdangus"
+   	  And I enter username as "uqksolom"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -93,7 +93,7 @@ Feature: Leave
   	 @skipped
   Scenario Outline: View my current Sick leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqdangus"
+   	  And I enter username as "uqksolom"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -109,7 +109,7 @@ Feature: Leave
   	 @skipped
   Scenario Outline: View my current Carer's leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqdangus"
+   	  And I enter username as "uqksolom"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -126,7 +126,7 @@ Feature: Leave
   	  	 @skipped
   Scenario Outline: View my current Long Service leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqdangus"
+   	  And I enter username as "uqksolom"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -166,7 +166,7 @@ Feature: Leave
   	Then I should see my leave history displayed
   	
 
-
+@debug
    @regression   
   	Scenario:  Fixed Term Continuing staff - Delete Pending Leave Request
   	Given I am on myAurion login page
