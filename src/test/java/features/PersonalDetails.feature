@@ -5,7 +5,6 @@ I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
 @regression
-@skipped
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -14,27 +13,23 @@ Given I am on myAurion login page
         And I click Login button
 When I navigate to Personal page
         And I select to Add a new Emrgency contact
-        And I Add priority"<Priority>"
+        And I Add priority
         And I Add name"<Name>"
-        And I select relatioship"<Relationship>"
         And I select NextofKin Yes or No"<nextofkin>"
         And I add homephone"<HomePhone>"
-        And I add mobile"<Mobile>"
+        And I add mobile"<Mobile>"	
         And I add email"<Email>"
 		And I add street"<Street>"
-		And I select postcode"<PostCode>"
 		And I add comments"<Comments>"
 		And I click Save button
 Then I should see the record successfully saved message displayed"<Name>"
 
 Examples:
 
-|Priority | Name | HomePhone | Mobile | Email | Relationship | Street| PostCode | Comments |nextofkin|
-|8		  | Hello| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
-
+| Name | HomePhone | Mobile 	 | Email 				| Street		  | Comments 		  |nextofkin|
+| Hello| 0797979   | 04123456789 | Hello@mailinator.com | My New Street| No Comments at all |Yes		|
 
 @regression
-@skipped
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -43,7 +38,7 @@ Given I am on myAurion login page
         And I click Login button
 When I navigate to Personal page
         And I select to Add a new Emrgency contact
-        And I Add priority"<Priority>"
+        And I Add priority
         And I Add name"<Name>"
         And I add homephone"<HomePhone>"
         And I add mobile"<Mobile>"
@@ -66,7 +61,6 @@ Examples:
 
 
 @regression
-@skipped
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -75,7 +69,7 @@ Given I am on myAurion login page
         And I click Login button
 When I navigate to Personal page
         And I select to Add a new Emrgency contact
-        And I Add priority"<Priority>"
+        And I Add priority
         And I Add name"<Name>"
         And I select relatioship"<Relationship>"
         And I select NextofKin Yes or No"<nextofkin>"

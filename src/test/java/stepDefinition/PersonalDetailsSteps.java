@@ -1,5 +1,7 @@
 package stepDefinition;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import pageclasses.PersonalDetailsPage;
@@ -33,18 +35,21 @@ public class PersonalDetailsSteps extends DriverFactory {
 		new PersonalDetailsPage(driver).UpdatePrsnlDetails();
 	}
 	
-	@Given("^I Add priority\"(.*)\"$")
-	public void Enter_priority(String priority) throws Throwable{
+	@Given("^I Add priority$")
+	public void Enter_priority() throws Throwable{
 		
-		new PersonalDetailsPage(driver).Enter_Priority(priority);
+		int priority = ThreadLocalRandom.current().nextInt(10, 997 + 1);
+		
+		new PersonalDetailsPage(driver).Enter_Priority(String.valueOf(priority));
 		
 	}
 	
 	@Given("^I Add name\"(.*)\"$")
 	public void Enter_name(String name) throws Throwable{
 		
-		new PersonalDetailsPage(driver).Enter_Name(name);
-	
+		String suffix = String.valueOf(ThreadLocalRandom.current().nextInt(10, 997 + 1));
+		
+		new PersonalDetailsPage(driver).Enter_Name(name+suffix);
 		
 	}
 	
@@ -189,7 +194,6 @@ public class PersonalDetailsSteps extends DriverFactory {
 	public void I_select_nextofKin(String YesNo) throws Throwable{
 		
 		if(YesNo.equalsIgnoreCase("Yes")){
-		new PersonalDetailsPage(driver).Click_Save();
 		}
 	}
 	
@@ -198,6 +202,7 @@ public class PersonalDetailsSteps extends DriverFactory {
 	
 	@Then("^I should see the record successfully saved message displayed\"(.*)\"$")
 	public void i_should_see_record_saved_message_displayed(String name) throws Throwable {
+		
 		new PersonalDetailsPage(driver).Save_success(name);
 	}
 	

@@ -457,27 +457,27 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	
 	
 	public static void PrintScreenShot() throws Throwable{
-		
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-		LocalDateTime now = LocalDateTime.now();
-		String date= now.toString();
-		date=date.replaceAll("[^a-zA-Z0-9]", "");
-		System.out.println(date);
-		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+date+".jpg"));
+//		TODO: https://jira.its.uq.edu.au/jira/browse/IETA-31
+//		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+//		LocalDateTime now = LocalDateTime.now();
+//		String date= now.toString();
+//		date=date.replaceAll("[^a-zA-Z0-9]", "");
+//		System.out.println(date);
+//		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+date+".jpg"));
 	
 	}
 	
  public static void PrintScreenShotWithScenarioName(String testname) throws Throwable{
-		
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-		LocalDateTime now = LocalDateTime.now();
-		String date= now.toString();
-		date=date.replaceAll("[^a-zA-Z0-9]", "");
-		System.out.println(date);
-		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		//FileUtils.copyFile(scrFile, new File("C://MyAurionTestScreenshots//"+testname+""+date+".jpg"));
-		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+testname+""+date+".jpg"));
+//		TODO: https://jira.its.uq.edu.au/jira/browse/IETA-31
+//		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+//		LocalDateTime now = LocalDateTime.now();
+//		String date= now.toString();
+//		date=date.replaceAll("[^a-zA-Z0-9]", "");
+//		System.out.println(date);
+//		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//		//FileUtils.copyFile(scrFile, new File("C://MyAurionTestScreenshots//"+testname+""+date+".jpg"));
+//		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+testname+""+date+".jpg"));
 		
 	
 	}

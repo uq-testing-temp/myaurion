@@ -18,7 +18,6 @@ Scenario: View current bank account
  	And I select Payroll action "Accounts and Deductions"
  	Then I should see my current bank accounts
  	
-@debug
  Scenario Outline: Update current bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
