@@ -1,8 +1,12 @@
 package util;
 
 import java.io.File;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -38,6 +42,19 @@ public class CustomFunctions extends DriverFactory {
 		DOMConfigurator.configure("Log4j.xml");
 
 		
+	}
+	
+	public static String futureDate(int extraDays) {
+		
+		ZoneId z = ZoneId.of("Australia/ACT");
+		LocalDate today = LocalDate.now( z );
+		LocalDate futureDate = today.plusDays(extraDays);
+		
+		if (futureDate.getDayOfWeek().getValue() > 5) {
+			futureDate = futureDate.plusDays(2);
+		} 
+		
+	    return futureDate.toString();
 	}
 	
 	

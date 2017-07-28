@@ -70,6 +70,9 @@ public class LeavePage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Leave request has been sent.')]")
 	private WebElement successmsg;
 	
+	@FindBy(id="notification")
+	private WebElement overlapmsg;
+	
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Delete Successful')]")
 	private WebElement DeletSuccess;
 	
@@ -244,6 +247,20 @@ public class LeavePage extends DriverFactory {
     	
     }
     
+    public void successOrOverlap() throws Throwable {
+    	
+    	boolean successmessage = true;
+    	boolean overlapMessage = true;
+    	try {
+    		 successmessage = successmsg.isDisplayed();
+        	 overlapMessage = overlapmsg.isDisplayed();
+    	} catch (Exception e) {
+    		
+    	}
+    	
+    	CustomFunctions.CustomAssertTrue("Success message Displayed", successmessage||overlapMessage);
+    	
+    }
     
     
     

@@ -134,7 +134,7 @@ Feature: Timesheet
 
   
   #	Try Submit time sheet as a fixed term/continuing employee and verify that time sheet is disabled
-  	
+  	@skipped
   	@regression
   	Scenario: Try Submit timesheet as a fixed term or continuing employee
   	Given I am on myAurion login page
@@ -163,6 +163,7 @@ Feature: Timesheet
 
  # Save and Copy timesheet entry
   @regression
+  @skipped
  Scenario: Save and Copy timesheet entry
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -193,6 +194,7 @@ Feature: Timesheet
   #Default Time sheets
  
  @regression	
+ @skipped
   Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -208,6 +210,7 @@ Feature: Timesheet
 #Populate timesheets with default values
  
  @regression	
+ @skipped
   Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -225,6 +228,7 @@ Feature: Timesheet
  
  #Enter hours with missing start/finish time and Save
   	@regression
+  	@skipped
   Scenario: Try to Submit timesheet without entering start time or end time and verify the error
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"

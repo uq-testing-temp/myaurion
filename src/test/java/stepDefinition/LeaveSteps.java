@@ -3,6 +3,7 @@ package stepDefinition;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageclasses.LeavePage;
+import util.CustomFunctions;
 
 public class LeaveSteps extends DriverFactory {
 	
@@ -26,13 +27,16 @@ public class LeaveSteps extends DriverFactory {
 		new LeavePage(driver).select_duration(dur);
 	}
 	
-	@When("^I select the start date\"([^\"]*)\"$")
-	public void i_select_the_start_date(String date) throws Throwable {
+	@When("^I select the start date as ([^\"]*) days in the future$")
+	public void i_select_the_start_date(int days) throws Throwable {
+		
+		String date = CustomFunctions.futureDate(days);
 		new LeavePage(driver).select_startdate(date);
 	}
 	
-	@When("^I select the end date\"([^\"]*)\"$")
-	public void i_select_the_end_date(String date) throws Throwable {
+	@When("^I select the end date as ([^\"]*) days in the future$")
+	public void i_select_the_end_date(int days) throws Throwable {
+		String date = CustomFunctions.futureDate(days);
 		new LeavePage(driver).select_enddate(date);
 	}
 	
@@ -135,6 +139,10 @@ public class LeaveSteps extends DriverFactory {
 		new LeavePage(driver).success();
 	}
 	
+	@Then("^I should see the success message is displayed if there is no overlapping days$") 
+	public void I_should_see_the_success_message_is_displayed_if_no_overlap() throws Throwable {
+		new LeavePage(driver).successOrOverlap();
+	}
 	
 	@Then("^I should see Delete success message displayed$")
 	public void I_should_Delete_the_success_message_is_displayed() throws Throwable {
