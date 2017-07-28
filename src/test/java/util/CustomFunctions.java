@@ -8,6 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -472,31 +473,32 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		
 	}
 	
+	static long unixTime = System.currentTimeMillis() / 1000L;
 	
-	public static void PrintScreenShot() throws Throwable{
-//		TODO: https://jira.its.uq.edu.au/jira/browse/IETA-31
-//		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-//		LocalDateTime now = LocalDateTime.now();
-//		String date= now.toString();
-//		date=date.replaceAll("[^a-zA-Z0-9]", "");
-//		System.out.println(date);
-//		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-//		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+date+".jpg"));
-	
+	public static void PrintScreenShot() throws Throwable {
+	    
+		PrintScreenShotWithScenarioName("noname");
+		
 	}
 	
  public static void PrintScreenShotWithScenarioName(String testname) throws Throwable{
-//		TODO: https://jira.its.uq.edu.au/jira/browse/IETA-31
-//		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-//		LocalDateTime now = LocalDateTime.now();
-//		String date= now.toString();
-//		date=date.replaceAll("[^a-zA-Z0-9]", "");
-//		System.out.println(date);
-//		File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-//		//FileUtils.copyFile(scrFile, new File("C://MyAurionTestScreenshots//"+testname+""+date+".jpg"));
-//		FileUtils.copyFile(scrFile, new File(".//target/screenshots//"+testname+""+date+".jpg"));
+	 
+		String path;
 		
-	
+		
+	    try {
+	    	
+	    	String time = Objects.toString(unixTime).replaceAll("[^a-zA-Z0-9]", "");
+			DebugLog.LogInfo.info("Taking a screenshot " + testname + time);
+	        File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+	        path = "./target/screenshots/" + testname + time + ".png";
+	        FileUtils.copyFile(source, new File(path));
+	        
+	    } catch(Throwable e) {
+	    	
+	        DebugLog.LogInfo.warn("Failed to capture screenshot: " + e.getMessage());
+	        
+	    }
 	}
 	
 	
