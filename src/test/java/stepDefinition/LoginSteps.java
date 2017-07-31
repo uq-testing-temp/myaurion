@@ -100,4 +100,10 @@ public class LoginSteps extends DriverFactory {
 
     	Assert.assertTrue("Environment returns 200-OK", LandingPage.get200());
     }
+    
+    @Then("^I am able to take screenshots$")
+    public void i_am_able_to_take_screenshots() throws Throwable {
+    	
+    	Assert.assertTrue(CustomFunctions.PrintScreenShotWithScenarioName("screenshotTest"));
+    }
 }

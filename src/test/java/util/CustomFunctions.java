@@ -481,7 +481,7 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 		
 	}
 	
- public static void PrintScreenShotWithScenarioName(String testname) throws Throwable{
+ public static boolean PrintScreenShotWithScenarioName(String testname) throws Throwable{
 	 
 		String path;
 		
@@ -494,10 +494,12 @@ public static Boolean verifyIntheList(WebElement List, String entrytoselect) thr
 	        path = "./target/screenshots/" + testname + time + ".png";
 	        FileUtils.copyFile(source, new File(path));
 	        
+	        return true;
+	        
 	    } catch(Throwable e) {
 	    	
 	        DebugLog.LogInfo.warn("Failed to capture screenshot: " + e.getMessage());
-	        
+	        return false;
 	    }
 	}
 	
