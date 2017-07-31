@@ -87,6 +87,9 @@ public class LandingPage extends DriverFactory{
 	public static boolean URLIsFromENV() {
 
 		String URLENV = System.getenv("URLENV");
+		if (URLENV.isEmpty()) {
+			URLENV = new PropertyReader().readProperty("URL");
+		}
 		
 		return URLENV.isEmpty();
 	}

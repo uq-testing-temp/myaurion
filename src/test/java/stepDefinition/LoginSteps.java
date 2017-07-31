@@ -91,7 +91,7 @@ public class LoginSteps extends DriverFactory {
     @When("^I get the environment from the environmental variable$")
     public void env_var() throws Throwable {
 
-    	Assert.assertFalse("Env varialbe is from ENV", LandingPage.URLIsFromENV());
+    	Assert.assertFalse("Env varialbe is available", LandingPage.URLIsFromENV());
     	
     }
     
