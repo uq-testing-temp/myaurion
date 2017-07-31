@@ -46,7 +46,7 @@ public class DriverFactory {
     }
 
     private void createNewDriverInstance() {
-    	
+
     	String browser = new PropertyReader().readProperty("browser");
         if (browser.equals("chrome")) {
         	

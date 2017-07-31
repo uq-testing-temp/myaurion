@@ -9,6 +9,7 @@ Feature: Login
   Background:
     Given I am on myAurion login page
 
+@healthcheck
   Scenario: Going trough all links
 
     When I enter username as "uqdbende"

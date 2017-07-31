@@ -1,5 +1,7 @@
 package stepDefinition;
 
+import org.junit.Assert;
+
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
@@ -84,5 +86,18 @@ public class LoginSteps extends DriverFactory {
     @Then ("I should not be logged in$")
     public void I_should_not_be_logged_in() throws Throwable {
         new LandingPage(driver).I_should_not_be_logged_in();
+    }
+    
+    @When("^I get the environment from the environmental variable$")
+    public void env_var() throws Throwable {
+
+    	Assert.assertFalse("Env varialbe is from ENV", LandingPage.URLIsFromENV());
+    	
+    }
+    
+    @Then("^I should see 200 returned$")
+    public void i_should_see_200_returned() throws Throwable {
+
+    	Assert.assertTrue("Environment returns 200-OK", LandingPage.get200());
     }
 }

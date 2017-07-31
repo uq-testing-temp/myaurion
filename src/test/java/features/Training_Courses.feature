@@ -38,7 +38,6 @@ Background:
 #  |||||||||||
 
 @regression
-@debug
  Scenario: Fixed Term Continuing staff - Search training course
  When I am on the Training courses page
  	And I select Training action Requested Courses

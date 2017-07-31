@@ -1,5 +1,11 @@
 package pageclasses;
 
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.net.URL;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -62,4 +68,56 @@ public class LandingPage extends DriverFactory{
         boolean loginbuttonDisplayed = loginbutton.isDisplayed();
         Assert.assertTrue(loginbuttonDisplayed);
     }
+
+
+    
+    
+	public static String readURL() {
+		Boolean envVariableisPresent = true;
+    	String URLENV = System.getenv("URLENV");
+    	if (URLENV == null || URLENV.isEmpty()) {
+    		envVariableisPresent = false;
+    		URLENV = new PropertyReader().readProperty("URLENV");
+    	}
+    	Assert.assertTrue("Environmental variable is present",  envVariableisPresent);
+		return URLENV;
+	}
+
+
+	public static boolean URLIsFromENV() {
+
+		String URLENV = System.getenv("URLENV");
+		
+		return URLENV.isEmpty();
+	}
+
+
+	public static boolean get200() {
+
+		String URLENV = System.getenv("URLENV");
+    	if (URLENV == null || URLENV.isEmpty()) {
+    		URLENV = new PropertyReader().readProperty("URL");
+    	}
+    	
+    	return isAccessable(URLENV, 10);
+	}
+	
+	public static boolean isAccessable(String url, int timeout) {
+	    url = url.replaceFirst("https", "http");  
+
+	    try {
+	        HttpURLConnection connection = (HttpURLConnection) new URL(url)
+	                .openConnection();
+	        connection.setConnectTimeout(timeout);
+	        connection.setReadTimeout(timeout);
+	        connection.setRequestMethod("HEAD");
+	        int responseCode = connection.getResponseCode();
+	        if (responseCode != 200) {
+	            return false;
+	        }
+	    } catch (IOException exception) {
+	        return false;
+	    }
+	    return true;
+	}
 }
