@@ -1,4 +1,4 @@
-def gitUrl = "https://git.its.uq.edu.au/its-eas-testing/"
+def gitUrl = "https://git.its.uq.edu.au/its-eas-testing/myaurion.git"
 
 def systems = [
 	"myAurion_Smoke",
@@ -73,7 +73,7 @@ systems.each { system ->
                 git {
                     remote {
                         name('origin')
-                        url("${gitUrl}${system}.git")
+                        url("${gitUrl}")
                         credentials('ed45b22c-3198-4f74-b334-c24cf6d3b6ee')
                     }
                     branch('**/russell')
