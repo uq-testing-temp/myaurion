@@ -1,6 +1,5 @@
-@regression
-@employmenthistory
-Feature: Employmet_history
+@employmenthistory_smoke
+Feature: Employment_history
 As a user
 I want to be able to login to the My Aurion system
 So that I can View my employment history

@@ -10,8 +10,7 @@ Feature: Timesheet
     #  And I enter password as "password123"
      # And I click Login button
       
-  @regression
-  @skipped
+  @Timesheet_Regression
   Scenario:  Casual staff - Enter, Validate and Submit Timesheet- Daily view
   Given I am on myAurion login page
    	  And I enter username as "uqasmi46"
@@ -36,8 +35,7 @@ Feature: Timesheet
    	
   
   		
-  @regression	
-  @skipped
+  @Timesheet_Regression
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Period view
   
   	 Given I am on myAurion login page
@@ -65,13 +63,12 @@ Feature: Timesheet
   	Examples:
   	|StartDate|WhichDay|
   	|10/12/2016|20161212|
-  	|25/06/2016|20160705|
+  	|12/11/2016|20161115|
   	
   	
   	
   	
-  	 @regression
-  @skipped	
+  @Timesheet_Regression
   Scenario Outline: Casual staff - Enter, Validate and Submit Timesheet-Detailed view
   
   	 Given I am on myAurion login page
@@ -100,11 +97,10 @@ Feature: Timesheet
   	
   		
   	
-  	@regression
-  @skipped
+  @Timesheet_Regression
   Scenario Outline:  Supervisor - Enter, Validate and Submit Timesheet-on behalf of employee
   Given I am on myAurion login page
-   	  And I enter username as "uqsjone3"
+   	  And I enter username as "uqdangus"
       And I enter password as "password123"
       And I click Login button
       And I click on change Employee icon
@@ -112,9 +108,9 @@ Feature: Timesheet
  		And I select the employee from search results"<EmployeeToSelect>"
   	Given I am on timesheet page
   		And I select the daily timesheet
-  		And I select the timekeeper as "12/11/2016"
+  		And I select the timekeeper as "26/11/2016"
   		And I add contact hours button
-  		And I select the date to enter time "20161115"
+  		And I select the date to enter time "20161128"
   		And I select contact hours type
   		And I enter course code as "test"
   		And I enter start time as "08:00"
@@ -127,18 +123,17 @@ Feature: Timesheet
   	
   	Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |SOLOMON, Kathleen      |SOLOMON, Kathleen|
+ |SMITH, Adam      |SMITH, Adam|
   		
   		
   
 
   
   #	Try Submit time sheet as a fixed term/continuing employee and verify that time sheet is disabled
-  	@skipped
-  	@regression
+  @Timesheet_Regression
   	Scenario: Try Submit timesheet as a fixed term or continuing employee
   	Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqmblows"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -146,10 +141,10 @@ Feature: Timesheet
   	
   	
   #	Select timesheet from Timesheet full list page
-  @regression	
+ @Timesheet_Smoke
   Scenario: As a casual employee view the timesheets in Full list view
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -162,11 +157,10 @@ Feature: Timesheet
  
 
  # Save and Copy timesheet entry
-  @regression
-  @skipped
+@Timesheet_Regression
  Scenario: Save and Copy timesheet entry
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -193,8 +187,7 @@ Feature: Timesheet
  
   #Default Time sheets
  
- @regression	
- @skipped
+ @Timesheet_Regression
   Scenario: Casual staff - Create or Remove a Default Timesheet: Create default timesheet from current timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -209,8 +202,7 @@ Feature: Timesheet
  
 #Populate timesheets with default values
  
- @regression	
- @skipped
+@Timesheet_Regression
   Scenario: Casual staff - Create or Remove a Default Timesheet-Create default timesheet from previous timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqksolom"
@@ -227,11 +219,10 @@ Feature: Timesheet
  
  
  #Enter hours with missing start/finish time and Save
-  	@regression
-  	@skipped
+  @Timesheet_Regression
   Scenario: Try to Submit timesheet without entering start time or end time and verify the error
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqasmi46"
       And I enter password as "password123"
       And I click Login button
   	Given I am on timesheet page
@@ -248,7 +239,7 @@ Feature: Timesheet
  
  
  
-@regression
+@Timesheet_Regression
  Scenario Outline:  Supervisor of casual staff - Review and Approve Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -268,7 +259,7 @@ Feature: Timesheet
   |26/11/2016        |Approve| Adam Smith|
   	
   	
-  		 @regression
+  		 @Timesheet_Regression
  Scenario Outline:  Supervisor of casual staff - Review and Decline Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -288,8 +279,7 @@ Feature: Timesheet
   |10/12/2016        |Decline| Adam Smith|
   
   
-  
-   @regression
+ @Timesheet_Regression
  Scenario Outline:  Supervisor of casual staff - Review and Return Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -309,7 +299,7 @@ Feature: Timesheet
   |24/12/2016        |Return|Adam Smith  |
   	
   	
-  	   @regression	
+@Timesheet_Regression
  Scenario Outline:  Supervisor of casual staff - Review and Edit Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -343,7 +333,7 @@ Feature: Timesheet
   
   
   
-  	   @regression
+  	  @Timesheet_Regression
  Scenario Outline:  Supervisor of casual staff - Review and Edit Current Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -375,7 +365,7 @@ Feature: Timesheet
   
   
   
-   	   @regression	
+   	   @Timesheet_Regression  	
  Scenario Outline:  Supervisor of casual staff - Review and Update Timesheet using Detailed View
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -406,16 +396,7 @@ Feature: Timesheet
   |TimesheetStartdate|Action |WhichDay|EmployeeName|
   |25/06/2016        |Approve|20160708|Adam Smith  |
   
-  
-  
-  
-  
-  
-  
-  
- 
-    	 	  @regression	
-  @skipped
+@Timesheet_Regression
   Scenario Outline: Casual staff - Update Declined Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -448,8 +429,7 @@ Feature: Timesheet
   	
   	
   	
-  	 	 @regression
-  @skipped
+ @Timesheet_Regression
   Scenario Outline: Casual staff - Update Returned Timesheet and Resubmit
   
   	 Given I am on myAurion login page
@@ -470,8 +450,7 @@ Feature: Timesheet
   	|Daniel Angus  |24/12/2016 |
   	
   
- 	 @regression
-  @skipped
+@Timesheet_Regression
   Scenario Outline: Casual staff - Recall Approved Timesheet (not yet paid)
   
   	 Given I am on myAurion login page
@@ -489,11 +468,8 @@ Feature: Timesheet
   	|Dated      |
   	|26/11/2016 |
   	
-  	
-  	
   	  
- 
-    @regression
+@Timesheet_Regression
   Scenario Outline: Casual staff - Recall Submitted Timesheet
   
   	 Given I am on myAurion login page
@@ -512,16 +488,7 @@ Feature: Timesheet
   	|25/06/2016 |
   
   
-  
-  
-  
-  
-  
-  
-  
-    	
- 	
-  @skipped
+@Timesheet_Regression
   Scenario Outline: Submit timesheet using period form for multiple days
   	Given I am on timesheet page
   		And I select the period timesheet
@@ -559,8 +526,7 @@ Feature: Timesheet
   	| Mon |       |       |       |
   	
   	
-  	
-  @skipped
+  	@Timesheet_Regression
  Scenario: Submit timesheet using detailed form single day
   	Given I am on timesheet page
   		And I select the Detailed timesheet
@@ -578,8 +544,7 @@ Feature: Timesheet
   	Then I should see the timesheet is saved message displayed
   	
   		
-  		
-  @skipped
+  @Timesheet_Regression		
  Scenario Outline: Submit timesheet using detailed form multiple days
   	Given I am on timesheet page
   		And I select the Detailed timesheet
@@ -615,7 +580,7 @@ Feature: Timesheet
   	| Mon |       |       |       |
   		
   		
-  		
+  	@Timesheet_Regression	
   Scenario: Reset the timesheet on daily form before submit
   	Given I am on timesheet page
   		And I select the daily timesheet
@@ -632,7 +597,7 @@ Feature: Timesheet
   	Then I should see the timesheet is reset message displayed
   	     
   	     
-  	     
+  	@Timesheet_Regression     
    Scenario Outline: Reset timesheet using period form
   	Given I am on timesheet page
   		And I select the period timesheet

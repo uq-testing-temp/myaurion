@@ -1,3 +1,5 @@
+//RL01 - cleared original content from startdate field and then appended the value passed  by the parameter and added wait time for changes to reflect. +30 days feature now works correctly
+
 package pageclasses;
 
 import java.util.List;
@@ -31,17 +33,19 @@ public class LeavePage extends DriverFactory {
 	@FindBy(id="N901F015_LTYPE_TCODE")
 	private WebElement leavetype;
 	
-	@FindBy(id="N901F020_DAYS")
+	
+	
+	@FindBy(name="N901F020_DAYS")
 	private WebElement duration;
 	
-	@FindBy(xpath=".//*[@id='N901F025_DATE_FROM-ct']/div[2]/input")
+	@FindBy(xpath=".//*[@id='N901F025_DATE_FROM-ct']/div[2]/input[2]")
 	private WebElement startdate;
 	
-	@FindBy(xpath=".//*[@id='N901F030_DATE_TO-ct']/div[2]/input")
+	@FindBy(xpath=".//*[@id='N901F030_DATE_TO-ct']/div[2]/input[2]")
 	private WebElement enddate;
 	
 	
-	@FindBy(xpath=".//*[@id='panel-balances']/form/div[1]/div/div/input")
+	@FindBy(xpath=".//*[@id='panel-balances']/form/div[1]/div/div/input[2]")
 	private WebElement futuredate;
 	
 	@FindBy(css="span.flatpickr-next-month > svg")
@@ -76,6 +80,7 @@ public class LeavePage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Delete Successful')]")
 	private WebElement DeletSuccess;
 	
+
 	@FindBy(xpath=".//*[@id='notification']/.//h2[contains(text(),'Workflow action successful.')]")
 	private WebElement WorkFlowActionSuccessMsg;
 	
@@ -175,18 +180,41 @@ public class LeavePage extends DriverFactory {
     
     public void select_duration(String dur) throws Throwable {
     	Thread.sleep(2000);
-    	WebElement select = duration;
-        List<WebElement> options = select.findElements(By.tagName("option"));
+    	//WebElement select = duration;
+    	String strvalu = "0";
+    	Thread.sleep(1000);
+    	if(dur.contains("Full Day"))
+    	{
+    		strvalu = "2";
+    	}
+    	else if (dur.contains("Multiple Days"))
+    	{
+    		strvalu = "1";
+    	}
+    	else if (dur.contains("Part Day"))
+    	{
+    		strvalu = "3";
+    	}
+    	
+    	Thread.sleep(1000);
+        List<WebElement> options = driver.findElements(By.name("N901F020_DAYS"));
+        Thread.sleep(1000);
+        System.out.println(strvalu);                                  //rl01 
         for (WebElement option : options) {
-            if(dur.equals(option.getText()))
+        	System.out.println(option.getAttribute("value")); 
+            if(strvalu.equals(option.getAttribute("value")))
                 option.click();
+                               
         }
     }
     
     public void select_startdate(String date) throws Throwable {
     	
-    	Thread.sleep(2000);
-    	startdate.sendKeys(date);
+    	Thread.sleep(1000);					//RL01
+    	startdate.clear();					//RL01
+    	Thread.sleep(2000);					//RL01
+    	startdate.sendKeys(date);			
+    	Thread.sleep(2000);					//RL01
     	startdate.sendKeys(Keys.TAB);
     	//JavascriptExecutor js= (JavascriptExecutor) driver;
     	//js.executeScript(, arg1)
@@ -196,8 +224,13 @@ public class LeavePage extends DriverFactory {
     }
     
     public void select_enddate(String date) throws Throwable {
+    	
+    	
+    	Thread.sleep(1000);						//RL01
+    	enddate.clear();
     	Thread.sleep(2000);
     	enddate.sendKeys(date);
+    	Thread.sleep(2000);
     	enddate.sendKeys(Keys.TAB);
     	
     	//JavascriptExecutor js= (JavascriptExecutor) driver;
@@ -321,7 +354,7 @@ public class LeavePage extends DriverFactory {
  public void selectPendingRequestBydate(String start, String End) throws Throwable{
     	
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    	CustomFunctions.selectPendingLeaveRequestBydate(LeaveHistoryTable, start, End);
+    	CustomFunctions.selectPendingLeaveRequestBydate(this.LeaveHistoryTable, start, End);
     	//CustomFunctions.Table_SelectCellbyText(this.LeaveHistoryTable,"Pending");
     	    	
     }

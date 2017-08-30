@@ -1,3 +1,4 @@
+// Tag RL01 details -changed Employement History to Work History as per Aurion
 package pageclasses;
 
 import java.util.concurrent.TimeUnit;
@@ -25,14 +26,16 @@ public class EmploymentHistoryPage extends DriverFactory {
 	@FindBy(xpath=".//*[@id='menu']/span/.//a[contains(text(),'Employee')]")
 	WebElement EmployeeMenu;
 	
-	@FindBy(xpath=".//*[@id='menu-my-aurion-list']/.//a[contains(text(),'Employment History')]")
+	//@FindBy(xpath=".//*[@id='menu-my-aurion-list']/.//a[contains(text(),'Employment History')]")    RL01 
+	@FindBy(xpath=".//*[@id='menu-my-aurion-list']/.//a[contains(text(),'Work History')]")
 	WebElement EmpHistoryMenuItem;
 	
-	@FindBy(xpath=".//*[@id='employmenthistories-list']/.//td[contains(text(),'Current')]")
+	@FindBy(xpath=".//*[@id='employment-histories-list']/.//td[contains(text(),'(Current)')]")
 	WebElement CurrentPlacement;
 	
 
-	@FindBy(xpath="	.//a[contains(text(),'Current Role')]")
+	//@FindBy(xpath="	.//a[contains(text(),'Current Role')]") RL01
+	@FindBy(xpath="	.//*[@id='panel-current-tab']")
 	WebElement CurrentRoleTab;
 	
 	@FindBy(xpath="	.//a[contains(text(),'Placement')]")

@@ -1,6 +1,4 @@
-@regression
-@smoke
-@menujourney
+@MenuJourney_Smoke
 Feature: Login
   As a user
   I want to be able to login to the My Aurion system

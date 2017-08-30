@@ -285,7 +285,7 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 		
 		//String strval="Pending";
 		Boolean found=false;
-		
+//		Boolean datecheck = false;
 		CustomFunctions.WaitForObjectEnabledExplicit(Table, 10);
 		
 		//List<WebElement> row= Table.findElements(By.xpath(".//tr"));
@@ -295,32 +295,34 @@ public static void WaitForObjectEnabledExplicit(WebElement Element, int duration
 			for (WebElement col:Table.findElements(By.xpath(".//td"))){
 				
 				
-				if(col.getText().equals("Pending")){
+				if(col.getText().contains("Pending")){
 					
 					
 					//for(WebElement fromcell: row.findElements(By.xpath(".//td[@data-th='Date From']"))){
 					String startdatecell=row.findElement(By.xpath(".//td[@data-th='Date From']")).getText();
-					System.out.println(startdatecell);
-						 if (startdatecell.equals(startdate)){
+					//System.out.println(startdatecell);
+						 if (startdatecell.contains(startdate)){
 							 
 							 //for(WebElement tocell: row.findElements(By.xpath(".//td[@data-th='Date To']"))){
 							
-								 if (row.findElement(By.xpath("/.//td[@data-th='Date To']")).getText().equals(Enddate)){
+								 if (row.findElement(By.xpath("/.//td[@data-th='Date To']")).getText().contains(Enddate)){
 									 
 									 
 									 DebugLog.LogInfo.info("Found the pending leave request for date from '"+startdate+"' to '"+Enddate+"'");
 										CustomFunctions.CustomClick(col, 3);
+										Thread.sleep(2000);
 										found=true;
 										break;
 									 
-								 			}
+						//		 			}
 								// }
 						 }
-					//}
+					}
 					
 					
 					
-				}
+				
+							}
 				
 			}
 			if(found=true){		break;}

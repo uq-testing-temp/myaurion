@@ -1,4 +1,4 @@
-@employeeSearch
+@EmployeeSearch_Smoke
 Feature: Employee Search
 As a supervisor
 I want to be able to login to the My Aurion system
@@ -11,8 +11,8 @@ So that I can search for and change employee to view my subordinates details
    #   And I enter password as "password123"
     #  And I click Login button
       
-  @regression 
-  @skipped
+  
+  
  Scenario Outline: Search for direct reports
  
  
@@ -30,11 +30,7 @@ Examples:
  
  
  
- 
- 
- 
-  @regression   
-  @skipped  
+   
  Scenario Outline: Supervisor - view subordinate's details
  
  
@@ -53,9 +49,7 @@ Examples:
  
  
  
-  @regression  
-  @skipped   
- Scenario Outline: Supervisor - Try to view subordinate's Payroll details
+  Scenario Outline: Supervisor - Try to view subordinate's Payroll details
  
  
  Given I am on myAurion login page
@@ -73,8 +67,6 @@ Examples:
  |BENDER-CHAMP, Dorothea     |BENDER-CHAMP, Dorothea|
  
  
-   @regression     
-  @skipped
  Scenario Outline: Supervisor - Try to view subordinate's Personal details
  
  
@@ -107,8 +99,8 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |	    |   |
  
- @regression 
-  @skipped
+  
+ 
  Scenario: Search for employees- No results found
   
 
@@ -172,7 +164,6 @@ Examples:
   
   
   
-  @regression 
   @skipped
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
  
@@ -191,8 +182,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
  
- 
- @regression 
+
   @skipped
   Scenario Outline: Supervisor of casual staff - MyStaff view details
  
@@ -208,7 +198,7 @@ Then I should be able to see the Qualifications,Licences and Inductions details
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |KELLY, Caroline H      |KELLY, Caroline H|
+ |GABRIEL, Cle-Anne      |GABRIEL, Cle-Anne|
  
  
  
@@ -231,7 +221,6 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-@regression
 @skipped
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
@@ -249,7 +238,7 @@ Examples:
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect| Future Date|
- |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea| 21/11/2017|
+ |VAN DEN HEUVEL, Annamieke      |VAN DEN HEUVEL, Annamieke| 21/11/2017|
  
 
 
