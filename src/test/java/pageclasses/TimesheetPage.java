@@ -31,10 +31,10 @@ public class TimesheetPage extends DriverFactory {
 	@FindBy (xpath = ".//*[@id='section1__N026F025_DATE__']")
 	private WebElement selectdate;
 	
-	@FindBy (xpath = "//*[@id='section1']/header/div[1]/span")
+	@FindBy (xpath = ".//*[@id='section1']/header/div[2]/span[2]")
 	private WebElement addcontacthrs;
 	
-	@FindBy ( xpath = "//*[@id='section1']/div/div/button")
+	@FindBy ( xpath =  ".//*[@id='section1']/div/div[2]/button")
 	private WebElement addhrsbutton;
 	
 	
@@ -209,6 +209,7 @@ public class TimesheetPage extends DriverFactory {
     public void add_contact_hours() throws Throwable {
     	Thread.sleep(3000);
     	addcontacthrs.click();
+    	Thread.sleep(3000);
     	addhrsbutton.click();
     }
     

@@ -27,7 +27,8 @@ public class TrainingCoursesPage extends DriverFactory {
 	@FindBy (xpath = "//*[@id='cells-requested-courses']/li/div/a")
 	private WebElement addButton;
 	
-	@FindBy (xpath = "//*[@id='18352']/td[1]")
+	//@FindBy (xpath = "//*[@id='18352']/td[1]")            RL01
+	@FindBy (xpath = ".//*[@id='18603']/td[5]")
 	private WebElement course;
 	
 	@FindBy (id = "T900_CODES")

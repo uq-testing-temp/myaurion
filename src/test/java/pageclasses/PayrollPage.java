@@ -86,7 +86,7 @@ public class PayrollPage extends DriverFactory {
 	@FindBy(id="cells-banking_and_deductions")
 	WebElement bankAccountLink;
 	
-	@FindBy(id="T500F190_NP_BANK_ACCOUNT-ct")
+	@FindBy(id="T500F190_NP_BANK_ACCOUNT")
 	WebElement accountNo;
 	
 	
