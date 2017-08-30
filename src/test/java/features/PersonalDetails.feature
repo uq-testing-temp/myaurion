@@ -1,10 +1,10 @@
-@PersonalDetails_Regression
+@PersonalDetails
 Feature: Update Personal Details
 As a user/employee
 I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
-
+@rusty
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -60,7 +60,7 @@ Examples:
 
 
 
-
+@rusty
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -88,7 +88,7 @@ Examples:
 |11		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
 
-
+@rusty
 Scenario Outline: Fixed Term Continuing staff - View and update personal details
 
 Given I am on myAurion login page
@@ -115,7 +115,7 @@ Examples:
 |PreferredName | WorkPhone | HomePhone | Mobile      | Email                | Fax     | Street       | PostCode | postnominals |
 |Nina		   |464646     | 0797979   | 04123456789 | Hello@mailinator.com |4646464  | My New Street|4000      | XYZ |
 
-
+@_to_be_automated
 Scenario Outline: Fixed Term Continuing staff - View and update staff diversity details
 
 Given I am on myAurion login page

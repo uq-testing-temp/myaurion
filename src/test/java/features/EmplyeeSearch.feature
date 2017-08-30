@@ -1,4 +1,4 @@
-@EmployeeSearch_Smoke
+@_EmployeeSearch
 Feature: Employee Search
 As a supervisor
 I want to be able to login to the My Aurion system
@@ -87,7 +87,7 @@ Examples:
  
  
   
-  @skipped
+  @_to_be_automated
   Scenario Outline: Search for indirect reports
  
  When I am on the DashboardPage
@@ -100,7 +100,7 @@ Examples:
  |	    |   |
  
   
- 
+ @rusty
  Scenario: Search for employees- No results found
   
 
@@ -114,8 +114,7 @@ Then I should see the No results found message
 
 
  
-  
-  @skipped
+@_to_be_automated
  Scenario Outline: Search for direct reports and act on behalf of employee
  
  When I am on the DashboardPage
@@ -130,7 +129,7 @@ Examples:
   |2037164            | ASGARI, Sassan    |
   
   
-  @skipped
+  @_to_be_automated
  Scenario Outline: Act on behalf of employee and navigate to Payroll
  
  When I am on the Payroll page
@@ -146,7 +145,7 @@ Examples:
   |2004378             | AMY, Wendy J    |
   
     
-  @skipped
+@_to_be_automated
 Scenario Outline: Act on behalf of employee and navigate to personal details
  
  When I am on the Personal details page
@@ -163,8 +162,7 @@ Examples:
   
   
   
-  
-  @skipped
+@rusty
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -183,7 +181,7 @@ Examples:
  
  
 
-  @skipped
+@rusty
   Scenario Outline: Supervisor of casual staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -203,7 +201,7 @@ Examples:
  
  
   
-  @skipped
+ @_to_be_automated
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view training history
  
  Given I am on myAurion login page
@@ -221,7 +219,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-@skipped
+@_to_be_automated
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
  Given I am on myAurion login page
@@ -240,10 +238,8 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect| Future Date|
  |VAN DEN HEUVEL, Annamieke      |VAN DEN HEUVEL, Annamieke| 21/11/2017|
  
-
-
   
-  @skipped
+@_to_be_automated
   Scenario Outline:  Supervisor of fixed term continuing staff - MyStaff view employment
  
  Given I am on myAurion login page
@@ -262,7 +258,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
   
-  @skipped
+@_to_be_automated
  Scenario Outline:  Supervisor of casual staff - MyStaff view employment
  
  Given I am on myAurion login page

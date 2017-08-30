@@ -1,4 +1,4 @@
-@MenuJourney_Smoke
+@_MenuJourney
 Feature: Login
   As a user
   I want to be able to login to the My Aurion system

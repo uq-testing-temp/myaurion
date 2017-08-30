@@ -1,4 +1,4 @@
-@StaffSchedule_Regression
+@_to_be_automated
 Feature: StaffSchedule
   As a supervisor
   I want to be able to login to the My Aurion system

@@ -1,9 +1,7 @@
-@payroll
 Feature: Payroll
 As a user
 I want to be able to login to the My Aurion system
 So that I can update my payroll details
-
 
 
 Background:
@@ -13,13 +11,14 @@ Background:
       And I click Login button
 
 
-@Payroll_Smoke 
+@_Payroll 
+@rusty
 Scenario: View current bank account
  	When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	Then I should see my current bank accounts
  	
- 	@Payroll_Regression
+@_to_be_automated
  Scenario Outline: Update current bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -34,7 +33,7 @@ Scenario: View current bank account
   | AccountNumber | Branch    | AccountNumber |Payee |
   
   
-  @Payroll_Regression
+@_to_be_automated
   Scenario Outline: Add secondary bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -53,7 +52,7 @@ Scenario: View current bank account
   
   
   
-  @Payroll_Regression
+@_to_be_automated
    Scenario Outline: Add Deduction
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -69,7 +68,7 @@ Scenario: View current bank account
   | Deduction | RefNumber| Normal Amount |Start at |
   
   
-  @Payroll_Regression
+@_to_be_automated
     Scenario Outline: Update Deduction
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -82,7 +81,7 @@ Scenario: View current bank account
   |Current deduction| NextPay Amount |
   
   
-  @Payroll_Regression
+@_to_be_automated
     Scenario Outline: Update Deduction stop Payment
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -96,13 +95,13 @@ Scenario: View current bank account
   |Current deduction| NextPay Amount |Stop Reason|
   
   
-  @Payroll_Smoke
+ @_to_be_automated
    Scenario: View PaySummaries
  When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
  Then I should see my current pay summaries
  
- @Payroll_Smoke
+ @_Payroll
    Scenario Outline: Fixed Term Continuing staff - View pay details and pay advices
  When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
@@ -113,7 +112,7 @@ Scenario: View current bank account
   |Date|GrossPayAmount|NetPayAmount|
   |25/05/2016|3,257.49 |2,449.49 |
   
- @Payroll_Smoke
+ @_Payroll
     Scenario Outline: Fixed Term Continuing staff - View year to date for current or previous financial year
  When I am on Payroll page
  	And I select Payroll action "Year to Date"
@@ -125,7 +124,7 @@ Scenario: View current bank account
   |current year|
   |previous year|
   
-  @Payroll_Smoke  
+@_to_be_automated
     Scenario Outline: View Remuneration information
  When I am on the payroll page
  	And I select Payroll action "Remuneration Information"
@@ -138,7 +137,7 @@ Scenario: View current bank account
   |Calculation date|
   |02 May 2015|
 
-  @Payroll_Smoke
+  @_Payroll
   Scenario Outline: Fixed Term Continuing staff - Access ATO Payment Summary
  When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"
@@ -150,7 +149,8 @@ Scenario: View current bank account
   |30/06/2015|
   
   
-@Payroll_Smoke
+@_Payroll
+@rusty
   Scenario Outline: Casual staff - Access ATO Payment Summary
  When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"

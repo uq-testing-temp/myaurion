@@ -10982,3 +10982,308 @@ Session ID: 7e9693298c7bff12b3b2ecd7d4b8c26f
 2017-08-29 16:30:02,351 WARN  [Log] Failed to capture screenshot: null 
 2017-08-29 16:30:05,275 INFO  [Log] **********************End of the test*********************** 
 2017-08-29 16:30:05,277 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave************************************* 
+2017-08-30 16:52:26,354 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:52:26,355 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-08-30 16:52:26,365 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:52:26,366 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-08-30 16:52:29,251 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (9eb5d3c98f4b814d1e7bc95ad4f33ee0)] -> id: login-button] 
+2017-08-30 16:52:34,749 INFO  [Log] Search for employees- No results foundTest Passed 
+2017-08-30 16:52:34,750 INFO  [Log] Taking a screenshot Search for employees- No results found1504075946 
+2017-08-30 16:52:36,263 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:52:36,265 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-08-30 16:52:36,272 INFO  [Log] Search for employees- No results foundTest Passed 
+2017-08-30 16:52:36,273 INFO  [Log] Taking a screenshot Search for employees- No results found1504075946 
+2017-08-30 16:52:36,274 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:52:40,962 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:52:40,963 INFO  [Log] ******************************* Scenario: Search for employees- No results found************************************* 
+2017-08-30 16:52:44,812 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:52:44,814 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-08-30 16:52:44,822 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:52:44,823 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-08-30 16:52:46,425 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d566ae55b5924b60dcd060dbaf47445c)] -> id: login-button] 
+2017-08-30 16:52:55,498 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d566ae55b5924b60dcd060dbaf47445c)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:52:55,604 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d566ae55b5924b60dcd060dbaf47445c)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-08-30 16:52:58,322 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:52:58,782 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff view detailsTest Passed 
+2017-08-30 16:52:58,791 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - MyStaff view details1504075946 
+2017-08-30 16:52:59,909 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:52:59,910 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-08-30 16:52:59,916 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff view detailsTest Passed 
+2017-08-30 16:52:59,917 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - MyStaff view details1504075946 
+2017-08-30 16:52:59,918 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:53:04,427 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:53:04,428 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff view details************************************* 
+2017-08-30 16:53:08,712 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:08,713 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-08-30 16:53:08,720 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:08,721 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-08-30 16:53:10,340 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (670c7486a231063522987826f196d04d)] -> id: login-button] 
+2017-08-30 16:53:19,673 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (670c7486a231063522987826f196d04d)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:53:19,766 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (670c7486a231063522987826f196d04d)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-08-30 16:53:22,496 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:53:22,879 INFO  [Log] Supervisor of casual staff - MyStaff view detailsTest Passed 
+2017-08-30 16:53:22,880 INFO  [Log] Taking a screenshot Supervisor of casual staff - MyStaff view details1504075946 
+2017-08-30 16:53:24,067 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:53:24,068 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-08-30 16:53:24,074 INFO  [Log] Supervisor of casual staff - MyStaff view detailsTest Passed 
+2017-08-30 16:53:24,075 INFO  [Log] Taking a screenshot Supervisor of casual staff - MyStaff view details1504075946 
+2017-08-30 16:53:24,076 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:53:28,757 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:53:28,758 INFO  [Log] ******************************* Scenario: Supervisor of casual staff - MyStaff view details************************************* 
+2017-08-30 16:53:32,542 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:32,543 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-08-30 16:53:32,548 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:32,549 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-08-30 16:53:34,086 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873f975fd7e215989c34a27dc763b084)] -> id: login-button] 
+2017-08-30 16:53:40,647 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873f975fd7e215989c34a27dc763b084)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:53:40,740 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (873f975fd7e215989c34a27dc763b084)] -> xpath: .//*[@id='menu-my-aurion-list']/li[2]/.//a[contains(text(),'HR Profile')]] 
+2017-08-30 16:53:43,559 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:53:43,954 INFO  [Log] MyAurion - Fixed Term Continuing staff - View HR ProfileTest Passed 
+2017-08-30 16:53:43,956 INFO  [Log] Taking a screenshot MyAurion - Fixed Term Continuing staff - View HR Profile1504075946 
+2017-08-30 16:53:45,187 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:53:45,189 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-08-30 16:53:45,196 INFO  [Log] MyAurion - Fixed Term Continuing staff - View HR ProfileTest Passed 
+2017-08-30 16:53:45,198 INFO  [Log] Taking a screenshot MyAurion - Fixed Term Continuing staff - View HR Profile1504075946 
+2017-08-30 16:53:45,199 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:53:50,020 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:53:50,021 INFO  [Log] ******************************* Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile************************************* 
+2017-08-30 16:53:53,839 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:53,840 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-30 16:53:53,846 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:53:53,847 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-30 16:53:55,532 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (80585c560ef03dd5d903efccc4e065b7)] -> id: login-button] 
+2017-08-30 16:53:59,045 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (80585c560ef03dd5d903efccc4e065b7)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-30 16:53:59,145 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (80585c560ef03dd5d903efccc4e065b7)] -> link text: Leave] 
+2017-08-30 16:54:00,754 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (80585c560ef03dd5d903efccc4e065b7)] -> xpath: .//*[@href='leave/new']] 
+2017-08-30 16:54:20,343 INFO  [Log] Success message Displayed 
+2017-08-30 16:54:20,349 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:20,799 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-30 16:54:20,800 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504075946 
+2017-08-30 16:54:21,143 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504075946.png (The system cannot find the file specified) 
+2017-08-30 16:54:21,964 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:54:21,966 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-30 16:54:21,972 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-30 16:54:21,973 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504075946 
+2017-08-30 16:54:21,974 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:54:26,633 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:54:26,634 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-30 16:54:30,401 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:54:30,402 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-08-30 16:54:30,408 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:54:30,409 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-08-30 16:54:32,059 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8074bf005e90c26bd422d7104bc4f125)] -> id: login-button] 
+2017-08-30 16:54:35,961 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8074bf005e90c26bd422d7104bc4f125)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-30 16:54:36,057 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8074bf005e90c26bd422d7104bc4f125)] -> link text: Leave] 
+2017-08-30 16:54:37,690 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8074bf005e90c26bd422d7104bc4f125)] -> id: btnPredictLeave] 
+2017-08-30 16:54:37,889 INFO  [Log] 'Type'column found 
+2017-08-30 16:54:37,889 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:38,465 INFO  [Log] 'Days'column found 
+2017-08-30 16:54:38,466 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:39,051 INFO  [Log] 'Hours'column found 
+2017-08-30 16:54:39,052 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:39,451 INFO  [Log] 'Rate'column found 
+2017-08-30 16:54:39,452 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:39,865 INFO  [Log] 'Predicted'column found 
+2017-08-30 16:54:39,866 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:54:40,222 INFO  [Log] Fixed Term Continuing staff - Predict Leave BalancesTest Passed 
+2017-08-30 16:54:40,223 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Predict Leave Balances1504075946 
+2017-08-30 16:54:41,462 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:54:41,463 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-08-30 16:54:41,469 INFO  [Log] Fixed Term Continuing staff - Predict Leave BalancesTest Passed 
+2017-08-30 16:54:41,470 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Predict Leave Balances1504075946 
+2017-08-30 16:54:41,471 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:54:46,003 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:54:46,004 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Predict Leave Balances************************************* 
+2017-08-30 16:54:49,991 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:54:49,992 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-08-30 16:54:49,997 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:54:49,998 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)************************************* 
+2017-08-30 16:54:51,573 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64653973f5712a74f6a0c2f56308c50c)] -> id: login-button] 
+2017-08-30 16:54:55,056 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64653973f5712a74f6a0c2f56308c50c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-30 16:54:55,151 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64653973f5712a74f6a0c2f56308c50c)] -> link text: Leave] 
+2017-08-30 16:54:56,794 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-30 16:54:56,797 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (64653973f5712a74f6a0c2f56308c50c)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-30 16:54:57,418 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64653973f5712a74f6a0c2f56308c50c)] -> id: btnDelete] 
+2017-08-30 16:55:27,559 WARN  [Log] 'Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)':  Test Failed 
+2017-08-30 16:55:27,560 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Failed1504075946 
+2017-08-30 16:55:28,842 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:55:28,844 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Failed************************************* 
+2017-08-30 16:55:28,851 WARN  [Log] 'Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)':  Test Failed 
+2017-08-30 16:55:28,852 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Failed1504075946 
+2017-08-30 16:55:28,853 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:55:33,506 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:55:33,507 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)Failed************************************* 
+2017-08-30 16:55:37,491 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:55:37,492 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-30 16:55:37,498 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:55:37,499 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-30 16:55:39,116 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (73c40da0e5bdfd5b1ee1b5e9cb3383d2)] -> id: login-button] 
+2017-08-30 16:55:46,112 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (73c40da0e5bdfd5b1ee1b5e9cb3383d2)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-30 16:56:16,350 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-30 16:56:16,351 INFO  [Log] Taking a screenshot View current bank accountFailed1504075946 
+2017-08-30 16:56:17,649 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:56:17,650 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-30 16:56:17,656 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-30 16:56:17,657 INFO  [Log] Taking a screenshot View current bank accountFailed1504075946 
+2017-08-30 16:56:17,658 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:56:22,544 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:56:22,545 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-30 16:56:26,450 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:56:26,451 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-08-30 16:56:26,457 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:56:26,458 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-08-30 16:56:28,065 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41f8fc192fb797de3685c5ed46dde2bd)] -> id: login-button] 
+2017-08-30 16:56:35,376 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (41f8fc192fb797de3685c5ed46dde2bd)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-08-30 16:56:35,637 INFO  [Log] Found the resut and selecting it '30/06/2016 
+2017-08-30 16:56:35,641 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-08-30 16:56:35,645 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:56:36,276 INFO  [Log] The link to download summary pdf for date'30/06/2016' found in the ATO summarylist 
+2017-08-30 16:56:36,280 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:56:36,704 INFO  [Log] Casual staff - Access ATO Payment SummaryTest Passed 
+2017-08-30 16:56:36,709 INFO  [Log] Taking a screenshot Casual staff - Access ATO Payment Summary1504075946 
+2017-08-30 16:56:37,861 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:56:37,865 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-08-30 16:56:37,891 INFO  [Log] Casual staff - Access ATO Payment SummaryTest Passed 
+2017-08-30 16:56:37,895 INFO  [Log] Taking a screenshot Casual staff - Access ATO Payment Summary1504075946 
+2017-08-30 16:56:37,899 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:56:47,368 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:56:47,373 INFO  [Log] ******************************* Scenario: Casual staff - Access ATO Payment Summary************************************* 
+2017-08-30 16:56:57,476 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:56:57,477 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-08-30 16:56:57,489 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:56:57,532 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-08-30 16:56:59,241 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: login-button] 
+2017-08-30 16:57:02,921 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:57:03,017 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-08-30 16:57:03,866 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-08-30 16:57:04,346 INFO  [Log] Entering '444' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F010_PRIORITY]' 
+2017-08-30 16:57:05,025 INFO  [Log] Entering the text: '444' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F010_PRIORITY] 
+2017-08-30 16:57:05,189 INFO  [Log] Entering 'Hello557' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F025_NAME]' 
+2017-08-30 16:57:05,905 INFO  [Log] Entering the text: 'Hello557' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F025_NAME] 
+2017-08-30 16:57:06,215 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-08-30 16:57:06,848 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-08-30 16:57:07,090 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-08-30 16:57:07,771 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-08-30 16:57:08,012 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-08-30 16:57:08,709 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-08-30 16:57:09,000 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F040_ADDRESS]' 
+2017-08-30 16:57:09,649 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F040_ADDRESS] 
+2017-08-30 16:57:09,955 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F070_COMMENTS]' 
+2017-08-30 16:57:10,578 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> id: T006F070_COMMENTS] 
+2017-08-30 16:57:10,830 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f420e8265f34039b27876b1508d5a555)] -> name: save] 
+2017-08-30 16:57:13,165 INFO  [Log] New contact added is visible 
+2017-08-30 16:57:13,169 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:57:13,578 INFO  [Log] Fixed Term Continuing staff - View and update emergency contactsTest Passed 
+2017-08-30 16:57:13,581 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update emergency contacts1504075946 
+2017-08-30 16:57:14,773 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:57:14,776 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-08-30 16:57:14,797 INFO  [Log] Fixed Term Continuing staff - View and update emergency contactsTest Passed 
+2017-08-30 16:57:14,800 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update emergency contacts1504075946 
+2017-08-30 16:57:14,803 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:57:24,213 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:57:24,216 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update emergency contacts************************************* 
+2017-08-30 16:57:29,533 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:57:29,534 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-08-30 16:57:29,540 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:57:29,541 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-08-30 16:57:31,136 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: login-button] 
+2017-08-30 16:57:34,947 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:57:35,035 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-08-30 16:57:35,758 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//button[contains(text(),'+ Add')]] 
+2017-08-30 16:57:36,076 INFO  [Log] Entering '344' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F010_PRIORITY]' 
+2017-08-30 16:57:36,720 INFO  [Log] Entering the text: '344' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F010_PRIORITY] 
+2017-08-30 16:57:36,938 INFO  [Log] Entering 'Test User10' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F025_NAME]' 
+2017-08-30 16:57:37,611 INFO  [Log] Entering the text: 'Test User10' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F025_NAME] 
+2017-08-30 16:57:37,840 INFO  [Log] Entering 'Aunt' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F020_RELATIONSHIP_CODE]' 
+2017-08-30 16:57:38,482 INFO  [Log] Entering the text: 'Aunt' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F020_RELATIONSHIP_CODE] 
+2017-08-30 16:57:42,843 INFO  [Log] Found the resut and selecting it 'Aunt 
+2017-08-30 16:57:42,936 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-08-30 16:57:43,561 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-08-30 16:57:43,791 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-08-30 16:57:44,460 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-08-30 16:57:44,679 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-08-30 16:57:45,329 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-08-30 16:57:45,565 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F040_ADDRESS]' 
+2017-08-30 16:57:46,268 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F040_ADDRESS] 
+2017-08-30 16:57:46,499 INFO  [Log] Entering '4074' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F085_POSTCODE]' 
+2017-08-30 16:57:47,154 INFO  [Log] Entering the text: '4074' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F085_POSTCODE] 
+2017-08-30 16:57:51,503 INFO  [Log] Found the resut and selecting it '4074 
+2017-08-30 16:57:51,621 INFO  [Log] Entering 'No Comments at all' into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F070_COMMENTS]' 
+2017-08-30 16:57:52,241 INFO  [Log] Entering the text: 'No Comments at all' Into the field '[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> id: T006F070_COMMENTS] 
+2017-08-30 16:57:52,500 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (27f9e2efd4f60bac253ccf15e1b23a8a)] -> name: save] 
+2017-08-30 16:57:54,791 INFO  [Log] New contact added is visible 
+2017-08-30 16:57:54,792 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:57:55,208 INFO  [Log] Casual staff - View and update emergency contactsTest Passed 
+2017-08-30 16:57:55,209 INFO  [Log] Taking a screenshot Casual staff - View and update emergency contacts1504075946 
+2017-08-30 16:57:56,351 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:57:56,352 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-08-30 16:57:56,358 INFO  [Log] Casual staff - View and update emergency contactsTest Passed 
+2017-08-30 16:57:56,359 INFO  [Log] Taking a screenshot Casual staff - View and update emergency contacts1504075946 
+2017-08-30 16:57:56,360 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:58:02,303 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:58:02,304 INFO  [Log] ******************************* Scenario: Casual staff - View and update emergency contacts************************************* 
+2017-08-30 16:58:06,374 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:58:06,375 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-08-30 16:58:06,381 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:58:06,382 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-08-30 16:58:08,020 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> id: login-button] 
+2017-08-30 16:58:11,756 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:58:11,851 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-08-30 16:58:12,578 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//button[contains(text(),'Update')]] 
+2017-08-30 16:58:13,210 INFO  [Log] Entering 'Nina' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input]' 
+2017-08-30 16:58:13,856 INFO  [Log] Entering the text: 'Nina' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Preferred Name')]/../.././/input] 
+2017-08-30 16:58:14,026 INFO  [Log] Entering '464646' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Work')]/../.././/input]' 
+2017-08-30 16:58:14,664 INFO  [Log] Entering the text: '464646' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Work')]/../.././/input] 
+2017-08-30 16:58:14,884 INFO  [Log] Entering '4646464' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input]' 
+2017-08-30 16:58:15,599 INFO  [Log] Entering the text: '4646464' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Fax')]/../.././/input] 
+2017-08-30 16:58:15,822 INFO  [Log] Entering '0797979' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Home')]/../.././/input]' 
+2017-08-30 16:58:16,493 INFO  [Log] Entering the text: '0797979' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Home')]/../.././/input] 
+2017-08-30 16:58:16,712 INFO  [Log] Entering '04123456789' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input]' 
+2017-08-30 16:58:17,376 INFO  [Log] Entering the text: '04123456789' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Mobile')]/../.././/input] 
+2017-08-30 16:58:17,574 INFO  [Log] Entering 'Hello@mailinator.com' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Email')]/../.././/input]' 
+2017-08-30 16:58:18,232 INFO  [Log] Entering the text: 'Hello@mailinator.com' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Email')]/../.././/input] 
+2017-08-30 16:58:18,471 INFO  [Log] Entering 'My New Street' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> id: T000F040_ADDRESS]' 
+2017-08-30 16:58:19,129 INFO  [Log] Entering the text: 'My New Street' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> id: T000F040_ADDRESS] 
+2017-08-30 16:58:19,559 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> id: T000F300_POSTAL_IS_HOME] 
+2017-08-30 16:58:19,680 INFO  [Log] Entering 'XYZ' into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input]' 
+2017-08-30 16:58:20,341 INFO  [Log] Entering the text: 'XYZ' Into the field '[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> xpath: .//label[contains(text(),'Post-nominals')]/../.././/input] 
+2017-08-30 16:58:20,523 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e7233ab994b83f8d75355492269b6954)] -> name: save] 
+2017-08-30 16:58:21,732 INFO  [Log] Preferred Name updated and displayed as 'Nina 
+2017-08-30 16:58:21,733 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:22,186 INFO  [Log] Work number updated and displayed as 464646 
+2017-08-30 16:58:22,187 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:22,597 INFO  [Log] Fax number updated and displayed as 4646464 
+2017-08-30 16:58:22,600 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:22,985 INFO  [Log] Home number updated and displayed as 0797979 
+2017-08-30 16:58:22,986 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:23,354 INFO  [Log] Mobile number updated and displayed as 04123456789 
+2017-08-30 16:58:23,355 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:23,722 INFO  [Log] Email updated and displayed as Hello@mailinator.com 
+2017-08-30 16:58:23,723 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:24,176 INFO  [Log] Postcode updated and displayed as 4000 
+2017-08-30 16:58:24,177 INFO  [Log] Taking a screenshot noname1504075946 
+2017-08-30 16:58:24,542 INFO  [Log] Fixed Term Continuing staff - View and update personal detailsTest Passed 
+2017-08-30 16:58:24,543 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update personal details1504075946 
+2017-08-30 16:58:25,680 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:58:25,681 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-08-30 16:58:25,687 INFO  [Log] Fixed Term Continuing staff - View and update personal detailsTest Passed 
+2017-08-30 16:58:25,688 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update personal details1504075946 
+2017-08-30 16:58:25,689 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:58:30,412 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:58:30,413 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update personal details************************************* 
+2017-08-30 16:58:34,241 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:58:34,243 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update staff diversity details************************************* 
+2017-08-30 16:58:34,248 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-30 16:58:34,249 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update staff diversity details************************************* 
+2017-08-30 16:58:35,894 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d5646981750d4f796f833d96ad52ca91)] -> id: login-button] 
+2017-08-30 16:58:39,796 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d5646981750d4f796f833d96ad52ca91)] -> xpath: .//*[@id='menu']/span/.//a[contains(text(),'Employee')]] 
+2017-08-30 16:58:39,883 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d5646981750d4f796f833d96ad52ca91)] -> xpath: .//*[@id='menu-my-aurion-list']/li[1]/.//a[contains(text(),'Personal')]] 
+2017-08-30 16:58:40,673 INFO  [Log] Fixed Term Continuing staff - View and update staff diversity detailsTest Passed 
+2017-08-30 16:58:40,674 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update staff diversity details1504075946 
+2017-08-30 16:58:41,909 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:58:41,910 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update staff diversity details************************************* 
+2017-08-30 16:58:41,916 INFO  [Log] Fixed Term Continuing staff - View and update staff diversity detailsTest Passed 
+2017-08-30 16:58:41,917 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View and update staff diversity details1504075946 
+2017-08-30 16:58:41,918 WARN  [Log] Failed to capture screenshot: null 
+2017-08-30 16:58:46,580 INFO  [Log] **********************End of the test*********************** 
+2017-08-30 16:58:46,581 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update staff diversity details************************************* 
