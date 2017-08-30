@@ -1,4 +1,3 @@
-@TrainingCourses
 Feature: Training & Courses
 As a user
 I want to be able to login to the My Aurion system
@@ -11,8 +10,7 @@ Background:
       And I click Login button
 
 #TODO: implement steps definitions, provide test data. Clear unapproved courses and enable submit
-@regression
-@skipped
+@_to_be_automated
  Scenario: Fixed Term Continuing staff - Search and apply for training course
  When I am on the Training courses page
  	And I select Training action Requested Courses
@@ -30,14 +28,14 @@ Background:
  	And I select Reason General Interest
  	And I click on Apply button
 # 	And I enter the message as "this is a automation test for requesting new training course"
-# 	And I click on Submit button
+#	And I click on Submit button
  Then I should see the success message is displayed if there is no overlap
  
 # Examples:
 #  | Fromdate | Todate   | Type | LookIn | Course| LearningArea | Programsearch | Competency | Program | SelectReason |
 #  |||||||||||
 
-@regression
+@_Training
  Scenario: Fixed Term Continuing staff - Search training course
  When I am on the Training courses page
  	And I select Training action Requested Courses
@@ -48,7 +46,7 @@ Background:
  
   
 #TODO: implement steps definitions
-@skipped       
+@_to_be_automated
   	Scenario: Supervisor of fixed term continuing staff - Decline Training Request
  Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -64,7 +62,7 @@ Then I should see the success message is displayed
  
 
 #TODO: implement steps definitions
-@skipped       
+@_to_be_automated
   	Scenario: Supervisor of fixed term continuing staff - Approve Training Request
  Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -80,7 +78,7 @@ Then I should see the success message is displayed
 
 
 #TODO: implement steps definitions
-@skipped       
+@_to_be_automated
   	Scenario:  Supervisor of fixed term continuing staff - Return Training Request
  Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -96,7 +94,7 @@ Then I should see the success message is displayed
  
 
  	#TODO: implement steps definitions       
- 	@skipped
+ 	@_to_be_automated
  	  Scenario Outline: Fixed Term Continuing staff - Actioning Returned Training Request 
  Given I am on myAurion login page
    	  And I enter username as "uqmblows"
@@ -116,7 +114,7 @@ Then I should see the success message is displayed
   
   
   #TODO: implement steps definitions       
-  @skipped
+  @_to_be_automated
   Scenario Outline: View unapproved requested courses 
  When I am on the Training courses page
  	And I select Training action "Requested Courses"
@@ -127,7 +125,7 @@ Then I should see the success message is displayed
   | CourseName |
   
   #TODO: implement steps definitions
-  @skipped       
+  @_to_be_automated      
     Scenario Outline: View approved requested courses 
  When I am on the Training courses page
  	And I select Payroll action "Requested Courses"
@@ -137,7 +135,7 @@ Then I should see the success message is displayed
   Examples:
   | CourseName |
  #TODO: implement steps definitions
- @skipped        
+ @_to_be_automated        
   Scenario Outline: Cancel a requested course 
  When I am on the Training courses page
  	And I select Payroll action "Requested Courses"
@@ -149,7 +147,7 @@ Then I should see the success message is displayed
   | CourseName |
   
 #TODO: implement steps definitions         
-@skipped
+@_to_be_automated
    Scenario Outline: View Course history details 
  When I am on the Training courses page
  	And I select Payroll action "Course History"

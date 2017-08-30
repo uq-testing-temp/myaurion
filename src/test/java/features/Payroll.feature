@@ -1,9 +1,7 @@
-@payroll
 Feature: Payroll
 As a user
 I want to be able to login to the My Aurion system
 So that I can update my payroll details
-
 
 
 Background:
@@ -12,12 +10,15 @@ Background:
       And I enter password as "password123"
       And I click Login button
 
- 
+
+@_Payroll 
+@rusty
 Scenario: View current bank account
  	When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
  	Then I should see my current bank accounts
  	
+@_to_be_automated
  Scenario Outline: Update current bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -32,7 +33,7 @@ Scenario: View current bank account
   | AccountNumber | Branch    | AccountNumber |Payee |
   
   
-  
+@_to_be_automated
   Scenario Outline: Add secondary bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -51,7 +52,7 @@ Scenario: View current bank account
   
   
   
-  
+@_to_be_automated
    Scenario Outline: Add Deduction
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -67,7 +68,7 @@ Scenario: View current bank account
   | Deduction | RefNumber| Normal Amount |Start at |
   
   
-  
+@_to_be_automated
     Scenario Outline: Update Deduction
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -80,7 +81,7 @@ Scenario: View current bank account
   |Current deduction| NextPay Amount |
   
   
-  
+@_to_be_automated
     Scenario Outline: Update Deduction stop Payment
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -94,23 +95,14 @@ Scenario: View current bank account
   |Current deduction| NextPay Amount |Stop Reason|
   
   
-  
+ @_to_be_automated
    Scenario: View PaySummaries
-Given I am on myAurion login page
-   	    And I enter username as "uqdbende"
-        And I enter password as "password123"
-        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
  Then I should see my current pay summaries
  
- 
- @regression
+ @_Payroll
    Scenario Outline: Fixed Term Continuing staff - View pay details and pay advices
-Given I am on myAurion login page
-   	    And I enter username as "uqdbende"
-        And I enter password as "password123"
-        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "Pay Summaries"
  	And I select the summary for date"<Date>"
@@ -120,13 +112,8 @@ Given I am on myAurion login page
   |Date|GrossPayAmount|NetPayAmount|
   |25/05/2016|3,257.49 |2,449.49 |
   
- 
- @regression
+ @_Payroll
     Scenario Outline: Fixed Term Continuing staff - View year to date for current or previous financial year
- Given I am on myAurion login page
-   	    And I enter username as "uqdbende"
-        And I enter password as "password123"
-        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "Year to Date"
  	And I select "<current_previous>" year summary 
@@ -137,8 +124,7 @@ Given I am on myAurion login page
   |current year|
   |previous year|
   
-  
-  
+@_to_be_automated
     Scenario Outline: View Remuneration information
  When I am on the payroll page
  	And I select Payroll action "Remuneration Information"
@@ -150,13 +136,9 @@ Given I am on myAurion login page
  Examples:
   |Calculation date|
   |02 May 2015|
-  
- @regression
+
+  @_Payroll
   Scenario Outline: Fixed Term Continuing staff - Access ATO Payment Summary
-Given I am on myAurion login page
-   	    And I enter username as "uqdbende"
-        And I enter password as "password123"
-        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"
  Then I should see summary pdf download link for date"<Date>"
@@ -167,12 +149,9 @@ Given I am on myAurion login page
   |30/06/2015|
   
   
-   @regression 
+@_Payroll
+@rusty
   Scenario Outline: Casual staff - Access ATO Payment Summary
-Given I am on myAurion login page
-   	    And I enter username as "uqksolom"
-        And I enter password as "password123"
-        And I click Login button
  When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"
  Then I should see summary pdf download link for date"<Date>"

@@ -1,10 +1,10 @@
-@Leave
 Feature: Leave
   As a user
   I want to be able to login to the My Aurion system
   So that I can apply a single day leave
 
-@regression
+@Leave
+@rusty
   Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -13,14 +13,14 @@ Feature: Leave
   	When I am on leave page
   	And I click on Apply for Leave button
   		And I select the leave type as "Annual/Recreation (Recreation)"
-  		And I select the duration as "Single Full Day"
+  		And I select the duration as "Full Day"
   		And I select the start date as 30 days in the future
   		And I enter the message as "this is a automation test for single day leave"
   		And I click submit button
   	Then I should see the success message is displayed if there is no overlapping days
 
   	
-@regression
+@Leave
    Scenario: Fixed Term Continuing staff: Apply for Leave- Apply multiple days leave
   	 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -29,9 +29,9 @@ Feature: Leave
   	When I am on leave page
   	And I click on Apply for Leave button
   		And I select the leave type as "Annual/Recreation (Recreation)"
-  		And I select the duration as "Multiple Full Days"
-  		And I select the start date as 30 days in the future
-  		And I select the end date as 35 days in the future
+  		And I select the duration as "Multiple Days"
+  		And I select the start date as 35 days in the future
+  		And I select the end date as 40 days in the future
   		And I enter the message as "this is a automation test for Multiple days leave"
   		And I click submit button
   	Then I should see the success message is displayed if there is no overlapping days
@@ -41,11 +41,10 @@ Feature: Leave
   	
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS
-  @regression
-  @skipped
+  @_Leave
   Scenario Outline: View my current Recreational leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -53,16 +52,15 @@ Feature: Leave
   	
   		Examples:
   	|Rec_Available | Rec_Pending  |Rec_Balance|Pers_Available | Pers_Pending  |Pers_Balance|
-  	|14.46         |0.00	      |    14.46  |                |            | |
+  	|21.54         |0.00	      |    21.54  |                |            | |
   	
 
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS
-  	 @regression
-  	 @skipped
+@_Leave
   Scenario Outline: View my current  Personal  leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -70,16 +68,15 @@ Feature: Leave
   	
   		Examples:
   	|Pers_Available | Pers_Pending  |Pers_Balance|
-  	|36.73         |0.00	      |    36.73 | 
+  	|32.06         |0.00	      |    32.06 | 
   	
   	
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS  	
-  	 @regression
-  	 @skipped
+@_Leave
   Scenario Outline: View my current Sick leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -92,11 +89,10 @@ Feature: Leave
   	
  # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS 		 	
-  	 @regression
-  	 @skipped
+@_Leave
   Scenario Outline: View my current Carer's leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -109,11 +105,10 @@ Feature: Leave
   	
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS  	
-  	  	 @regression
-  	  	 @skipped
+@_Leave
   Scenario Outline: View my current Long Service leave balances
   Given I am on myAurion login page
-   	  And I enter username as "uqksolom"
+   	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
@@ -121,11 +116,11 @@ Feature: Leave
   	
   		Examples:
   	|LS_Available | LS_Pending  |LS_Balance|
-  	|23.87        |0.00	      |    23.87 | 
+  	|26.52        |0.00	      |    26.52 | 
   	
   	
 # TODO: Implement step definitions
- @skipped	
+ @_to_be_automated
   Scenario: View my current leave balances
   	When I am on a leave page
   	And  I select hours button
@@ -134,8 +129,8 @@ Feature: Leave
   	
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution:   	Predict twice. Choose latter date and see balance increases.
- @regression
- @skipped	
+ @_Leave
+ @rusty
  Scenario Outline: Fixed Term Continuing staff - Predict Leave Balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -148,18 +143,17 @@ Feature: Leave
  	
  	Examples:
  	|futuredate|
-    |10/08/2017|
+    |10/11/2017|
  
  
  # TODO: Implement step definitions
- @skipped
+ @_to_be_automated
  Scenario: View my leave history
   	When I am on a leave page
   	Then I should see my leave history displayed
   	
 # TODO: Dependency. Create leave request if doesn't exist
-   @regression  
-    @skipped 
+   @Leave
   	Scenario:  Fixed Term Continuing staff - Delete Pending Leave Request
   	Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -171,11 +165,10 @@ Feature: Leave
   	Then I should see Delete success message displayed
   	
   	# TODO: Dependency. Create leave request if doesn't exist as a staff. Login back and continue as a supervisor
-  	@regression
-  	@skipped
+  	@Leave
   	 	 Scenario Outline:  Supervisor of fixed term continuing staff - Approve Leave Request
   Given I am on myAurion login page
-   	  And I enter username as "uqmblows"
+   	  And I enter username as "uqohoegh"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
@@ -189,13 +182,11 @@ Feature: Leave
    	
    		Examples:
   |LeaveStartdate|Action |
-  |01/09/2017    |Approve|
-  |04/09/2017    |Approve|
+    |04/09/2017    |Approve|
   	
   	
 # TODO: Dependency. Create leave request if doesn't exist
-  	@regression
-  	@skipped
+  	@Leave
 Scenario Outline: Fixed Term Continuing staff - Reverse Approved Leave Request End to End
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -210,16 +201,15 @@ Then I should see Leave reversal successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action |
-  |01/09/2017    |Reverse|
+  |15/08/2017    |Reverse|
   	
    	
    	
 # TODO: Dependency. Create leave request if doesn't exist
-   	  	@regression
-   	  	@skipped
+   	  	@Leave
  	 Scenario Outline:   Supervisor of fixed term continuing staff - Decline Leave Request
   Given I am on myAurion login page
-   	  And I enter username as "uqmblows"
+   	  And I enter username as "uqohoegh"
       And I enter password as "password123"
       And I click Login button
   When I am on MyTasks page
@@ -233,15 +223,14 @@ Then I should see Leave reversal successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action |
-  |05/09/2017    |Decline|
+  |12/09/2017    |Decline|
   
   
 # TODO: Dependency. Create leave request if doesn't exist
-  	@regression
-  	@skipped
+  	@Leave
 Scenario Outline:  Supervisor of fixed term continuing staff - Return Leave Request
 Given I am on myAurion login page
-   	  And I enter username as "uqmblows"
+   	  And I enter username as "uqohoegh"
       And I enter password as "password123"
       And I click Login button
 When I am on MyTasks page
@@ -255,12 +244,11 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |06/09/2017|Return|
+  |26/09/2017|Return|
    	
    	
 # TODO: Dependency. Create leave request if doesn't exist
-@regression
-@skipped
+@Leave
 Scenario Outline: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -277,12 +265,12 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |06/09/2017|Forward|
+  |26/09/2017|Forward|
    	
   
 # TODO: Dependency. Create leave request if doesn't exist
-@regression
-@skipped
+@Leave
+@rusty
 Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -295,7 +283,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
 #TODO Resolve dependancy: create leave request if doesn't exist already first.
-@skipped
+@Leave
    	Scenario Outline:  Fixed Term Continuing staff - Delete Pending Leave Request
   	Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -308,7 +296,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
   	
   	Examples:
   	|StartDate | EndDate  |
-  	|11/07/2017|11/07/2017|
+  	|30/08/2017|30/08/2017|
   
    	
    	
@@ -316,7 +304,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	 # TODO: Implement step definitions
-   	@skipped
+   	@_to_be_automated
    	 Scenario: View pending leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -325,7 +313,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	 # TODO: Implement step definitions
-   	@skipped
+   @_to_be_automated
   Scenario: View Approved leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -333,7 +321,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	Then I should see Approved leave applications in my queue
    	
    	 # TODO: Implement step definitions
-   	@skipped
+   @_to_be_automated
   Scenario: View Cancelled leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -342,7 +330,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	
    	 # TODO: Implement step definitions
-   	@skipped
+   	@_to_be_automated
    	 Scenario: Approve leaves  
   	When I am on MyTasks page
   		And I select Payroll action "Leave Applications"
@@ -350,7 +338,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	Then I should see pending leave applications in my queue
    	
    	 # TODO: Implement step definitions
-   		@skipped
+   		@_to_be_automated
    	 Scenario: View pending leave reversals
   	When I am on MyTasks page
   		And I select Payroll action "Leave Reversals"
@@ -359,7 +347,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	
    	 # TODO: Implement step definitions
    	
-   	@skipped
+   	@_to_be_automated
   Scenario: View Approved leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Reversals"
@@ -367,7 +355,7 @@ Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete
    	Then I should see Approved leave reversals in my queue
    	
    	 # TODO: Implement step definitions
-     	@skipped
+     	@_to_be_automated
   Scenario: View Cancelled leave applications
   	When I am on MyTasks page
   		And I select Payroll action "Leave Reversals"

@@ -1,10 +1,11 @@
-@HRProfile
+@_HRProfile
+@rusty
 Feature: HR Profile
 As a supervisor
 I want to be able to login to the My Aurion system
 So that I can view my HR Profile details
 
-@regression
+
 Scenario: MyAurion - Fixed Term Continuing staff - View HR Profile
 
 Given I am on myAurion login page

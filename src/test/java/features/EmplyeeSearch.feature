@@ -1,4 +1,4 @@
-@employeeSearch
+@_EmployeeSearch
 Feature: Employee Search
 As a supervisor
 I want to be able to login to the My Aurion system
@@ -11,8 +11,8 @@ So that I can search for and change employee to view my subordinates details
    #   And I enter password as "password123"
     #  And I click Login button
       
-  @regression 
-  @skipped
+  
+  
  Scenario Outline: Search for direct reports
  
  
@@ -30,11 +30,7 @@ Examples:
  
  
  
- 
- 
- 
-  @regression   
-  @skipped  
+   
  Scenario Outline: Supervisor - view subordinate's details
  
  
@@ -53,9 +49,7 @@ Examples:
  
  
  
-  @regression  
-  @skipped   
- Scenario Outline: Supervisor - Try to view subordinate's Payroll details
+  Scenario Outline: Supervisor - Try to view subordinate's Payroll details
  
  
  Given I am on myAurion login page
@@ -73,8 +67,6 @@ Examples:
  |BENDER-CHAMP, Dorothea     |BENDER-CHAMP, Dorothea|
  
  
-   @regression     
-  @skipped
  Scenario Outline: Supervisor - Try to view subordinate's Personal details
  
  
@@ -95,7 +87,7 @@ Examples:
  
  
   
-  @skipped
+  @_to_be_automated
   Scenario Outline: Search for indirect reports
  
  When I am on the DashboardPage
@@ -107,8 +99,8 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |	    |   |
  
- @regression 
-  @skipped
+  
+ @rusty
  Scenario: Search for employees- No results found
   
 
@@ -122,8 +114,7 @@ Then I should see the No results found message
 
 
  
-  
-  @skipped
+@_to_be_automated
  Scenario Outline: Search for direct reports and act on behalf of employee
  
  When I am on the DashboardPage
@@ -138,7 +129,7 @@ Examples:
   |2037164            | ASGARI, Sassan    |
   
   
-  @skipped
+  @_to_be_automated
  Scenario Outline: Act on behalf of employee and navigate to Payroll
  
  When I am on the Payroll page
@@ -154,7 +145,7 @@ Examples:
   |2004378             | AMY, Wendy J    |
   
     
-  @skipped
+@_to_be_automated
 Scenario Outline: Act on behalf of employee and navigate to personal details
  
  When I am on the Personal details page
@@ -171,9 +162,7 @@ Examples:
   
   
   
-  
-  @regression 
-  @skipped
+@rusty
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -191,9 +180,8 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
  
- 
- @regression 
-  @skipped
+
+@rusty
   Scenario Outline: Supervisor of casual staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -208,12 +196,12 @@ Then I should be able to see the Qualifications,Licences and Inductions details
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
- |KELLY, Caroline H      |KELLY, Caroline H|
+ |GABRIEL, Cle-Anne      |GABRIEL, Cle-Anne|
  
  
  
   
-  @skipped
+ @_to_be_automated
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view training history
  
  Given I am on myAurion login page
@@ -231,8 +219,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-@regression
-@skipped
+@_to_be_automated
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
  Given I am on myAurion login page
@@ -249,12 +236,10 @@ Examples:
 
 Examples:
  | EmployeeSearchPhrase | EmployeeToSelect| Future Date|
- |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea| 21/11/2017|
+ |VAN DEN HEUVEL, Annamieke      |VAN DEN HEUVEL, Annamieke| 21/11/2017|
  
-
-
   
-  @skipped
+@_to_be_automated
   Scenario Outline:  Supervisor of fixed term continuing staff - MyStaff view employment
  
  Given I am on myAurion login page
@@ -273,7 +258,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
   
-  @skipped
+@_to_be_automated
  Scenario Outline:  Supervisor of casual staff - MyStaff view employment
  
  Given I am on myAurion login page
