@@ -4,7 +4,6 @@ Feature: Leave
   So that I can apply a single day leave
 
 @Leave
-@rusty
   Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -14,7 +13,7 @@ Feature: Leave
   	And I click on Apply for Leave button
   		And I select the leave type as "Annual/Recreation (Recreation)"
   		And I select the duration as "Full Day"
-  		And I select the start date as 30 days in the future
+  		And I select the start date as 35 days in the future
   		And I enter the message as "this is a automation test for single day leave"
   		And I click submit button
   	Then I should see the success message is displayed if there is no overlapping days
@@ -42,17 +41,18 @@ Feature: Leave
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS
   @_Leave
+  @rusty123
   Scenario Outline: View my current Recreational leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
       And I enter password as "password123"
       And I click Login button
   	And I am on leave page
-  	Then I should see my "Recreational" leave balances displayed in days"<Rec_Available>""<Rec_Pending>""<Rec_Balance>"
+  	Then I should see my "Recreation" leave balances displayed in days"<Rec_Available>""<Rec_Pending>""<Rec_Balance>"
   	
   		Examples:
   	|Rec_Available | Rec_Pending  |Rec_Balance|Pers_Available | Pers_Pending  |Pers_Balance|
-  	|21.54         |0.00	      |    21.54  |                |            | |
+  	|21.77         |2.00	      |    19.77  |                |            | |
   	
 
 # TODO: Dependency. Not feasible to automate without data setup. 
@@ -68,12 +68,13 @@ Feature: Leave
   	
   		Examples:
   	|Pers_Available | Pers_Pending  |Pers_Balance|
-  	|32.06         |0.00	      |    32.06 | 
+  	|32.18         |0.00	      |    32.18 | 
   	
   	
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS  	
 @_Leave
+@rusty1
   Scenario Outline: View my current Sick leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -90,6 +91,7 @@ Feature: Leave
  # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS 		 	
 @_Leave
+@rusty1
   Scenario Outline: View my current Carer's leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -116,7 +118,7 @@ Feature: Leave
   	
   		Examples:
   	|LS_Available | LS_Pending  |LS_Balance|
-  	|26.52        |0.00	      |    26.52 | 
+  	|26.60        |0.00	      |    26.60 | 
   	
   	
 # TODO: Implement step definitions
@@ -130,7 +132,6 @@ Feature: Leave
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution:   	Predict twice. Choose latter date and see balance increases.
  @_Leave
- @rusty
  Scenario Outline: Fixed Term Continuing staff - Predict Leave Balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -165,7 +166,7 @@ Feature: Leave
   	Then I should see Delete success message displayed
   	
   	# TODO: Dependency. Create leave request if doesn't exist as a staff. Login back and continue as a supervisor
-  	@Leave
+ @reg_nonrep
   	 	 Scenario Outline:  Supervisor of fixed term continuing staff - Approve Leave Request
   Given I am on myAurion login page
    	  And I enter username as "uqohoegh"
@@ -182,11 +183,11 @@ Feature: Leave
    	
    		Examples:
   |LeaveStartdate|Action |
-    |04/09/2017    |Approve|
+    |06/10/2017    |Approve|
   	
   	
 # TODO: Dependency. Create leave request if doesn't exist
-  	@Leave
+  	@reg_nonrep
 Scenario Outline: Fixed Term Continuing staff - Reverse Approved Leave Request End to End
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -201,7 +202,7 @@ Then I should see Leave reversal successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action |
-  |15/08/2017    |Reverse|
+  |04/10/2017    |Reverse|
   	
    	
    	
@@ -223,11 +224,11 @@ Then I should see Leave reversal successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action |
-  |12/09/2017    |Decline|
+  |06/10/2017    |Decline|
   
   
 # TODO: Dependency. Create leave request if doesn't exist
-  	@Leave
+  @reg_nonrep
 Scenario Outline:  Supervisor of fixed term continuing staff - Return Leave Request
 Given I am on myAurion login page
    	  And I enter username as "uqohoegh"
@@ -244,11 +245,11 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |26/09/2017|Return|
+  |05/10/2017|Return|
    	
    	
 # TODO: Dependency. Create leave request if doesn't exist
-@Leave
+@reg_nonrep
 Scenario Outline: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)
 Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -265,12 +266,11 @@ Then I should see workflow action successful message displayed
    	
    		Examples:
   |LeaveStartdate|Action|
-  |26/09/2017|Forward|
+  |05/10/2017|Forward|
    	
   
 # TODO: Dependency. Create leave request if doesn't exist
 @Leave
-@rusty
 Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Delete)
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"

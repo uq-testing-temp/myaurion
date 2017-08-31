@@ -65,7 +65,6 @@ systems.each { system ->
                         url("${gitUrl}")
                         credentials('ed45b22c-3198-4f74-b334-c24cf6d3b6ee')
                     }
-                    branch('**/russell')
                 }
             }
             triggers { cron('@daily') }

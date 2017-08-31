@@ -86,6 +86,8 @@ public class PayrollPage extends DriverFactory {
 	@FindBy(id="cells-banking_and_deductions")
 	WebElement bankAccountLink;
 	
+	
+	
 	@FindBy(id="T500F190_NP_BANK_ACCOUNT")
 	WebElement accountNo;
 	
@@ -203,11 +205,12 @@ public class PayrollPage extends DriverFactory {
 
 	public void VerifyBankAccounts() throws Throwable {
 		
-		bankAccountLink.click();
+		//bankAccountLink.click();
+		CustomFunctions.CustomClick(this.bankAccountLink, 5);
+		Thread.sleep(1000);
 		CustomFunctions.CustomAssertTrue("Account number is displayed on Primary Account Details page", accountNo.isDisplayed());
 		
 	}
-	
 	
 	
 

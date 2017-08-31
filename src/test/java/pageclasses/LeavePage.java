@@ -371,7 +371,9 @@ public class LeavePage extends DriverFactory {
     public void ClickOnDelete() throws Throwable{
     
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	Thread.sleep(500);
     	CustomFunctions.CustomClick(DeleteBtn, 10);
+    	Thread.sleep(500);
     }
     
     public void ClickOnPredictButton() throws Throwable{

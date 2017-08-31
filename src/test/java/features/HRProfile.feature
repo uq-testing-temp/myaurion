@@ -1,5 +1,4 @@
 @_HRProfile
-@rusty
 Feature: HR Profile
 As a supervisor
 I want to be able to login to the My Aurion system

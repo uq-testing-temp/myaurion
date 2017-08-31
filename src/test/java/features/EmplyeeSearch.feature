@@ -1,4 +1,3 @@
-@_EmployeeSearch
 Feature: Employee Search
 As a supervisor
 I want to be able to login to the My Aurion system
@@ -12,7 +11,7 @@ So that I can search for and change employee to view my subordinates details
     #  And I click Login button
       
   
-  
+ @_EmployeeSearch 
  Scenario Outline: Search for direct reports
  
  
@@ -30,7 +29,7 @@ Examples:
  
  
  
-   
+ @_EmployeeSearch  
  Scenario Outline: Supervisor - view subordinate's details
  
  
@@ -48,7 +47,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
  
- 
+ @_EmployeeSearch
   Scenario Outline: Supervisor - Try to view subordinate's Payroll details
  
  
@@ -66,7 +65,7 @@ Examples:
  | EmployeeSearchPhrase | EmployeeToSelect|
  |BENDER-CHAMP, Dorothea     |BENDER-CHAMP, Dorothea|
  
- 
+ @_EmployeeSearch
  Scenario Outline: Supervisor - Try to view subordinate's Personal details
  
  
@@ -100,7 +99,6 @@ Examples:
  |	    |   |
  
   
- @rusty
  Scenario: Search for employees- No results found
   
 
@@ -161,8 +159,7 @@ Examples:
   |2004378             | AMY, Wendy J    |
   
   
-  
-@rusty
+ @_EmployeeSearch 
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -180,8 +177,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
  
  
-
-@rusty
+@_EmployeeSearch
   Scenario Outline: Supervisor of casual staff - MyStaff view details
  
  Given I am on myAurion login page
@@ -219,7 +215,7 @@ Examples:
  |BENDER-CHAMP, Dorothea      |BENDER-CHAMP, Dorothea|
 
 
-@_to_be_automated
+@_EmployeeSearch
   Scenario Outline: Supervisor of fixed term continuing staff - MyStaff leave
  
  Given I am on myAurion login page

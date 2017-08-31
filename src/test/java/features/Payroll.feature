@@ -11,8 +11,7 @@ Background:
       And I click Login button
 
 
-@_Payroll 
-@rusty
+@_Payroll
 Scenario: View current bank account
  	When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
@@ -22,7 +21,7 @@ Scenario: View current bank account
  Scenario Outline: Update current bank account
  When I am on Payroll page
  	And I select Payroll action "Accounts and Deductions"
- 	And I select the current bank account "<AccountNumber>"
+ 	And I select my current bank account "<AccountNumber>" 
  	And I select branch "<Branch>"
  	And I add account number "<AccountNumber>"
  	And I add payee "<Payee>"
@@ -31,7 +30,7 @@ Scenario: View current bank account
  
  Examples:
   | AccountNumber | Branch    | AccountNumber |Payee |
-  
+  |693712|734002 WBC Brisbane (734002)|693712||
   
 @_to_be_automated
   Scenario Outline: Add secondary bank account
@@ -150,7 +149,6 @@ Scenario: View current bank account
   
   
 @_Payroll
-@rusty
   Scenario Outline: Casual staff - Access ATO Payment Summary
  When I am on Payroll page
  	And I select Payroll action "ATO Payment Summaries"

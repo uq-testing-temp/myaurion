@@ -20,6 +20,7 @@ public class PayrollSteps extends DriverFactory {
 		new PayrollPage(driver).SelectPayrollSections(Action);
 	}
 	
+	
 			
 	@When("^I select the summary for date\"(.*)\"$")
 	public void I_Select_summary_for_date(String dateval) throws Throwable{
@@ -35,8 +36,6 @@ public class PayrollSteps extends DriverFactory {
 			
 		
 	}
-	
-	
 	
 	@Then("^I should see my pay summary details\"(.*)\"and\"(.*)\"$")
 	public void I_should_see_PayDetails(String GrossPay, String Netpay) throws Throwable{
