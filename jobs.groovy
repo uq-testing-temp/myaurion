@@ -7,13 +7,12 @@ def systems = [
 
 
 def myaurionsmokeTags = [
-"_Login",
-"_EmploymentHistory",
+"_login",
+"__employmenthistory",
 "_EmployeeSearch",
  "_HRProfile" ,
 "_Training" ,
- "_Leave" ,
- "_SupervisorTasks" ,
+ "_Leave"  ,
  "_Timesheet" ,
 "_Payroll" ,
 "_MenuJourney"
@@ -21,12 +20,8 @@ def myaurionsmokeTags = [
 
 def myaurionRegressionTags = [
 "PersonalDetails" ,
-"Training" ,
-"StaffSchedule" ,
 "Leave" ,
-"SupervisorTasks" ,
-"Timesheet" ,
-"Payroll" 
+"Timesheet" 
 ]
 
 
@@ -65,7 +60,6 @@ systems.each { system ->
                         url("${gitUrl}")
                         credentials('ed45b22c-3198-4f74-b334-c24cf6d3b6ee')
                     }
-                    branch('**/russell')
                 }
             }
             triggers { cron('@daily') }

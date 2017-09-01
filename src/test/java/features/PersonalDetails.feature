@@ -1,10 +1,9 @@
-@PersonalDetails
 Feature: Update Personal Details
 As a user/employee
 I want to be able to login to the My Aurion system
 So that I can view and update my personal details
 
-@rusty
+@PersonalDetails
 Scenario Outline: Fixed Term Continuing staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -29,7 +28,7 @@ Examples:
 | Name | HomePhone | Mobile 	 | Email 				| Street		  | Comments 		  |nextofkin|
 | Hello| 0797979   | 04123456789 | Hello@mailinator.com | My New Street| No Comments at all |Yes		|
 
-
+@PersonalDetails
 Scenario Outline: View and update emergency contacts- Foreign contacts
 
 Given I am on myAurion login page
@@ -59,8 +58,7 @@ Examples:
 |Foreign contact| 07979794645   | 04123456789 | Hello.external@mailinator.com | Mother | My New Street|New York|NY|NY2585|USA |No Comments at all here |
 
 
-
-@rusty
+@PersonalDetails
 Scenario Outline: Casual staff - View and update emergency contacts
 
 Given I am on myAurion login page
@@ -87,8 +85,7 @@ Examples:
 |Priority | Name | HomePhone | Mobile | Email | Relationship | Street| PostCode | Comments |nextofkin|
 |11		  | Test User| 0797979   | 04123456789 | Hello@mailinator.com | Aunt | My New Street|4074| No Comments at all |Yes|
 
-
-@rusty
+@PersonalDetails
 Scenario Outline: Fixed Term Continuing staff - View and update personal details
 
 Given I am on myAurion login page

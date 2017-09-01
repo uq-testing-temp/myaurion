@@ -295,10 +295,10 @@ Feature: Timesheet
    	
    		Examples:
   |TimesheetStartdate|Action|EmployeeName|
-  |24/12/2016        |Return|Adam Smith  |
+  |12/11/2016        |Return|Adam Smith  |
   	
   	
-@Timesheet
+@reg_nonrep
  Scenario Outline:  Supervisor of casual staff - Review and Edit Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -332,7 +332,7 @@ Feature: Timesheet
   
   
   
-  	  @Timesheet
+  	@reg_nonrep
  Scenario Outline:  Supervisor of casual staff - Review and Edit Current Timesheet
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -364,7 +364,7 @@ Feature: Timesheet
   
   
   
-   	   @Timesheet  	
+   	 @reg_nonrep  	
  Scenario Outline:  Supervisor of casual staff - Review and Update Timesheet using Detailed View
   Given I am on myAurion login page
    	  And I enter username as "uqdangus"
@@ -423,7 +423,7 @@ Feature: Timesheet
   	
   	Examples:
   	|WhichDay|Dated      |
-  	|20161213|10/12/2016 |
+  	|20161212|10/12/2016 |
   	
   	
   	
@@ -446,7 +446,7 @@ Feature: Timesheet
   	
   	Examples:
   	|Supervisor|TimesheetStartdate     |
-  	|Daniel Angus  |24/12/2016 |
+  	|Daniel Angus  |12/11/2016 |
   	
   
 @Timesheet
@@ -468,7 +468,7 @@ Feature: Timesheet
   	|26/11/2016 |
   	
   	  
-@Timesheet
+@reg_nonrep
   Scenario Outline: Casual staff - Recall Submitted Timesheet
   
   	 Given I am on myAurion login page

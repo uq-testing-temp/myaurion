@@ -11287,3 +11287,846 @@ Session ID: 7e9693298c7bff12b3b2ecd7d4b8c26f
 2017-08-30 16:58:41,918 WARN  [Log] Failed to capture screenshot: null 
 2017-08-30 16:58:46,580 INFO  [Log] **********************End of the test*********************** 
 2017-08-30 16:58:46,581 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View and update staff diversity details************************************* 
+2017-08-31 09:24:33,182 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 09:24:33,189 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-08-31 09:24:33,197 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 09:24:33,199 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-08-31 09:24:36,317 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (518052288f4c63ed5beebcad4b1c6100)] -> id: login-button] 
+2017-08-31 09:24:44,064 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (518052288f4c63ed5beebcad4b1c6100)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 09:24:44,168 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (518052288f4c63ed5beebcad4b1c6100)] -> link text: Leave] 
+2017-08-31 09:24:46,813 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (518052288f4c63ed5beebcad4b1c6100)] -> id: btnPredictLeave] 
+2017-08-31 09:24:47,049 INFO  [Log] 'Type'column found 
+2017-08-31 09:24:47,056 INFO  [Log] Taking a screenshot noname1504135473 
+2017-08-31 09:24:47,763 INFO  [Log] 'Days'column found 
+2017-08-31 09:24:47,765 INFO  [Log] Taking a screenshot noname1504135473 
+2017-08-31 09:24:48,273 INFO  [Log] 'Hours'column found 
+2017-08-31 09:24:48,274 INFO  [Log] Taking a screenshot noname1504135473 
+2017-08-31 09:24:48,652 INFO  [Log] 'Rate'column found 
+2017-08-31 09:24:48,653 INFO  [Log] Taking a screenshot noname1504135473 
+2017-08-31 09:24:49,045 INFO  [Log] 'Predicted'column found 
+2017-08-31 09:24:49,046 INFO  [Log] Taking a screenshot noname1504135473 
+2017-08-31 09:24:49,408 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff leaveTest Passed 
+2017-08-31 09:24:49,409 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - MyStaff leave1504135473 
+2017-08-31 09:24:50,856 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 09:24:50,857 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-08-31 09:24:50,863 INFO  [Log] Supervisor of fixed term continuing staff - MyStaff leaveTest Passed 
+2017-08-31 09:24:50,864 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - MyStaff leave1504135473 
+2017-08-31 09:24:50,865 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 09:24:55,364 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 09:24:55,365 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - MyStaff leave************************************* 
+2017-08-31 10:07:35,425 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:07:35,427 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-08-31 10:07:35,435 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:07:35,436 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-08-31 10:07:38,115 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37c8c34befb932c19df74145d7f9643e)] -> id: login-button] 
+2017-08-31 10:07:46,642 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (37c8c34befb932c19df74145d7f9643e)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Payment Summaries')]] 
+2017-08-31 10:07:46,928 INFO  [Log] Found the resut and selecting it '30/06/2015 
+2017-08-31 10:07:46,929 INFO  [Log] The entry in the ATO paysummary list found as expected 
+2017-08-31 10:07:46,936 INFO  [Log] Taking a screenshot noname1504138055 
+2017-08-31 10:07:47,615 INFO  [Log] The link to download summary pdf for date'30/06/2015' found in the ATO summarylist 
+2017-08-31 10:07:47,617 INFO  [Log] Taking a screenshot noname1504138055 
+2017-08-31 10:07:48,198 INFO  [Log] Fixed Term Continuing staff - Access ATO Payment SummaryTest Passed 
+2017-08-31 10:07:48,200 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Access ATO Payment Summary1504138055 
+2017-08-31 10:07:49,723 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:07:49,724 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-08-31 10:07:49,731 INFO  [Log] Fixed Term Continuing staff - Access ATO Payment SummaryTest Passed 
+2017-08-31 10:07:49,732 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Access ATO Payment Summary1504138055 
+2017-08-31 10:07:49,733 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:07:54,417 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:07:54,418 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Access ATO Payment Summary************************************* 
+2017-08-31 10:11:51,016 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:11:51,018 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:11:51,033 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:11:51,034 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:11:53,183 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1bafbc4ccc5630beb3ee46fc2430da32)] -> id: login-button] 
+2017-08-31 10:11:56,836 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1bafbc4ccc5630beb3ee46fc2430da32)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:11:56,935 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1bafbc4ccc5630beb3ee46fc2430da32)] -> link text: Leave] 
+2017-08-31 10:11:58,676 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1bafbc4ccc5630beb3ee46fc2430da32)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:12:46,459 INFO  [Log] Success message Displayed 
+2017-08-31 10:12:46,472 INFO  [Log] Taking a screenshot noname1504138311 
+2017-08-31 10:12:47,185 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:12:47,186 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138311 
+2017-08-31 10:12:47,560 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138311.png (The system cannot find the file specified) 
+2017-08-31 10:12:48,625 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:12:48,626 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:12:48,634 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:12:48,635 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138311 
+2017-08-31 10:12:48,637 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:12:53,376 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:12:53,377 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:13:09,161 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:13:09,163 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:13:09,172 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:13:09,173 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:13:11,295 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2610773877f2ec6e0e31d46bd58a43de)] -> id: login-button] 
+2017-08-31 10:13:15,854 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2610773877f2ec6e0e31d46bd58a43de)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:13:15,955 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2610773877f2ec6e0e31d46bd58a43de)] -> link text: Leave] 
+2017-08-31 10:13:17,672 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2610773877f2ec6e0e31d46bd58a43de)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:14:05,184 INFO  [Log] Success message Displayed 
+2017-08-31 10:14:05,193 INFO  [Log] Taking a screenshot noname1504138389 
+2017-08-31 10:14:05,839 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:14:05,841 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138389 
+2017-08-31 10:14:06,211 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138389.png (The system cannot find the file specified) 
+2017-08-31 10:14:07,254 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:14:07,255 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:14:07,261 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:14:07,262 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138389 
+2017-08-31 10:14:07,263 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:14:12,012 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:14:12,013 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:14:25,579 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:14:25,581 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:14:25,590 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:14:25,591 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:14:27,718 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eead6373c616acde30a8a7507f111451)] -> id: login-button] 
+2017-08-31 10:14:31,327 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eead6373c616acde30a8a7507f111451)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:14:31,434 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eead6373c616acde30a8a7507f111451)] -> link text: Leave] 
+2017-08-31 10:14:33,078 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (eead6373c616acde30a8a7507f111451)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:14:52,401 INFO  [Log] Success message Displayed 
+2017-08-31 10:14:52,408 INFO  [Log] Taking a screenshot noname1504138466 
+2017-08-31 10:14:53,035 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:14:53,037 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138466 
+2017-08-31 10:14:53,402 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138466.png (The system cannot find the file specified) 
+2017-08-31 10:14:54,547 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:14:54,548 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:14:54,555 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:14:54,556 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138466 
+2017-08-31 10:14:54,558 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:14:59,185 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:14:59,204 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:20:06,315 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:20:06,317 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-08-31 10:20:06,328 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:20:06,329 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-08-31 10:20:08,536 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> id: login-button] 
+2017-08-31 10:20:12,293 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:20:12,413 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> link text: My Tasks] 
+2017-08-31 10:20:13,971 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 10:20:14,097 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 10:20:14,219 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'04/10/2017')]] 
+2017-08-31 10:20:17,112 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> name: approve] 
+2017-08-31 10:20:18,045 INFO  [Log] Entering 'this is a automation test for Leave Approval' into the field '[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-08-31 10:20:18,724 INFO  [Log] Entering the text: 'this is a automation test for Leave Approval' Into the field '[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> id: N902F035_REPLY_MESSAGE] 
+2017-08-31 10:20:19,026 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (64e43de5ec004c12676c01cad48f4d6f)] -> xpath: .//button[contains(text(),'Approve')]] 
+2017-08-31 10:20:20,635 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-08-31 10:20:20,648 INFO  [Log] Taking a screenshot noname1504138806 
+2017-08-31 10:20:21,426 INFO  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Passed 
+2017-08-31 10:20:21,429 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Approve Leave Request1504138806 
+2017-08-31 10:20:23,376 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:20:23,383 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-08-31 10:20:23,412 INFO  [Log] Supervisor of fixed term continuing staff - Approve Leave RequestTest Passed 
+2017-08-31 10:20:23,416 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Approve Leave Request1504138806 
+2017-08-31 10:20:23,421 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:20:31,642 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:20:31,647 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Approve Leave Request************************************* 
+2017-08-31 10:22:34,435 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:22:34,436 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:22:34,444 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:22:34,445 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:22:36,500 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (016abf8999bc5f8f1511039c390752ce)] -> id: login-button] 
+2017-08-31 10:22:40,134 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (016abf8999bc5f8f1511039c390752ce)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:22:40,246 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (016abf8999bc5f8f1511039c390752ce)] -> link text: Leave] 
+2017-08-31 10:22:41,999 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (016abf8999bc5f8f1511039c390752ce)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:23:01,649 INFO  [Log] Success message Displayed 
+2017-08-31 10:23:01,655 INFO  [Log] Taking a screenshot noname1504138954 
+2017-08-31 10:23:02,289 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:23:02,291 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138954 
+2017-08-31 10:23:02,671 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138954.png (The system cannot find the file specified) 
+2017-08-31 10:23:03,721 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:23:03,722 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:23:03,728 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:23:03,729 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504138954 
+2017-08-31 10:23:03,730 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:23:08,435 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:23:08,436 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:23:12,177 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:23:12,178 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-08-31 10:23:12,185 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:23:12,186 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-08-31 10:23:13,892 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> id: login-button] 
+2017-08-31 10:23:17,541 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:23:17,648 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> link text: My Tasks] 
+2017-08-31 10:23:19,023 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 10:23:19,135 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 10:23:19,239 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'05/10/2017')]] 
+2017-08-31 10:23:21,994 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> name: decline] 
+2017-08-31 10:23:22,830 INFO  [Log] Entering 'this is a automation test for Leave Decline' into the field '[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-08-31 10:23:23,486 INFO  [Log] Entering the text: 'this is a automation test for Leave Decline' Into the field '[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> id: N902F035_REPLY_MESSAGE] 
+2017-08-31 10:23:23,759 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (87c5a3329b0c8645b503d5e1be1410e0)] -> xpath: .//button[contains(text(),'Decline')]] 
+2017-08-31 10:23:25,295 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-08-31 10:23:25,296 INFO  [Log] Taking a screenshot noname1504138954 
+2017-08-31 10:23:25,890 INFO  [Log] Supervisor of fixed term continuing staff - Decline Leave RequestTest Passed 
+2017-08-31 10:23:25,891 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Decline Leave Request1504138954 
+2017-08-31 10:23:27,209 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:23:27,211 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-08-31 10:23:27,219 INFO  [Log] Supervisor of fixed term continuing staff - Decline Leave RequestTest Passed 
+2017-08-31 10:23:27,220 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Decline Leave Request1504138954 
+2017-08-31 10:23:27,221 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:23:31,854 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:23:31,855 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Decline Leave Request************************************* 
+2017-08-31 10:25:57,300 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:25:57,302 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:25:57,309 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:25:57,310 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:25:59,375 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4226a96aa0800c89183b36343db193d)] -> id: login-button] 
+2017-08-31 10:26:03,038 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4226a96aa0800c89183b36343db193d)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:26:03,139 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4226a96aa0800c89183b36343db193d)] -> link text: My Tasks] 
+2017-08-31 10:26:04,521 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4226a96aa0800c89183b36343db193d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 10:26:04,634 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e4226a96aa0800c89183b36343db193d)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 10:26:34,856 WARN  [Log] 'Supervisor of fixed term continuing staff - Return Leave Request':  Test Failed 
+2017-08-31 10:26:34,857 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave RequestFailed1504139157 
+2017-08-31 10:26:36,461 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:26:36,462 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave RequestFailed************************************* 
+2017-08-31 10:26:36,469 WARN  [Log] 'Supervisor of fixed term continuing staff - Return Leave Request':  Test Failed 
+2017-08-31 10:26:36,469 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave RequestFailed1504139157 
+2017-08-31 10:26:36,470 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:26:40,872 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:26:40,873 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave RequestFailed************************************* 
+2017-08-31 10:26:56,898 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:26:56,900 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:26:56,909 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:26:56,910 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:26:58,988 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> id: login-button] 
+2017-08-31 10:27:02,697 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:27:02,794 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> link text: My Tasks] 
+2017-08-31 10:27:04,224 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 10:27:04,342 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 10:27:04,454 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'28/09/2017')]] 
+2017-08-31 10:27:07,264 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> name: return] 
+2017-08-31 10:27:08,128 INFO  [Log] Entering 'this is a automation test for Leave Return' into the field '[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-08-31 10:27:08,781 INFO  [Log] Entering the text: 'this is a automation test for Leave Return' Into the field '[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> id: N902F035_REPLY_MESSAGE] 
+2017-08-31 10:27:09,090 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (2a03a135bf781de7daa37c9c52d14617)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-08-31 10:27:10,579 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-08-31 10:27:10,586 INFO  [Log] Taking a screenshot noname1504139217 
+2017-08-31 10:27:11,224 INFO  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Passed 
+2017-08-31 10:27:11,226 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave Request1504139217 
+2017-08-31 10:27:12,821 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:27:12,823 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:27:12,829 INFO  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Passed 
+2017-08-31 10:27:12,830 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave Request1504139217 
+2017-08-31 10:27:12,831 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:27:17,347 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:27:17,348 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 10:29:14,775 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:29:14,777 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:29:14,786 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:29:14,786 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:29:16,847 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078e74f82dd7345a3cdeeddc877617b1)] -> id: login-button] 
+2017-08-31 10:29:20,741 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078e74f82dd7345a3cdeeddc877617b1)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:29:20,849 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078e74f82dd7345a3cdeeddc877617b1)] -> link text: Leave] 
+2017-08-31 10:29:22,816 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-31 10:29:22,819 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (078e74f82dd7345a3cdeeddc877617b1)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 10:29:23,360 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (078e74f82dd7345a3cdeeddc877617b1)] -> id: btnDelete] 
+2017-08-31 10:29:53,497 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:29:53,499 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139355 
+2017-08-31 10:29:55,035 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:29:55,036 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:29:55,043 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:29:55,044 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139355 
+2017-08-31 10:29:55,045 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:29:59,438 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:29:59,439 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:31:47,152 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:31:47,154 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:31:47,163 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:31:47,164 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:31:49,512 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8ff8b9602cb797de0ec101262f3b1f01)] -> id: login-button] 
+2017-08-31 10:31:53,162 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8ff8b9602cb797de0ec101262f3b1f01)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:31:53,271 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8ff8b9602cb797de0ec101262f3b1f01)] -> link text: Leave] 
+2017-08-31 10:31:55,098 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8ff8b9602cb797de0ec101262f3b1f01)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:32:14,533 INFO  [Log] Success message Displayed 
+2017-08-31 10:32:14,539 INFO  [Log] Taking a screenshot noname1504139507 
+2017-08-31 10:32:15,206 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:32:15,207 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139507 
+2017-08-31 10:32:15,541 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139507.png (The system cannot find the file specified) 
+2017-08-31 10:32:16,640 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:32:16,641 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:32:16,649 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:32:16,651 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139507 
+2017-08-31 10:32:16,653 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:32:21,170 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:32:21,171 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:32:24,864 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:32:24,865 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:32:24,871 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:32:24,872 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:32:26,468 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d483e1bc10cb96e33840ebfaa5579465)] -> id: login-button] 
+2017-08-31 10:32:30,102 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d483e1bc10cb96e33840ebfaa5579465)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:32:30,208 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d483e1bc10cb96e33840ebfaa5579465)] -> link text: Leave] 
+2017-08-31 10:32:32,089 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-31 10:32:32,092 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (d483e1bc10cb96e33840ebfaa5579465)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 10:32:32,638 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (d483e1bc10cb96e33840ebfaa5579465)] -> id: btnDelete] 
+2017-08-31 10:33:02,777 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:33:02,778 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139507 
+2017-08-31 10:33:04,121 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:33:04,122 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:33:04,129 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:33:04,130 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139507 
+2017-08-31 10:33:04,131 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:33:08,820 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:33:08,821 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:37:02,753 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:37:02,755 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:37:02,764 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:37:02,765 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:37:04,808 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ecd16a2aa272ba01a1965a95c42ae832)] -> id: login-button] 
+2017-08-31 10:37:08,798 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ecd16a2aa272ba01a1965a95c42ae832)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:37:08,898 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ecd16a2aa272ba01a1965a95c42ae832)] -> link text: Leave] 
+2017-08-31 10:37:10,624 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (ecd16a2aa272ba01a1965a95c42ae832)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:37:30,025 INFO  [Log] Success message Displayed 
+2017-08-31 10:37:30,032 INFO  [Log] Taking a screenshot noname1504139823 
+2017-08-31 10:37:30,668 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:37:30,670 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139823 
+2017-08-31 10:37:31,055 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139823.png (The system cannot find the file specified) 
+2017-08-31 10:37:32,095 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:37:32,096 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:37:32,104 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:37:32,105 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504139823 
+2017-08-31 10:37:32,107 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:37:36,625 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:37:36,627 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:37:40,141 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:37:40,142 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:37:40,147 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:37:40,149 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:37:41,751 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3089688b1725a80135cbebda86e45e0f)] -> id: login-button] 
+2017-08-31 10:37:45,411 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3089688b1725a80135cbebda86e45e0f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:37:45,520 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3089688b1725a80135cbebda86e45e0f)] -> link text: Leave] 
+2017-08-31 10:37:47,489 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-31 10:37:47,492 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (3089688b1725a80135cbebda86e45e0f)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 10:37:48,532 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3089688b1725a80135cbebda86e45e0f)] -> id: btnDelete] 
+2017-08-31 10:38:19,221 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:38:19,222 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139823 
+2017-08-31 10:38:20,552 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:38:20,553 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:38:20,559 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:38:20,560 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504139823 
+2017-08-31 10:38:20,561 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:38:25,003 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:38:25,004 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:43:52,521 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:43:52,522 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:43:52,530 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:43:52,531 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:43:54,546 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (44c150c561d30505da4cbb4303e5e6dd)] -> id: login-button] 
+2017-08-31 10:43:58,412 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (44c150c561d30505da4cbb4303e5e6dd)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:43:58,519 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (44c150c561d30505da4cbb4303e5e6dd)] -> link text: Leave] 
+2017-08-31 10:44:00,281 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (44c150c561d30505da4cbb4303e5e6dd)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:44:19,602 INFO  [Log] Success message Displayed 
+2017-08-31 10:44:19,609 INFO  [Log] Taking a screenshot noname1504140232 
+2017-08-31 10:44:20,214 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:44:20,215 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140232 
+2017-08-31 10:44:20,588 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140232.png (The system cannot find the file specified) 
+2017-08-31 10:44:21,656 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:44:21,658 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:44:21,664 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:44:21,665 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140232 
+2017-08-31 10:44:21,666 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:44:26,034 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:44:26,038 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:44:29,602 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:44:29,603 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:44:29,609 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:44:29,610 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:44:31,307 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4a125e11593ff2fcb25975a863368531)] -> id: login-button] 
+2017-08-31 10:44:34,990 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4a125e11593ff2fcb25975a863368531)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:44:35,095 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4a125e11593ff2fcb25975a863368531)] -> link text: Leave] 
+2017-08-31 10:44:36,910 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-31 10:44:36,913 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (4a125e11593ff2fcb25975a863368531)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 10:44:38,027 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4a125e11593ff2fcb25975a863368531)] -> id: btnDelete] 
+2017-08-31 10:45:08,694 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:45:08,695 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504140232 
+2017-08-31 10:45:10,041 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:45:10,042 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:45:10,048 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:45:10,049 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504140232 
+2017-08-31 10:45:10,051 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:45:14,541 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:45:14,542 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:46:10,083 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:46:10,084 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:46:10,092 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:46:10,093 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:46:12,174 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6efc31e0c0fecffefceefe75d30795ed)] -> id: login-button] 
+2017-08-31 10:46:16,426 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6efc31e0c0fecffefceefe75d30795ed)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:46:16,524 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6efc31e0c0fecffefceefe75d30795ed)] -> link text: Leave] 
+2017-08-31 10:46:18,261 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (6efc31e0c0fecffefceefe75d30795ed)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 10:46:37,894 INFO  [Log] Success message Displayed 
+2017-08-31 10:46:37,901 INFO  [Log] Taking a screenshot noname1504140370 
+2017-08-31 10:46:38,560 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:46:38,561 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140370 
+2017-08-31 10:46:38,905 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140370.png (The system cannot find the file specified) 
+2017-08-31 10:46:39,933 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:46:39,935 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:46:39,941 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 10:46:39,942 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504140370 
+2017-08-31 10:46:39,943 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:46:44,535 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:46:44,536 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 10:46:48,318 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:46:48,319 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:46:48,325 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:46:48,326 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave Request************************************* 
+2017-08-31 10:46:49,899 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c87d921f5e597c1c2cbe1dcea74dfb33)] -> id: login-button] 
+2017-08-31 10:46:53,575 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c87d921f5e597c1c2cbe1dcea74dfb33)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 10:46:53,676 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c87d921f5e597c1c2cbe1dcea74dfb33)] -> link text: Leave] 
+2017-08-31 10:46:55,722 INFO  [Log] Found the cell with text and selecting it 'Pending' 
+2017-08-31 10:46:55,725 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (c87d921f5e597c1c2cbe1dcea74dfb33)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 10:46:56,859 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c87d921f5e597c1c2cbe1dcea74dfb33)] -> id: btnDelete] 
+2017-08-31 10:47:27,507 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:47:27,508 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504140370 
+2017-08-31 10:47:28,832 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:47:28,833 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:47:28,840 WARN  [Log] 'Fixed Term Continuing staff - Delete Pending Leave Request':  Test Failed 
+2017-08-31 10:47:28,841 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Delete Pending Leave RequestFailed1504140370 
+2017-08-31 10:47:28,842 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:47:33,139 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:47:33,140 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Delete Pending Leave RequestFailed************************************* 
+2017-08-31 10:57:17,019 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:57:17,021 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:17,028 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:57:17,029 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:19,214 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55d2fdc3f1d721c2d6bde9215bc1b421)] -> id: login-button] 
+2017-08-31 10:57:26,611 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (55d2fdc3f1d721c2d6bde9215bc1b421)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-08-31 10:57:26,849 INFO  [Log] Found the resut and selecting it 'Click here to view current year financial information 
+2017-08-31 10:57:27,471 INFO  [Log] Year to date page is displayed 
+2017-08-31 10:57:27,478 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:28,126 INFO  [Log] Year to date table is displayed 
+2017-08-31 10:57:28,127 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:28,938 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-08-31 10:57:28,941 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (55d2fdc3f1d721c2d6bde9215bc1b421)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-08-31 10:57:31,806 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-08-31 10:57:31,807 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:32,237 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Passed 
+2017-08-31 10:57:32,239 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View year to date for current or previous financial year1504141037 
+2017-08-31 10:57:33,790 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:57:33,791 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:33,799 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Passed 
+2017-08-31 10:57:33,800 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View year to date for current or previous financial year1504141037 
+2017-08-31 10:57:33,801 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:57:38,930 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:57:38,931 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:42,637 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:57:42,639 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:42,644 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 10:57:42,645 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:44,278 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f04b3c733d3ffa99c3c5b37e8ba8bd82)] -> id: login-button] 
+2017-08-31 10:57:51,539 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (f04b3c733d3ffa99c3c5b37e8ba8bd82)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Year to Date')]] 
+2017-08-31 10:57:51,756 INFO  [Log] Found the resut and selecting it 'Click here to view previous year financial information 
+2017-08-31 10:57:52,632 INFO  [Log] Year to date page is displayed 
+2017-08-31 10:57:52,633 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:53,187 INFO  [Log] Year to date table is displayed 
+2017-08-31 10:57:53,227 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:54,516 INFO  [Log] Found the cell with text and selecting it 'Tax Paid' 
+2017-08-31 10:57:54,519 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (f04b3c733d3ffa99c3c5b37e8ba8bd82)] -> xpath: .//table[@id='ytdlist-list']]] -> xpath: .//td] 
+2017-08-31 10:57:57,613 INFO  [Log] Tax paid break down is displayed while selecting Tax Paid row in the summary 
+2017-08-31 10:57:57,614 INFO  [Log] Taking a screenshot noname1504141037 
+2017-08-31 10:57:58,075 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Passed 
+2017-08-31 10:57:58,077 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View year to date for current or previous financial year1504141037 
+2017-08-31 10:57:59,385 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:57:59,386 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 10:57:59,393 INFO  [Log] Fixed Term Continuing staff - View year to date for current or previous financial yearTest Passed 
+2017-08-31 10:57:59,393 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - View year to date for current or previous financial year1504141037 
+2017-08-31 10:57:59,394 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 10:58:04,047 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 10:58:04,048 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - View year to date for current or previous financial year************************************* 
+2017-08-31 11:00:24,069 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:00:24,070 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:00:24,079 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:00:24,080 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:00:26,066 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5306d212d555b24ba1497a300da8d4dd)] -> id: login-button] 
+2017-08-31 11:00:29,802 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5306d212d555b24ba1497a300da8d4dd)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 11:00:29,906 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5306d212d555b24ba1497a300da8d4dd)] -> link text: Leave] 
+2017-08-31 11:00:31,797 INFO  [Log] Found the cell with text and selecting it '04/10/2017' 
+2017-08-31 11:00:31,800 INFO  [Log] Clicking on[[[[ChromeDriver: chrome on XP (5306d212d555b24ba1497a300da8d4dd)] -> xpath: .//table[@id='panel-history-list']]] -> xpath: .//td] 
+2017-08-31 11:00:32,309 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (5306d212d555b24ba1497a300da8d4dd)] -> xpath: .//button[contains(text(),'Reverse')]] 
+2017-08-31 11:00:38,486 INFO  [Log] LeaveReversal Success message Displayed 
+2017-08-31 11:00:38,493 INFO  [Log] Taking a screenshot noname1504141224 
+2017-08-31 11:00:39,116 INFO  [Log] Fixed Term Continuing staff - Reverse Approved Leave Request End to EndTest Passed 
+2017-08-31 11:00:39,117 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Reverse Approved Leave Request End to End1504141224 
+2017-08-31 11:00:40,697 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:00:40,698 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:00:40,706 INFO  [Log] Fixed Term Continuing staff - Reverse Approved Leave Request End to EndTest Passed 
+2017-08-31 11:00:40,707 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Reverse Approved Leave Request End to End1504141224 
+2017-08-31 11:00:40,709 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 11:00:45,152 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:00:45,153 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:14:40,132 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:14:40,134 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:14:40,141 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:14:40,143 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to End************************************* 
+2017-08-31 11:14:42,224 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e478029cf056b0f74c1858582901cb3f)] -> id: login-button] 
+2017-08-31 11:14:45,950 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e478029cf056b0f74c1858582901cb3f)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 11:14:46,047 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e478029cf056b0f74c1858582901cb3f)] -> link text: Leave] 
+2017-08-31 11:15:19,062 INFO  [Log] Clicking onProxy element for: DefaultElementLocator 'By.xpath: .//button[contains(text(),'Reverse')]' 
+2017-08-31 11:15:49,164 WARN  [Log] 'Fixed Term Continuing staff - Reverse Approved Leave Request End to End':  Test Failed 
+2017-08-31 11:15:49,165 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Reverse Approved Leave Request End to EndFailed1504142080 
+2017-08-31 11:15:51,172 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:15:51,174 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to EndFailed************************************* 
+2017-08-31 11:15:51,180 WARN  [Log] 'Fixed Term Continuing staff - Reverse Approved Leave Request End to End':  Test Failed 
+2017-08-31 11:15:51,182 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Reverse Approved Leave Request End to EndFailed1504142080 
+2017-08-31 11:15:51,183 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 11:15:56,243 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:15:56,244 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Reverse Approved Leave Request End to EndFailed************************************* 
+2017-08-31 11:16:13,674 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:16:13,676 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 11:16:13,684 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:16:13,685 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 11:16:16,117 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4581e70cd19cb412ef674599f97b29f4)] -> id: login-button] 
+2017-08-31 11:16:20,709 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4581e70cd19cb412ef674599f97b29f4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 11:16:20,811 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4581e70cd19cb412ef674599f97b29f4)] -> link text: Leave] 
+2017-08-31 11:16:22,387 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4581e70cd19cb412ef674599f97b29f4)] -> xpath: .//*[@href='leave/new']] 
+2017-08-31 11:16:41,673 INFO  [Log] Success message Displayed 
+2017-08-31 11:16:41,679 INFO  [Log] Taking a screenshot noname1504142174 
+2017-08-31 11:16:42,312 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 11:16:42,314 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504142174 
+2017-08-31 11:16:42,688 WARN  [Log] Failed to capture screenshot: .\target\screenshots\Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504142174.png (The system cannot find the file specified) 
+2017-08-31 11:16:43,700 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:16:43,701 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 11:16:43,708 INFO  [Log] Fixed Term Continuing staff: Apply for Leave- Apply a single day leaveTest Passed 
+2017-08-31 11:16:43,709 INFO  [Log] Taking a screenshot Fixed Term Continuing staff: Apply for Leave- Apply a single day leave1504142174 
+2017-08-31 11:16:43,710 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 11:16:48,459 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:16:48,460 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff: Apply for Leave- Apply a single day leave************************************* 
+2017-08-31 11:16:52,249 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:16:52,250 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 11:16:52,256 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:16:52,257 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 11:16:53,936 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> id: login-button] 
+2017-08-31 11:16:57,537 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 11:16:57,666 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> link text: My Tasks] 
+2017-08-31 11:16:59,026 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 11:16:59,143 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 11:16:59,252 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'05/10/2017')]] 
+2017-08-31 11:17:01,838 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> name: return] 
+2017-08-31 11:17:02,722 INFO  [Log] Entering 'this is a automation test for Leave Return' into the field '[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> id: N902F035_REPLY_MESSAGE]' 
+2017-08-31 11:17:03,379 INFO  [Log] Entering the text: 'this is a automation test for Leave Return' Into the field '[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> id: N902F035_REPLY_MESSAGE] 
+2017-08-31 11:17:03,642 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (0a5fa9bf0eb95766f33a32f0305c6463)] -> xpath: .//button[contains(text(),'Return')]] 
+2017-08-31 11:17:05,105 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-08-31 11:17:05,106 INFO  [Log] Taking a screenshot noname1504142174 
+2017-08-31 11:17:05,728 INFO  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Passed 
+2017-08-31 11:17:05,730 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave Request1504142174 
+2017-08-31 11:17:06,959 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:17:06,960 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 11:17:06,966 INFO  [Log] Supervisor of fixed term continuing staff - Return Leave RequestTest Passed 
+2017-08-31 11:17:06,967 INFO  [Log] Taking a screenshot Supervisor of fixed term continuing staff - Return Leave Request1504142174 
+2017-08-31 11:17:06,968 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 11:17:11,586 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:17:11,587 INFO  [Log] ******************************* Scenario: Supervisor of fixed term continuing staff - Return Leave Request************************************* 
+2017-08-31 11:17:15,748 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:17:15,749 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-08-31 11:17:15,755 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 11:17:15,756 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-08-31 11:17:17,425 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> id: login-button] 
+2017-08-31 11:17:20,900 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 11:17:20,995 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> link text: My Tasks] 
+2017-08-31 11:17:22,367 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]] 
+2017-08-31 11:17:22,479 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../.././/a[contains(text(),'Latest')]] 
+2017-08-31 11:17:22,594 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Leave Applications')]/../../following-sibling::div/.//div[contains(text(),'05/10/2017')]] 
+2017-08-31 11:17:35,133 INFO  [Log] Entering 'this is a automation test for Forwarding leave request' into the field 'Proxy element for: DefaultElementLocator 'By.id: N902F035_REPLY_MESSAGE'' 
+2017-08-31 11:18:22,829 WARN  [Log] Couldn't find the element '[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> id: N902F035_REPLY_MESSAGE]org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> id: N902F035_REPLY_MESSAGE] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2017-08-31 11:18:22,862 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7422df77a2f61d61e2166aa860b10bfa)] -> xpath: .//*[contains(text(),'Forward')]] 
+2017-08-31 11:18:24,759 INFO  [Log] WorkFlow Action Success message Displayed 
+2017-08-31 11:18:24,761 INFO  [Log] Taking a screenshot noname1504142174 
+2017-08-31 11:18:25,385 INFO  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)Test Passed 
+2017-08-31 11:18:25,387 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)1504142174 
+2017-08-31 11:18:26,682 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:18:26,683 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-08-31 11:18:26,690 INFO  [Log] Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)Test Passed 
+2017-08-31 11:18:26,691 INFO  [Log] Taking a screenshot Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)1504142174 
+2017-08-31 11:18:26,692 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 11:18:31,411 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 11:18:31,412 INFO  [Log] ******************************* Scenario: Fixed Term Continuing staff - Actioning Returned Leave Request (Forward)************************************* 
+2017-08-31 13:51:38,082 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:51:38,083 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:51:38,093 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:51:38,094 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:51:40,733 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f3bc5e517840f29baf7dbf0a68bbed9)] -> id: login-button] 
+2017-08-31 13:51:46,084 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f3bc5e517840f29baf7dbf0a68bbed9)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:51:46,187 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (8f3bc5e517840f29baf7dbf0a68bbed9)] -> link text: Leave] 
+2017-08-31 13:52:17,986 INFO  [Log] Recreation balance is as expected21.77 
+2017-08-31 13:52:18,007 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:52:18,008 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151498 
+2017-08-31 13:52:19,551 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:52:19,552 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:52:19,558 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:52:19,559 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151498 
+2017-08-31 13:52:19,560 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:52:23,891 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:52:23,892 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:52:27,379 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:52:27,380 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:52:27,386 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:52:27,387 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:52:28,942 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b4fd2b82b3cb163d2410a64cff648664)] -> id: login-button] 
+2017-08-31 13:52:32,553 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b4fd2b82b3cb163d2410a64cff648664)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:52:32,656 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (b4fd2b82b3cb163d2410a64cff648664)] -> link text: Leave] 
+2017-08-31 13:53:04,431 INFO  [Log] Personal (Sick & Carer's) balance is as expected32.18 
+2017-08-31 13:53:04,438 WARN  [Log] 'View my current  Personal  leave balances':  Test Failed 
+2017-08-31 13:53:04,439 INFO  [Log] Taking a screenshot View my current  Personal  leave balancesFailed1504151498 
+2017-08-31 13:53:05,617 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:53:05,618 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balancesFailed************************************* 
+2017-08-31 13:53:05,624 WARN  [Log] 'View my current  Personal  leave balances':  Test Failed 
+2017-08-31 13:53:05,625 INFO  [Log] Taking a screenshot View my current  Personal  leave balancesFailed1504151498 
+2017-08-31 13:53:05,626 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:53:09,965 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:53:09,966 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balancesFailed************************************* 
+2017-08-31 13:53:13,787 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:53:13,788 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-08-31 13:53:13,794 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:53:13,795 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-08-31 13:53:15,410 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (780633a956d5e1ee6acd585711e6933b)] -> id: login-button] 
+2017-08-31 13:53:18,985 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (780633a956d5e1ee6acd585711e6933b)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:53:19,089 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (780633a956d5e1ee6acd585711e6933b)] -> link text: Leave] 
+2017-08-31 13:53:51,023 INFO  [Log] Sick (additional) balance is as expected35.00 
+2017-08-31 13:53:51,024 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:53:51,476 INFO  [Log] Sick (additional) pending is as expected0.00 
+2017-08-31 13:53:51,477 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:53:51,905 INFO  [Log] Sick (additional) Available is as expected35.00 
+2017-08-31 13:53:51,906 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:53:52,587 WARN  [Log] Sick (additional)type of leave not found in the list 
+2017-08-31 13:53:52,594 INFO  [Log] View my current Sick leave balancesTest Passed 
+2017-08-31 13:53:52,595 INFO  [Log] Taking a screenshot View my current Sick leave balances1504151498 
+2017-08-31 13:53:53,762 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:53:53,763 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-08-31 13:53:53,769 INFO  [Log] View my current Sick leave balancesTest Passed 
+2017-08-31 13:53:53,770 INFO  [Log] Taking a screenshot View my current Sick leave balances1504151498 
+2017-08-31 13:53:53,771 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:53:58,128 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:53:58,129 INFO  [Log] ******************************* Scenario: View my current Sick leave balances************************************* 
+2017-08-31 13:54:01,617 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:54:01,619 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-08-31 13:54:01,626 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:54:01,627 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-08-31 13:54:03,385 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (83d593ba255e011f75c278e5173a1604)] -> id: login-button] 
+2017-08-31 13:54:06,931 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (83d593ba255e011f75c278e5173a1604)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:54:07,033 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (83d593ba255e011f75c278e5173a1604)] -> link text: Leave] 
+2017-08-31 13:54:39,112 INFO  [Log] Carer's (non-cumulative) balance is as expected5.00 
+2017-08-31 13:54:39,113 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:54:39,581 INFO  [Log] Carer's (non-cumulative) pending is as expected0.00 
+2017-08-31 13:54:39,582 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:54:40,064 INFO  [Log] Carer's (non-cumulative) Available is as expected5.00 
+2017-08-31 13:54:40,065 INFO  [Log] Taking a screenshot noname1504151498 
+2017-08-31 13:54:40,608 WARN  [Log] Carer's (non-cumulative)type of leave not found in the list 
+2017-08-31 13:54:40,614 INFO  [Log] View my current Carer's leave balancesTest Passed 
+2017-08-31 13:54:40,615 INFO  [Log] Taking a screenshot View my current Carer's leave balances1504151498 
+2017-08-31 13:54:41,822 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:54:41,823 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-08-31 13:54:41,829 INFO  [Log] View my current Carer's leave balancesTest Passed 
+2017-08-31 13:54:41,830 INFO  [Log] Taking a screenshot View my current Carer's leave balances1504151498 
+2017-08-31 13:54:41,831 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:54:46,229 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:54:46,230 INFO  [Log] ******************************* Scenario: View my current Carer's leave balances************************************* 
+2017-08-31 13:54:49,729 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:54:49,731 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 13:54:49,738 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:54:49,740 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 13:54:51,444 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (457dedd3285a992142d2959cedf4db30)] -> id: login-button] 
+2017-08-31 13:54:55,182 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (457dedd3285a992142d2959cedf4db30)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:54:55,276 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (457dedd3285a992142d2959cedf4db30)] -> link text: Leave] 
+2017-08-31 13:55:27,384 INFO  [Log] Long Service balance is as expected26.60 
+2017-08-31 13:55:27,391 WARN  [Log] 'View my current Long Service leave balances':  Test Failed 
+2017-08-31 13:55:27,392 INFO  [Log] Taking a screenshot View my current Long Service leave balancesFailed1504151498 
+2017-08-31 13:55:28,690 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:55:28,691 INFO  [Log] ******************************* Scenario: View my current Long Service leave balancesFailed************************************* 
+2017-08-31 13:55:28,698 WARN  [Log] 'View my current Long Service leave balances':  Test Failed 
+2017-08-31 13:55:28,698 INFO  [Log] Taking a screenshot View my current Long Service leave balancesFailed1504151498 
+2017-08-31 13:55:28,699 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:55:33,119 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:55:33,120 INFO  [Log] ******************************* Scenario: View my current Long Service leave balancesFailed************************************* 
+2017-08-31 13:56:15,953 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:56:15,954 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:56:15,962 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:56:15,963 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:56:17,961 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4d8101a749a9d06afd2455350dbd36ca)] -> id: login-button] 
+2017-08-31 13:56:21,460 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4d8101a749a9d06afd2455350dbd36ca)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:56:21,561 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (4d8101a749a9d06afd2455350dbd36ca)] -> link text: Leave] 
+2017-08-31 13:56:53,400 INFO  [Log] Recreation balance is as expected21.77 
+2017-08-31 13:56:53,407 INFO  [Log] Taking a screenshot noname1504151776 
+2017-08-31 13:56:53,978 INFO  [Log] Recreation pending is as expected2.00 
+2017-08-31 13:56:53,980 INFO  [Log] Taking a screenshot noname1504151776 
+2017-08-31 13:56:54,437 INFO  [Log] Recreation Available is as expected19.77 
+2017-08-31 13:56:54,496 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:56:54,497 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151776 
+2017-08-31 13:56:56,098 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:56:56,099 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:56:56,108 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:56:56,109 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151776 
+2017-08-31 13:56:56,110 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:57:00,987 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:57:00,988 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:57:04,718 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:57:04,719 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:57:04,725 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:57:04,726 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:57:06,315 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c049c0a668aafd68ad92718adc0dafd4)] -> id: login-button] 
+2017-08-31 13:57:09,753 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c049c0a668aafd68ad92718adc0dafd4)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:57:09,855 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (c049c0a668aafd68ad92718adc0dafd4)] -> link text: Leave] 
+2017-08-31 13:57:41,663 INFO  [Log] Personal (Sick & Carer's) balance is as expected32.18 
+2017-08-31 13:57:41,665 INFO  [Log] Taking a screenshot noname1504151776 
+2017-08-31 13:57:42,162 INFO  [Log] Personal (Sick & Carer's) pending is as expected0.00 
+2017-08-31 13:57:42,163 INFO  [Log] Taking a screenshot noname1504151776 
+2017-08-31 13:57:42,651 INFO  [Log] Personal (Sick & Carer's) Available is as expected32.18 
+2017-08-31 13:57:42,652 INFO  [Log] Taking a screenshot noname1504151776 
+2017-08-31 13:57:43,539 WARN  [Log] Personal (Sick & Carer's)type of leave not found in the list 
+2017-08-31 13:57:43,546 INFO  [Log] View my current  Personal  leave balancesTest Passed 
+2017-08-31 13:57:43,547 INFO  [Log] Taking a screenshot View my current  Personal  leave balances1504151776 
+2017-08-31 13:57:44,903 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:57:44,904 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:57:44,912 INFO  [Log] View my current  Personal  leave balancesTest Passed 
+2017-08-31 13:57:44,914 INFO  [Log] Taking a screenshot View my current  Personal  leave balances1504151776 
+2017-08-31 13:57:44,916 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:57:49,688 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:57:49,689 INFO  [Log] ******************************* Scenario: View my current  Personal  leave balances************************************* 
+2017-08-31 13:58:43,846 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:58:43,848 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:58:43,856 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:58:43,857 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 13:58:45,853 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ff26b277b5ddedc9fb636ef2442f21c)] -> id: login-button] 
+2017-08-31 13:58:49,369 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ff26b277b5ddedc9fb636ef2442f21c)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:58:49,469 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (1ff26b277b5ddedc9fb636ef2442f21c)] -> link text: Leave] 
+2017-08-31 13:59:21,517 INFO  [Log] Recreation balance is as expected21.77 
+2017-08-31 13:59:21,540 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:59:21,541 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151924 
+2017-08-31 13:59:23,480 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:59:23,481 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:59:23,488 WARN  [Log] 'View my current Recreational leave balances':  Test Failed 
+2017-08-31 13:59:23,489 INFO  [Log] Taking a screenshot View my current Recreational leave balancesFailed1504151924 
+2017-08-31 13:59:23,490 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 13:59:28,049 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 13:59:28,050 INFO  [Log] ******************************* Scenario: View my current Recreational leave balancesFailed************************************* 
+2017-08-31 13:59:31,859 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:59:31,860 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 13:59:31,866 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 13:59:31,867 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 13:59:33,874 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7c68c0f85ac2b760eedbc1ee6dd7630e)] -> id: login-button] 
+2017-08-31 13:59:37,702 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7c68c0f85ac2b760eedbc1ee6dd7630e)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 13:59:37,806 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (7c68c0f85ac2b760eedbc1ee6dd7630e)] -> link text: Leave] 
+2017-08-31 14:00:09,979 INFO  [Log] Long Service balance is as expected26.60 
+2017-08-31 14:00:09,981 INFO  [Log] Taking a screenshot noname1504151924 
+2017-08-31 14:00:10,459 INFO  [Log] Long Service pending is as expected0.00 
+2017-08-31 14:00:10,461 INFO  [Log] Taking a screenshot noname1504151924 
+2017-08-31 14:00:10,934 INFO  [Log] Long Service Available is as expected26.60 
+2017-08-31 14:00:10,935 INFO  [Log] Taking a screenshot noname1504151924 
+2017-08-31 14:00:11,441 WARN  [Log] Long Servicetype of leave not found in the list 
+2017-08-31 14:00:11,489 INFO  [Log] View my current Long Service leave balancesTest Passed 
+2017-08-31 14:00:11,491 INFO  [Log] Taking a screenshot View my current Long Service leave balances1504151924 
+2017-08-31 14:00:12,826 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:00:12,827 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 14:00:12,833 INFO  [Log] View my current Long Service leave balancesTest Passed 
+2017-08-31 14:00:12,834 INFO  [Log] Taking a screenshot View my current Long Service leave balances1504151924 
+2017-08-31 14:00:12,835 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 14:00:17,786 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:00:17,787 INFO  [Log] ******************************* Scenario: View my current Long Service leave balances************************************* 
+2017-08-31 14:09:15,891 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 14:09:15,893 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 14:09:15,903 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 14:09:15,904 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 14:09:17,928 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35d5e2ad6c540dbede5b7c8119ab2cef)] -> id: login-button] 
+2017-08-31 14:09:21,622 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35d5e2ad6c540dbede5b7c8119ab2cef)] -> xpath: //*[@id='menu']/span/a[1]] 
+2017-08-31 14:09:21,724 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (35d5e2ad6c540dbede5b7c8119ab2cef)] -> link text: Leave] 
+2017-08-31 14:09:23,308 INFO  [Log] View my current Recreational leave balancesTest Passed 
+2017-08-31 14:09:23,309 INFO  [Log] Taking a screenshot View my current Recreational leave balances1504152556 
+2017-08-31 14:09:25,074 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:09:25,076 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 14:09:25,082 INFO  [Log] View my current Recreational leave balancesTest Passed 
+2017-08-31 14:09:25,083 INFO  [Log] Taking a screenshot View my current Recreational leave balances1504152556 
+2017-08-31 14:09:25,084 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 14:09:29,841 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:09:29,842 INFO  [Log] ******************************* Scenario: View my current Recreational leave balances************************************* 
+2017-08-31 14:52:49,380 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 14:52:49,382 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 14:52:49,390 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 14:52:49,391 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 14:52:51,446 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc16d612696ad0036b72173050b1491a)] -> id: login-button] 
+2017-08-31 14:52:58,690 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (cc16d612696ad0036b72173050b1491a)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 14:53:28,966 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-31 14:53:28,967 INFO  [Log] Taking a screenshot View current bank accountFailed1504155169 
+2017-08-31 14:53:30,586 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:53:30,587 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-31 14:53:30,594 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-31 14:53:30,594 INFO  [Log] Taking a screenshot View current bank accountFailed1504155169 
+2017-08-31 14:53:30,595 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 14:53:35,978 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 14:53:35,979 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-31 15:06:08,937 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:06:08,939 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:06:08,949 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:06:08,950 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:06:11,077 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (14bd3c11fa064d727bde49e615570471)] -> id: login-button] 
+2017-08-31 15:06:18,423 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (14bd3c11fa064d727bde49e615570471)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 15:06:49,711 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-31 15:06:49,713 INFO  [Log] Taking a screenshot View current bank accountFailed1504155969 
+2017-08-31 15:06:51,457 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:06:51,458 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-31 15:06:51,464 WARN  [Log] 'View current bank account':  Test Failed 
+2017-08-31 15:06:51,465 INFO  [Log] Taking a screenshot View current bank accountFailed1504155969 
+2017-08-31 15:06:51,466 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 15:06:56,574 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:06:56,575 INFO  [Log] ******************************* Scenario: View current bank accountFailed************************************* 
+2017-08-31 15:10:41,551 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:10:41,553 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:10:41,562 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:10:41,563 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:10:43,497 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e0d7ed195e9f857d198ef42b32c2aa3f)] -> id: login-button] 
+2017-08-31 15:10:50,677 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e0d7ed195e9f857d198ef42b32c2aa3f)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 15:10:50,791 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (e0d7ed195e9f857d198ef42b32c2aa3f)] -> id: cells-banking_and_deductions] 
+2017-08-31 15:10:52,396 INFO  [Log] Account number is displayed on Primary Account Details page 
+2017-08-31 15:10:52,404 INFO  [Log] Taking a screenshot noname1504156241 
+2017-08-31 15:10:52,975 INFO  [Log] View current bank accountTest Passed 
+2017-08-31 15:10:52,977 INFO  [Log] Taking a screenshot View current bank account1504156241 
+2017-08-31 15:10:54,557 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:10:54,559 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:10:54,565 INFO  [Log] View current bank accountTest Passed 
+2017-08-31 15:10:54,566 INFO  [Log] Taking a screenshot View current bank account1504156241 
+2017-08-31 15:10:54,567 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 15:10:59,382 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:10:59,383 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:11:18,773 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:11:18,775 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:11:18,783 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:11:18,784 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:11:20,729 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (46c10683f4d9404333bc0e6f50d21d22)] -> id: login-button] 
+2017-08-31 15:11:27,830 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (46c10683f4d9404333bc0e6f50d21d22)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 15:11:27,945 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (46c10683f4d9404333bc0e6f50d21d22)] -> id: cells-banking_and_deductions] 
+2017-08-31 15:11:29,664 INFO  [Log] Account number is displayed on Primary Account Details page 
+2017-08-31 15:11:29,671 INFO  [Log] Taking a screenshot noname1504156279 
+2017-08-31 15:11:30,233 INFO  [Log] View current bank accountTest Passed 
+2017-08-31 15:11:30,234 INFO  [Log] Taking a screenshot View current bank account1504156279 
+2017-08-31 15:11:31,779 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:11:31,780 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:11:31,786 INFO  [Log] View current bank accountTest Passed 
+2017-08-31 15:11:31,787 INFO  [Log] Taking a screenshot View current bank account1504156279 
+2017-08-31 15:11:31,788 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 15:11:36,487 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:11:36,488 INFO  [Log] ******************************* Scenario: View current bank account************************************* 
+2017-08-31 15:36:51,894 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:36:51,896 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 15:36:51,904 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 15:36:51,904 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 15:36:54,201 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3920a97f3c3a5a4d933b193cb73051e4)] -> id: login-button] 
+2017-08-31 15:37:01,401 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (3920a97f3c3a5a4d933b193cb73051e4)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 15:37:01,541 INFO  [Log] Update current bank accountTest Passed 
+2017-08-31 15:37:01,542 INFO  [Log] Taking a screenshot Update current bank account1504157812 
+2017-08-31 15:37:03,198 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:37:03,199 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 15:37:03,205 INFO  [Log] Update current bank accountTest Passed 
+2017-08-31 15:37:03,206 INFO  [Log] Taking a screenshot Update current bank account1504157812 
+2017-08-31 15:37:03,207 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 15:37:07,824 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 15:37:07,825 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 16:25:03,287 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 16:25:03,289 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 16:25:03,300 INFO  [Log] **********************Starting the test scenario*********************** 
+2017-08-31 16:25:03,301 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 16:25:06,002 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75470ecfa1c338b32cfa7bfbcd5c69bd)] -> id: login-button] 
+2017-08-31 16:25:14,771 INFO  [Log] Clicking on[[ChromeDriver: chrome on XP (75470ecfa1c338b32cfa7bfbcd5c69bd)] -> xpath: .//*[@id='application']/.//span[contains(text(),'Accounts and Deductions')]] 
+2017-08-31 16:25:14,914 INFO  [Log] Update current bank accountTest Passed 
+2017-08-31 16:25:14,915 INFO  [Log] Taking a screenshot Update current bank account1504160703 
+2017-08-31 16:25:16,692 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 16:25:16,693 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
+2017-08-31 16:25:16,699 INFO  [Log] Update current bank accountTest Passed 
+2017-08-31 16:25:16,700 INFO  [Log] Taking a screenshot Update current bank account1504160703 
+2017-08-31 16:25:16,701 WARN  [Log] Failed to capture screenshot: null 
+2017-08-31 16:25:21,168 INFO  [Log] **********************End of the test*********************** 
+2017-08-31 16:25:21,169 INFO  [Log] ******************************* Scenario: Update current bank account************************************* 
