@@ -41,7 +41,6 @@ Feature: Leave
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS
   @_Leave
-  @rusty123
   Scenario Outline: View my current Recreational leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -74,7 +73,6 @@ Feature: Leave
 # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS  	
 @_Leave
-@rusty1
   Scenario Outline: View my current Sick leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
@@ -91,7 +89,6 @@ Feature: Leave
  # TODO: Dependency. Not feasible to automate without data setup. 
 # Solution: smoke tests to check that fields are present and days properly translated into hours when click on HOURS 		 	
 @_Leave
-@rusty1
   Scenario Outline: View my current Carer's leave balances
   Given I am on myAurion login page
    	  And I enter username as "uqdbende"
